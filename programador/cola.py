@@ -11,23 +11,27 @@ Después: git add/commit/push del calendario.
 import argparse, subprocess, datetime as dt, sys
 from pathlib import Path
 
-from comun import leer_calendario, guardar_calendario, MADRID, REPO, TAG_VIDEOS
+from comun import leer_calendario, guardar_calendario, MADRID, RAIZ
 
 
 def fecha(s):
     return dt.datetime.strptime(s, "%Y-%m-%d %H:%M").replace(tzinfo=MADRID).isoformat()
 
 
-def gh(*args):
-    return subprocess.run(["gh", *args, "-R", REPO], check=True, capture_output=True, text=True).stdout
-
-
-def subir(ruta, nombre):
-    if subprocess.run(["gh", "release", "view", TAG_VIDEOS, "-R", REPO], capture_output=True).returncode:
-        gh("release", "create", TAG_VIDEOS, "--title", "Vídeos para publicar", "--notes",
-           "Almacén de vídeos del programador. No borrar.")
-    gh("release", "upload", TAG_VIDEOS, str(ruta), "--clobber")  # el asset toma el nombre del archivo
-    return nombre
+def subir(rutas):
+    """Sube los vídeos a la rama temporal «subida»; la acción «Guardar vídeos nuevos» los pasa al release."""
+    import tempfile, shutil
+    remoto = subprocess.run(["git", "-C", str(RAIZ.parent), "remote", "get-url", "origin"],
+                            check=True, capture_output=True, text=True).stdout.strip()
+    with tempfile.TemporaryDirectory() as d:
+        (Path(d) / "videos").mkdir()
+        for nombre, ruta in rutas.items():
+            shutil.copy(ruta, Path(d) / "videos" / nombre)
+        g = lambda *x: subprocess.run(["git", "-C", d, *x], check=True, capture_output=True, text=True)
+        g("init", "-q", "-b", "subida"); g("add", "videos")
+        g("-c", "user.name=explicadoen60s", "-c", "user.email=explicadoen60s.cxn@gmail.com", "commit", "-qm", "Vídeos nuevos")
+        g("push", "-q", "--force", remoto, "subida")
+    print("vídeos enviados:", ", ".join(rutas))
 
 
 def nuevo(a):
@@ -43,17 +47,14 @@ def nuevo(a):
             sys.exit(f"{pid} ya existe (usa --reemplazar)")
         src = a.mp4_tiktok if (red == "tiktok" and a.mp4_tiktok) else a.mp4
         destino = f"{a.nombre}_tiktok.mp4" if (red == "tiktok" and a.mp4_tiktok) else f"{a.nombre}.mp4"
-        if destino not in videos:
-            ruta = Path(src)
-            if ruta.name != destino:
-                tmp = Path("/tmp") / destino
-                tmp.write_bytes(ruta.read_bytes()); ruta = tmp
-            videos[destino] = subir(ruta, destino)
+        videos[destino] = src
         cal["posts"] = [p for p in cal["posts"] if p["id"] != pid]
         cal["posts"].append({"id": pid, "red": red, "hora": fecha(hora), "video": destino, "titulo": a.titulo,
                              "texto": a.texto, "tags": [t.strip() for t in a.tags.split(",") if t.strip()],
                              "estado": "pendiente", "intentos": 0})
         print("programado", pid, hora)
+    if videos and not a.sin_subir:
+        subir(videos)
     guardar_calendario(cal)
 
 
@@ -88,6 +89,7 @@ n.add_argument("--titulo", required=True); n.add_argument("--texto", required=Tr
 for r in ("tiktok", "instagram", "youtube"):
     n.add_argument(f"--{r}", help="AAAA-MM-DD HH:MM (hora de Madrid)")
 n.add_argument("--reemplazar", action="store_true")
+n.add_argument("--sin-subir", action="store_true", help="el vídeo ya está en el release")
 sub.add_parser("lista").set_defaults(f=lista)
 q = sub.add_parser("quitar"); q.add_argument("id"); q.set_defaults(f=quitar)
 m = sub.add_parser("mover"); m.add_argument("id"); m.add_argument("hora"); m.set_defaults(f=mover)

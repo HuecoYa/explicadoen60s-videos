@@ -10,7 +10,14 @@ Sustituto gratuito de Metricool. GitHub publica solo los vídeos a su hora, sin 
 
 ## Configuración (una sola vez)
 
-Necesitas crear una «app» en cada red. Es gratis y solo la usas tú. En todas, la dirección de retorno (*redirect URI*) es:
+### 0. Activar la web del programador, 1 minuto
+En el repositorio, ve a **Settings → Pages**:
+- En **Build and deployment → Source**, elige **Deploy from a branch**.
+- Rama `main`, carpeta `/docs`, y pulsa **Save**.
+
+En un par de minutos estará en <https://huecoya.github.io/explicadoen60s-videos/>.
+
+Después necesitas crear una «app» en cada red. Es gratis y solo la usas tú. En todas, la dirección de retorno (*redirect URI*) es:
 
 ```
 https://huecoya.github.io/explicadoen60s-videos/callback.html
