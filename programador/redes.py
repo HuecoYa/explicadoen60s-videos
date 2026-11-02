@@ -127,12 +127,16 @@ class InstagramSistema(Instagram):
     def preparar(self):
         at = secreto("IG_TOKEN")
         r = _ok(requests.get(f"{self.G}/me/accounts", params={
-            "fields": "name,instagram_business_account{id,username}", "access_token": at}, timeout=60)).json()
-        for pag in r.get("data", []):
-            ig = pag.get("instagram_business_account")
+            "fields": "name,instagram_business_account{id,username},connected_instagram_account{id,username}",
+            "access_token": at}, timeout=60)).json()
+        paginas = r.get("data", [])
+        for pag in paginas:
+            ig = pag.get("instagram_business_account") or pag.get("connected_instagram_account")
             if ig:
                 return {"access_token": at, "user_id": ig["id"], "usuario": ig.get("username")}
-        raise RuntimeError("El token no ve ninguna cuenta de Instagram: asigna la página y la cuenta al usuario del sistema")
+        vistas = ", ".join(p.get("name", "?") for p in paginas) or "ninguna"
+        raise RuntimeError(f"El token no ve ninguna cuenta de Instagram. Páginas que ve: {vistas}. "
+                           "Asigna la página al usuario del sistema y vincula Instagram a esa página.")
 
     def refrescar(self, tok):
         return tok
