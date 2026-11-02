@@ -64,6 +64,8 @@ def main():
             continue
         red = REDES[p["red"]]
         try:
+            if hasattr(red, "preparar") and p["red"] not in tokens:
+                tokens[p["red"]] = red.preparar()  # en memoria; el token vive en el secreto IG_TOKEN
             if p["red"] not in tokens:
                 raise RuntimeError(f"{p['red']} no está conectado (ver programador/LEEME.md)")
             nuevo = red.refrescar(tokens[p["red"]])
@@ -98,7 +100,7 @@ def main():
         except Exception as e:
             print(f"No se pudo renovar {nombre}: {e}", file=sys.stderr)
     if cambios_tokens:
-        guardar_tokens(tokens)
+        guardar_tokens({n: t for n, t in tokens.items() if not hasattr(REDES[n], "preparar")})
     guardar_calendario(cal)
     escribir_resumen(cal)
 

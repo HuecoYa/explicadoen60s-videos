@@ -1,5 +1,5 @@
 """Conexión y publicación en YouTube, Instagram y TikTok mediante sus APIs oficiales."""
-import json, time, urllib.parse, datetime as dt
+import json, os, time, urllib.parse, datetime as dt
 
 import requests
 
@@ -119,6 +119,25 @@ class Instagram:
         return {"id": r["id"], "url": info.get("permalink", "")}
 
 
+class InstagramSistema(Instagram):
+    """Instagram con un token de «usuario del sistema» del portfolio comercial (no caduca).
+    Usa graph.facebook.com y la cuenta de Instagram vinculada a la página de Facebook."""
+    G = f"https://graph.facebook.com/{IG_VERSION}"
+
+    def preparar(self):
+        at = secreto("IG_TOKEN")
+        r = _ok(requests.get(f"{self.G}/me/accounts", params={
+            "fields": "name,instagram_business_account{id,username}", "access_token": at}, timeout=60)).json()
+        for pag in r.get("data", []):
+            ig = pag.get("instagram_business_account")
+            if ig:
+                return {"access_token": at, "user_id": ig["id"], "usuario": ig.get("username")}
+        raise RuntimeError("El token no ve ninguna cuenta de Instagram: asigna la página y la cuenta al usuario del sistema")
+
+    def refrescar(self, tok):
+        return tok
+
+
 # ───────────────────────────── TikTok ─────────────────────────────
 class TikTok:
     """Sube el vídeo a la bandeja de TikTok (borrador). Con la app auditada, cambiar a publicación directa."""
@@ -168,3 +187,5 @@ class TikTok:
 
 
 REDES = {c.nombre: c() for c in (YouTube, Instagram, TikTok)}
+if os.environ.get("IG_TOKEN"):
+    REDES["instagram"] = InstagramSistema()

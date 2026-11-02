@@ -35,16 +35,18 @@ https://huecoya.github.io/explicadoen60s-videos/callback.html
    - Guarda el **ID de cliente** y el **Secreto de cliente**.
 5. Al conectar verás «Google no ha verificado esta app». Es normal porque es tu propia app: pulsa **Avanzado → Ir a…**.
 
-### 2. Instagram (Meta), unos 7 minutos
-Tu Instagram tiene que ser cuenta **profesional** (Creador o Empresa). No hace falta página de Facebook.
-1. Entra en <https://developers.facebook.com/apps> y pulsa **Crear app**:
-   - Caso de uso: **Administrar mensajes y contenido en Instagram**.
-   - Nombre: `Programador explicadoen60s`.
-2. En el caso de uso de Instagram, ve a **API con inicio de sesión de Instagram**:
-   - En **Configurar inicio de sesión de la empresa**, añade la dirección de retorno.
-   - Guarda el **ID de la app de Instagram** y la **Clave secreta de la app de Instagram**. No son los de Facebook.
-3. En **Roles de la app → Roles → Evaluadores de Instagram**, añade tu cuenta.
-4. Acepta la invitación en Instagram: **Configuración → Apps y sitios web → Invitaciones de evaluador**.
+### 2. Instagram (Meta), unos 10 minutos
+Las apps nuevas de Meta obligan a usar un **portfolio comercial**. Se usa un «usuario del sistema» cuyo permiso **no caduca nunca**, así que no hace falta conectar con código. Requisitos: Instagram en modo profesional y **vinculado a una página de Facebook**.
+1. En la app de Meta, añade los permisos de **Administrar contenido en Instagram** desde «API de Instagram → Configuración de la API con inicio de sesión con Facebook».
+2. En <https://business.facebook.com/settings> (tu portfolio), ve a **Cuentas**:
+   - **Páginas:** añade la página de Facebook.
+   - **Cuentas de Instagram:** añade @explicadoen60s.
+   - **Apps:** comprueba que está la app.
+3. En **Usuarios → Usuarios del sistema → Añadir**:
+   - Nombre `programador`, rol **Administrador**.
+   - Pulsa **Asignar activos** y dale control total de la app, la página y la cuenta de Instagram.
+4. Pulsa **Generar identificador**. Elige la app, caducidad **Nunca** y estos permisos: `instagram_basic`, `instagram_content_publish`, `pages_show_list`, `pages_read_engagement`, `business_management`.
+5. Copia el identificador y guárdalo en GitHub como secreto `IG_TOKEN`. No hacen falta `IG_APP_ID` ni `IG_APP_SECRET`.
 
 ### 3. TikTok, unos 10 minutos (+ revisión de TikTok)
 1. Entra en <https://developers.tiktok.com/> y ve a **Manage apps → Connect an app**. Rellena:
@@ -60,7 +62,7 @@ Tu Instagram tiene que ser cuenta **profesional** (Creador o Empresa). No hace f
 Ponlas en GitHub:
 **Settings → Secrets and variables → Actions → New repository secret** con estos nombres:
 
-`CLAVE_TOKENS`, `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `IG_APP_ID`, `IG_APP_SECRET`, `TT_CLIENT_KEY`, `TT_CLIENT_SECRET`
+`CLAVE_TOKENS`, `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `IG_TOKEN`, `TT_CLIENT_KEY`, `TT_CLIENT_SECRET`
 
 `CLAVE_TOKENS` es una contraseña larga que te inventas (mínimo 20 caracteres) y que no hace falta recordar: cifra los permisos de las cuentas. Si algún día la cambias, tendrás que volver a conectar las tres redes.
 
