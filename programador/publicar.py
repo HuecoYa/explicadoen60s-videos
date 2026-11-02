@@ -28,7 +28,7 @@ def hora_local(p):
 
 def escribir_resumen(cal):
     fil = ["# 📅 Calendario de publicaciones", "",
-           f"_Actualizado: {ahora().astimezone(MADRID):%d/%m/%Y %H:%M} (hora de Madrid)_", "",
+           "_Horas de Madrid. Se actualiza solo cuando algo cambia._", "",
            "| Fecha | Hora | Red | Vídeo | Estado |", "|---|---|---|---|---|"]
     iconos = {"pendiente": "⏳ pendiente", "publicado": "✅ publicado", "borrador": "📲 en tu bandeja de TikTok",
               "error": "❌ error", "caducado": "⚠️ no se publicó a tiempo"}

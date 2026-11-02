@@ -92,9 +92,18 @@ class Instagram:
 
     def publicar(self, post, tok):
         uid, at = tok["user_id"], tok["access_token"]
-        r = _ok(requests.post(f"{self.G}/{uid}/media", data={
-            "media_type": "REELS", "video_url": url_directa(post["video"]), "caption": texto_completo(post),
-            "share_to_feed": "true", "access_token": at}, timeout=120)).json()
+        base = {"media_type": "REELS", "caption": texto_completo(post), "share_to_feed": "true", "access_token": at}
+        # 1º: subida directa del archivo (no depende de URLs externas); si falla, por URL.
+        try:
+            r = _ok(requests.post(f"{self.G}/{uid}/media", data={**base, "upload_type": "resumable"}, timeout=120)).json()
+            ruta = descargar_video(post["video"]); tam = ruta.stat().st_size
+            with open(ruta, "rb") as f:
+                _ok(requests.post(r["uri"], data=f, timeout=900, headers={
+                    "Authorization": f"OAuth {at}", "offset": "0", "file_size": str(tam)}))
+        except Exception as e:
+            print("Instagram: subida directa no disponible, uso URL:", str(e)[:200])
+            r = _ok(requests.post(f"{self.G}/{uid}/media", data={**base, "video_url": url_directa(post["video"])},
+                                  timeout=120)).json()
         cid = r["id"]
         for _ in range(60):  # hasta 10 minutos procesando
             time.sleep(10)

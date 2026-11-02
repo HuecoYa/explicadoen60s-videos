@@ -64,9 +64,11 @@ def url_video(nombre):
 
 def url_directa(nombre):
     """Sigue las redirecciones de GitHub y devuelve la URL final descargable (para Instagram)."""
-    r = requests.head(url_video(nombre), allow_redirects=True, timeout=60)
+    r = requests.get(url_video(nombre), allow_redirects=False, timeout=60)
+    if r.status_code in (301, 302, 303, 307, 308):
+        return r.headers["Location"]
     r.raise_for_status()
-    return r.url
+    return url_video(nombre)
 
 
 def descargar_video(nombre, destino="/tmp"):
