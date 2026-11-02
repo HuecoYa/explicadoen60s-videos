@@ -105,5 +105,25 @@ def main():
     escribir_resumen(cal)
 
 
+def probar():
+    """Comprueba cada red sin publicar nada y deja el resultado en CONEXIONES.md."""
+    tokens = leer_tokens()
+    lineas = ["# Estado de las conexiones", "", f"_Comprobado: {ahora().astimezone(MADRID):%d/%m/%Y %H:%M}_", ""]
+    for nombre, red in REDES.items():
+        try:
+            if hasattr(red, "preparar"):
+                tok = red.preparar(); extra = f"cuenta @{tok.get('usuario')}"
+            elif nombre in tokens:
+                tok = red.refrescar(tokens[nombre]); tokens[nombre] = tok; extra = "permiso válido"
+            else:
+                raise RuntimeError("no conectado")
+            lineas.append(f"- ✅ **{nombre}**: {extra}")
+        except Exception as e:
+            lineas.append(f"- ❌ **{nombre}**: {str(e)[:300]}")
+    guardar_tokens({n: t for n, t in tokens.items() if not hasattr(REDES[n], "preparar")})
+    (RAIZ.parent / "CONEXIONES.md").write_text("\n".join(lineas) + "\n", encoding="utf-8")
+    print("\n".join(lineas))
+
+
 if __name__ == "__main__":
-    main()
+    probar() if "--probar" in sys.argv else main()
