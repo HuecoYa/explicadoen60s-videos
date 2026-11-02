@@ -25,10 +25,12 @@ def subir(rutas):
                             check=True, capture_output=True, text=True).stdout.strip()
     with tempfile.TemporaryDirectory() as d:
         (Path(d) / "videos").mkdir()
+        wf = Path(d) / ".github" / "workflows"; wf.mkdir(parents=True)
+        shutil.copy(RAIZ.parent / ".github" / "workflows" / "importar.yml", wf)  # GitHub la lee de la rama subida
         for nombre, ruta in rutas.items():
             shutil.copy(ruta, Path(d) / "videos" / nombre)
         g = lambda *x: subprocess.run(["git", "-C", d, *x], check=True, capture_output=True, text=True)
-        g("init", "-q", "-b", "subida"); g("add", "videos")
+        g("init", "-q", "-b", "subida"); g("add", "videos", ".github")
         g("-c", "user.name=explicadoen60s", "-c", "user.email=explicadoen60s.cxn@gmail.com", "commit", "-qm", "Vídeos nuevos")
         g("push", "-q", "--force", remoto, "subida")
     print("vídeos enviados:", ", ".join(rutas))
