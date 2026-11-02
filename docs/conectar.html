@@ -1,0 +1,19 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Conectar cuentas</title><link rel="stylesheet" href="estilo.css"></head><body><main>
+<span class="tag">Programador</span>
+<h1>Conectar cuentas</h1>
+<p>Pulsa una red, acepta los permisos y copia el código que aparece. Solo hace falta una vez (o si alguna vez cambias la contraseña).</p>
+<a class="btn" id="tiktok">Conectar TikTok</a>
+<a class="btn" id="instagram">Conectar Instagram</a>
+<a class="btn" id="youtube">Conectar YouTube</a>
+<p id="aviso"></p>
+<script>
+// Identificadores públicos de las apps (no son secretos)
+const C={tiktok:"",instagram:"",youtube:""};
+const CB=encodeURIComponent("https://huecoya.github.io/explicadoen60s-videos/callback.html");
+const U={
+ tiktok:k=>`https://www.tiktok.com/v2/auth/authorize/?client_key=${k}&scope=user.info.basic,video.upload&response_type=code&redirect_uri=${CB}&state=tiktok`,
+ instagram:k=>`https://www.instagram.com/oauth/authorize?client_id=${k}&redirect_uri=${CB}&response_type=code&scope=instagram_business_basic,instagram_business_content_publish&state=instagram`,
+ youtube:k=>`https://accounts.google.com/o/oauth2/v2/auth?client_id=${k}&redirect_uri=${CB}&response_type=code&scope=${encodeURIComponent('https://www.googleapis.com/auth/youtube.upload')}&access_type=offline&prompt=consent&state=youtube`};
+for(const r in U){const a=document.getElementById(r);if(C[r])a.href=U[r](C[r]);else{a.setAttribute('aria-disabled','true');a.textContent+=' (falta configurar la app)';}}
+</script></main></body></html>

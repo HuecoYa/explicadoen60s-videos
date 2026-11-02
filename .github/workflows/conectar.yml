@@ -1,0 +1,51 @@
+name: Conectar red social
+
+on:
+  workflow_dispatch:
+    inputs:
+      red:
+        description: "Red a conectar"
+        type: choice
+        options: [tiktok, instagram, youtube]
+      codigo:
+        description: "Código que aparece en la página tras autorizar"
+        required: true
+
+concurrency:
+  group: programador
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  conectar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: programador
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests cryptography
+      - name: Conectar
+        working-directory: programador
+        env:
+          CLAVE_TOKENS: ${{ secrets.CLAVE_TOKENS }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          IG_APP_ID: ${{ secrets.IG_APP_ID }}
+          IG_APP_SECRET: ${{ secrets.IG_APP_SECRET }}
+          TT_CLIENT_KEY: ${{ secrets.TT_CLIENT_KEY }}
+          TT_CLIENT_SECRET: ${{ secrets.TT_CLIENT_SECRET }}
+          RED: ${{ inputs.red }}
+          CODIGO: ${{ inputs.codigo }}
+        run: python conectar.py "$RED" "$CODIGO"
+      - name: Guardar
+        run: |
+          git config user.name "programador-explicadoen60s"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add programador/tokens.enc
+          git commit -qm "Programador: ${{ inputs.red }} conectado [skip ci]"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done

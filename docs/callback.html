@@ -1,0 +1,16 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cuenta autorizada</title><link rel="stylesheet" href="estilo.css"></head><body><main>
+<span class="tag" id="red">Conexión</span>
+<h1 id="tit">Copia este código</h1>
+<code class="big" id="code">—</code>
+<button class="btn" id="copiar">Copiar código</button>
+<div class="card"><p><strong>Último paso:</strong> abre «Conectar red social», pulsa <em>Run workflow</em>, elige la red <strong id="red2"></strong>, pega el código y pulsa el botón verde. Hazlo en menos de 5 minutos: el código caduca.</p>
+<a class="btn" href="https://github.com/HuecoYa/explicadoen60s-videos/actions/workflows/conectar.yml" target="_blank">Abrir «Conectar red social»</a></div>
+<script>
+const q=new URLSearchParams(location.search);const err=q.get('error')||q.get('error_description');
+let code=(q.get('code')||'').split('#')[0];const red=q.get('state')||'';
+document.getElementById('red').textContent=red||'Conexión';document.getElementById('red2').textContent=red;
+if(err){document.getElementById('tit').textContent='No se autorizó';document.getElementById('code').textContent=err;}
+else document.getElementById('code').textContent=code||'No hay código en la dirección';
+document.getElementById('copiar').onclick=async()=>{try{await navigator.clipboard.writeText(code);document.getElementById('copiar').textContent='¡Copiado!'}catch(e){}};
+</script></main></body></html>
