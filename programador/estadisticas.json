@@ -1,16 +1,16 @@
 {
- "actualizado": "2026-11-03T07:38:29.920248+00:00",
+ "actualizado": "2026-11-03T09:13:34.196393+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
-   "seguidores": 46,
+   "seguidores": 47,
    "vistas": 23508,
    "videos": 21
   },
   "instagram": {
    "nombre": "@explicadoen60s",
    "seguidores": 13,
-   "videos": 22,
+   "videos": 23,
    "vistas": 0
   }
  },
@@ -21,8 +21,8 @@
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1209,
-    "likes": 51,
+    "vistas": 1213,
+    "likes": 52,
     "comentarios": 0
    },
    {
@@ -30,8 +30,8 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 1517,
-    "likes": 57,
+    "vistas": 1531,
+    "likes": 58,
     "comentarios": 0
    },
    {
@@ -48,7 +48,7 @@
     "titulo": "¿La máquina de peluches está trucada? 🧸",
     "fecha": "2026-11-01T15:07:27Z",
     "url": "https://youtube.com/shorts/3QeKEF6QIT8",
-    "vistas": 2016,
+    "vistas": 2019,
     "likes": 44,
     "comentarios": 0
    },
@@ -84,7 +84,7 @@
     "titulo": "Este orden de cartas NUNCA ha existido en la historia #shorts",
     "fecha": "2026-10-31T20:31:32Z",
     "url": "https://youtube.com/shorts/1gx47YGrvnA",
-    "vistas": 1150,
+    "vistas": 1170,
     "likes": 25,
     "comentarios": 0
    },
@@ -129,7 +129,7 @@
     "titulo": "BOSTEZO | explicadoen60s",
     "fecha": "2026-10-30T16:50:17Z",
     "url": "https://youtube.com/shorts/xlZJu4TfVRw",
-    "vistas": 1308,
+    "vistas": 1309,
     "likes": 43,
     "comentarios": 2
    },
@@ -207,6 +207,14 @@
    }
   ],
   "instagram": [
+   {
+    "id": "17966427606244834",
+    "titulo": "Un airbag se infla 10 veces más rápido que un parpadeo… y no lleva aire dentro 🚗💥 ¿Sabías ",
+    "fecha": "2026-11-03T09:06:42+0000",
+    "url": "https://www.instagram.com/reel/DfRhKWHArIT/",
+    "likes": 0,
+    "comentarios": 0
+   },
    {
     "id": "18097565453660587",
     "titulo": "Si tuvieras que inventar el código de barras desde cero… 🛒 ¿Sabías que el último número es",
@@ -386,17 +394,17 @@
   ]
  },
  "errores": {
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"20261103073838F0E17C94F46972933C67\"}}"
+  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"2026110309134153FBDCED484805629729\"}}"
  },
  "historial": [
   {
    "fecha": "2026-11-03",
-   "youtube_seguidores": 46,
+   "youtube_seguidores": 47,
    "youtube_vistas": 23508,
    "youtube_videos": 21,
    "instagram_seguidores": 13,
    "instagram_vistas": 0,
-   "instagram_videos": 22
+   "instagram_videos": 23
   }
  ]
 }
