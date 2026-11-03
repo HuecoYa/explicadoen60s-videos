@@ -318,9 +318,14 @@
     "seguridad",
     "historia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "18090014855702199",
+    "url": "https://www.instagram.com/reel/DfSl7GZjRvd/"
+   },
+   "publicado": "2026-11-03T19:06:25.467143+00:00"
   },
   {
    "id": "frigorifico-tiktok",
@@ -336,9 +341,15 @@
     "hogar",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704023532887787542",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-03T19:09:14.405751+00:00"
   },
   {
    "id": "cerradura-youtube",
@@ -354,9 +365,14 @@
     "seguridad",
     "historia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "j0-ip-136Z4",
+    "url": "https://youtube.com/shorts/j0-ip-136Z4"
+   },
+   "publicado": "2026-11-03T19:09:17.759084+00:00"
   },
   {
    "id": "frigorifico-instagram",

@@ -17,9 +17,9 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 03/11 | 19:00 | tiktok | ¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por  | 📲 en tu bandeja de TikTok |
 | mar 03/11 | 19:00 | youtube | Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el ag | [✅ publicado](https://youtube.com/shorts/1ShGpgz6Y-E) |
 | mar 03/11 | 19:00 | youtube | Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el  | [✅ publicado](https://youtube.com/shorts/KlvOp8xaqJE) |
-| mar 03/11 | 20:00 | instagram | ¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por  | ⏳ pendiente |
-| mar 03/11 | 20:00 | tiktok | Tu nevera no fabrica frío 🧊 Así funciona por dentro | ⏳ pendiente |
-| mar 03/11 | 20:00 | youtube | ¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por  | ⏳ pendiente |
+| mar 03/11 | 20:00 | instagram | ¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por  | [✅ publicado](https://www.instagram.com/reel/DfSl7GZjRvd/) |
+| mar 03/11 | 20:00 | tiktok | Tu nevera no fabrica frío 🧊 Así funciona por dentro | 📲 en tu bandeja de TikTok |
+| mar 03/11 | 20:00 | youtube | ¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por  | [✅ publicado](https://youtube.com/shorts/j0-ip-136Z4) |
 | mar 03/11 | 21:00 | instagram | Tu nevera no fabrica frío 🧊 Así funciona por dentro | ⏳ pendiente |
 | mar 03/11 | 21:00 | tiktok | Tu nevera no fabrica frío 🧊 Así funciona por dentro | ⏳ pendiente |
 | mar 03/11 | 21:00 | youtube | Tu nevera no fabrica frío 🧊 Así funciona por dentro | ⏳ pendiente |
