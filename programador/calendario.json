@@ -458,9 +458,14 @@
     "hogar",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18134301424667038",
+    "url": "https://www.instagram.com/reel/DfS1aWwDZIv/"
+   },
+   "publicado": "2026-11-03T21:21:45.598186+00:00"
   },
   {
    "id": "frigorifico-youtube",
@@ -476,9 +481,14 @@
     "hogar",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "tZVW9vqDMa8",
+    "url": "https://youtube.com/shorts/tZVW9vqDMa8"
+   },
+   "publicado": "2026-11-03T21:21:47.969305+00:00"
   }
  ]
 }
