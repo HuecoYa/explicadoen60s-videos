@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T01:25:41.764061+00:00",
+ "actualizado": "2026-11-03T01:25:56.173360+00:00",
  "cuentas": {
   "instagram": {
    "nombre": "@explicadoen60s",
@@ -190,7 +190,7 @@
  },
  "errores": {
   "youtube": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Request had insufficient authentication scopes.\",\n    \"errors\": [\n      {\n        \"message\": \"Insufficient Permission\",\n        \"domain\": \"global\",\n        \"reason\": \"insufficientPermissions\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\",\n",
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"20261103012545E97958A6128F1D5D6F18\"}}"
+  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"20261103012606DF134F0061228E2BFDF6\"}}"
  },
  "historial": [
   {
