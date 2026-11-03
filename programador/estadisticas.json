@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T09:13:34.196393+00:00",
+ "actualizado": "2026-11-03T10:15:54.868331+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
@@ -9,7 +9,7 @@
   },
   "instagram": {
    "nombre": "@explicadoen60s",
-   "seguidores": 13,
+   "seguidores": 14,
    "videos": 23,
    "vistas": 0
   }
@@ -21,7 +21,7 @@
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1213,
+    "vistas": 1216,
     "likes": 52,
     "comentarios": 0
    },
@@ -30,7 +30,7 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 1531,
+    "vistas": 1540,
     "likes": 58,
     "comentarios": 0
    },
@@ -57,7 +57,7 @@
     "titulo": "Dobla un papel 42 veces y llegas a la Luna #shorts",
     "fecha": "2026-10-31T21:16:00Z",
     "url": "https://youtube.com/shorts/dj4KPOwBVtA",
-    "vistas": 1195,
+    "vistas": 1196,
     "likes": 44,
     "comentarios": 4
    },
@@ -84,7 +84,7 @@
     "titulo": "Este orden de cartas NUNCA ha existido en la historia #shorts",
     "fecha": "2026-10-31T20:31:32Z",
     "url": "https://youtube.com/shorts/1gx47YGrvnA",
-    "vistas": 1170,
+    "vistas": 1167,
     "likes": 25,
     "comentarios": 0
    },
@@ -183,7 +183,7 @@
     "titulo": "RADARES PARTE 2 | explicadoen60s",
     "fecha": "2026-10-30T16:45:47Z",
     "url": "https://youtube.com/shorts/fNCMYQjzoPw",
-    "vistas": 1347,
+    "vistas": 1348,
     "likes": 15,
     "comentarios": 0
    },
@@ -192,7 +192,7 @@
     "titulo": "RADARES PARTE 1 | explicadoen60s",
     "fecha": "2026-10-30T16:40:23Z",
     "url": "https://youtube.com/shorts/Ay-O_51j0WA",
-    "vistas": 1631,
+    "vistas": 1633,
     "likes": 25,
     "comentarios": 0
    },
@@ -212,7 +212,7 @@
     "titulo": "Un airbag se infla 10 veces más rápido que un parpadeo… y no lleva aire dentro 🚗💥 ¿Sabías ",
     "fecha": "2026-11-03T09:06:42+0000",
     "url": "https://www.instagram.com/reel/DfRhKWHArIT/",
-    "likes": 0,
+    "likes": 39,
     "comentarios": 0
    },
    {
@@ -220,7 +220,7 @@
     "titulo": "Si tuvieras que inventar el código de barras desde cero… 🛒 ¿Sabías que el último número es",
     "fecha": "2026-11-02T17:09:39+0000",
     "url": "https://www.instagram.com/reel/DfPzdZICHgh/",
-    "likes": 74,
+    "likes": 75,
     "comentarios": 0
    },
    {
@@ -394,7 +394,7 @@
   ]
  },
  "errores": {
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"2026110309134153FBDCED484805629729\"}}"
+  "tiktok": "HTTP 401: {\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"20261103101559E9B158B433E6C37BFDB2\"},\"data\":{}}"
  },
  "historial": [
   {
@@ -402,7 +402,7 @@
    "youtube_seguidores": 47,
    "youtube_vistas": 23508,
    "youtube_videos": 21,
-   "instagram_seguidores": 13,
+   "instagram_seguidores": 14,
    "instagram_vistas": 0,
    "instagram_videos": 23
   }
