@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T12:54:55.915147+00:00",
+ "actualizado": "2026-11-03T13:32:03.509559+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
@@ -11,15 +11,14 @@
    "nombre": "@explicadoen60s",
    "seguidores": 14,
    "videos": 23,
-   "vistas": 0,
-   "error_vistas": "views: HTTP 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A7RNHmzcvF0lseSWe8iDC3u\"}}"
+   "vistas": 24623
   },
   "tiktok": {
    "nombre": "explicadoen60s",
    "seguidores": 42,
-   "likes": 1923,
+   "likes": 1925,
    "videos": 28,
-   "vistas": 52748
+   "vistas": 52767
   }
  },
  "videos": {
@@ -29,8 +28,8 @@
     "titulo": "Un airbag se infla en 30 milésimas de segundo 🚗",
     "fecha": "2026-11-03T11:03:14Z",
     "url": "https://youtube.com/shorts/pbocshzw1Mo",
-    "vistas": 485,
-    "likes": 23,
+    "vistas": 858,
+    "likes": 42,
     "comentarios": 0
    },
    {
@@ -38,8 +37,8 @@
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1216,
-    "likes": 52,
+    "vistas": 1221,
+    "likes": 53,
     "comentarios": 0
    },
    {
@@ -47,7 +46,7 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 1540,
+    "vistas": 1577,
     "likes": 58,
     "comentarios": 0
    },
@@ -83,7 +82,7 @@
     "titulo": "Así te pilla Hacienda si inventas números (ley de Benford) #shorts",
     "fecha": "2026-10-31T21:03:45Z",
     "url": "https://youtube.com/shorts/csfOC8UIebg",
-    "vistas": 1228,
+    "vistas": 1232,
     "likes": 63,
     "comentarios": 0
    },
@@ -137,7 +136,7 @@
     "titulo": "RULETA | explicadoen60s",
     "fecha": "2026-10-30T16:50:46Z",
     "url": "https://youtube.com/shorts/ApcW-U0XSUQ",
-    "vistas": 1314,
+    "vistas": 1317,
     "likes": 49,
     "comentarios": 0
    },
@@ -146,7 +145,7 @@
     "titulo": "BOSTEZO | explicadoen60s",
     "fecha": "2026-10-30T16:50:17Z",
     "url": "https://youtube.com/shorts/xlZJu4TfVRw",
-    "vistas": 1309,
+    "vistas": 1310,
     "likes": 43,
     "comentarios": 2
    },
@@ -173,7 +172,7 @@
     "titulo": "ABS | explicadoen60s",
     "fecha": "2026-10-30T16:47:49Z",
     "url": "https://youtube.com/shorts/ip7vXvvOkuM",
-    "vistas": 1400,
+    "vistas": 1404,
     "likes": 48,
     "comentarios": 0
    },
@@ -191,7 +190,7 @@
     "titulo": "MICROONDAS | explicadoen60s",
     "fecha": "2026-10-30T16:46:48Z",
     "url": "https://youtube.com/shorts/VyW5fmr331E",
-    "vistas": 1258,
+    "vistas": 1259,
     "likes": 40,
     "comentarios": 1
    },
@@ -200,7 +199,7 @@
     "titulo": "RADARES PARTE 2 | explicadoen60s",
     "fecha": "2026-10-30T16:45:47Z",
     "url": "https://youtube.com/shorts/fNCMYQjzoPw",
-    "vistas": 1348,
+    "vistas": 1349,
     "likes": 15,
     "comentarios": 0
    },
@@ -209,7 +208,7 @@
     "titulo": "RADARES PARTE 1 | explicadoen60s",
     "fecha": "2026-10-30T16:40:23Z",
     "url": "https://youtube.com/shorts/Ay-O_51j0WA",
-    "vistas": 1633,
+    "vistas": 1634,
     "likes": 25,
     "comentarios": 0
    },
@@ -230,7 +229,11 @@
     "fecha": "2026-11-03T09:06:42+0000",
     "url": "https://www.instagram.com/reel/DfRhKWHArIT/",
     "likes": 55,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1711,
+    "alcance": 1277,
+    "guardados": 1,
+    "compartidos": 1
    },
    {
     "id": "18097565453660587",
@@ -238,7 +241,11 @@
     "fecha": "2026-11-02T17:09:39+0000",
     "url": "https://www.instagram.com/reel/DfPzdZICHgh/",
     "likes": 75,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1766,
+    "alcance": 1434,
+    "guardados": 4,
+    "compartidos": 0
    },
    {
     "id": "17918152887527220",
@@ -246,7 +253,11 @@
     "fecha": "2026-11-02T09:06:44+0000",
     "url": "https://www.instagram.com/reel/DfO8YlUmCLe/",
     "likes": 43,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1245,
+    "alcance": 1103,
+    "guardados": 2,
+    "compartidos": 1
    },
    {
     "id": "18119305756796548",
@@ -254,7 +265,11 @@
     "fecha": "2026-11-01T19:07:44+0000",
     "url": "https://www.instagram.com/reel/DfNcY7JgtqW/",
     "likes": 87,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 2217,
+    "alcance": 1684,
+    "guardados": 7,
+    "compartidos": 2
    },
    {
     "id": "18083452103363720",
@@ -262,7 +277,11 @@
     "fecha": "2026-11-01T17:09:12+0000",
     "url": "https://www.instagram.com/reel/DfNOo2ukRlb/",
     "likes": 38,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1556,
+    "alcance": 1374,
+    "guardados": 0,
+    "compartidos": 1
    },
    {
     "id": "17932504548161899",
@@ -270,7 +289,11 @@
     "fecha": "2026-10-31T21:15:58+0000",
     "url": "https://www.instagram.com/reel/DfLGZjoknaf/",
     "likes": 73,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1455,
+    "alcance": 1279,
+    "guardados": 2,
+    "compartidos": 0
    },
    {
     "id": "18119337353090054",
@@ -278,7 +301,11 @@
     "fecha": "2026-10-31T21:05:06+0000",
     "url": "https://www.instagram.com/reel/DfLE94DFTLR/",
     "likes": 78,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1599,
+    "alcance": 1309,
+    "guardados": 23,
+    "compartidos": 3
    },
    {
     "id": "18110536975910677",
@@ -286,7 +313,11 @@
     "fecha": "2026-10-31T20:47:03+0000",
     "url": "https://www.instagram.com/reel/DfLC-c1DQ9-/",
     "likes": 3,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 170,
+    "alcance": 147,
+    "guardados": 0,
+    "compartidos": 0
    },
    {
     "id": "18640213639012830",
@@ -294,7 +325,11 @@
     "fecha": "2026-10-31T20:32:57+0000",
     "url": "https://www.instagram.com/reel/DfLBXF8CZ-b/",
     "likes": 56,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1437,
+    "alcance": 1231,
+    "guardados": 4,
+    "compartidos": 2
    },
    {
     "id": "18003393501008840",
@@ -302,7 +337,11 @@
     "fecha": "2026-10-31T12:12:03+0000",
     "url": "https://www.instagram.com/reel/DfKIGXwAEbS/",
     "likes": 36,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1657,
+    "alcance": 1426,
+    "guardados": 5,
+    "compartidos": 7
    },
    {
     "id": "18348793198266181",
@@ -310,7 +349,11 @@
     "fecha": "2026-10-30T18:33:21+0000",
     "url": "https://www.instagram.com/reel/DfIO3Ppkh6W/",
     "likes": 44,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1561,
+    "alcance": 1171,
+    "guardados": 5,
+    "compartidos": 9
    },
    {
     "id": "17967227537983021",
@@ -318,7 +361,11 @@
     "fecha": "2026-10-30T17:59:08+0000",
     "url": "https://www.instagram.com/reel/DfIK9wOkQHn/",
     "likes": 4,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 136,
+    "alcance": 122,
+    "guardados": 2,
+    "compartidos": 0
    },
    {
     "id": "18137489083656904",
@@ -326,7 +373,11 @@
     "fecha": "2026-10-30T17:51:43+0000",
     "url": "https://www.instagram.com/reel/DfIKHM4nUo0/",
     "likes": 48,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1412,
+    "alcance": 1169,
+    "guardados": 3,
+    "compartidos": 3
    },
    {
     "id": "18134030506684710",
@@ -334,7 +385,11 @@
     "fecha": "2026-10-30T16:33:32+0000",
     "url": "https://www.instagram.com/reel/DfIBS6RReMh/",
     "likes": 79,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 2117,
+    "alcance": 1789,
+    "guardados": 3,
+    "compartidos": 3
    },
    {
     "id": "17965720428390364",
@@ -342,7 +397,11 @@
     "fecha": "2026-10-29T22:43:25+0000",
     "url": "https://www.instagram.com/reel/DfGG0JIMjID/",
     "likes": 50,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1515,
+    "alcance": 1168,
+    "guardados": 3,
+    "compartidos": 0
    },
    {
     "id": "17984973168105254",
@@ -350,7 +409,11 @@
     "fecha": "2026-10-29T21:30:57+0000",
     "url": "https://www.instagram.com/reel/DfF-isExLKm/",
     "likes": 2,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 115,
+    "alcance": 106,
+    "guardados": 0,
+    "compartidos": 0
    },
    {
     "id": "18167524825520105",
@@ -358,7 +421,11 @@
     "fecha": "2026-10-29T21:29:49+0000",
     "url": "https://www.instagram.com/reel/DfF-aiBx2s5/",
     "likes": 3,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 121,
+    "alcance": 105,
+    "guardados": 0,
+    "compartidos": 0
    },
    {
     "id": "17886219789512556",
@@ -366,7 +433,11 @@
     "fecha": "2026-10-29T21:28:35+0000",
     "url": "https://www.instagram.com/reel/DfF-Rs_RlId/",
     "likes": 69,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 1334,
+    "alcance": 1202,
+    "guardados": 2,
+    "compartidos": 2
    },
    {
     "id": "18116519720016692",
@@ -374,7 +445,11 @@
     "fecha": "2026-10-29T21:27:53+0000",
     "url": "https://www.instagram.com/reel/DfF-KbKxy0K/",
     "likes": 22,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 515,
+    "alcance": 441,
+    "guardados": 4,
+    "compartidos": 2
    },
    {
     "id": "18117388361165017",
@@ -382,7 +457,11 @@
     "fecha": "2026-10-29T20:05:41+0000",
     "url": "https://www.instagram.com/reel/DfF0wbcxoiH/",
     "likes": 11,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 483,
+    "alcance": 406,
+    "guardados": 2,
+    "compartidos": 0
    },
    {
     "id": "18151599097546559",
@@ -390,7 +469,11 @@
     "fecha": "2026-10-29T19:42:15+0000",
     "url": "https://www.instagram.com/reel/DfFyGQhRBXq/",
     "likes": 8,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 235,
+    "alcance": 213,
+    "guardados": 0,
+    "compartidos": 0
    },
    {
     "id": "18105720254526936",
@@ -398,7 +481,11 @@
     "fecha": "2026-10-29T19:37:24+0000",
     "url": "https://www.instagram.com/reel/DfFxgeuRKno/",
     "likes": 3,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 130,
+    "alcance": 112,
+    "guardados": 0,
+    "compartidos": 0
    },
    {
     "id": "18113208854616344",
@@ -406,7 +493,11 @@
     "fecha": "2026-10-29T19:11:13+0000",
     "url": "https://www.instagram.com/reel/DfFuhb4xKcV/",
     "likes": 2,
-    "comentarios": 0
+    "comentarios": 0,
+    "vistas": 136,
+    "alcance": 119,
+    "guardados": 0,
+    "compartidos": 0
    }
   ],
   "tiktok": [
@@ -415,7 +506,7 @@
     "titulo": "Si tuvieras que inventar un termo… El calor se escapa por 3 caminos y el termo los bloquea",
     "fecha": "2026-11-03T09:04:10+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703868479748803862?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 758,
+    "vistas": 761,
     "likes": 62,
     "comentarios": 0,
     "compartidos": 1
@@ -425,7 +516,7 @@
     "titulo": "Ese rectángulo en el asfalto antes del semáforo esconde un cable que te detecta 🚦 ¿Te ha p",
     "fecha": "2026-11-02T20:02:57+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703667173281074454?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 989,
+    "vistas": 991,
     "likes": 53,
     "comentarios": 0,
     "compartidos": 8
@@ -435,8 +526,8 @@
     "titulo": "Inventamos el mechero pieza a pieza: chispa, butano, válvula, regulador y chimenea 🔥 ¿Cono",
     "fecha": "2026-11-02T17:06:27+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703621697571802390?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 953,
-    "likes": 57,
+    "vistas": 962,
+    "likes": 58,
     "comentarios": 0,
     "compartidos": 0
    },
@@ -455,8 +546,8 @@
     "titulo": "Si tuvieras que inventar la cremallera desde cero… 🧥 La pieza clave tiene forma de Y. ¿Te ",
     "fecha": "2026-11-02T12:03:13+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703543548813020439?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 6646,
-    "likes": 267,
+    "vistas": 6649,
+    "likes": 268,
     "comentarios": 0,
     "compartidos": 1
    },
@@ -465,7 +556,7 @@
     "titulo": "Un airbag se infla 10 veces más rápido que un parpadeo… y no lleva aire dentro 🚗💥 ¿Sabías ",
     "fecha": "2026-11-02T09:05:04+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703497625814715670?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 4789,
+    "vistas": 4790,
     "likes": 205,
     "comentarios": 0,
     "compartidos": 0
@@ -625,7 +716,7 @@
     "titulo": "Cuando frenas a fondo, tu coche suelta el freno 20 veces por segundo 🚗 Y eso te salva la v",
     "fecha": "2026-10-29T21:24:10+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7702203693889850646?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1053,
+    "vistas": 1054,
     "likes": 73,
     "comentarios": 1,
     "compartidos": 2
@@ -690,10 +781,10 @@
    "youtube_vistas": 23508,
    "youtube_videos": 22,
    "instagram_seguidores": 14,
-   "instagram_vistas": 0,
+   "instagram_vistas": 24623,
    "instagram_videos": 23,
    "tiktok_seguidores": 42,
-   "tiktok_vistas": 52748,
+   "tiktok_vistas": 52767,
    "tiktok_videos": 28
   }
  ]
