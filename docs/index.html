@@ -356,7 +356,7 @@ async function vistaProd(){
   const sub=[["guiones","Aprobación de guiones",pro.length],["borradores","Aprobación de borradores",rev.length],["marcha","En marcha",mar.length],["hechos","Historial",0]];
   let h=`<div class="subtabs">${sub.map(([k,t,n])=>`<button class="chip ${PSUB===k?"on":""}" onclick="PSUB='${k}';ir('prod')">${t}${n?` <span class="pill" style="padding:0 7px;background:var(--acc);color:var(--acc-fg)">${n}</span>`:""}</button>`).join("")}</div>`;
   if(PSUB==="guiones"){
-    h+=pro.length?pro.map(v=>`<div class="card fade"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><b style="font-size:16px">${esc(v.titulo)}</b><span class="pill">Formato ${esc(v.formato||"")} · ${(v.guion||"").split(/\s+/).length} palabras · ≈${Math.round((v.guion||"").split(/\s+/).length/3.4)} s</span></div>
+    h+=pro.length?pro.map(v=>`<div class="card fade"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><b style="font-size:16px">${esc(v.titulo)}</b><span class="pill">Formato ${esc(v.formato||"")} · ${(v.guion||"").split(/\s+/).length} palabras · ≈${Math.round((v.guion||"").split(/\s+/).length/2.9)} s</span></div>
      <label>Guion (lo que dirá la voz). Puedes editarlo antes de aprobar.</label><textarea id="g_${v.id}" style="min-height:200px">${esc(v.guion)}</textarea>
      <label>Texto del post</label><textarea id="t_${v.id}" style="min-height:60px">${esc(v.texto)}</textarea>
      <p><button class="btn" onclick="aprobarGuion('${v.id}')">✓ Aprobar guion</button> <button class="btn sec" onclick="descartar('${v.id}')">Descartar</button></p></div>`).join("")
