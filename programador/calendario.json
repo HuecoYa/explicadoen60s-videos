@@ -388,9 +388,14 @@
     "hogar",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18128842762856340",
+    "url": "https://www.instagram.com/reel/DfSv5kSETDv/"
+   },
+   "publicado": "2026-11-03T20:33:37.262557+00:00"
   },
   {
    "id": "frigorifico-tiktok",
@@ -406,9 +411,15 @@
     "hogar",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704045967301003267",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-03T20:34:07.410524+00:00"
   },
   {
    "id": "frigorifico-youtube",
@@ -424,9 +435,14 @@
     "hogar",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "cjkK7egXM3A",
+    "url": "https://youtube.com/shorts/cjkK7egXM3A"
+   },
+   "publicado": "2026-11-03T20:34:09.700202+00:00"
   },
   {
    "id": "frigorifico-instagram",
