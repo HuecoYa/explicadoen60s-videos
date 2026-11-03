@@ -125,7 +125,7 @@ jobs:
           for n in json.loads(os.environ["NOMBRES"]):
               d = pathlib.Path(f"/tmp/durs/dur-{n}/dur.txt")
               for v in est["videos"]:
-                  if v["id"] == n:
+                  if v["id"] == n and v.get("estado") in ("renderizando", "escena", "revision"):
                       if d.exists():
                           v["estado"] = "revision"; v["duracion"] = round(float(d.read_text()), 1); v.pop("error", None)
                       else:

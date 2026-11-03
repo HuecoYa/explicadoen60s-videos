@@ -36,11 +36,24 @@ def badge(ctx, s, cx, cy, p, col=(1, 1, 1), size=70, sub=None):
     if p <= 0: return
     sc = back(p)
     ctx.save(); ctx.translate(cx, cy); ctx.scale(sc, sc)
-    e = text_path(ctx, s, size); w = e.x_advance + 56; h = size * 1.45
+    # ✗ y ✓ no están en Poppins: se dibujan como trazos para no depender de fuentes de respaldo
+    icon = None
+    if s[:1] in "✗✓✕✔✘": icon = "ok" if s[0] in "✓✔" else "no"; s = s[1:].lstrip()
+    iw = size * 0.78 if icon else 0
+    e = text_path(ctx, s, size); w = e.x_advance + 56 + iw; h = size * 1.45
     rrect(ctx, -w / 2 + 4, -h / 2 + 7, w, h, 22); ctx.set_source_rgba(0, 0, 0, 0.25); ctx.fill()
     rrect(ctx, -w / 2, -h / 2, w, h, 22); ctx.set_source_rgba(0.13, 0.15, 0.19, 0.92); ctx.fill_preserve()
     ctx.set_line_width(4); ctx.set_source_rgba(1, 1, 1, 0.18); ctx.stroke()
-    ctx.move_to(-e.x_advance / 2, size * 0.36); ctx.text_path(s); ctx.set_source_rgb(*col); ctx.fill()
+    x0 = -(e.x_advance + iw) / 2
+    if icon:
+        r = size * 0.27; cx0 = x0 + r; ctx.set_source_rgb(*col); ctx.set_line_width(size * 0.13); ctx.set_line_cap(cairo.LINE_CAP_ROUND)
+        ctx.set_line_join(cairo.LINE_JOIN_ROUND)
+        if icon == "no":
+            ctx.move_to(cx0 - r, -r); ctx.line_to(cx0 + r, r); ctx.move_to(cx0 + r, -r); ctx.line_to(cx0 - r, r)
+        else:
+            ctx.move_to(cx0 - r, 0.05 * r); ctx.line_to(cx0 - 0.25 * r, 0.8 * r); ctx.line_to(cx0 + r, -0.85 * r)
+        ctx.stroke()
+    ctx.move_to(x0 + iw, size * 0.36); ctx.text_path(s); ctx.set_source_rgb(*col); ctx.fill()
     ctx.restore()
 
 def callout(ctx, s, cx, cy, p, size=64):
