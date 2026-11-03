@@ -10,7 +10,8 @@
     "termo"
    ],
    "estado": "escena",
-   "creado": "2026-11-03"
+   "creado": "2026-11-03",
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   }
  ]
 }
