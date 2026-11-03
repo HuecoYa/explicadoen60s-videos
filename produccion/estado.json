@@ -187,6 +187,134 @@
    "aprobado_por": "Nikoloz_Lekishvili",
    "duracion": 69.9,
    "programado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "pantalla",
+   "formato": "A",
+   "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
+   "guion": "Ahora mismo estás tocando una pantalla… y ella sabe exactamente dónde. ¿Cómo? Debajo del cristal hay una rejilla invisible de cables finísimos. Unos van en horizontal y otros en vertical. En cada cruce se guarda un poquito de carga eléctrica. Y el móvil mide esa carga en todos los cruces, sin parar. Tu dedo conduce la electricidad, porque tu cuerpo está lleno de agua con sales. Cuando lo acercas, se lleva parte de la carga del cruce que tienes debajo. Y el número de ese cruce baja de golpe: de cien… a sesenta y dos. El chip busca dónde ha bajado más… y ahí está tu dedo. Pero no mira una sola vez. Repasa toda la rejilla ciento veinte veces cada segundo. ¡Algunos móviles para juegos, más de trescientas! Así sabe si arrastras, si pellizcas o si das dos toques. Y si pones dos dedos, bajan dos cruces a la vez. Por eso puedes hacer zoom. Ahora, el dato curioso… Con guantes de lana no funciona. La lana no conduce, así que la carga no se va a ningún sitio. Por eso los punteros para pantallas tienen la punta de goma conductora. Y con el dedo mojado pasa lo contrario. Cada gota también roba carga… y la pantalla se vuelve loca. Sígueme para más.",
+   "texto": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes? 👇",
+   "tags": [
+    "móvil",
+    "pantalla táctil",
+    "tecnología",
+    "electricidad",
+    "ciencia"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-03"
+  },
+  {
+   "id": "bateria",
+   "formato": "A",
+   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
+   "guion": "Tu móvil se está gastando ahora mismo… y lo que se mueve dentro son átomos. Abre la batería. Son dos láminas enrolladas, separadas por una capa finísima de plástico con poros. A un lado, grafito, lo mismo que la mina de un lápiz. Al otro, un óxido metálico lleno de litio. Y entre medias, un líquido que deja pasar al litio. Cuando enchufas el cargador, el litio suelta un electrón y cruza a través del plástico. Se mete entre las capas de grafito, como hojas de un libro. Mientras, sus electrones dan la vuelta por el cable. Y el porcentaje sube: veinte, cincuenta, cien. Cuando usas el móvil, ocurre al revés. El litio vuelve a su lado y los electrones salen por el circuito. Esa corriente es la que enciende la pantalla y todo lo demás. Pero cada viaje deja algo de desgaste. Algunos átomos de litio se quedan atrapados y ya no vuelven. Por eso, con los años, tu cien por cien dura menos. Muchos móviles actuales están pensados para aguantar mil ciclos… y conservar todavía el ochenta por ciento de su capacidad. Pero ojo, un ciclo no es una carga: es gastar el cien por cien. Si gastas la mitad hoy y la otra mitad mañana… eso es un solo ciclo. Y un truco: el calor acelera el desgaste. No lo dejes cargando al sol. Sígueme para más.",
+   "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
+   "tags": [
+    "batería",
+    "móvil",
+    "litio",
+    "tecnología",
+    "ciencia"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-03"
+  },
+  {
+   "id": "cafetera",
+   "formato": "A",
+   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
+   "guion": "Cada mañana, tu cafetera sube el café hasta arriba… sin bomba y sin motor. ¿Cómo lo hace? Tiene tres piezas. Abajo, el depósito con agua. En medio, un embudo con el café molido. Arriba, la jarra vacía. Pones el fuego. El agua se calienta y empieza a soltar vapor. Pero el depósito está cerrado a rosca, así que el vapor no puede escapar. Y la presión sube: medio bar… un bar… uno y medio. Ese vapor aprieta el agua caliente hacia abajo. Y la única salida es el tubo del embudo, que llega casi hasta el fondo. Así que el agua sube por el tubo, atraviesa el café molido y se lleva su sabor. Un filtro de metal y una goma impiden que pase el polvo. Por fin, el café sale por la chimenea del centro… y cae en la jarra. Ese gorgoteo final es el vapor, que ya se escapa. Es la señal para apagar el fuego. ¿Y esa tuerca del lateral? Es una válvula de seguridad. Si el café está muy apretado y el filtro se atasca, la presión seguiría subiendo. Así que la válvula se abre y suelta el vapor antes de que nada reviente. Ahora, un dato… Una cafetera de bar empuja el agua a nueve bares. La tuya, a menos de dos. Por eso, técnicamente, tu café no es un exprés. Sígueme para más.",
+   "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
+   "tags": [
+    "café",
+    "cafetera",
+    "cocina",
+    "física",
+    "hogar"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-03"
+  },
+  {
+   "id": "bombilla",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
+   "guion": "Si tuvieras que inventar la bombilla que tienes encima ahora mismo… ¿cómo lo harías? Lo primero: un hilo metálico. Le pasas corriente y se calienta tanto que brilla. Pero en el aire, se quema en segundos. Así que lo metes en una ampolla de cristal sin oxígeno. Funciona: es la bombilla de toda la vida. Pero hay un problema. De cada cien unidades de energía, noventa se van en calor. Solo diez se convierten en luz. Por eso quemaban al tocarlas. Así que cambias el hilo por un chip diminuto: un LED. Aquí la luz no sale del calor. Sale de los electrones, al saltar entre dos materiales. Cada salto suelta un poquito de luz. Pero ese chip da luz azul, no blanca. Así que lo cubres con una capa amarilla, el fósforo. Absorbe parte del azul y suelta amarillo y rojo. Y todo mezclado… lo ves blanco. Pero el LED quiere poca tensión, y siempre en el mismo sentido. Y en casa tienes doscientos treinta voltios, que cambian de sentido sin parar. Así que en la base escondes un pequeño circuito que la convierte. Por último, el chip se estropea si se calienta. Así que le pones un disipador de aluminio alrededor de la base. Resultado: gasta hasta un noventa por ciento menos. ¡Y dura hasta veinticinco veces más! Sígueme para más.",
+   "texto": "Las bombillas de antes eran, sobre todo, estufas que daban un poco de luz. ¿Aún te queda alguna en casa? 👇",
+   "tags": [
+    "bombilla",
+    "LED",
+    "luz",
+    "energía",
+    "inventos"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-03"
+  },
+  {
+   "id": "auriculares",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes electricidad en sonido?",
+   "guion": "Si tuvieras que inventar los auriculares que quizá llevas puestos ahora… ¿cómo convertirías electricidad en sonido? El sonido es aire que va adelante y atrás, muy rápido. Así que necesitas algo que empuje el aire: una membrana finísima, como la piel de un tambor diminuto. Pero ¿cómo la mueves? Le pegas detrás un hilo de cobre enrollado, una bobina. Y la colocas metida en un imán. Cuando llega la música, la corriente cambia de sentido constantemente. Y cada vez, la bobina se convierte en un imán que empuja o tira. El imán fijo la atrae… y la repele. Y la membrana va con ella, adelante y atrás. Una nota grave la mueve veinte veces por segundo. Una aguda… ¡hasta veinte mil veces por segundo! Justo lo que es capaz de oír tu oído. Pero la membrana también empuja aire hacia atrás. Y ese sonido de atrás se mezcla con el de delante y lo anula. Así que cierras la parte trasera con una carcasa. Pero el aire encerrado frena la membrana. Así que le haces agujeritos diminutos, tapados con tela, para que respire. Por último, la almohadilla. Sella tu oreja para que los graves no se escapen. Y un dato: con los años se pierden los agudos. A muchos adultos ya les cuesta oír por encima de dieciséis mil. Sígueme para más.",
+   "texto": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dónde llega tu oído? 👇",
+   "tags": [
+    "auriculares",
+    "sonido",
+    "música",
+    "física",
+    "inventos"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-03"
+  },
+  {
+   "id": "enchufe",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las láminas de los lados?",
+   "guion": "Si tuvieras que inventar el enchufe que tienes en la pared… ¿cómo lo harías seguro? Lo primero: dos agujeros. Por uno llega la corriente y por el otro vuelve. En España, a doscientos treinta voltios. Y cambia de sentido cincuenta veces cada segundo. Pero si alguien mete los dedos, podría tocar el metal. Así que hundes los agujeros en un hueco, y la clavija lo tapa antes de que las patas toquen nada. Pero ¿y si un cable se suelta dentro de la lavadora y toca la carcasa metálica? La que tocarías tú. Así que añades un tercer contacto: esas dos láminas de los lados. Es la toma de tierra. Une la carcasa con un cable que acaba en una barra enterrada bajo el edificio. Si hay una fuga, la corriente se va por ahí… y no por ti. Pero aún falta algo. En tu cuadro eléctrico hay un interruptor especial: el diferencial. Mide sin parar la corriente que sale y la que vuelve. Tienen que ser iguales. Si faltan treinta miliamperios, es que se escapa por algún sitio… quizá por una persona. Y corta la corriente en unos veinte milisegundos. ¡Más rápido que un parpadeo! Y un detalle más. Muchos enchufes tienen unas tapas por dentro que solo se abren si entran las dos patas a la vez. Así un niño no puede meter un clip. Sígueme para más.",
+   "texto": "Las dos láminas de los lados de tu enchufe pueden salvarte la vida. ¿Sabías para qué eran? 👇",
+   "tags": [
+    "enchufe",
+    "electricidad",
+    "seguridad",
+    "hogar",
+    "inventos"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-03"
+  },
+  {
+   "id": "piscina",
+   "formato": "C",
+   "titulo": "¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del todo",
+   "guion": "¿Y si construyes una piscina en tu jardín? Primero, excavas un agujero de ocho por cuatro metros, y metro y medio de hondo. Pero la tierra de las paredes se desmorona hacia dentro. Así que pones una malla de acero y proyectas hormigón encima, a presión. Ahora tienes una caja de piedra de una sola pieza. La llenas: cuarenta y ocho mil litros. ¡Son cuarenta y ocho toneladas de agua! Pero el agua quieta, en pocos días, se vuelve verde. Así que la haces circular. Sale por un sumidero del fondo y por esas ventanitas de los bordes. Una bomba la empuja hasta un depósito lleno de arena, que atrapa la suciedad. Y vuelve limpia por las boquillas. Cada día, toda el agua de la piscina pasa varias veces por ese filtro. Pero la arena no mata las bacterias. Así que añades cloro, y un medidor vigila que no baje. Y ahora, el dato curioso… ¿Sabías que una piscina vacía puede salir flotando? Si llueve mucho, el agua bajo tierra sube y empuja el fondo hacia arriba. Con la piscina llena, su peso la sujeta. Pero si la vacías… ¡puede levantarse del suelo y romperse! Así que en el punto más hondo pones una válvula. Si el agua de abajo empuja demasiado, se abre y la deja entrar. Por eso nunca se vacía una piscina a la ligera. Sígueme para más.",
+   "texto": "Una piscina vacía puede salir flotando del suelo como un barco. ¿Lo habías oído alguna vez? 👇",
+   "tags": [
+    "piscina",
+    "construcción",
+    "ingeniería",
+    "verano",
+    "agua"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-03"
+  },
+  {
+   "id": "presa",
+   "formato": "C",
+   "titulo": "¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo abajo",
+   "guion": "¿Y si construyes una presa para cortar un río? Primero, desvías el río por un túnel, para trabajar en seco. Pero el fondo es barro y piedras sueltas. Así que excavas hasta llegar a la roca dura. Ahí apoyas el muro. Subes hormigón, capa a capa. Pero el agua empuja más cuanto más hondo. Cada diez metros de profundidad, la presión sube una atmósfera. ¡A cien metros, cada metro cuadrado del muro aguanta unas cien toneladas! Así que haces el muro con forma de triángulo: estrecho arriba y gordísimo abajo. Pero el hormigón se calienta al fraguar, y al enfriarse se agrieta. Así que lo enfrías por dentro con tubos de agua fría. Ahora cierras el túnel y el embalse se llena. Pero el agua se cuela por las grietas de la roca, por debajo, y empuja la presa hacia arriba. Así que inyectas cemento en la roca, formando una cortina. Y abres pozos de drenaje que alivian esa presión. Pero si llueve muchísimo, el agua podría pasar por encima y destrozarlo todo. Así que pones aliviaderos: compuertas que dejan salir el agua que sobra. Y por último, el premio. Parte del agua baja por unas tuberías hasta las turbinas, abajo del todo. Llega con tanta fuerza que mueve los generadores… y la luz que tienes encendida ahora mismo puede venir de ahí. Sígueme para más.",
+   "texto": "Al fondo de una presa, el agua aprieta con cien toneladas por cada metro cuadrado. ¿Has visitado alguna? 👇",
+   "tags": [
+    "presa",
+    "ingeniería",
+    "agua",
+    "energía",
+    "construcción"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-03"
   }
  ]
 }
