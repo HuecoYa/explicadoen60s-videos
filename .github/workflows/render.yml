@@ -43,7 +43,7 @@ jobs:
           est = json.load(open("produccion/estado.json"))
           n = f or [v["id"] for v in est["videos"] if v.get("estado") == "escena"]
           for v in est["videos"]:
-              if v["id"] in n: v["estado"] = "renderizando"   # que otra ejecución no los repita
+              if v["id"] in n and v.get("estado") == "escena": v["estado"] = "renderizando"   # que otra ejecución no los repita (los ya aprobados no cambian)
           json.dump(est, open("produccion/estado.json", "w"), ensure_ascii=False, indent=1)
           print("nombres=" + json.dumps(n))
           PY
