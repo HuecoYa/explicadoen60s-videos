@@ -60,7 +60,8 @@ pre{white-space:pre-wrap;background:var(--bg);border:1px solid var(--bd);border-
  <div class="top"><span class="logo">60s</span><h1>Panel de publicaciones</h1><button class="ib" id="recargar" title="Recargar">⟳</button></div>
  <nav id="tabs">
   <button data-t="cal" class="on">Calendario</button>
-  <button data-t="nuevo">+ Nuevo vídeo</button>
+  <button data-t="prod">Producción<span class="n" id="nprod" hidden></span></button>
+  <button data-t="nuevo">+ Subir vídeo</button>
   <button data-t="avisos">Avisos<span class="n" id="navisos" hidden></span></button>
   <button data-t="conex">Conexiones</button>
   <button data-t="ajustes">Ajustes</button>
@@ -96,6 +97,14 @@ async function guardarCal(cambio,msg){
     catch(e){if(e.status!==409&&e.status!==422)throw e;await new Promise(r=>setTimeout(r,1500))}
   }
   throw new Error("No se pudo guardar: el calendario cambió a la vez. Vuelve a intentarlo.");
+}
+async function editarJson(ruta,cambio,msg){
+  for(let i=0;i<4;i++){
+    const f=await leerArchivo(ruta),d=JSON.parse(f.txt);cambio(d);
+    try{await gh(`/contents/${ruta}`,{method:"PUT",body:JSON.stringify({message:msg,content:b64e(JSON.stringify(d,null,1)+"\n"),sha:f.sha,branch:"main"})});return d}
+    catch(e){if(e.status!==409&&e.status!==422)throw e;await new Promise(r=>setTimeout(r,1500))}
+  }
+  throw new Error("No se pudo guardar: cambió a la vez. Vuelve a intentarlo.");
 }
 async function lanzar(probar=false){await gh("/actions/workflows/publicar.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main",inputs:{probar}})})}
 
@@ -227,6 +236,46 @@ async function subirVideos(archivos,progreso){
   catch(e){await gh("/git/refs",{method:"POST",body:JSON.stringify({ref:"refs/heads/subida",sha:nc.sha})})}
 }
 
+const FASES={propuesto:"💡 Propuesta",aprobado:"🎙 Generando voz",voz:"🎬 Esperando escena 3D",escena:"⚙️ Renderizando",rehacer:"🔧 Corrigiendo",revision:"👀 Para revisar",programado:"📅 Programado",rechazado:"✖ Descartado"};
+let PROD=[];
+async function vistaProd(){
+  const est=JSON.parse((await leerArchivo("produccion/estado.json")).txt);PROD=est.videos;
+  const rev=PROD.filter(v=>v.estado==="revision"),pro=PROD.filter(v=>v.estado==="propuesto"),mar=PROD.filter(v=>["aprobado","voz","escena","rehacer"].includes(v.estado));
+  contarProd(rev.length+pro.length);
+  const vid=n=>`https://github.com/${O}/${R}/releases/download/videos/${n}`;
+  let h="";
+  if(rev.length)h+=`<h2>Para revisar (${rev.length})</h2>`+rev.map(v=>`<div class="card"><b>${esc(v.titulo)}</b><div class="mut">${v.duracion?v.duracion+" s · ":""}formato ${esc(v.formato||"")}</div>
+   <video controls preload="metadata" playsinline style="width:100%;max-width:300px;display:block;margin:10px auto;border-radius:12px;background:#000;aspect-ratio:9/16" src="${vid(v.id+".mp4")}"></video>
+   <p class="mut">La versión de TikTok es la misma con música.</p>
+   <button class="btn" onclick="aprobarVideo('${v.id}')">Aprobar y programar</button> <button class="btn sec" onclick="rehacer('${v.id}')">Pedir cambios</button> <button class="btn sec" onclick="descartar('${v.id}')">Descartar</button></div>`).join("");
+  if(pro.length)h+=`<h2>Guiones propuestos (${pro.length})</h2>`+pro.map(v=>`<div class="card"><b>${esc(v.titulo)}</b><div class="mut">Formato ${esc(v.formato||"")} · ${(v.guion||"").split(/\s+/).length} palabras</div>
+   <label>Guion (lo que dirá la voz)</label><textarea id="g_${v.id}" style="min-height:180px">${esc(v.guion)}</textarea>
+   <label>Texto del post</label><textarea id="t_${v.id}" style="min-height:60px">${esc(v.texto)}</textarea>
+   <p><button class="btn" onclick="aprobarGuion('${v.id}')">Aprobar guion</button> <button class="btn sec" onclick="descartar('${v.id}')">Descartar</button></p></div>`).join("");
+  if(mar.length)h+=`<h2>En marcha</h2><div class="card">`+mar.map(v=>`<div class="row"><span class="tit"><b>${esc(v.titulo)}</b><small><span class="est">${FASES[v.estado]}</span>${v.error?` · <span style="color:var(--err)">${esc(v.error)}</span>`:""}</small></span></div>`).join("")+`</div>`;
+  if(!h)h=`<div class="card empty">No hay nada en producción ahora mismo. Cada día aparecen guiones nuevos aquí.</div>`;
+  app.innerHTML=h;
+}
+function contarProd(n){const e=$("#nprod");e.hidden=!n;e.textContent=n}
+async function aprobarGuion(id){const g=$("#g_"+id).value.trim(),t=$("#t_"+id).value.trim();
+  await accion(()=>editarJson("produccion/estado.json",d=>{const v=d.videos.find(x=>x.id===id);v.guion=g;v.texto=t;v.estado="aprobado";v.aprobado=new Date().toISOString()},`Panel: guion aprobado ${id}`),"Aprobado. La voz se genera en 1-2 minutos y mañana tendrás el vídeo.")}
+async function descartar(id){if(!confirm("¿Descartar?"))return;await accion(()=>editarJson("produccion/estado.json",d=>{d.videos.find(x=>x.id===id).estado="rechazado"},`Panel: descartado ${id}`))}
+async function rehacer(id){const nota=prompt("¿Qué hay que cambiar? (se lo diré a Claude)");if(!nota)return;
+  await accion(()=>editarJson("produccion/estado.json",d=>{const v=d.videos.find(x=>x.id===id);v.estado="rehacer";v.nota=nota},`Panel: cambios en ${id}`),"Anotado. Claude lo corregirá en la próxima pasada.")}
+async function aprobarVideo(id){
+  const v=PROD.find(x=>x.id===id);
+  await accion(async()=>{
+    await cargarCal();
+    const ocup=[...cal.posts],horas={};
+    horas.tiktok=siguienteHueco("tiktok",ocup);
+    const tt=new Date(aIso(horas.tiktok));
+    for(const r of ["youtube","instagram"]){let h,ex=[...ocup];
+      while((h=siguienteHueco(r,ex))&&new Date(aIso(h))<=tt)ex.push({red:r,hora:aIso(h)});horas[r]=h}
+    await guardarCal(c=>{for(const r of REDES)c.posts.push({id:`${id}-${r}`,red:r,hora:aIso(horas[r]),video:r==="tiktok"?`${id}_tiktok.mp4`:`${id}.mp4`,titulo:v.titulo,texto:v.texto,tags:v.tags||[],estado:"pendiente",intentos:0})},`Panel: programar ${id}`);
+    await editarJson("produccion/estado.json",d=>{d.videos.find(x=>x.id===id).estado="programado"},`Panel: vídeo aprobado ${id} [skip ci]`);
+  },"Programado en TikTok, Instagram y YouTube. Míralo en el Calendario.");
+}
+
 async function vistaAvisos(){
   const iss=(await gh("/issues?state=open&per_page=50")).filter(i=>!i.pull_request);
   contarAvisos(iss.length);
@@ -258,7 +307,7 @@ function vistaAjustes(){
   $("#salir").onclick=()=>{try{localStorage.removeItem("ghtoken")}catch(e){}tok="";pantallaToken()};
 }
 
-const VISTAS={cal:vistaCal,nuevo:vistaNuevo,avisos:vistaAvisos,conex:vistaConex,ajustes:vistaAjustes};
+const VISTAS={cal:vistaCal,prod:vistaProd,nuevo:vistaNuevo,avisos:vistaAvisos,conex:vistaConex,ajustes:vistaAjustes};
 async function ir(t){
   tab=t;document.querySelectorAll("#tabs button").forEach(b=>b.classList.toggle("on",b.dataset.t===t));
   if(!tok)return pantallaToken();
@@ -268,6 +317,7 @@ async function ir(t){
 $("#tabs").onclick=e=>{const b=e.target.closest("button");if(b)ir(b.dataset.t)};
 $("#recargar").onclick=()=>ir(tab);
 ir("cal");
+if(tok)leerArchivo("produccion/estado.json").then(f=>{const v=JSON.parse(f.txt).videos;contarProd(v.filter(x=>x.estado==="revision"||x.estado==="propuesto").length)}).catch(()=>{});
 if(tok)gh("/issues?state=open&per_page=50").then(i=>contarAvisos(i.filter(x=>!x.pull_request).length)).catch(()=>{});
 </script>
 </body>

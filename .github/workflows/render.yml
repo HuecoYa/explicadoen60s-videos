@@ -4,7 +4,7 @@ name: Renderizar vídeos
 on:
   push:
     branches: [main]
-    paths: ["produccion/escenas/*_scene.py", "produccion/escenas/*_ov.py"]
+    paths: ["produccion/escenas/*_scene.py", "produccion/escenas/*_ov.py", "produccion/producir.sh", "produccion/motor/**", ".github/workflows/render.yml"]
   workflow_dispatch:
     inputs:
       nombres:
@@ -62,7 +62,9 @@ jobs:
           pip install -q bpy==5.2.3 numpy pycairo
           mkdir -p ~/.fonts && cp produccion/fuentes/*.ttf ~/.fonts/ && fc-cache -f > /dev/null
       - name: Renderizar ${{ matrix.nombre }}
-        run: produccion/producir.sh "${{ matrix.nombre }}"
+        run: |
+          set -o pipefail
+          produccion/producir.sh "${{ matrix.nombre }}" 2>&1 | grep -v "render           | Saved" | tee /tmp/log_${{ matrix.nombre }}.txt
       - name: Guardar el vídeo
         env:
           GH_TOKEN: ${{ github.token }}
@@ -72,6 +74,14 @@ jobs:
           gh release view videos >/dev/null 2>&1 || gh release create videos --title "Vídeos para publicar" --notes "Almacén de vídeos del programador. No borrar." --latest=false
           gh release upload videos /tmp/$n.mp4 /tmp/${n}_tiktok.mp4 /tmp/${n}_hoja.png --clobber
           ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/$n.mp4 > /tmp/dur.txt
+      - name: Guardar el registro si falla
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view videos >/dev/null 2>&1 || gh release create videos --title "Vídeos para publicar" --notes "Almacén de vídeos del programador. No borrar." --latest=false
+          touch /tmp/log_${{ matrix.nombre }}.txt; tail -200 /tmp/log_${{ matrix.nombre }}.txt > /tmp/error_${{ matrix.nombre }}.txt
+          gh release upload videos /tmp/error_${{ matrix.nombre }}.txt --clobber
       - uses: actions/upload-artifact@v4
         with:
           name: dur-${{ matrix.nombre }}

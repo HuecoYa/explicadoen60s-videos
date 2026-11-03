@@ -13,7 +13,7 @@ cd "$W"
 [ -f "${n}_words.json" ] || python3 align.py "${n}.mp3" "${n}.txt" "$n"
 N=$(python3 -c "import json;print(int((json.load(open('${n}_words.json'))['dur']+0.4)*30))")
 if [ -n "${RANGO:-}" ]; then python3 "${n}_scene.py" $RANGO; exit 0; fi
-have=$(ls frames/$n/*.png 2>/dev/null | wc -l)
+have=$( (ls frames/$n/ 2>/dev/null || true) | grep -c "\.png$" || true)
 [ "$have" -ge "$((N+1))" ] || python3 "${n}_scene.py" 0 "$N"
 rm -f frames/anchors_${n}_*_1.json; ANCHORS_ONLY=1 python3 "${n}_scene.py" 0 "$N"
 python3 comp.py "$n"
