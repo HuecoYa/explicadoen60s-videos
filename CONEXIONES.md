@@ -1,7 +1,7 @@
 # Estado de las conexiones
 
-_Comprobado: 03/11/2026 00:51_
+_Comprobado: 03/11/2026 01:12_
 
 - ❌ **youtube**: no conectado
-- ❌ **instagram**: El token no ve ninguna cuenta de Instagram: asigna la página y la cuenta al usuario del sistema
+- ✅ **instagram**: cuenta @explicadoen60s
 - ✅ **tiktok**: permiso válido
