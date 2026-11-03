@@ -313,9 +313,63 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "frigorifico-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-03T21:00:00+01:00",
+   "video": "frigorifico_tiktok.mp4",
+   "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
+   "texto": "Dejar la nevera abierta en verano no enfría la cocina: la calienta. ¿Lo habías probado? 👇",
+   "tags": [
+    "nevera",
+    "frigorífico",
+    "física",
+    "hogar",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "frigorifico-youtube",
    "red": "youtube",
    "hora": "2026-11-03T21:00:00+01:00",
+   "video": "frigorifico.mp4",
+   "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
+   "texto": "Dejar la nevera abierta en verano no enfría la cocina: la calienta. ¿Lo habías probado? 👇",
+   "tags": [
+    "nevera",
+    "frigorífico",
+    "física",
+    "hogar",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "frigorifico-instagram",
+   "red": "instagram",
+   "hora": "2026-11-03T22:00:00+01:00",
+   "video": "frigorifico.mp4",
+   "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
+   "texto": "Dejar la nevera abierta en verano no enfría la cocina: la calienta. ¿Lo habías probado? 👇",
+   "tags": [
+    "nevera",
+    "frigorífico",
+    "física",
+    "hogar",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "frigorifico-youtube",
+   "red": "youtube",
+   "hora": "2026-11-03T22:00:00+01:00",
    "video": "frigorifico.mp4",
    "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
    "texto": "Dejar la nevera abierta en verano no enfría la cocina: la calienta. ¿Lo habías probado? 👇",
