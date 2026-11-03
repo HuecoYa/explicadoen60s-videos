@@ -109,6 +109,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "lata-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-03T18:00:00+01:00",
+   "video": "lata_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
+   "texto": "Una lata cerrada aguanta a una persona encima. Vacía, la aplastas con la mano. ¿Por qué? 👇",
+   "tags": [
+    "lata",
+    "inventos",
+    "diseño",
+    "física",
+    "reciclaje"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "rascacielos-youtube",
    "red": "youtube",
    "hora": "2026-11-03T18:00:00+01:00",
@@ -145,6 +163,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "lata-instagram",
+   "red": "instagram",
+   "hora": "2026-11-03T19:00:00+01:00",
+   "video": "lata.mp4",
+   "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
+   "texto": "Una lata cerrada aguanta a una persona encima. Vacía, la aplastas con la mano. ¿Por qué? 👇",
+   "tags": [
+    "lata",
+    "inventos",
+    "diseño",
+    "física",
+    "reciclaje"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "cerradura-tiktok",
    "red": "tiktok",
    "hora": "2026-11-03T19:00:00+01:00",
@@ -175,6 +211,24 @@
     "historia",
     "diseño",
     "curiosidades"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "lata-youtube",
+   "red": "youtube",
+   "hora": "2026-11-03T19:00:00+01:00",
+   "video": "lata.mp4",
+   "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
+   "texto": "Una lata cerrada aguanta a una persona encima. Vacía, la aplastas con la mano. ¿Por qué? 👇",
+   "tags": [
+    "lata",
+    "inventos",
+    "diseño",
+    "física",
+    "reciclaje"
    ],
    "estado": "pendiente",
    "intentos": 0,
