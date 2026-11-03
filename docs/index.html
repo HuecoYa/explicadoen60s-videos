@@ -344,12 +344,12 @@ async function subirVideos(archivos,progreso){
   catch(e){await gh("/git/refs",{method:"POST",body:JSON.stringify({ref:"refs/heads/subida",sha:nc.sha})})}
 }
 
-const FASES={propuesto:"💡 Propuesta",aprobado:"🎙 Generando voz",voz:"🎬 Esperando escena 3D",escena:"⚙️ Renderizando",rehacer:"🔧 Corrigiendo",revision:"👀 Para revisar",programado:"📅 Programado",rechazado:"✖ Descartado"};
+const FASES={propuesto:"💡 Propuesta",aprobado:"🎙 Generando voz",voz:"🎬 Esperando escena 3D",escena:"⚙️ En cola de render",renderizando:"⚙️ Renderizando",rehacer:"🔧 Corrigiendo",revision:"👀 Para revisar",programado:"📅 Programado",rechazado:"✖ Descartado"};
 let PROD=[];
 let PSUB=null;
 async function vistaProd(){
   const est=JSON.parse((await leerArchivo("produccion/estado.json")).txt);PROD=est.videos;
-  const rev=PROD.filter(v=>v.estado==="revision"),pro=PROD.filter(v=>v.estado==="propuesto"),mar=PROD.filter(v=>["aprobado","voz","escena","rehacer"].includes(v.estado)),hech=PROD.filter(v=>["programado","rechazado"].includes(v.estado)).slice(-15).reverse();
+  const rev=PROD.filter(v=>v.estado==="revision"),pro=PROD.filter(v=>v.estado==="propuesto"),mar=PROD.filter(v=>["aprobado","voz","escena","renderizando","rehacer"].includes(v.estado)),hech=PROD.filter(v=>["programado","rechazado"].includes(v.estado)).slice(-15).reverse();
   contarProd(rev.length+pro.length);
   if(!PSUB)PSUB=rev.length?"borradores":"guiones";
   const vid=n=>`https://github.com/${O}/${R}/releases/download/videos/${n}`;
@@ -531,7 +531,7 @@ async function vistaInicio(){
    <div class="card fade"><h3>Próximas publicaciones</h3>${prox.slice(0,5).map(p=>`<div class="row"><span class="hora">${fmtHora(p.hora)}</span><span class="red ${p.red}">${NOMBRE[p.red]}</span><span class="tit"><b>${esc(p.titulo)}</b><small>${fmtDia(p.hora)}</small></span></div>`).join("")||`<div class="empty">Nada programado</div>`}
     <p><button class="btn sec" onclick="ir('cal')">Ver calendario</button></p></div>
    <div class="card fade"><h3>Producción automática</h3>
-    ${[["propuesto","Guiones por revisar"],["aprobado","Generando voz"],["voz","Esperando escena 3D"],["escena","Renderizando"],["revision","Vídeos para revisar"]].map(([k,l])=>`<div class="row"><span class="tit"><b>${l}</b></span><span class="pill">${fases[k]||0}</span></div>`).join("")}
+    ${[["propuesto","Guiones por revisar"],["aprobado","Generando voz"],["voz","Esperando escena 3D"],["renderizando","Renderizando"],["revision","Vídeos para revisar"]].map(([k,l])=>`<div class="row"><span class="tit"><b>${l}</b></span><span class="pill">${fases[k]||0}</span></div>`).join("")}
     <p><button class="btn" onclick="ir('prod')">Ir a Producción</button></p></div>
   </div>`;
   app.querySelectorAll("[data-n]").forEach(el=>contar(el,el.dataset.n===""?null:+el.dataset.n));

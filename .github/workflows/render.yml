@@ -12,7 +12,7 @@ on:
         required: false
 
 concurrency:
-  group: render
+  group: render-${{ github.sha }}
   cancel-in-progress: false
 
 permissions:
@@ -31,13 +31,26 @@ jobs:
         env:
           FORZAR: ${{ inputs.nombres }}
         run: |
-          python3 - <<'PY' >> $GITHUB_OUTPUT
+          git config user.name "programador-explicadoen60s"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 - <<'PY' > /tmp/out.txt
           import json, os
           f = os.environ.get("FORZAR", "").split()
           est = json.load(open("produccion/estado.json"))
           n = f or [v["id"] for v in est["videos"] if v.get("estado") == "escena"]
+          for v in est["videos"]:
+              if v["id"] in n: v["estado"] = "renderizando"   # que otra ejecución no los repita
+          json.dump(est, open("produccion/estado.json", "w"), ensure_ascii=False, indent=1)
           print("nombres=" + json.dumps(n))
           PY
+            git add produccion/estado.json
+            git diff --cached --quiet && break
+            git commit -qm "Producción: renderizando [skip ci]" && git push -q && break
+            sleep 5
+          done
+          cat /tmp/out.txt >> $GITHUB_OUTPUT
 
   render:
     needs: lista
@@ -102,7 +115,11 @@ jobs:
         env:
           NOMBRES: ${{ needs.lista.outputs.nombres }}
         run: |
-          python3 - <<'PY'
+          git config user.name "programador-explicadoen60s"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 - <<'PY'
           import json, os, pathlib
           est = json.load(open("produccion/estado.json"))
           for n in json.loads(os.environ["NOMBRES"]):
@@ -112,12 +129,12 @@ jobs:
                       if d.exists():
                           v["estado"] = "revision"; v["duracion"] = round(float(d.read_text()), 1); v.pop("error", None)
                       else:
-                          v["error"] = "Falló el renderizado (ver Actions → Renderizar vídeos)"
+                          v["estado"] = "escena"; v["error"] = "Falló el renderizado (ver Actions → Renderizar vídeos)"
           json.dump(est, open("produccion/estado.json", "w"), ensure_ascii=False, indent=1)
           PY
-          git config user.name "programador-explicadoen60s"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add produccion/estado.json
-          git diff --cached --quiet && exit 0
-          git commit -qm "Producción: vídeos listos para revisar [skip ci]"
-          for i in 1 2 3 4; do git pull -q --rebase && git push -q && exit 0; sleep 7; done
+            git add produccion/estado.json
+            git diff --cached --quiet && exit 0
+            git commit -qm "Producción: vídeos listos para revisar [skip ci]"
+            git push -q && exit 0; sleep 6
+          done
+          exit 1
