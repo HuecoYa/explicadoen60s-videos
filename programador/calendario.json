@@ -37,6 +37,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "rascacielos-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-03T17:00:00+01:00",
+   "video": "rascacielos_tiktok.mp4",
+   "titulo": "¿Y si construyes un rascacielos? 🏙️ El truco de la bola gigante",
+   "texto": "Hay rascacielos con una bola de 660 toneladas colgada arriba para no marear a nadie. ¿Lo sabías? 👇",
+   "tags": [
+    "rascacielos",
+    "construcción",
+    "ingeniería",
+    "arquitectura",
+    "física"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Christian_Civico"
+  },
+  {
    "id": "tunel-youtube",
    "red": "youtube",
    "hora": "2026-11-03T17:00:00+01:00",
@@ -53,6 +71,42 @@
    "estado": "pendiente",
    "intentos": 0,
    "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "rascacielos-instagram",
+   "red": "instagram",
+   "hora": "2026-11-03T18:00:00+01:00",
+   "video": "rascacielos.mp4",
+   "titulo": "¿Y si construyes un rascacielos? 🏙️ El truco de la bola gigante",
+   "texto": "Hay rascacielos con una bola de 660 toneladas colgada arriba para no marear a nadie. ¿Lo sabías? 👇",
+   "tags": [
+    "rascacielos",
+    "construcción",
+    "ingeniería",
+    "arquitectura",
+    "física"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Christian_Civico"
+  },
+  {
+   "id": "rascacielos-youtube",
+   "red": "youtube",
+   "hora": "2026-11-03T18:00:00+01:00",
+   "video": "rascacielos.mp4",
+   "titulo": "¿Y si construyes un rascacielos? 🏙️ El truco de la bola gigante",
+   "texto": "Hay rascacielos con una bola de 660 toneladas colgada arriba para no marear a nadie. ¿Lo sabías? 👇",
+   "tags": [
+    "rascacielos",
+    "construcción",
+    "ingeniería",
+    "arquitectura",
+    "física"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Christian_Civico"
   }
  ]
 }
