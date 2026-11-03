@@ -1,0 +1,44 @@
+name: Generar voces
+
+# Al aprobar guiones en el panel (cambia produccion/estado.json) genera su voz con ElevenLabs.
+on:
+  push:
+    branches: [main]
+    paths: [produccion/estado.json]
+  workflow_dispatch:
+
+concurrency:
+  group: estado-produccion
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: produccion
+      - name: ¿Hay guiones aprobados?
+        id: hay
+        run: echo "n=$(python3 -c "import json;print(sum(v.get('estado')=='aprobado' for v in json.load(open('produccion/estado.json'))['videos']))")" >> $GITHUB_OUTPUT
+      - if: steps.hay.outputs.n != '0'
+        run: pip install -q requests
+      - if: steps.hay.outputs.n != '0'
+        name: Generar
+        working-directory: produccion
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVEN_VOICE_ID: ${{ vars.ELEVEN_VOICE_ID }}
+        run: python3 voces.py
+      - if: steps.hay.outputs.n != '0'
+        name: Guardar
+        run: |
+          git config user.name "programador-explicadoen60s"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add produccion/estado.json produccion/escenas
+          git diff --cached --quiet && exit 0
+          git commit -qm "Producción: voces generadas [skip ci]"
+          for i in 1 2 3 4; do git pull -q --rebase && git push -q && exit 0; sleep 7; done

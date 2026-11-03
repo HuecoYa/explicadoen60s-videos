@@ -1,0 +1,113 @@
+name: Renderizar vídeos
+
+# Renderiza los vídeos en estado «escena» (escena 3D escrita por Claude) y los deja «en revisión» en el panel.
+on:
+  push:
+    branches: [main]
+    paths: ["produccion/escenas/*_scene.py", "produccion/escenas/*_ov.py"]
+  workflow_dispatch:
+    inputs:
+      nombres:
+        description: "Nombres a renderizar separados por espacios (vacío = todos los que estén en estado «escena»)"
+        required: false
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  lista:
+    runs-on: ubuntu-latest
+    outputs:
+      nombres: ${{ steps.l.outputs.nombres }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: produccion
+      - id: l
+        env:
+          FORZAR: ${{ inputs.nombres }}
+        run: |
+          python3 - <<'PY' >> $GITHUB_OUTPUT
+          import json, os
+          f = os.environ.get("FORZAR", "").split()
+          est = json.load(open("produccion/estado.json"))
+          n = f or [v["id"] for v in est["videos"] if v.get("estado") == "escena"]
+          print("nombres=" + json.dumps(n))
+          PY
+
+  render:
+    needs: lista
+    if: needs.lista.outputs.nombres != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        nombre: ${{ fromJSON(needs.lista.outputs.nombres) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: produccion
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Instalar Blender y herramientas
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libcairo2-dev pkg-config libxrender1 libxi6 libxkbcommon0 libsm6 libxxf86vm1 libxfixes3 libegl1 libgl1 libgl1-mesa-dri libglx-mesa0 > /dev/null
+          pip install -q bpy==5.2.3 numpy pycairo
+          mkdir -p ~/.fonts && cp produccion/fuentes/*.ttf ~/.fonts/ && fc-cache -f > /dev/null
+      - name: Renderizar ${{ matrix.nombre }}
+        run: produccion/producir.sh "${{ matrix.nombre }}"
+      - name: Guardar el vídeo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n="${{ matrix.nombre }}"; W=produccion/trabajo/$n
+          cp $W/${n}_final_c.mp4 /tmp/$n.mp4; cp $W/${n}_tiktok_final_c.mp4 /tmp/${n}_tiktok.mp4; cp $W/${n}_hoja.png /tmp/${n}_hoja.png
+          gh release view videos >/dev/null 2>&1 || gh release create videos --title "Vídeos para publicar" --notes "Almacén de vídeos del programador. No borrar." --latest=false
+          gh release upload videos /tmp/$n.mp4 /tmp/${n}_tiktok.mp4 /tmp/${n}_hoja.png --clobber
+          ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/$n.mp4 > /tmp/dur.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dur-${{ matrix.nombre }}
+          path: /tmp/dur.txt
+
+  cerrar:
+    needs: [lista, render]
+    if: always() && needs.lista.outputs.nombres != '[]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: produccion
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/durs
+      - name: Marcar para revisión
+        env:
+          NOMBRES: ${{ needs.lista.outputs.nombres }}
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib
+          est = json.load(open("produccion/estado.json"))
+          for n in json.loads(os.environ["NOMBRES"]):
+              d = pathlib.Path(f"/tmp/durs/dur-{n}/dur.txt")
+              for v in est["videos"]:
+                  if v["id"] == n:
+                      if d.exists():
+                          v["estado"] = "revision"; v["duracion"] = round(float(d.read_text()), 1); v.pop("error", None)
+                      else:
+                          v["error"] = "Falló el renderizado (ver Actions → Renderizar vídeos)"
+          json.dump(est, open("produccion/estado.json", "w"), ensure_ascii=False, indent=1)
+          PY
+          git config user.name "programador-explicadoen60s"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add produccion/estado.json
+          git diff --cached --quiet && exit 0
+          git commit -qm "Producción: vídeos listos para revisar [skip ci]"
+          for i in 1 2 3 4; do git pull -q --rebase && git push -q && exit 0; sleep 7; done
