@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T03:12:40.612245+00:00",
+ "actualizado": "2026-11-03T04:16:28.123695+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
@@ -39,7 +39,7 @@
     "titulo": "Tu tarjeta calcula un código nuevo en cada compra 💳",
     "fecha": "2026-11-01T17:07:27Z",
     "url": "https://youtube.com/shorts/HuIneB5kG3g",
-    "vistas": 1358,
+    "vistas": 1357,
     "likes": 47,
     "comentarios": 0
    },
@@ -66,7 +66,7 @@
     "titulo": "Así te pilla Hacienda si inventas números (ley de Benford) #shorts",
     "fecha": "2026-10-31T21:03:45Z",
     "url": "https://youtube.com/shorts/csfOC8UIebg",
-    "vistas": 1224,
+    "vistas": 1227,
     "likes": 63,
     "comentarios": 0
    },
@@ -84,7 +84,7 @@
     "titulo": "Este orden de cartas NUNCA ha existido en la historia #shorts",
     "fecha": "2026-10-31T20:31:32Z",
     "url": "https://youtube.com/shorts/1gx47YGrvnA",
-    "vistas": 1143,
+    "vistas": 1148,
     "likes": 24,
     "comentarios": 0
    },
@@ -120,7 +120,7 @@
     "titulo": "RULETA | explicadoen60s",
     "fecha": "2026-10-30T16:50:46Z",
     "url": "https://youtube.com/shorts/ApcW-U0XSUQ",
-    "vistas": 1312,
+    "vistas": 1313,
     "likes": 49,
     "comentarios": 0
    },
@@ -129,7 +129,7 @@
     "titulo": "BOSTEZO | explicadoen60s",
     "fecha": "2026-10-30T16:50:17Z",
     "url": "https://youtube.com/shorts/xlZJu4TfVRw",
-    "vistas": 1309,
+    "vistas": 1308,
     "likes": 43,
     "comentarios": 2
    },
@@ -147,7 +147,7 @@
     "titulo": "PANTALLA TACTIL | explicadoen60s",
     "fecha": "2026-10-30T16:48:22Z",
     "url": "https://youtube.com/shorts/_DXMGg0osc4",
-    "vistas": 1341,
+    "vistas": 1342,
     "likes": 68,
     "comentarios": 0
    },
@@ -156,7 +156,7 @@
     "titulo": "ABS | explicadoen60s",
     "fecha": "2026-10-30T16:47:49Z",
     "url": "https://youtube.com/shorts/ip7vXvvOkuM",
-    "vistas": 1400,
+    "vistas": 1403,
     "likes": 48,
     "comentarios": 0
    },
@@ -386,7 +386,7 @@
   ]
  },
  "errores": {
-  "tiktok": "HTTP 401: {\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"2026110303124688A9D616A86D2A42B895\"},\"data\":{}}"
+  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"202611030416369FCBA32E89EDCB5FF6C0\"}}"
  },
  "historial": [
   {
