@@ -180,11 +180,12 @@
     "física",
     "reciclaje"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-03",
    "aprobado": "2026-11-03T12:56:06.191Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 69.9
+   "duracion": 69.9,
+   "programado_por": "Nikoloz_Lekishvili"
   }
  ]
 }
