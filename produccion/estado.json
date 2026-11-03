@@ -9,9 +9,10 @@
    "tags": [
     "termo"
    ],
-   "estado": "revision",
+   "estado": "rechazado",
    "creado": "2026-11-03",
-   "duracion": 72.6
+   "duracion": 72.6,
+   "nota": "Prueba del sistema de renderizado (vídeo ya publicado)"
   }
  ]
 }
