@@ -1,0 +1,54 @@
+name: Probar voces
+
+on:
+  push:
+    branches: [main]
+    paths: [produccion/voz_pruebas/**, .github/workflows/probar-voces.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {nombre: piper_davefx, pip: "piper-tts soundfile numpy", modelo: "es/es_ES/davefx/medium/es_ES-davefx-medium"}
+          - {nombre: piper_sharvard, pip: "piper-tts soundfile numpy", modelo: "es/es_ES/sharvard/medium/es_ES-sharvard-medium"}
+          - {nombre: kokoro_em_alex, pip: "kokoro>=0.9 soundfile numpy", voz: em_alex}
+          - {nombre: kokoro_em_santa, pip: "kokoro>=0.9 soundfile numpy", voz: em_santa}
+          - {nombre: chatterbox, pip: "chatterbox-tts soundfile numpy"}
+          - {nombre: qwen, pip: "qwen-tts soundfile numpy"}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: produccion/voz_pruebas
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: sudo apt-get install -y -qq espeak-ng ffmpeg > /dev/null
+      - run: pip install -q ${{ matrix.pip }} 2>&1 | tail -5
+      - name: Modelo Piper
+        if: startsWith(matrix.nombre, 'piper')
+        run: |
+          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/${{ matrix.modelo }}
+          curl -sL -o /tmp/m.onnx "$base.onnx"; curl -sL -o /tmp/m.onnx.json "$base.onnx.json"
+      - name: Generar
+        run: |
+          set -o pipefail
+          arg=""; [ -n "${{ matrix.modelo }}" ] && arg=/tmp/m.onnx; [ -n "${{ matrix.voz }}" ] && arg=${{ matrix.voz }}
+          /usr/bin/time -v python produccion/voz_pruebas/probar.py ${{ matrix.nombre }} /tmp/out.wav $arg 2>&1 | tail -40 | tee /tmp/log.txt
+          ffmpeg -loglevel error -y -i /tmp/out.wav -b:a 128k /tmp/voz_${{ matrix.nombre }}.mp3
+      - name: Subir
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view voces-prueba >/dev/null 2>&1 || gh release create voces-prueba --title "Pruebas de voz" --notes "Muestras de voces libres" --latest=false
+          cp /tmp/log.txt /tmp/log_${{ matrix.nombre }}.txt 2>/dev/null || echo "sin log" > /tmp/log_${{ matrix.nombre }}.txt
+          gh release upload voces-prueba /tmp/log_${{ matrix.nombre }}.txt --clobber
+          [ -f /tmp/voz_${{ matrix.nombre }}.mp3 ] && gh release upload voces-prueba /tmp/voz_${{ matrix.nombre }}.mp3 --clobber || true

@@ -1,0 +1,43 @@
+name: Estadísticas
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: programador
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  estadisticas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: programador
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests cryptography
+      - name: Recoger
+        working-directory: programador
+        env:
+          CLAVE_TOKENS: ${{ secrets.CLAVE_TOKENS }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          TT_CLIENT_KEY: ${{ secrets.TT_CLIENT_KEY }}
+          TT_CLIENT_SECRET: ${{ secrets.TT_CLIENT_SECRET }}
+        run: python estadisticas.py
+      - name: Guardar
+        run: |
+          git config user.name "programador-explicadoen60s"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in programador/estadisticas.json programador/tokens.enc; do [ -e "$f" ] && git add "$f"; done
+          git diff --cached --quiet && exit 0
+          git commit -qm "Estadísticas actualizadas [skip ci]"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
