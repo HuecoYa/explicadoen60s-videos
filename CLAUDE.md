@@ -38,7 +38,7 @@ Formatos (mezclarlos; uno de cada tres, más o menos):
 - **C · «¿Y si construyes…?»**: construcción grande en corte bajo tierra o en sección. Cada paso crea un problema («pero…») y el siguiente lo soluciona («así que…»). Ejemplos de temas: piscina, rascacielos, túnel bajo un río, pozo, presa.
 
 Reglas del guion:
-- **Longitud:** 175-210 palabras (≈60-72 s: la voz va a unas 2,9 palabras por segundo, pausas incluidas).
+- **Longitud:** 205-245 palabras (≈60-72 s: la voz va a unas 3,4 palabras por segundo). Escribe con gancho: preguntas, exclamaciones (¡…!) y puntos suspensivos antes de los datos sorprendentes; la puntuación da la entonación.
 - **Estilo:** tuteo, vocabulario de España, frases de 6-12 palabras, sin relleno. Números en letra.
 - **Estructura:** gancho en la primera frase (dato chocante o pregunta); un dato sorprendente en mitad del vídeo; cierre con «Sígueme para más.».
 - **Datos:** comprueba con búsqueda web cada dato técnico, cifra o récord antes de proponerlo.
