@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T12:51:47.813740+00:00",
+ "actualizado": "2026-11-03T12:54:55.915147+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
@@ -11,14 +11,15 @@
    "nombre": "@explicadoen60s",
    "seguidores": 14,
    "videos": 23,
-   "vistas": 0
+   "vistas": 0,
+   "error_vistas": "views: HTTP 400 {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A7RNHmzcvF0lseSWe8iDC3u\"}}"
   },
   "tiktok": {
    "nombre": "explicadoen60s",
    "seguidores": 42,
    "likes": 1923,
    "videos": 28,
-   "vistas": 52746
+   "vistas": 52748
   }
  },
  "videos": {
@@ -28,8 +29,8 @@
     "titulo": "Un airbag se infla en 30 milésimas de segundo 🚗",
     "fecha": "2026-11-03T11:03:14Z",
     "url": "https://youtube.com/shorts/pbocshzw1Mo",
-    "vistas": 443,
-    "likes": 22,
+    "vistas": 485,
+    "likes": 23,
     "comentarios": 0
    },
    {
@@ -37,7 +38,7 @@
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1218,
+    "vistas": 1216,
     "likes": 52,
     "comentarios": 0
    },
@@ -46,7 +47,7 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 1577,
+    "vistas": 1540,
     "likes": 58,
     "comentarios": 0
    },
@@ -82,7 +83,7 @@
     "titulo": "Así te pilla Hacienda si inventas números (ley de Benford) #shorts",
     "fecha": "2026-10-31T21:03:45Z",
     "url": "https://youtube.com/shorts/csfOC8UIebg",
-    "vistas": 1229,
+    "vistas": 1228,
     "likes": 63,
     "comentarios": 0
    },
@@ -100,7 +101,7 @@
     "titulo": "Este orden de cartas NUNCA ha existido en la historia #shorts",
     "fecha": "2026-10-31T20:31:32Z",
     "url": "https://youtube.com/shorts/1gx47YGrvnA",
-    "vistas": 1172,
+    "vistas": 1173,
     "likes": 25,
     "comentarios": 0
    },
@@ -414,7 +415,7 @@
     "titulo": "Si tuvieras que inventar un termo… El calor se escapa por 3 caminos y el termo los bloquea",
     "fecha": "2026-11-03T09:04:10+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703868479748803862?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 757,
+    "vistas": 758,
     "likes": 62,
     "comentarios": 0,
     "compartidos": 1
@@ -434,7 +435,7 @@
     "titulo": "Inventamos el mechero pieza a pieza: chispa, butano, válvula, regulador y chimenea 🔥 ¿Cono",
     "fecha": "2026-11-02T17:06:27+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703621697571802390?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 952,
+    "vistas": 953,
     "likes": 57,
     "comentarios": 0,
     "compartidos": 0
@@ -692,7 +693,7 @@
    "instagram_vistas": 0,
    "instagram_videos": 23,
    "tiktok_seguidores": 42,
-   "tiktok_vistas": 52746,
+   "tiktok_vistas": 52748,
    "tiktok_videos": 28
   }
  ]
