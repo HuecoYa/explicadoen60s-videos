@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T05:18:51.357665+00:00",
+ "actualizado": "2026-11-03T06:17:20.323652+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
@@ -22,7 +22,7 @@
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
     "vistas": 1209,
-    "likes": 52,
+    "likes": 51,
     "comentarios": 0
    },
    {
@@ -30,8 +30,8 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 1465,
-    "likes": 56,
+    "vistas": 1517,
+    "likes": 57,
     "comentarios": 0
    },
    {
@@ -39,7 +39,7 @@
     "titulo": "Tu tarjeta calcula un código nuevo en cada compra 💳",
     "fecha": "2026-11-01T17:07:27Z",
     "url": "https://youtube.com/shorts/HuIneB5kG3g",
-    "vistas": 1357,
+    "vistas": 1360,
     "likes": 47,
     "comentarios": 0
    },
@@ -48,7 +48,7 @@
     "titulo": "¿La máquina de peluches está trucada? 🧸",
     "fecha": "2026-11-01T15:07:27Z",
     "url": "https://youtube.com/shorts/3QeKEF6QIT8",
-    "vistas": 2006,
+    "vistas": 2016,
     "likes": 44,
     "comentarios": 0
    },
@@ -66,7 +66,7 @@
     "titulo": "Así te pilla Hacienda si inventas números (ley de Benford) #shorts",
     "fecha": "2026-10-31T21:03:45Z",
     "url": "https://youtube.com/shorts/csfOC8UIebg",
-    "vistas": 1227,
+    "vistas": 1228,
     "likes": 63,
     "comentarios": 0
    },
@@ -84,8 +84,8 @@
     "titulo": "Este orden de cartas NUNCA ha existido en la historia #shorts",
     "fecha": "2026-10-31T20:31:32Z",
     "url": "https://youtube.com/shorts/1gx47YGrvnA",
-    "vistas": 1148,
-    "likes": 24,
+    "vistas": 1150,
+    "likes": 25,
     "comentarios": 0
    },
    {
@@ -120,7 +120,7 @@
     "titulo": "RULETA | explicadoen60s",
     "fecha": "2026-10-30T16:50:46Z",
     "url": "https://youtube.com/shorts/ApcW-U0XSUQ",
-    "vistas": 1313,
+    "vistas": 1314,
     "likes": 49,
     "comentarios": 0
    },
@@ -192,7 +192,7 @@
     "titulo": "RADARES PARTE 1 | explicadoen60s",
     "fecha": "2026-10-30T16:40:23Z",
     "url": "https://youtube.com/shorts/Ay-O_51j0WA",
-    "vistas": 1630,
+    "vistas": 1631,
     "likes": 25,
     "comentarios": 0
    },
@@ -386,7 +386,7 @@
   ]
  },
  "errores": {
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"202611030518576AB6DC1BCADB3D80C8B1\"}}"
+  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"20261103061728567E690A3408215C103B\"}}"
  },
  "historial": [
   {
