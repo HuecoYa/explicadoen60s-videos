@@ -1,53 +1,90 @@
 name: Generar voces
 
-# Al aprobar guiones en el panel (cambia produccion/estado.json) genera su voz con la voz del dueño (Qwen3-TTS, gratis).
+# Al aprobar guiones en el panel genera su voz con la voz del dueño (Qwen3-TTS, gratis). Una máquina por guion, en paralelo.
 on:
   push:
     branches: [main]
-    paths: [produccion/estado.json]
+    paths: [produccion/estado.json, .github/workflows/voz.yml]
   workflow_dispatch:
 
 concurrency:
-  group: estado-produccion
+  group: voces
   cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
-  voz:
+  lista:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    outputs:
+      ids: ${{ steps.l.outputs.ids }}
     steps:
       - uses: actions/checkout@v4
         with:
           sparse-checkout: produccion
-      - name: ¿Hay guiones aprobados?
-        id: hay
-        run: echo "n=$(python3 -c "import json;print(sum(v.get('estado')=='aprobado' for v in json.load(open('produccion/estado.json'))['videos']))")" >> $GITHUB_OUTPUT
-      - if: steps.hay.outputs.n != '0'
-        uses: actions/setup-python@v5
+      - id: l
+        run: echo "ids=$(cd produccion && python3 voces.py lista)" >> $GITHUB_OUTPUT
+
+  voz:
+    needs: lista
+    if: needs.lista.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        id: ${{ fromJSON(needs.lista.outputs.ids) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: produccion
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - if: steps.hay.outputs.n != '0'
-        uses: actions/cache@v4
+      - uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
           key: qwen3-tts-base-1.7b
-      - if: steps.hay.outputs.n != '0'
-        run: |
+      - run: |
           sudo apt-get install -y -qq ffmpeg sox > /dev/null
           pip install -q qwen-tts soundfile numpy
-      - if: steps.hay.outputs.n != '0'
-        name: Generar con tu voz
+      - name: Voz de ${{ matrix.id }}
         working-directory: produccion
-        run: python3 voces.py
-      - if: steps.hay.outputs.n != '0'
-        name: Guardar
+        run: python3 voces.py generar "${{ matrix.id }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voz-${{ matrix.id }}
+          path: |
+            produccion/escenas/${{ matrix.id }}.mp3
+            produccion/escenas/${{ matrix.id }}.txt
+
+  guardar:
+    needs: [lista, voz]
+    if: always() && needs.lista.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: produccion
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/voces
+          merge-multiple: true
+      - name: Guardar voces
+        env:
+          IDS: ${{ needs.lista.outputs.ids }}
         run: |
           git config user.name "programador-explicadoen60s"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add produccion/estado.json produccion/escenas
-          git diff --cached --quiet && exit 0
-          git commit -qm "Producción: voces generadas [skip ci]"
-          for i in 1 2 3 4; do git pull -q --rebase && git push -q && exit 0; sleep 7; done
+          ids=$(python3 -c "import json,os;print(' '.join(json.loads(os.environ['IDS'])))")
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp /tmp/voces/* produccion/escenas/ 2>/dev/null || true
+            (cd produccion && python3 voces.py marcar $ids)
+            git add produccion/escenas produccion/estado.json
+            git diff --cached --quiet && exit 0
+            git commit -qm "Producción: voces generadas [skip ci]"
+            git push -q && exit 0; sleep 6
+          done
+          exit 1
