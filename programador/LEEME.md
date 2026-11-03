@@ -76,7 +76,7 @@ Además, el ID de cliente de YouTube, el ID de la app de Instagram y el client k
 Repite los pasos con las tres redes.
 
 ## Panel web
-Todo se gestiona desde **<https://explicadoen60s.github.io/panel.html>**, también desde el móvil:
+Todo se gestiona desde **<https://explicadoen60s.github.io/>**, también desde el móvil:
 - **Calendario:** cambiar hora, publicar ya o quitar.
 - **Nuevo vídeo:** subir el vídeo y elegir redes y horas. Propone el siguiente hueco libre.
 - **Avisos:** los borradores de TikTok con su texto para copiar, y los errores.

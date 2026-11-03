@@ -1,9 +1,639 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Programador explicadoen60s</title><link rel="stylesheet" href="estilo.css"></head><body><main>
-<span class="tag">explicadoen60s</span>
-<h1>Programador de publicaciones</h1>
-<p>Herramienta personal que publica en las cuentas de <strong>@explicadoen60s</strong> (TikTok, Instagram y YouTube) los vídeos que su autor programa. Solo la usa el propietario de esas cuentas y solo publica contenido creado por él.</p>
-<div class="card"><p><a href="panel.html">Panel</a> · <a href="conectar.html">Conectar cuentas</a> · <a href="https://github.com/explicadoen60s/explicadoen60s.github.io/blob/main/CALENDARIO.md">Ver calendario</a></p></div>
-<p><a href="privacidad.html">Política de privacidad</a> · <a href="terminos.html">Términos de servicio</a></p>
-<p>Contacto: explicadoen60s.cxn@gmail.com</p>
-</main></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Panel explicadoen60s</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0c0d11">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<style>
+:root{--bg:#0c0d11;--bg2:#111319;--card:#161820;--card2:#1c1f29;--bd:#272a36;--fg:#f3f2ee;--mut:#9a9aa6;--faint:#5d5f6c;
+--acc:#ffd23f;--acc2:#ffb703;--acc-fg:#14141a;--ok:#2fbf71;--err:#ef5350;--warn:#f0a020;--chip:#232633;
+--tiktok:#3987e5;--instagram:#d55181;--youtube:#c98500;--r:18px;--sh:0 10px 30px -12px rgba(0,0,0,.6)}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:15px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh;
+ background:radial-gradient(1200px 600px at 85% -10%,rgba(255,210,63,.09),transparent 60%),radial-gradient(900px 500px at -10% 20%,rgba(57,135,229,.08),transparent 60%),var(--bg)}
+a{color:var(--acc)}
+h1,h2,h3,.disp{font-family:"Space Grotesk",Inter,sans-serif;letter-spacing:-.02em}
+/* estructura */
+.shell{display:flex;min-height:100vh}
+aside{width:236px;flex:none;position:sticky;top:0;height:100vh;padding:22px 14px;border-right:1px solid var(--bd);background:rgba(17,19,25,.7);backdrop-filter:blur(12px);display:flex;flex-direction:column;gap:4px}
+.brand{display:flex;align-items:center;gap:10px;padding:4px 10px 18px}
+.brand .logo{width:38px;height:38px;border-radius:11px;background:linear-gradient(145deg,#ffe27a,var(--acc) 50%,var(--acc2));color:var(--acc-fg);display:grid;place-items:center;font:800 15px "Space Grotesk";box-shadow:0 6px 18px -6px rgba(255,210,63,.6),inset 0 -3px 0 rgba(0,0,0,.15)}
+.brand b{font:700 16px "Space Grotesk";display:block;line-height:1.1}.brand small{color:var(--mut);font-size:12px}
+nav#tabs{display:flex;flex-direction:column;gap:3px}
+nav#tabs button{display:flex;align-items:center;gap:11px;border:0;background:none;color:var(--mut);font:600 14px Inter;padding:10px 12px;border-radius:12px;cursor:pointer;text-align:left;transition:.15s}
+nav#tabs button:hover{background:var(--card);color:var(--fg)}
+nav#tabs button.on{background:linear-gradient(90deg,rgba(255,210,63,.16),rgba(255,210,63,.04));color:var(--fg);box-shadow:inset 3px 0 0 var(--acc)}
+nav#tabs .ic{width:20px;text-align:center;font-size:16px}
+nav#tabs .n{margin-left:auto;background:var(--err);color:#fff;border-radius:10px;font-size:11px;padding:1px 7px}
+.side-foot{margin-top:auto;padding:10px;color:var(--faint);font-size:12px}
+.main{flex:1;min-width:0}
+.topbar{display:none}
+main{max-width:1080px;margin:0 auto;padding:28px 28px 90px}
+.ph{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:0 0 18px;flex-wrap:wrap}
+.ph h1{font-size:28px;margin:0}.ph p{margin:2px 0 0;color:var(--mut)}
+@media (max-width:860px){
+ aside{display:none}
+ .topbar{display:block;position:sticky;top:0;z-index:20;background:rgba(12,13,17,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--bd)}
+ .topbar .brand{padding:12px 16px 6px}
+ .topbar nav#tabs2{display:flex;overflow-x:auto;gap:4px;padding:0 10px 10px;scrollbar-width:none}
+ .topbar nav#tabs2 button{border:0;background:var(--card);color:var(--mut);font:600 13px Inter;padding:8px 12px;border-radius:999px;white-space:nowrap}
+ .topbar nav#tabs2 button.on{background:var(--acc);color:var(--acc-fg)}
+ .topbar nav#tabs2 .n{background:var(--err);color:#fff;border-radius:9px;font-size:10px;padding:0 5px;margin-left:4px}
+ main{padding:16px 16px 90px}.ph h1{font-size:23px}
+}
+/* piezas */
+.card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--bd);border-radius:var(--r);padding:18px;margin:0 0 16px;box-shadow:var(--sh)}
+.card h3{margin:0 0 12px;font-size:16px}
+.grid{display:grid;gap:16px;margin-bottom:16px}.grid>.card{margin:0}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:860px){.g2,.g3{grid-template-columns:1fr}.g4{grid-template-columns:1fr 1fr}}
+.hero{position:relative;overflow:hidden;min-height:300px;padding:0;background:radial-gradient(500px 300px at 70% 50%,rgba(255,210,63,.18),transparent 70%),linear-gradient(160deg,#1b1e29,#12141b)}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:pan-y}
+.hero .txt{position:relative;z-index:1;padding:26px;max-width:46%;pointer-events:none}
+.hero .kick{color:var(--acc);font:700 12px Inter;letter-spacing:.12em;text-transform:uppercase}
+.hero h2{font-size:32px;line-height:1.05;margin:8px 0}
+.hero p{color:var(--mut);margin:0}
+@media (max-width:860px){.hero{min-height:400px}.hero .txt{max-width:100%;padding:20px}.hero h2{font-size:26px}}
+.kpi{padding:16px}.kpi .lab{color:var(--mut);font-size:13px;font-weight:600}
+.kpi .val{font:700 30px "Space Grotesk";margin-top:4px;font-variant-numeric:tabular-nums}
+.kpi .sub{color:var(--faint);font-size:12px}
+.plat{position:relative;transform-style:preserve-3d;transition:transform .2s ease;will-change:transform}
+.plat .head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.plat .orb{width:34px;height:34px;border-radius:50%;flex:none;box-shadow:inset -5px -6px 10px rgba(0,0,0,.35),inset 4px 4px 8px rgba(255,255,255,.25),0 6px 16px -4px var(--c)}
+.plat .big{font:700 34px "Space Grotesk";font-variant-numeric:tabular-nums;transform:translateZ(30px)}
+.plat .row3{display:flex;gap:16px;color:var(--mut);font-size:13px;margin-top:4px}.plat .row3 b{color:var(--fg)}
+.plat svg{display:block;width:100%;height:46px;margin-top:10px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font-size:12px;font-weight:600;background:var(--chip);color:var(--mut)}
+.red{display:inline-block;font-size:11px;font-weight:700;border-radius:7px;padding:2px 8px;color:#fff;white-space:nowrap}
+.red.tiktok{background:#000;box-shadow:inset 0 0 0 1px #333}.red.instagram{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af)}.red.youtube{background:#e62117}
+.row{display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px solid var(--bd)}.row:first-child{border-top:0}
+.hora{font:700 15px "Space Grotesk";font-variant-numeric:tabular-nums;width:48px;flex:none}
+.tit{flex:1;min-width:0}.tit b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}.tit small{color:var(--mut)}
+.est{font-size:12px;border-radius:999px;padding:2px 9px;background:var(--chip);white-space:nowrap}
+.est.publicado{color:var(--ok)}.est.error,.est.caducado{color:var(--err)}.est.borrador{color:var(--warn)}
+.acc{display:flex;gap:6px;flex:none}
+.ib{border:1px solid var(--bd);background:var(--card2);color:var(--fg);border-radius:10px;width:36px;height:36px;cursor:pointer;font-size:15px;transition:.15s}
+.ib:hover{border-color:var(--acc);transform:translateY(-1px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:0;border-radius:12px;background:linear-gradient(180deg,#ffe066,var(--acc));color:var(--acc-fg);font:700 14px Inter;padding:11px 16px;cursor:pointer;text-decoration:none;box-shadow:0 6px 16px -8px rgba(255,210,63,.7),inset 0 -2px 0 rgba(0,0,0,.12);transition:.15s}
+.btn:hover{transform:translateY(-1px)}.btn:active{transform:translateY(1px)}
+.btn.sec{background:var(--chip);color:var(--fg);box-shadow:none}
+.btn:disabled{opacity:.5;cursor:default;transform:none}
+label{display:block;font-weight:600;font-size:13px;margin:14px 0 6px;color:var(--mut)}
+input,textarea,select{width:100%;font:15px Inter;padding:11px 13px;border:1px solid var(--bd);border-radius:12px;background:var(--bg2);color:var(--fg);color-scheme:dark}
+input:focus,textarea:focus{outline:2px solid rgba(255,210,63,.5);border-color:transparent}
+textarea{min-height:90px;resize:vertical}
+.net{display:grid;grid-template-columns:auto auto minmax(0,1fr);gap:10px;align-items:center;margin:8px 0}
+.net input[type=checkbox]{width:20px;height:20px;accent-color:var(--acc)}.net input[type=datetime-local]{min-width:0}
+.mut{color:var(--mut);font-size:13px}
+.msg{padding:11px 13px;border-radius:12px;margin:10px 0;font-size:14px}
+.msg.ok{background:rgba(47,191,113,.14)}.msg.err{background:rgba(239,83,80,.14)}.msg.warn{background:rgba(240,160,32,.14)}
+pre{white-space:pre-wrap;background:var(--bg2);border:1px solid var(--bd);border-radius:12px;padding:12px;font:13px/1.45 ui-monospace,monospace;margin:8px 0}
+.empty{color:var(--mut);text-align:center;padding:34px 0}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--bd);background:var(--card);color:var(--mut);border-radius:999px;padding:7px 13px;font:600 13px Inter;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+.chip.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mut);margin:0 0 6px}.legend span{display:inline-flex;align-items:center;gap:6px}.legend i{width:10px;height:10px;border-radius:3px}
+.chart{position:relative}.chart svg{display:block;width:100%;overflow:visible}
+.chart text{fill:var(--mut);font:11px Inter}
+#tip{position:fixed;z-index:50;pointer-events:none;background:#0b0c10f0;border:1px solid var(--bd);border-radius:10px;padding:8px 10px;font-size:12px;box-shadow:var(--sh);display:none;max-width:260px}
+#tip b{font-weight:700}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{color:var(--mut);font-weight:600;text-align:left;padding:8px 6px;border-bottom:1px solid var(--bd);cursor:pointer;white-space:nowrap;user-select:none}
+th.num,td.num{text-align:right;font-variant-numeric:tabular-nums}
+td{padding:9px 6px;border-bottom:1px solid var(--bd)}
+td .t{max-width:340px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.tablewrap{overflow-x:auto}
+.fade{animation:fade .35s ease both}@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.skel{height:14px;border-radius:7px;background:linear-gradient(90deg,var(--card2),#262a36,var(--card2));background-size:200% 100%;animation:sk 1.2s infinite}@keyframes sk{to{background-position:-200% 0}}
+video{width:100%;max-width:300px;display:block;margin:10px auto;border-radius:14px;background:#000;aspect-ratio:9/16}
+body.sinsesion aside,body.sinsesion .topbar{display:none}
+.login{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:24px 0}.login-card{max-width:420px;width:100%;margin:0 auto}
+.subtabs{display:flex;gap:6px;margin:0 0 16px;flex-wrap:wrap}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+ <aside>
+  <div class="brand"><div class="logo">60s</div><div><b>explicadoen60s</b><small>Panel de control</small></div></div>
+  <nav id="tabs"></nav>
+  <div class="side-foot" id="foot"></div>
+ </aside>
+ <div class="main">
+  <div class="topbar"><div class="brand"><div class="logo">60s</div><div><b>explicadoen60s</b><small>Panel de control</small></div></div><nav id="tabs2"></nav></div>
+  <main id="app"><div class="empty">Cargando…</div></main>
+ </div>
+</div>
+<div id="tip"></div>
+<script>
+
+const O="explicadoen60s",R="explicadoen60s.github.io",API=`https://api.github.com/repos/${O}/${R}`;
+const TZ="Europe/Madrid";
+const HUECOS={tiktok:[10,13,16,18,21],instagram:[10,18],youtube:[12,16]};
+const REDES=["tiktok","instagram","youtube"];
+const EST={pendiente:"⏳ Pendiente",publicado:"✅ Publicado",borrador:"📲 En tu bandeja",error:"❌ Error",caducado:"⚠️ No salió"};
+let tok="";try{tok=localStorage.getItem("ghtoken")||""}catch(e){}
+let tab="cal",cal=null,calSha=null,TEXTOS=[];
+const $=s=>document.querySelector(s); let app=$("#app");
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// ── GitHub ──
+async function gh(path,opt={}){
+  const r=await fetch(path.startsWith("http")?path:API+path,{...opt,headers:{Authorization:`Bearer ${tok}`,Accept:"application/vnd.github+json",...(opt.headers||{})}});
+  if(!r.ok){const t=await r.text();const e=new Error(`GitHub ${r.status}: ${t.slice(0,200)}`);e.status=r.status;throw e}
+  return r.status===204?null:r.json();
+}
+const b64e=s=>btoa(unescape(encodeURIComponent(s))), b64d=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+async function leerArchivo(p){const j=await gh(`/contents/${p}?ref=main&t=${Date.now()}`);return {txt:b64d(j.content),sha:j.sha}}
+async function cargarCal(){const f=await leerArchivo("programador/calendario.json");cal=JSON.parse(f.txt);calSha=f.sha;return cal}
+async function guardarCal(cambio,msg){
+  for(let i=0;i<4;i++){
+    await cargarCal();cambio(cal);
+    cal.posts.sort((a,b)=>new Date(a.hora)-new Date(b.hora)||a.red.localeCompare(b.red));
+    try{const j=await gh("/contents/programador/calendario.json",{method:"PUT",body:JSON.stringify({message:msg+" [skip ci]",content:b64e(JSON.stringify(cal,null,1)+"\n"),sha:calSha,branch:"main"})});calSha=j.content.sha;return}
+    catch(e){if(e.status!==409&&e.status!==422)throw e;await new Promise(r=>setTimeout(r,1500))}
+  }
+  throw new Error("No se pudo guardar: el calendario cambió a la vez. Vuelve a intentarlo.");
+}
+async function editarJson(ruta,cambio,msg){
+  for(let i=0;i<4;i++){
+    const f=await leerArchivo(ruta),d=JSON.parse(f.txt);cambio(d);
+    try{await gh(`/contents/${ruta}`,{method:"PUT",body:JSON.stringify({message:msg,content:b64e(JSON.stringify(d,null,1)+"\n"),sha:f.sha,branch:"main"})});return d}
+    catch(e){if(e.status!==409&&e.status!==422)throw e;await new Promise(r=>setTimeout(r,1500))}
+  }
+  throw new Error("No se pudo guardar: cambió a la vez. Vuelve a intentarlo.");
+}
+async function lanzar(probar=false){await gh("/actions/workflows/publicar.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main",inputs:{probar}})})}
+
+// ── Fechas (hora de Madrid) ──
+function partes(d){const o={};new Intl.DateTimeFormat("en-GB",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(d).forEach(p=>o[p.type]=p.value);return o}
+function aLocal(iso){const p=partes(new Date(iso));return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`}
+function aIso(local){ // "YYYY-MM-DDTHH:MM" en Madrid -> ISO con desfase
+  const [d,t]=local.split("T"),[Y,M,D]=d.split("-").map(Number),[h,m]=t.split(":").map(Number);
+  const utc=Date.UTC(Y,M-1,D,h,m),p=partes(new Date(utc));
+  const off=Math.round((Date.UTC(+p.year,p.month-1,+p.day,+p.hour,+p.minute)-utc)/60000);
+  const s=off>=0?"+":"-",a=Math.abs(off);
+  return `${d}T${t}:00${s}${String(a/60|0).padStart(2,"0")}:${String(a%60).padStart(2,"0")}`;
+}
+const fmtDia=iso=>new Date(iso).toLocaleDateString("es-ES",{timeZone:TZ,weekday:"long",day:"numeric",month:"long"});
+const fmtHora=iso=>new Date(iso).toLocaleTimeString("es-ES",{timeZone:TZ,hour:"2-digit",minute:"2-digit"});
+function siguienteHueco(red,ocupados){
+  const ahora=Date.now()+15*60000;
+  for(let d=0;d<30;d++){
+    const base=new Date(Date.now()+d*864e5),p=partes(base);
+    for(const h of HUECOS[red]){
+      const loc=`${p.year}-${p.month}-${p.day}T${String(h).padStart(2,"0")}:00`,iso=aIso(loc);
+      if(new Date(iso)<ahora)continue;
+      if(!ocupados.some(x=>x.red===red&&Math.abs(new Date(x.hora)-new Date(iso))<30*60000))return loc;
+    }
+  }
+}
+
+// ── Vistas ──
+// ════════════ Inicio de sesión ════════════
+const USUARIOS=["Nikoloz_Lekishvili","Christian_Civico"];
+let usuario="";try{usuario=localStorage.getItem("usuario")||""}catch(e){}
+if(!usuario)tok="";
+const enc=new TextEncoder(),dec=new TextDecoder();
+const b64a=a=>btoa(String.fromCharCode(...new Uint8Array(a))),unb64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function claveDe(user,pass,salt){const k=await crypto.subtle.importKey("raw",enc.encode(user.toLowerCase()+"\n"+pass),"PBKDF2",false,["deriveKey"]);
+  return crypto.subtle.deriveKey({name:"PBKDF2",salt,iterations:600000,hash:"SHA-256"},k,{name:"AES-GCM",length:256},false,["encrypt","decrypt"])}
+async function cifrar(user,pass,texto){const salt=crypto.getRandomValues(new Uint8Array(16)),iv=crypto.getRandomValues(new Uint8Array(12));
+  const k=await claveDe(user,pass,salt);return {salt:b64a(salt),iv:b64a(iv),ct:b64a(await crypto.subtle.encrypt({name:"AES-GCM",iv},k,enc.encode(texto)))}}
+async function descifrar(user,pass,o){const k=await claveDe(user,pass,unb64(o.salt));return dec.decode(await crypto.subtle.decrypt({name:"AES-GCM",iv:unb64(o.iv)},k,unb64(o.ct)))}
+async function leerAcceso(){try{const r=await fetch("acceso.json?t="+Date.now(),{cache:"no-store"});return r.ok?await r.json():null}catch(e){return null}}
+function marcoLogin(html){document.body.classList.add("sinsesion");$("#app").innerHTML=`<div class="login fade"><div class="card login-card">
+  <div class="brand" style="padding:0 0 14px"><div class="logo">60s</div><div><b>explicadoen60s</b><small>Panel de control</small></div></div>${html}</div>
+  <p class="mut" style="text-align:center;max-width:420px;margin:14px auto">Herramienta privada de @explicadoen60s para programar y publicar sus propios vídeos en TikTok, Instagram y YouTube.<br><a href="privacidad.html">Privacidad</a> · <a href="terminos.html">Términos</a></p></div>`;app=$("#app")}
+function pantallaToken(err){
+  marcoLogin(`<h2 style="margin:0 0 4px">Iniciar sesión</h2><p class="mut" style="margin:0 0 6px">Entra con tu usuario del equipo.</p>
+  ${err?`<div class="msg err">${esc(err)}</div>`:""}
+  <label for="lu">Usuario</label><input id="lu" autocomplete="username" value="${esc(usuario)}" placeholder="Nombre_Apellido">
+  <label for="lp">Contraseña</label><input id="lp" type="password" autocomplete="current-password">
+  <p><button class="btn" id="entrar" style="width:100%">Entrar</button></p>
+  <p class="mut" style="text-align:center;margin:0"><a href="#" id="cfg">Configurar el acceso (primera vez o clave de GitHub caducada)</a></p>`);
+  const go=async()=>{const u=USUARIOS.find(x=>x.toLowerCase()===$("#lu").value.trim().toLowerCase()),pw=$("#lp").value;
+    if(!u)return pantallaToken("Ese usuario no existe.");
+    $("#entrar").disabled=true;$("#entrar").textContent="Comprobando…";
+    const acc=await leerAcceso();if(!acc||!acc.usuarios?.[u])return pantallaConfig("Primero hay que configurar el acceso (solo una vez).");
+    try{tok=await descifrar(u,pw,acc.usuarios[u])}catch(e){usuario=u;return pantallaToken("Contraseña incorrecta.")}
+    try{await cargarCal()}catch(e){return pantallaConfig("La clave de GitHub guardada ya no funciona (¿caducó?). Configura una nueva.")}
+    usuario=u;try{localStorage.setItem("ghtoken",tok);localStorage.setItem("usuario",u)}catch(e){}
+    document.body.classList.remove("sinsesion");ir("inicio")};
+  $("#entrar").onclick=go;$("#lp").onkeydown=e=>{if(e.key==="Enter")go()};
+  $("#cfg").onclick=e=>{e.preventDefault();pantallaConfig()};
+}
+function pantallaConfig(err){
+  marcoLogin(`<h2 style="margin:0 0 4px">Configurar el acceso</h2>
+  <p class="mut">Se hace una sola vez. La clave de GitHub se guarda <b>cifrada con la contraseña</b>: sin la contraseña no sirve de nada.</p>
+  ${err?`<div class="msg warn">${esc(err)}</div>`:""}
+  <ol class="mut" style="padding-left:18px"><li>Con la cuenta <b>explicadoen60s</b>, abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">crear token</a>.</li>
+  <li>Caducidad: la más larga posible. Repository access: <b>Only select repositories</b> → <i>${R}</i>.</li>
+  <li>Permissions → <b>Contents</b>, <b>Actions</b> e <b>Issues</b>: <i>Read and write</i>. Genera y copia.</li></ol>
+  <label for="ct">Token de GitHub</label><input id="ct" type="password" placeholder="github_pat_…" autocomplete="off">
+  <label for="cp1">Contraseña del panel (para los dos usuarios)</label><input id="cp1" type="password" autocomplete="new-password">
+  <label for="cp2">Repite la contraseña</label><input id="cp2" type="password" autocomplete="new-password">
+  <label for="cu">¿Quién eres?</label><select id="cu">${USUARIOS.map(u=>`<option ${u===usuario?"selected":""}>${u}</option>`).join("")}</select>
+  <div id="cmsg"></div><p><button class="btn" id="cgo" style="width:100%">Guardar y entrar</button></p>
+  <p class="mut" style="text-align:center;margin:0"><a href="#" id="volver">Volver</a></p>`);
+  $("#volver").onclick=e=>{e.preventDefault();pantallaToken()};
+  $("#cgo").onclick=async()=>{const t=$("#ct").value.trim(),p1=$("#cp1").value,p2=$("#cp2").value,u=$("#cu").value,m=x=>$("#cmsg").innerHTML=`<div class="msg err">${esc(x)}</div>`;
+    if(!t)return m("Falta el token.");if(p1.length<8)return m("La contraseña es demasiado corta.");if(p1!==p2)return m("Las contraseñas no coinciden.");
+    $("#cgo").disabled=true;$("#cgo").textContent="Cifrando y guardando…";tok=t;
+    try{await cargarCal();
+      const usuarios={};for(const x of USUARIOS)usuarios[x]=await cifrar(x,p1,t);
+      let sha;try{sha=(await gh(`/contents/docs/acceso.json?ref=main`)).sha}catch(e){}
+      await gh("/contents/docs/acceso.json",{method:"PUT",body:JSON.stringify({message:"Panel: acceso configurado [skip ci]",content:b64e(JSON.stringify({version:1,iteraciones:600000,usuarios},null,1)+"\n"),branch:"main",...(sha?{sha}:{})})});
+      usuario=u;try{localStorage.setItem("ghtoken",t);localStorage.setItem("usuario",u)}catch(e){}
+      document.body.classList.remove("sinsesion");ir("inicio")}
+    catch(e){$("#cgo").disabled=false;$("#cgo").textContent="Guardar y entrar";m(e.status===401?"El token no es válido.":e.message)}};
+}
+
+async function vistaCal(){
+  await cargarCal();
+  const desde=Date.now()-2*864e5, posts=[...cal.posts].sort((a,b)=>new Date(a.hora)-new Date(b.hora)).filter(p=>p.estado==="pendiente"||new Date(p.hora)>desde);
+  if(!posts.length){app.innerHTML=`<div class="card empty">No hay nada programado.<br><br><button class="btn" onclick="ir('nuevo')">+ Programar un vídeo</button></div>`;return}
+  let html="",dia="";
+  for(const p of posts){
+    const d=fmtDia(p.hora);
+    if(d!==dia){html+=(dia?"</div>":"")+`<h2>${d}</h2><div class="card">`;dia=d}
+    const url=p.resultado&&p.resultado.url;
+    html+=`<div class="row"><span class="hora">${fmtHora(p.hora)}</span><span class="red ${p.red}">${p.red}</span>
+    <span class="tit"><b>${esc(p.titulo)}</b><small><span class="est ${p.estado}">${EST[p.estado]||p.estado}</span>${url?` · <a href="${esc(url)}" target="_blank">ver</a>`:""}${p.ultimo_error&&p.estado!=="publicado"?` · <span title="${esc(p.ultimo_error)}">⚠ ${esc(p.ultimo_error.slice(0,60))}</span>`:""}</small></span>
+    <span class="acc">${p.estado!=="publicado"&&p.estado!=="borrador"?`<button class="ib" title="Cambiar hora" onclick="mover('${p.id}')">🕑</button><button class="ib" title="Publicar ya" onclick="yaa('${p.id}')">▶</button><button class="ib" title="Quitar" onclick="quitar('${p.id}')">🗑</button>`:""}</span></div>`;
+  }
+  app.innerHTML=html+"</div>";
+}
+async function mover(id){
+  const p=cal.posts.find(x=>x.id===id);const v=prompt("Nueva fecha y hora (AAAA-MM-DD HH:MM, hora de Madrid):",aLocal(p.hora).replace("T"," "));
+  if(!v)return;const m=v.trim().match(/^(\d{4}-\d{2}-\d{2})[ T](\d{1,2}):(\d{2})$/);if(!m)return alert("Formato no válido");
+  const loc=`${m[1]}T${m[2].padStart(2,"0")}:${m[3]}`;
+  await accion(()=>guardarCal(c=>{const q=c.posts.find(x=>x.id===id);q.hora=aIso(loc);q.estado="pendiente";q.intentos=0;delete q.ultimo_error},`Panel: mover ${id}`));
+}
+async function quitar(id){if(!confirm("¿Quitar esta publicación del calendario?"))return;await accion(()=>guardarCal(c=>{c.posts=c.posts.filter(x=>x.id!==id)},`Panel: quitar ${id}`))}
+async function yaa(id){if(!confirm("¿Publicar ahora mismo?"))return;
+  await accion(async()=>{await guardarCal(c=>{const q=c.posts.find(x=>x.id===id);q.hora=new Date(Date.now()-60000).toISOString().replace(/\.\d+Z$/,"+00:00");q.estado="pendiente";q.intentos=0},`Panel: publicar ya ${id}`);await lanzar(false)},"Enviado. Se publicará en 1-3 minutos.")}
+async function accion(fn,ok){try{await fn();if(ok)alert(ok)}catch(e){alert(e.message)}ir(tab)}
+
+function vistaNuevo(){
+  app.innerHTML=`<div class="card">
+  <label for="ti">Título</label><input id="ti" maxlength="100" placeholder="Así funciona un termo ☕">
+  <label for="tx">Descripción</label><textarea id="tx" placeholder="Texto del post. Los hashtags se añaden solos."></textarea>
+  <label for="tg">Hashtags (separados por comas, sin #)</label><input id="tg" placeholder="termo, física, curiosidades">
+  <div class="grid2"><div><label for="v1">Vídeo (Instagram y YouTube)</label><input id="v1" type="file" accept="video/mp4"></div>
+  <div><label for="v2">Vídeo con música para TikTok <span class="mut">(opcional)</span></label><input id="v2" type="file" accept="video/mp4"></div></div>
+  <label>Dónde y cuándo (hora de Madrid)</label>
+  ${REDES.map(r=>`<div class="net"><input type="checkbox" id="c_${r}" checked><span class="red ${r}">${r}</span><input type="datetime-local" id="h_${r}"></div>`).join("")}
+  <p class="mut">Se rellenan solos con el siguiente hueco libre de tu horario. Puedes cambiarlos.</p>
+  <div id="nmsg"></div>
+  <button class="btn" id="prog">Programar</button></div>`;
+  cargarCal().then(()=>REDES.forEach(r=>{$("#h_"+r).value=siguienteHueco(r,cal.posts)||""})).catch(()=>{});
+  $("#prog").onclick=programar;
+}
+function slug(t){return t.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_|_$/g,"").slice(0,40)||"video"}
+async function programar(){
+  const msg=(t,c="ok")=>$("#nmsg").innerHTML=`<div class="msg ${c}">${t}</div>`;
+  const titulo=$("#ti").value.trim(),texto=$("#tx").value.trim(),tags=$("#tg").value.split(",").map(s=>s.trim().replace(/^#/,"")).filter(Boolean);
+  const v1=$("#v1").files[0],v2=$("#v2").files[0];
+  const redes=REDES.filter(r=>$("#c_"+r).checked);
+  if(!titulo||!texto)return msg("Falta el título o la descripción.","err");
+  if(!v1)return msg("Falta el vídeo.","err");
+  if(!redes.length)return msg("Elige al menos una red.","err");
+  for(const r of redes)if(!$("#h_"+r).value)return msg(`Falta la hora de ${r}.`,"err");
+  const base=slug(titulo)+"_"+Date.now().toString(36).slice(-4), n1=base+".mp4", n2=base+"_tiktok.mp4";
+  const subir={[n1]:v1};if(v2&&redes.includes("tiktok"))subir[n2]=v2;
+  $("#prog").disabled=true;
+  try{
+    msg("Subiendo el vídeo… no cierres la página.");
+    await subirVideos(subir,t=>msg(t));
+    msg("Guardando en el calendario…");
+    await guardarCal(c=>{for(const r of redes){c.posts.push({id:`${base}-${r}`,red:r,hora:aIso($("#h_"+r).value),video:(r==="tiktok"&&subir[n2])?n2:n1,titulo,texto,tags,estado:"pendiente",intentos:0})}},`Panel: programar ${titulo}`);
+    msg(`✅ Programado en ${redes.join(", ")}. Lo verás en el calendario.`);
+    setTimeout(()=>ir("cal"),1800);
+  }catch(e){msg("No se pudo: "+esc(e.message),"err");$("#prog").disabled=false}
+}
+async function subirVideos(archivos,progreso){
+  // 1º directo al release «videos»; si el navegador lo bloquea, vía rama «subida» (la acción lo pasa al release)
+  try{
+    const rel=await gh("/releases/tags/videos");
+    for(const [n,f] of Object.entries(archivos)){
+      progreso(`Subiendo ${n} (${(f.size/1048576).toFixed(1)} MB)…`);
+      const r=await fetch(`https://uploads.github.com/repos/${O}/${R}/releases/${rel.id}/assets?name=${encodeURIComponent(n)}`,{method:"POST",headers:{Authorization:`Bearer ${tok}`,"Content-Type":"video/mp4"},body:f});
+      if(!r.ok)throw new Error("release "+r.status);
+    }
+    return;
+  }catch(e){if(e.status===401)throw e;console.log("Subida directa no disponible:",e.message)}
+  progreso("Subiendo por la vía alternativa…");
+  const main=await gh("/git/ref/heads/main"),com=await gh(`/git/commits/${main.object.sha}`);
+  const arbol=[];
+  for(const [n,f] of Object.entries(archivos)){
+    progreso(`Subiendo ${n} (${(f.size/1048576).toFixed(1)} MB)…`);
+    const b64=await new Promise((ok,ko)=>{const fr=new FileReader();fr.onload=()=>ok(fr.result.split(",")[1]);fr.onerror=ko;fr.readAsDataURL(f)});
+    const bl=await gh("/git/blobs",{method:"POST",body:JSON.stringify({content:b64,encoding:"base64"})});
+    arbol.push({path:`subida/${n}`,mode:"100644",type:"blob",sha:bl.sha});
+  }
+  const tr=await gh("/git/trees",{method:"POST",body:JSON.stringify({base_tree:com.tree.sha,tree:arbol})});
+  const nc=await gh("/git/commits",{method:"POST",body:JSON.stringify({message:"Vídeos nuevos desde el panel",tree:tr.sha,parents:[main.object.sha]})});
+  try{await gh("/git/refs/heads/subida",{method:"PATCH",body:JSON.stringify({sha:nc.sha,force:true})})}
+  catch(e){await gh("/git/refs",{method:"POST",body:JSON.stringify({ref:"refs/heads/subida",sha:nc.sha})})}
+}
+
+const FASES={propuesto:"💡 Propuesta",aprobado:"🎙 Generando voz",voz:"🎬 Esperando escena 3D",escena:"⚙️ Renderizando",rehacer:"🔧 Corrigiendo",revision:"👀 Para revisar",programado:"📅 Programado",rechazado:"✖ Descartado"};
+let PROD=[];
+let PSUB=null;
+async function vistaProd(){
+  const est=JSON.parse((await leerArchivo("produccion/estado.json")).txt);PROD=est.videos;
+  const rev=PROD.filter(v=>v.estado==="revision"),pro=PROD.filter(v=>v.estado==="propuesto"),mar=PROD.filter(v=>["aprobado","voz","escena","rehacer"].includes(v.estado)),hech=PROD.filter(v=>["programado","rechazado"].includes(v.estado)).slice(-15).reverse();
+  contarProd(rev.length+pro.length);
+  if(!PSUB)PSUB=rev.length?"borradores":"guiones";
+  const vid=n=>`https://github.com/${O}/${R}/releases/download/videos/${n}`;
+  const sub=[["guiones","Aprobación de guiones",pro.length],["borradores","Aprobación de borradores",rev.length],["marcha","En marcha",mar.length],["hechos","Historial",0]];
+  let h=`<div class="subtabs">${sub.map(([k,t,n])=>`<button class="chip ${PSUB===k?"on":""}" onclick="PSUB='${k}';ir('prod')">${t}${n?` <span class="pill" style="padding:0 7px;background:var(--acc);color:var(--acc-fg)">${n}</span>`:""}</button>`).join("")}</div>`;
+  if(PSUB==="guiones"){
+    h+=pro.length?pro.map(v=>`<div class="card fade"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><b style="font-size:16px">${esc(v.titulo)}</b><span class="pill">Formato ${esc(v.formato||"")} · ${(v.guion||"").split(/\s+/).length} palabras · ≈${Math.round((v.guion||"").split(/\s+/).length/2.75)} s</span></div>
+     <label>Guion (lo que dirá la voz). Puedes editarlo antes de aprobar.</label><textarea id="g_${v.id}" style="min-height:200px">${esc(v.guion)}</textarea>
+     <label>Texto del post</label><textarea id="t_${v.id}" style="min-height:60px">${esc(v.texto)}</textarea>
+     <p><button class="btn" onclick="aprobarGuion('${v.id}')">✓ Aprobar guion</button> <button class="btn sec" onclick="descartar('${v.id}')">Descartar</button></p></div>`).join("")
+     :`<div class="card empty">No hay guiones esperando. Claude propone nuevos dos veces al día (9:00 y 20:00).</div>`;
+  }else if(PSUB==="borradores"){
+    h+=rev.length?`<div class="grid g2">`+rev.map(v=>`<div class="card fade"><b style="font-size:16px">${esc(v.titulo)}</b><div class="mut">${v.duracion?v.duracion+" s · ":""}formato ${esc(v.formato||"")}${v.aprobado_por?` · guion aprobado por ${esc(v.aprobado_por.split("_")[0])}`:""}</div>
+     <video controls preload="metadata" playsinline src="${vid(v.id+".mp4")}"></video>
+     <details class="mut"><summary>Texto del post</summary>${esc(v.texto)}</details>
+     <p><button class="btn" onclick="aprobarVideo('${v.id}')">✓ Aprobar y programar</button> <button class="btn sec" onclick="rehacer('${v.id}')">Pedir cambios</button> <button class="btn sec" onclick="descartar('${v.id}')">Descartar</button></p></div>`).join("")+`</div>`
+     :`<div class="card empty">No hay borradores de vídeo por revisar.</div>`;
+  }else if(PSUB==="marcha"){
+    h+=mar.length?`<div class="card">`+mar.map(v=>`<div class="row"><span class="tit"><b>${esc(v.titulo)}</b><small><span class="est">${FASES[v.estado]}</span>${v.nota?` · nota: ${esc(v.nota)}`:""}${v.error?` · <span style="color:var(--err)">${esc(v.error)}</span>`:""}</small></span></div>`).join("")+`</div>`
+     :`<div class="card empty">Nada en marcha ahora mismo.</div>`;
+  }else{
+    h+=hech.length?`<div class="card">`+hech.map(v=>`<div class="row"><span class="tit"><b>${esc(v.titulo)}</b><small><span class="est">${FASES[v.estado]}</span>${v.programado_por?` · por ${esc(v.programado_por.split("_")[0])}`:""}</small></span></div>`).join("")+`</div>`:`<div class="card empty">Aún no hay historial.</div>`;
+  }
+  app.innerHTML=h;
+}
+function contarProd(n){const e=$("#nprod");e.hidden=!n;e.textContent=n}
+async function aprobarGuion(id){const g=$("#g_"+id).value.trim(),t=$("#t_"+id).value.trim();
+  await accion(()=>editarJson("produccion/estado.json",d=>{const v=d.videos.find(x=>x.id===id);v.guion=g;v.texto=t;v.estado="aprobado";v.aprobado=new Date().toISOString();v.aprobado_por=usuario},`Panel: guion aprobado ${id}`),"Aprobado. La voz se genera en 1-2 minutos y mañana tendrás el vídeo.")}
+async function descartar(id){if(!confirm("¿Descartar?"))return;await accion(()=>editarJson("produccion/estado.json",d=>{d.videos.find(x=>x.id===id).estado="rechazado"},`Panel: descartado ${id}`))}
+async function rehacer(id){const nota=prompt("¿Qué hay que cambiar? (se lo diré a Claude)");if(!nota)return;
+  await accion(()=>editarJson("produccion/estado.json",d=>{const v=d.videos.find(x=>x.id===id);v.estado="rehacer";v.nota=nota},`Panel: cambios en ${id}`),"Anotado. Claude lo corregirá en la próxima pasada.")}
+async function aprobarVideo(id){
+  const v=PROD.find(x=>x.id===id);
+  await accion(async()=>{
+    await cargarCal();
+    const ocup=[...cal.posts],horas={};
+    horas.tiktok=siguienteHueco("tiktok",ocup);
+    const tt=new Date(aIso(horas.tiktok));
+    for(const r of ["youtube","instagram"]){let h,ex=[...ocup];
+      while((h=siguienteHueco(r,ex))&&new Date(aIso(h))<=tt)ex.push({red:r,hora:aIso(h)});horas[r]=h}
+    await guardarCal(c=>{for(const r of REDES)c.posts.push({id:`${id}-${r}`,red:r,hora:aIso(horas[r]),video:r==="tiktok"?`${id}_tiktok.mp4`:`${id}.mp4`,titulo:v.titulo,texto:v.texto,tags:v.tags||[],estado:"pendiente",intentos:0,por:usuario})},`Panel: programar ${id} (${usuario})`);
+    await editarJson("produccion/estado.json",d=>{const q=d.videos.find(x=>x.id===id);q.estado="programado";q.programado_por=usuario},`Panel: vídeo aprobado ${id} [skip ci]`);
+  },"Programado en TikTok, Instagram y YouTube. Míralo en el Calendario.");
+}
+
+async function vistaAvisos(){
+  const iss=(await gh("/issues?state=open&per_page=50")).filter(i=>!i.pull_request);
+  contarAvisos(iss.length);
+  if(!iss.length){app.innerHTML=`<div class="card empty">No hay avisos pendientes. 👌</div>`;return}
+  TEXTOS=[];
+  app.innerHTML=iss.map(i=>{const m=(i.body||"").match(/```\n?([\s\S]*?)```/);const txt=m?m[1].trim():"";const k=TEXTOS.push(txt)-1;
+    return `<div class="card"><b>${esc(i.title)}</b><div class="mut">${new Date(i.created_at).toLocaleString("es-ES",{timeZone:TZ})}</div>
+    ${txt?`<pre>${esc(txt)}</pre><button class="btn sec" onclick="copiar(this,TEXTOS[${k}])">Copiar texto</button> `:`<p class="mut">${esc((i.body||"").replace(/@\w+/g,"").slice(0,300))}</p>`}
+    <button class="btn" onclick="cerrar(${i.number})">Hecho ✓</button></div>`}).join("");
+}
+async function copiar(b,t){try{await navigator.clipboard.writeText(t);b.textContent="¡Copiado!"}catch(e){prompt("Copia el texto:",t)}}
+async function cerrar(n){await accion(()=>gh(`/issues/${n}`,{method:"PATCH",body:JSON.stringify({state:"closed"})}))}
+function contarAvisos(n){const e=$("#navisos");e.hidden=!n;e.textContent=n}
+
+async function vistaConex(){
+  let txt="";try{txt=(await leerArchivo("CONEXIONES.md")).txt}catch(e){txt="Aún no se ha hecho ninguna comprobación."}
+  const filas=txt.split("\n").filter(l=>l.startsWith("- ")).map(l=>`<div class="conn">${esc(l.slice(2)).replace(/\*\*(.*?)\*\*/g,"<b>$1</b>")}</div>`).join("");
+  const fecha=(txt.match(/_Comprobado: (.*?)_/)||[])[1];
+  app.innerHTML=`<div class="card">${filas||esc(txt)}<p class="mut">${fecha?"Comprobado: "+esc(fecha):""}</p>
+  <button class="btn" id="comp">Comprobar ahora</button> <a class="btn sec" href="conectar.html" target="_blank">Conectar una red</a><div id="cmsg"></div></div>
+  <div class="card"><b>Si una red falla</b><p class="mut">TikTok o YouTube: pulsa «Conectar una red», autoriza y pega el código en «Conectar red social» de GitHub. Instagram: revisa el usuario del sistema de Meta (IG_TOKEN).</p></div>`;
+  $("#comp").onclick=async()=>{$("#comp").disabled=true;try{await lanzar(true);$("#cmsg").innerHTML=`<div class="msg ok">Comprobando… se actualiza en 1-2 minutos.</div>`;setTimeout(()=>tab==="conex"&&vistaConex(),90000)}catch(e){$("#cmsg").innerHTML=`<div class="msg err">${esc(e.message)}</div>`;$("#comp").disabled=false}};
+}
+
+function vistaAjustes(){
+  app.innerHTML=`<div class="card"><b>Horario habitual</b><p class="mut">TikTok ${HUECOS.tiktok.join(", ")} h · Instagram ${HUECOS.instagram.join(", ")} h · YouTube ${HUECOS.youtube.join(", ")} h (hora de Madrid). Se usa para proponer el siguiente hueco libre.</p></div>
+  <div class="card"><b>Enlaces</b><p><a href="https://github.com/${O}/${R}/actions" target="_blank">Ejecuciones en GitHub</a> · <a href="https://github.com/${O}/${R}/releases/tag/videos" target="_blank">Vídeos guardados</a> · <a href="https://github.com/${O}/${R}/blob/main/programador/LEEME.md" target="_blank">Guía</a></p></div>
+  <div class="card"><b>Sesión</b><p class="mut">Has entrado como <b style="color:var(--fg)">${esc(usuario.replace("_"," "))}</b> en este navegador.</p><button class="btn sec" id="salir">Cerrar sesión</button></div>`;
+  $("#salir").onclick=()=>{try{localStorage.removeItem("ghtoken")}catch(e){}tok="";heroStop();pantallaToken()};
+}
+
+
+// ════════════ Navegación ════════════
+const SECC=[["inicio","◎","Resumen"],["stats","▤","Estadísticas"],["prod","✦","Producción"],["cal","▦","Calendario"],["nuevo","⇪","Subir vídeo"],["avisos","◉","Avisos"],["conex","⌁","Conexiones"],["ajustes","⚙","Ajustes"]];
+const TITULOS={inicio:["Resumen","Cómo van tus tres cuentas de un vistazo"],stats:["Estadísticas","Por plataforma y por vídeo"],prod:["Producción","Guiones y vídeos que prepara Claude"],cal:["Calendario","Lo que se va a publicar y lo publicado"],nuevo:["Subir vídeo","Programa un vídeo tuyo en las redes"],avisos:["Avisos","Borradores de TikTok y errores"],conex:["Conexiones","Estado de cada red"],ajustes:["Ajustes","Horario y sesión"]};
+const CNT={avisos:0,prod:0};
+function pintarNav(){
+  $("#foot").innerHTML=(usuario&&tok?`<div style="color:var(--mut);margin-bottom:6px">👤 ${esc(usuario.replace("_"," "))}</div>`:"")+`<a href="https://github.com/${O}/${R}" target="_blank" style="color:var(--faint)">GitHub</a> · <a href="conectar.html" style="color:var(--faint)">Conectar</a>`;
+  const b=(k,ic,t)=>`<button data-t="${k}" class="${tab===k?"on":""}"><span class="ic">${ic}</span>${t}${CNT[k]?`<span class="n">${CNT[k]}</span>`:""}</button>`;
+  $("#tabs").innerHTML=SECC.map(s=>b(...s)).join("");
+  $("#tabs2").innerHTML=SECC.map(([k,,t])=>`<button data-t="${k}" class="${tab===k?"on":""}">${t}${CNT[k]?`<span class="n">${CNT[k]}</span>`:""}</button>`).join("");
+}
+function contarAvisos(n){CNT.avisos=n;pintarNav()}
+function contarProd(n){CNT.prod=n;pintarNav()}
+for(const id of ["#tabs","#tabs2"])$(id).onclick=e=>{const b=e.target.closest("button");if(b)ir(b.dataset.t)};
+
+// ════════════ Utilidades visuales ════════════
+const COLOR={tiktok:"#3987e5",instagram:"#d55181",youtube:"#c98500"};
+const NOMBRE={tiktok:"TikTok",instagram:"Instagram",youtube:"YouTube"};
+const nf=new Intl.NumberFormat("es-ES"),nc=new Intl.NumberFormat("es-ES",{notation:"compact",maximumFractionDigits:1});
+const fmtN=n=>n==null?"—":(Math.abs(n)>=10000?nc.format(n):nf.format(n));
+function contar(el,valor){if(valor==null){el.textContent="—";return}const t0=performance.now(),d=900;
+  const paso=t=>{const p=Math.min(1,(t-t0)/d),e=1-Math.pow(1-p,3);el.textContent=fmtN(Math.round(valor*e));if(p<1&&el.isConnected)requestAnimationFrame(paso)};requestAnimationFrame(paso)}
+const tip=$("#tip");
+function verTip(e,html){tip.innerHTML=html;tip.style.display="block";const x=Math.min(e.clientX+14,innerWidth-tip.offsetWidth-8),y=Math.min(e.clientY+14,innerHeight-tip.offsetHeight-8);tip.style.left=x+"px";tip.style.top=y+"px"}
+function ocultarTip(){tip.style.display="none"}
+function inclinar(el){el.addEventListener("pointermove",e=>{if(e.pointerType!=="mouse")return;const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;el.style.transform=`perspective(700px) rotateY(${x*10}deg) rotateX(${-y*10}deg) translateY(-2px)`});el.addEventListener("pointerleave",()=>el.style.transform="")}
+const hace=iso=>{const m=Math.round((Date.now()-new Date(iso))/60000);return m<60?`hace ${m} min`:m<1440?`hace ${Math.round(m/60)} h`:`hace ${Math.round(m/1440)} días`};
+
+let STATS=null;
+async function cargarStats(){try{STATS=JSON.parse((await leerArchivo("programador/estadisticas.json")).txt)}catch(e){if(e.status!==404)throw e;STATS=null}return STATS}
+async function actualizarStats(btn){btn.disabled=true;try{await gh("/actions/workflows/estadisticas.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main"})});btn.textContent="Actualizando… (1-2 min)";setTimeout(()=>ir(tab),100000)}catch(e){alert(e.message);btn.disabled=false}}
+
+// ════════════ Escena 3D del resumen ════════════
+let H3=null;
+function heroStop(){if(H3){cancelAnimationFrame(H3.raf);H3.ro&&H3.ro.disconnect();H3.r.dispose();H3=null}}
+function heroStart(canvas){
+  heroStop();if(!window.THREE)return;
+  const T=THREE,r=new T.WebGLRenderer({canvas,antialias:true,alpha:true});r.setPixelRatio(Math.min(devicePixelRatio,2));
+  const sc=new T.Scene(),cam=new T.PerspectiveCamera(32,1,.1,100);cam.position.set(0,0,10);
+  sc.add(new T.AmbientLight(0xffffff,.55));const dl=new T.DirectionalLight(0xffffff,1.1);dl.position.set(4,5,6);sc.add(dl);
+  const pl=new T.PointLight(0xffd23f,1.2,20);pl.position.set(-3,-2,4);sc.add(pl);
+  // moneda «60s»
+  const cv=document.createElement("canvas");cv.width=cv.height=512;const c=cv.getContext("2d");
+  const g=c.createRadialGradient(200,180,40,256,256,280);g.addColorStop(0,"#ffe680");g.addColorStop(1,"#f2b705");c.fillStyle=g;c.fillRect(0,0,512,512);
+  c.strokeStyle="rgba(20,20,26,.25)";c.lineWidth=14;c.beginPath();c.arc(256,256,226,0,7);c.stroke();
+  c.translate(256,256);c.rotate(-Math.PI/2);c.translate(-256,-256);
+  c.fillStyle="#14141a";c.textAlign="center";c.font="600 46px 'Space Grotesk',sans-serif";c.fillText("explicado en",256,190);
+  c.font="700 190px 'Space Grotesk',sans-serif";c.fillText("60s",262,350);
+  c.fillStyle="rgba(20,20,26,.2)";c.fillRect(146,388,220,16);c.fillStyle="#14141a";c.fillRect(146,388,165,16);
+  const tex=new T.CanvasTexture(cv);tex.anisotropy=4;
+  const cara=new T.MeshStandardMaterial({map:tex,metalness:.35,roughness:.35}),canto=new T.MeshStandardMaterial({color:0xe9a800,metalness:.7,roughness:.28});
+  const moneda=new T.Mesh(new T.CylinderGeometry(1.5,1.5,.34,96),[canto,cara,cara]);moneda.rotation.x=Math.PI/2;
+  const grupo=new T.Group();grupo.add(moneda);sc.add(grupo);
+  const anillo=new T.Mesh(new T.TorusGeometry(2.45,.025,12,160,Math.PI*1.5),new T.MeshBasicMaterial({color:0xffd23f,transparent:true,opacity:.75}));sc.add(anillo);
+  const orbes=["tiktok","instagram","youtube"].map((k,i)=>{const m=new T.Mesh(new T.SphereGeometry(.34,40,24),new T.MeshStandardMaterial({color:COLOR[k],metalness:.25,roughness:.3,emissive:COLOR[k],emissiveIntensity:.15}));m.userData={f:i*2.1,k};sc.add(m);return m});
+  const pg=new T.BufferGeometry(),N=160,pos=new Float32Array(N*3);for(let i=0;i<N*3;i++)pos[i]=(Math.random()-.5)*16;pg.setAttribute("position",new T.BufferAttribute(pos,3));
+  const polvo=new T.Points(pg,new T.PointsMaterial({color:0xffd23f,size:.035,transparent:true,opacity:.55}));sc.add(polvo);
+  let tx=0,ty=0,vy=0,arr=false,lx=0;
+  canvas.onpointermove=e=>{const b=canvas.getBoundingClientRect();tx=((e.clientX-b.left)/b.width-.5);ty=((e.clientY-b.top)/b.height-.5);if(arr){vy+=(e.clientX-lx)*.004;lx=e.clientX}};
+  canvas.onpointerdown=e=>{arr=true;lx=e.clientX;canvas.style.cursor="grabbing"};
+  addEventListener("pointerup",()=>{arr=false;canvas.style.cursor="grab"});
+  const ajustar=()=>{const w=canvas.clientWidth,h=canvas.clientHeight;r.setSize(w,h,false);cam.aspect=w/h;
+    const ancho=w<700,k=ancho?.78:1;grupo.position.x=ancho?0:2.6;grupo.position.y=ancho?-1.35:0;grupo.scale.setScalar(k);anillo.scale.setScalar(k);anillo.position.copy(grupo.position);cam.updateProjectionMatrix()};
+  const ro=new ResizeObserver(ajustar);ro.observe(canvas);ajustar();
+  const t0=performance.now();
+  const bucle=()=>{if(!canvas.isConnected)return heroStop();const t=(performance.now()-t0)/1000;
+    vy*=.95;grupo.rotation.y+=.006+vy;grupo.rotation.x+=((ty*.5)-grupo.rotation.x)*.05;grupo.position.z=Math.sin(t*1.2)*.12;
+    anillo.rotation.z=-t*.35;anillo.rotation.x=.25+ty*.3;anillo.rotation.y=tx*.4;
+    orbes.forEach(o=>{const a=t*.6+o.userData.f;const k=grupo.scale.x;o.position.set(grupo.position.x+Math.cos(a)*2.45*k,grupo.position.y+Math.sin(a)*.9*k,Math.sin(a)*1.6);o.rotation.y=t});
+    polvo.rotation.y=t*.02;polvo.rotation.x=ty*.1;
+    r.render(sc,cam);H3.raf=requestAnimationFrame(bucle)};
+  H3={r,ro,raf:0};bucle();
+}
+
+// ════════════ Resumen ════════════
+function sparkline(serie,color){
+  if(!serie||serie.length<2)return `<svg viewBox="0 0 200 46"><line x1="0" y1="40" x2="200" y2="40" stroke="var(--bd)" stroke-width="2" stroke-dasharray="4 5"/></svg>`;
+  const mn=Math.min(...serie),mx=Math.max(...serie),sp=mx-mn||1,pts=serie.map((v,i)=>[i/(serie.length-1)*200,40-(v-mn)/sp*34]);
+  const d=pts.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" ");
+  return `<svg viewBox="0 0 200 46" preserveAspectRatio="none"><defs><linearGradient id="g${color.slice(1)}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".35"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs><path d="${d} L200 46 L0 46Z" fill="url(#g${color.slice(1)})"/><path d="${d}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>`;
+}
+async function vistaInicio(){
+  const [st]=await Promise.all([cargarStats(),cargarCal().catch(()=>null)]);
+  let est=null;try{est=JSON.parse((await leerArchivo("produccion/estado.json")).txt)}catch(e){}
+  const cu=st?.cuentas||{},tot=k=>REDES.reduce((s,r)=>s+(cu[r]?.[k]||0),0);
+  const prox=(cal?.posts||[]).filter(p=>p.estado==="pendiente").sort((a,b)=>new Date(a.hora)-new Date(b.hora));
+  const pub=(cal?.posts||[]).filter(p=>p.estado==="publicado"||p.estado==="borrador").length;
+  const hist=st?.historial||[];
+  const fases=est?est.videos.reduce((o,v)=>(o[v.estado]=(o[v.estado]||0)+1,o),{}):{};
+  app.innerHTML=`<section class="card hero fade"><canvas id="h3d" aria-label="Logo 3D de explicadoen60s"></canvas>
+   <div class="txt"><div class="kick">@explicadoen60s</div><h2>${saludo()}</h2><p>${st?`Datos ${hace(st.actualizado)}.`:"Las estadísticas aparecerán tras la primera recogida."} ${prox.length?`Tienes <b style="color:var(--fg)">${prox.length}</b> publicaciones en cola.`:""}</p></div></section>
+  <div class="grid g4">
+   ${[["Seguidores totales",tot("seguidores"),"TikTok + Instagram + YouTube"],["Vistas totales",tot("vistas"),"suma de las tres redes"],["Publicados con el panel",pub,"desde el programador"],["En cola",prox.length,prox[0]?"siguiente: "+fmtDia(prox[0].hora).split(",")[0]+" "+fmtHora(prox[0].hora):"nada programado"]]
+     .map(([l,v,s])=>`<div class="card kpi fade"><div class="lab">${l}</div><div class="val" data-n="${v??""}">—</div><div class="sub">${s}</div></div>`).join("")}
+  </div>
+  <div class="grid g3">${REDES.map(r=>{const c=cu[r],e=st?.errores?.[r];return `<div class="card plat fade" style="--c:${COLOR[r]}">
+    <div class="head"><div class="orb" style="background:radial-gradient(circle at 35% 30%,#fff8,${COLOR[r]} 45%,#0006)"></div><div><b>${NOMBRE[r]}</b><div class="mut">${esc(c?.nombre||"")}</div></div></div>
+    <div class="big" data-n="${c?.seguidores??""}">—</div><div class="mut">seguidores</div>
+    <div class="row3"><span><b>${fmtN(c?.vistas)}</b> vistas</span><span><b>${fmtN(c?.videos)}</b> vídeos</span>${c?.likes!=null?`<span><b>${fmtN(c.likes)}</b> likes</span>`:""}</div>
+    ${sparkline(hist.map(h=>h[r+"_seguidores"]).filter(v=>v!=null),COLOR[r])}
+    ${e?`<div class="msg warn" style="margin-bottom:0">${esc(e.includes("no conectado")?"No conectado":"Sin datos nuevos: "+e.slice(0,90))}</div>`:""}</div>`}).join("")}</div>
+  <div class="grid g2">
+   <div class="card fade"><h3>Próximas publicaciones</h3>${prox.slice(0,5).map(p=>`<div class="row"><span class="hora">${fmtHora(p.hora)}</span><span class="red ${p.red}">${NOMBRE[p.red]}</span><span class="tit"><b>${esc(p.titulo)}</b><small>${fmtDia(p.hora)}</small></span></div>`).join("")||`<div class="empty">Nada programado</div>`}
+    <p><button class="btn sec" onclick="ir('cal')">Ver calendario</button></p></div>
+   <div class="card fade"><h3>Producción automática</h3>
+    ${[["propuesto","Guiones por revisar"],["aprobado","Generando voz"],["voz","Esperando escena 3D"],["escena","Renderizando"],["revision","Vídeos para revisar"]].map(([k,l])=>`<div class="row"><span class="tit"><b>${l}</b></span><span class="pill">${fases[k]||0}</span></div>`).join("")}
+    <p><button class="btn" onclick="ir('prod')">Ir a Producción</button></p></div>
+  </div>`;
+  app.querySelectorAll("[data-n]").forEach(el=>contar(el,el.dataset.n===""?null:+el.dataset.n));
+  app.querySelectorAll(".plat").forEach(inclinar);
+  heroStart($("#h3d"));
+}
+function saludo(){const h=+partes(new Date()).hour;return h<14?"Buenos días":h<21?"Buenas tardes":"Buenas noches"}
+
+// ════════════ Estadísticas ════════════
+let FILTRO="todas",ORDEN={k:"vistas",d:-1};
+async function vistaStats(){
+  const st=await cargarStats();
+  if(!st){app.innerHTML=`<div class="card empty">Todavía no hay estadísticas.<br><br><button class="btn" onclick="actualizarStats(this)">Recoger ahora</button></div>`;return}
+  const redes=FILTRO==="todas"?REDES:[FILTRO];
+  const vids=redes.flatMap(r=>(st.videos?.[r]||[]).map(v=>({...v,red:r,inter:v.vistas?((v.likes||0)+(v.comentarios||0)+(v.compartidos||0))/v.vistas*100:null})));
+  const errs=Object.entries(st.errores||{}).filter(([r])=>redes.includes(r));
+  app.innerHTML=`<div class="card fade" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+    <div class="chips">${["todas",...REDES].map(r=>`<button class="chip ${FILTRO===r?"on":""}" onclick="FILTRO='${r}';ir('stats')">${r==="todas"?"Todas":`<i style="background:${COLOR[r]}"></i>${NOMBRE[r]}`}</button>`).join("")}</div>
+    <div class="mut">Actualizado ${hace(st.actualizado)} · <button class="btn sec" style="padding:7px 12px" onclick="actualizarStats(this)">Actualizar</button></div></div>
+  ${errs.map(([r,e])=>`<div class="msg warn">${NOMBRE[r]}: ${esc(permisoTexto(r,e))}</div>`).join("")}
+  <div class="grid g4">${[["Seguidores",redes.reduce((s,r)=>s+(st.cuentas?.[r]?.seguidores||0),0)],["Vistas",vids.reduce((s,v)=>s+(v.vistas||0),0)],["Likes",vids.reduce((s,v)=>s+(v.likes||0),0)],["Comentarios",vids.reduce((s,v)=>s+(v.comentarios||0),0)]]
+    .map(([l,v])=>`<div class="card kpi fade"><div class="lab">${l}</div><div class="val" data-n="${v}">—</div><div class="sub">${FILTRO==="todas"?"todas las redes":NOMBRE[FILTRO]}</div></div>`).join("")}</div>
+  <div class="card fade"><h3>Seguidores en el tiempo</h3><div class="chart" id="cLinea"></div></div>
+  <div class="card fade"><h3>Vídeos con más vistas</h3><div class="chart" id="cBarras"></div></div>
+  <div class="card fade"><h3>Todos los vídeos (${vids.length})</h3><div class="tablewrap" id="tabla"></div></div>`;
+  app.querySelectorAll("[data-n]").forEach(el=>contar(el,+el.dataset.n));
+  graficoLinea($("#cLinea"),st.historial||[],redes);
+  graficoBarras($("#cBarras"),vids.filter(v=>v.vistas!=null).sort((a,b)=>b.vistas-a.vistas).slice(0,10));
+  tablaVideos(vids);
+}
+function permisoTexto(r,e){
+  if(e.includes("no conectado"))return "no está conectado (Conexiones).";
+  if(r==="youtube"&&/insufficient|403|scope/i.test(e))return "falta el permiso de estadísticas: vuelve a pulsar «Conectar YouTube».";
+  if(r==="tiktok"&&/scope|permission|401|403/i.test(e))return "falta el permiso de estadísticas: añade user.info.stats y video.list en TikTok Developers y vuelve a conectar.";
+  return "no se pudieron actualizar los datos ("+e.slice(0,120)+")";
+}
+function graficoLinea(el,hist,redes){
+  const W=el.clientWidth||700,H=240,m={t:12,r:90,b:26,l:46};
+  const series=redes.map(r=>({r,p:hist.map(h=>({f:h.fecha,v:h[r+"_seguidores"]})).filter(x=>x.v!=null)})).filter(s=>s.p.length);
+  if(!series.length){el.innerHTML=`<div class="empty">Sin datos todavía.</div>`;return}
+  const fechas=[...new Set(hist.map(h=>h.fecha))].sort(),n=Math.max(1,fechas.length-1);
+  const mx=Math.max(1,...series.flatMap(s=>s.p.map(x=>x.v)))*1.08;
+  const X=f=>m.l+fechas.indexOf(f)/n*(W-m.l-m.r)*(fechas.length>1?1:0)+(fechas.length>1?0:(W-m.l-m.r)/2),Y=v=>m.t+(1-v/mx)*(H-m.t-m.b);
+  let s=`<svg viewBox="0 0 ${W} ${H}" height="${H}">`;
+  for(let i=0;i<=4;i++){const v=mx/4*i,y=Y(v);s+=`<line x1="${m.l}" x2="${W-m.r}" y1="${y}" y2="${y}" stroke="var(--bd)" stroke-width="1"/><text x="${m.l-8}" y="${y+4}" text-anchor="end">${fmtN(Math.round(v))}</text>`}
+  const marcas=fechas.length<=7?fechas:fechas.filter((_,i)=>i%Math.ceil(fechas.length/6)===0);
+  marcas.forEach(f=>s+=`<text x="${X(f)}" y="${H-6}" text-anchor="middle">${f.slice(8)}/${f.slice(5,7)}</text>`);
+  series.forEach(({r,p})=>{const d=p.map((x,i)=>(i?"L":"M")+X(x.f)+" "+Y(x.v)).join(" ");
+    s+=`<path d="${d}" fill="none" stroke="${COLOR[r]}" stroke-width="2.2" stroke-linejoin="round"/>`;
+    p.forEach(x=>s+=`<circle cx="${X(x.f)}" cy="${Y(x.v)}" r="${p.length<3?5:3}" fill="${COLOR[r]}" stroke="var(--card)" stroke-width="2"/>`);
+    const u=p[p.length-1];s+=`<text x="${X(u.f)+10}" y="${Y(u.v)+4}" style="fill:var(--fg);font-weight:600">${NOMBRE[r]} ${fmtN(u.v)}</text>`});
+  s+=`<line id="cross" x1="0" x2="0" y1="${m.t}" y2="${H-m.b}" stroke="var(--faint)" stroke-dasharray="3 3" visibility="hidden"/><rect x="${m.l}" y="0" width="${W-m.l-m.r}" height="${H}" fill="transparent" id="hit"/></svg>`;
+  el.innerHTML=(series.length>1?`<div class="legend">${series.map(x=>`<span><i style="background:${COLOR[x.r]}"></i>${NOMBRE[x.r]}</span>`).join("")}</div>`:"")+s+(fechas.length<2?`<p class="mut">La línea se irá dibujando con un punto nuevo cada día.</p>`:"");
+  const hit=el.querySelector("#hit"),cr=el.querySelector("#cross"),svg=el.querySelector("svg");
+  hit.onpointermove=e=>{const b=svg.getBoundingClientRect(),x=(e.clientX-b.left)*W/b.width,i=Math.round((x-m.l)/((W-m.l-m.r)/n));const f=fechas[Math.max(0,Math.min(fechas.length-1,i))];
+    cr.setAttribute("x1",X(f));cr.setAttribute("x2",X(f));cr.setAttribute("visibility","visible");
+    verTip(e,`<b>${new Date(f).toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</b><br>`+series.map(({r,p})=>{const q=p.find(x=>x.f===f);return `<span style="color:${COLOR[r]}">●</span> ${NOMBRE[r]}: <b>${q?fmtN(q.v):"—"}</b>`}).join("<br>"))};
+  hit.onpointerleave=()=>{cr.setAttribute("visibility","hidden");ocultarTip()};
+}
+function graficoBarras(el,vids){
+  if(!vids.length){el.innerHTML=`<div class="empty">Sin vídeos con datos de vistas.</div>`;return}
+  const mx=Math.max(...vids.map(v=>v.vistas))||1,redes=[...new Set(vids.map(v=>v.red))];
+  el.innerHTML=(redes.length>1?`<div class="legend">${redes.map(r=>`<span><i style="background:${COLOR[r]}"></i>${NOMBRE[r]}</span>`).join("")}</div>`:"")+
+   vids.map((v,i)=>`<div class="bar" data-i="${i}" style="display:grid;grid-template-columns:minmax(0,1fr) 72px;gap:10px;align-items:center;padding:5px 0;cursor:default">
+    <div><div style="font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:4px">${esc(v.titulo||"(sin título)")}</div>
+    <div style="height:12px;border-radius:0 6px 6px 0;background:${COLOR[v.red]};width:${Math.max(1.5,v.vistas/mx*100)}%;transform-origin:left;animation:crece .7s ${i*.04}s both"></div></div>
+    <div class="num" style="text-align:right;font:700 14px 'Space Grotesk';font-variant-numeric:tabular-nums">${fmtN(v.vistas)}</div></div>`).join("")+
+   `<style>@keyframes crece{from{transform:scaleX(0)}}</style>`;
+  el.querySelectorAll(".bar").forEach(b=>{const v=vids[+b.dataset.i];
+    b.onpointermove=e=>verTip(e,`<b>${esc(v.titulo)}</b><br>${NOMBRE[v.red]} · ${v.fecha?new Date(v.fecha).toLocaleDateString("es-ES"):""}<br>Vistas <b>${nf.format(v.vistas)}</b> · Likes <b>${nf.format(v.likes||0)}</b> · Coment. <b>${nf.format(v.comentarios||0)}</b>`);
+    b.onpointerleave=ocultarTip});
+}
+function tablaVideos(vids){
+  const cols=[["red","Red"],["titulo","Vídeo"],["fecha","Fecha"],["vistas","Vistas",1],["likes","Likes",1],["comentarios","Coment.",1],["compartidos","Compart.",1],["inter","Interacción",1]];
+  const o=[...vids].sort((a,b)=>{const x=a[ORDEN.k]??-1,y=b[ORDEN.k]??-1;return (x>y?1:x<y?-1:0)*ORDEN.d});
+  $("#tabla").innerHTML=!vids.length?`<div class="empty">No hay vídeos.</div>`:`<table><thead><tr>${cols.map(([k,t,n])=>`<th class="${n?"num":""}" data-k="${k}">${t}${ORDEN.k===k?(ORDEN.d<0?" ↓":" ↑"):""}</th>`).join("")}</tr></thead><tbody>
+   ${o.map(v=>`<tr><td><span class="red ${v.red}">${NOMBRE[v.red]}</span></td><td><a class="t" href="${esc(v.url||"#")}" target="_blank" style="color:var(--fg)">${esc(v.titulo||"(sin título)")}</a></td>
+   <td class="mut">${v.fecha?new Date(v.fecha).toLocaleDateString("es-ES",{day:"2-digit",month:"2-digit"}):"—"}</td>
+   <td class="num"><b>${fmtN(v.vistas)}</b></td><td class="num">${fmtN(v.likes)}</td><td class="num">${fmtN(v.comentarios)}</td><td class="num">${fmtN(v.compartidos)}</td><td class="num">${v.inter==null?"—":v.inter.toFixed(1)+" %"}</td></tr>`).join("")}</tbody></table>`;
+  $("#tabla").querySelectorAll("th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;ORDEN=ORDEN.k===k?{k,d:-ORDEN.d}:{k,d:-1};tablaVideos(vids)});
+}
+
+// ════════════ Arranque ════════════
+const VERSION="2026-11-03.3";
+(async()=>{try{const t=await (await fetch(location.pathname+"?nv="+Date.now(),{cache:"no-store"})).text();const m=t.match(/const VERSION="([^"]+)"/);
+  if(m&&m[1]!==VERSION&&!sessionStorage.getItem("rv"+m[1])){sessionStorage.setItem("rv"+m[1],1);location.replace(location.pathname+"?v="+m[1])}}catch(e){}})();
+setInterval(()=>{if(document.hidden||!tok)return;const f=document.activeElement;if(f&&f.matches("input,textarea,select"))return;
+  if(["inicio","stats","prod","cal","avisos"].includes(tab))ir(tab,true)},300000);
+const VISTAS={inicio:vistaInicio,stats:vistaStats,cal:vistaCal,prod:vistaProd,nuevo:vistaNuevo,avisos:vistaAvisos,conex:vistaConex,ajustes:vistaAjustes};
+async function ir(t,silencioso=false){
+  tab=t;pintarNav();if(!silencioso){heroStop();ocultarTip();scrollTo({top:0})}
+  const main=$("#app");
+  if(!tok){main.innerHTML="";app=main;return pantallaToken()}
+  const [h,p]=TITULOS[t];
+  if(silencioso&&$("#cont")){const y=scrollY;const tmp=document.createElement("div");app=tmp;try{await VISTAS[t]();if(t==="inicio")heroStop();$("#cont").replaceChildren(...tmp.childNodes);app=$("#cont");if(t==="inicio"&&$("#h3d"))heroStart($("#h3d"));scrollTo({top:y})}catch(e){}return}
+  main.innerHTML=`<div class="ph fade"><div><h1>${h}</h1><p>${p}</p></div></div><div id="cont"><div class="card"><div class="skel" style="width:60%"></div><br><div class="skel"></div><br><div class="skel" style="width:80%"></div></div></div>`;
+  app=$("#cont");
+  try{await VISTAS[t]()}catch(e){if(e.status===401)return pantallaToken("El token ha caducado o no es válido.");app.innerHTML=`<div class="card msg err">${esc(e.message)}</div>`}
+}
+tab="inicio";pintarNav();ir("inicio");
+if(tok){gh("/issues?state=open&per_page=50").then(i=>contarAvisos(i.filter(x=>!x.pull_request).length)).catch(()=>{});
+ leerArchivo("produccion/estado.json").then(f=>{const v=JSON.parse(f.txt).videos;contarProd(v.filter(x=>x.estado==="revision"||x.estado==="propuesto").length)}).catch(()=>{})}
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # explicadoen60s: producción automática de vídeos
 
-Cuenta @explicadoen60s (TikTok, Instagram, YouTube «explicadoen60s_shorts»). Vídeos verticales de ~60-75 s que explican cómo funcionan las cosas, en castellano de España. El dueño revisa y aprueba desde el panel: https://explicadoen60s.github.io/panel.html
+Cuenta @explicadoen60s (TikTok, Instagram, YouTube «explicadoen60s_shorts»). Vídeos verticales de ~60-75 s que explican cómo funcionan las cosas, en castellano de España. El dueño revisa y aprueba desde el panel: https://explicadoen60s.github.io/
 
 ## Cómo fluye un vídeo (`produccion/estado.json`)
 | estado | quién lo mueve | qué significa |
@@ -73,7 +73,7 @@ Calidad que exige el usuario:
 
 ## Publicación (no la toques salvo que se pida)
 - `programador/` + `.github/workflows/publicar.yml` publican cada 10 min lo que está en `programador/calendario.json`.
-- El panel (`docs/panel.html`) añade publicaciones al aprobar un vídeo.
+- El panel (`docs/index.html`) añade publicaciones al aprobar un vídeo.
 - Vídeos: release `videos`. `<id>.mp4` va a Instagram y YouTube; `<id>_tiktok.mp4` (con música) va a TikTok.
 - Horario: TikTok 10, 13, 16, 18 y 21 h; Instagram 10 y 18 h; YouTube 12 y 16 h (hora de Madrid).
 
