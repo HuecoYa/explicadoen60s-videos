@@ -4,8 +4,9 @@ Uso:  python3 produccion/voz.py <nombre> [<nombre> …]
 Lee   produccion/escenas/<nombre>.txt   (solo el texto que se locuta)
 Crea  produccion/escenas/<nombre>.mp3
 
-Referencia de la voz: produccion/voz/referencia_larga.wav (40 s de la voz del dueño).
-Modo «x-vector»: copia el timbre, y el modelo pone una pronunciación de castellano natural.
+Referencia de la voz: produccion/voz/referencia.wav (15 s de la voz del dueño) + referencia.txt (lo que dice).
+Modo ICL: copia el timbre y también su forma de narrar (entonación). Acabado «TikTok»: +8 % de velocidad,
+más presencia y compresión.
 """
 import re, subprocess, sys, tempfile
 from pathlib import Path
@@ -14,9 +15,11 @@ import numpy as np
 
 RAIZ = Path(__file__).resolve().parent
 ESCENAS = RAIZ / "escenas"
-REF = RAIZ / "voz" / "referencia_larga.wav"
+REF = RAIZ / "voz" / "referencia.wav"
+REF_TXT = RAIZ / "voz" / "referencia.txt"
+ACABADO = "atempo=1.08,highpass=f=70,equalizer=f=3500:t=q:w=1:g=3,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-15:TP=-1.5"
 MODELO = "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
-PAUSA = 0.22          # segundos de silencio entre trozos
+PAUSA = 0.18          # segundos de silencio entre trozos
 MAX_CHARS = 260       # tamaño de cada trozo (frases completas)
 
 _modelo = _prompt = None
@@ -29,7 +32,7 @@ def _cargar():
         from qwen_tts import Qwen3TTSModel
         torch.set_num_threads(max(1, (torch.get_num_threads())))
         _modelo = Qwen3TTSModel.from_pretrained(MODELO, device_map="cpu", dtype=torch.float32)
-        _prompt = _modelo.create_voice_clone_prompt(ref_audio=str(REF), x_vector_only_mode=True)
+        _prompt = _modelo.create_voice_clone_prompt(ref_audio=str(REF), ref_text=REF_TXT.read_text(encoding="utf-8").strip(), x_vector_only_mode=False)
     return _modelo, _prompt
 
 
@@ -51,7 +54,7 @@ def generar(nombre):
     m, prompt = _cargar()
     partes, sr = [], 24000
     for t in trozos(texto):
-        wavs, sr = m.generate_voice_clone(text=t, language="Spanish", voice_clone_prompt=prompt)
+        wavs, sr = m.generate_voice_clone(text=t, language="Spanish", voice_clone_prompt=prompt, temperature=1.0)
         a = np.asarray(wavs[0], dtype="float32").squeeze()
         partes += [a, np.zeros(int(PAUSA * sr), dtype="float32")]
     audio = np.concatenate(partes[:-1])
@@ -59,7 +62,7 @@ def generar(nombre):
     with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
         sf.write(tmp.name, audio, sr)
         salida = ESCENAS / f"{nombre}.mp3"
-        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", tmp.name, "-af", "loudnorm=I=-16:TP=-1.5",
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", tmp.name, "-af", ACABADO,
                         "-ar", "44100", "-b:a", "160k", str(salida)], check=True)
     print(f"voz {nombre}: {len(audio) / sr:.1f} s")
     return salida
