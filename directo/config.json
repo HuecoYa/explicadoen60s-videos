@@ -7,5 +7,7 @@
   "segundos_resultado": 12,
   "puntos_comentario": 1,
   "puntos_por_moneda": 10,
-  "automatico": true
+  "automatico": true,
+  "minimo_espectadores": 10,
+  "relleno": true
 }

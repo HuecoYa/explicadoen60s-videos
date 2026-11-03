@@ -39,6 +39,7 @@ kbd { background: #fff; color: #111; border-radius: 5px; padding: 0 6px; font-si
   <button data-o="menos">−30 s</button>
   <button data-o="auto" id="bAuto">Automático</button>
   <button data-o="simular" id="bSim">Simulador</button>
+  <button data-o="relleno" id="bRel">Vídeos con pocos espectadores</button>
 </div>
 <div class="tarjeta"><div class="suave">TU CHULETA (solo la ves tú)</div><div id="nota">Pulsa «Empezar» cuando estés en directo.</div></div>
 <div class="tarjeta"><div class="suave">LOS QUE MÁS APOYAN</div><div class="fila" style="justify-content:space-between"><div>A: <span id="tA">—</span></div><div>B: <span id="tB">—</span></div></div></div>
@@ -65,6 +66,8 @@ function pintar() {
   $("estado").textContent = E.simulacion ? "🧪 Simulador" : E.conectado ? `🟢 Conectado a @${E.usuario}` : `🔴 ${E.mensaje || "Sin directo"}`;
   $("bSig").textContent = E.fase === "espera" ? "▶ Empezar" : "⏭ Siguiente duelo";
   $("bPausa").textContent = E.pausa ? "▶ Seguir" : "⏸ Pausa";
+  $("bRel").textContent = `Vídeos si hay menos de ${E.minimo}: ` + (E.rellenoActivo ? "sí" : "no");
+  $("fase").textContent += ` · 👀 ${E.espectadores ?? "?"}` + (E.relleno ? " · 📺 vídeos" : "");
   $("bAuto").textContent = "Automático: " + (E.auto ? "sí" : "no"); $("bSim").textContent = "Simulador: " + (E.simulacion ? "sí" : "no");
   pintarLista();
 }

@@ -4,7 +4,7 @@
 import path from "node:path";
 import { deserializeWebSocketMessage, deserializeMessage } from "tiktok-live-connector";
 
-export async function leerConNavegador({ usuario, carpeta, alComentario, alRegalo, alSeguidor, alEstado }) {
+export async function leerConNavegador({ usuario, carpeta, alComentario, alRegalo, alSeguidor, alEstado, alEspectadores = () => {} }) {
   let chromium;
   try { ({ chromium } = await import("playwright-core")); }
   catch { alEstado(false, "Falta instalar: abre iniciar.bat otra vez"); return; }
@@ -26,7 +26,7 @@ export async function leerConNavegador({ usuario, carpeta, alComentario, alRegal
 
   const page = ctx.pages()[0] || await ctx.newPage();
   const vistos = new Set();
-  let ultimo = 0;
+  let ultimo = 0, ultimoFrame = 0, terminado = 0;
 
   function tratar(lista) {
     for (const m of lista || []) {
@@ -45,6 +45,10 @@ export async function leerConNavegador({ usuario, carpeta, alComentario, alRegal
         if (racha && !x.repeatEnd) continue;                 // racha en curso: se cuenta una vez, al terminar
         const unidad = Number(det.diamondCount ?? 1) || 1;
         alRegalo(quien, det.name || det.giftName || "Regalo", unidad * (Number(x.repeatCount || x.comboCount) || 1), det.image?.urlList?.[0] || det.giftImage?.url?.[0] || "");
+      } else if (d.type === "WebcastRoomUserSeqMessage") {
+        const n = Number(x.total ?? x.totalUser); if (Number.isFinite(n)) alEspectadores(n);
+      } else if (d.type === "WebcastControlMessage") {
+        if ([3, 4].includes(Number(x.action))) { console.log("  TikTok avisa: el directo ha terminado o está en pausa"); terminado = Date.now(); }
       } else if (d.type === "WebcastSocialMessage") {
         if (String(x.action) === "1" || String(x.common?.displayText?.key || "").includes("follow")) alSeguidor(quien);
       }
@@ -55,6 +59,7 @@ export async function leerConNavegador({ usuario, carpeta, alComentario, alRegal
   const cdp = await ctx.newCDPSession(page);
   await cdp.send("Network.enable");
   cdp.on("Network.webSocketFrameReceived", async ({ response }) => {
+    ultimoFrame = Date.now();
     if (response.opcode !== 2) return;                      // solo binarios
     try { const f = await deserializeWebSocketMessage(Buffer.from(response.payloadData, "base64")); tratar(f.protoMessageFetchResult?.messages); } catch {}
   });
@@ -71,12 +76,12 @@ export async function leerConNavegador({ usuario, carpeta, alComentario, alRegal
   await abrir();
   alEstado(false, "Esperando a que empiece tu directo…");
 
-  // vigilancia: si en 90 s no llega nada, recarga la página (por si el directo aún no había empezado)
+  // vigilancia: con pocos espectadores pueden pasar minutos sin comentarios, así que solo se recarga
+  // si en 3 minutos no ha llegado NADA por la conexión (ni siquiera el recuento de espectadores)
+  const vivo = () => Date.now() - Math.max(ultimo, ultimoFrame) < 180000 && !(terminado && Date.now() - terminado < 60000);
   setInterval(async () => {
-    const vivo = Date.now() - ultimo < 90000;
-    alEstado(vivo, vivo ? "" : "Esperando a que empiece tu directo…");
-    if (!vivo) await abrir();
-  }, 30000);
-  setInterval(() => alEstado(Date.now() - ultimo < 90000, Date.now() - ultimo < 90000 ? "" : "Esperando a que empiece tu directo…"), 5000);
+    if (!vivo()) { console.log("  Sin datos del directo en 3 min: recargo la página de TikTok"); await abrir(); }
+  }, 60000);
+  setInterval(() => alEstado(vivo(), vivo() ? "" : "Esperando a que empiece tu directo…"), 5000);
   ctx.on("close", () => alEstado(false, "Has cerrado la ventana del lector: vuelve a abrir iniciar.bat"));
 }

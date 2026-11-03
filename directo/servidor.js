@@ -17,6 +17,15 @@ const args = process.argv.slice(2);
 let simular = args.includes("--simular");
 const usuarioTikTok = (args.find(a => !a.startsWith("--")) || CONFIG.usuario || "").replace(/^@/, "");
 const PUERTO = CONFIG.puerto || 3060;
+const MINIMO = CONFIG.minimo_espectadores ?? 10;
+
+// registro en archivo (registro.txt) para poder ver qué pasó si algo falla en el directo
+const REG = path.join(DIR, "registro.txt");
+try { if (fs.existsSync(REG) && fs.statSync(REG).size > 2e6) fs.renameSync(REG, REG + ".antiguo"); } catch {}
+const logOrig = console.log;
+console.log = (...a) => { logOrig(...a); try { fs.appendFileSync(REG, `[${new Date().toLocaleString("es-ES")}] ${a.join(" ")}\n`); } catch {} };
+process.on("uncaughtException", e => console.log("ERROR:", e?.stack || e));
+process.on("unhandledRejection", e => console.log("ERROR (promesa):", e?.stack || e));
 
 // ───────────── Estado del duelo (aquí manda el servidor; la pantalla solo lo dibuja) ─────────────
 const S = {
@@ -31,6 +40,10 @@ const S = {
   auto: CONFIG.automatico !== false,
   simulacion: simular,
   conectado: false, mensaje: "",
+  espectadores: null,      // gente viendo el directo ahora (lo manda TikTok)
+  relleno: false,          // true = se ven vídeos del canal hasta que haya MINIMO espectadores
+  rellenoActivo: CONFIG.relleno !== false,
+  pausaPorRelleno: false,
 };
 
 const clientes = new Set();
@@ -43,6 +56,7 @@ function estado() {
   return { tipo: "estado", fase: S.fase, numero: S.numero, duelo: S.duelo, puntos: S.puntos, fin: S.fin, ahora: Date.now(),
     pausa: S.pausa, restante: S.restante, aplastado: S.aplastado, top: { a: top("a"), b: top("b") }, auto: S.auto,
     simulacion: S.simulacion, conectado: S.conectado, mensaje: S.mensaje, usuario: usuarioTikTok,
+    espectadores: S.espectadores, minimo: MINIMO, relleno: S.relleno, rellenoActivo: S.rellenoActivo,
     reglas: { comentario: CONFIG.puntos_comentario, moneda: CONFIG.puntos_por_moneda, prensa: CONFIG.segundos_prensa } };
 }
 const publicar = () => enviar(estado());
@@ -70,8 +84,28 @@ setInterval(() => {
   if (S.pausa || S.fase === "espera" || Date.now() < S.fin) return;
   if (S.fase === "votacion") aPrensa();
   else if (S.fase === "prensa") aResultado();
-  else if (S.fase === "resultado") { if (S.auto) siguienteDuelo(); else { S.fase = "espera"; publicar(); } }
+  else if (S.fase === "resultado") { if (S.auto && !S.relleno) siguienteDuelo(); else { S.fase = "espera"; publicar(); } }
 }, 250);
+
+// ───────────── Relleno: vídeos del canal mientras haya menos de MINIMO espectadores ─────────────
+let pocosDesde = 0;
+function ponerRelleno(on) {
+  if (S.relleno === on) return;
+  S.relleno = on; console.log(on ? `📺 Relleno: hay ${S.espectadores} espectadores (mínimo ${MINIMO})` : `🎮 Volvemos al duelo (${S.espectadores} espectadores)`);
+  if (on && S.fase === "votacion" && !S.pausa) { S.restante = Math.max(15000, S.fin - Date.now()); S.pausa = true; S.pausaPorRelleno = true; }
+  if (!on) {
+    if (S.pausaPorRelleno) { S.fin = Date.now() + S.restante; S.pausa = false; S.pausaPorRelleno = false; }
+    else if (S.fase === "espera" && S.numero > 0 && S.auto) siguienteDuelo();
+  }
+  publicar();
+}
+setInterval(() => {
+  const n = S.espectadores;
+  const pocos = S.rellenoActivo && !S.simulacion && S.conectado && n !== null && n < MINIMO;
+  if (pocos) { if (!pocosDesde) pocosDesde = Date.now(); if (Date.now() - pocosDesde > 15000) ponerRelleno(true); }
+  else { pocosDesde = 0; ponerRelleno(false); }
+}, 1000);
+function espectadores(n) { if (n !== S.espectadores) { S.espectadores = n; publicar(); } }
 
 // ───────────── Votos y regalos ─────────────
 function ladoDeTexto(t) {
@@ -121,6 +155,7 @@ async function conectarTikTok() {
       alComentario: (u, texto) => comentario(u.id, u.nombre, u.foto, texto),
       alRegalo: (u, nombre, monedas, img) => regalo(u.id, u.nombre, u.foto, nombre, monedas, img),
       alSeguidor: u => enviar({ tipo: "seguidor", nombre: u.nombre }),
+      alEspectadores: espectadores,
       alEstado: (ok, msg) => {
         if (S.simulacion) return;
         if (ok !== antes) console.log(ok ? `✔ Leyendo el directo de @${usuarioTikTok}` : `… ${msg}`);
@@ -205,10 +240,12 @@ wss.on("connection", ws => {
       case "menos": if (S.fase === "votacion") { S.fin = Math.max(Date.now() + 5000, S.fin - 30000); publicar(); } break;
       case "auto": S.auto = !S.auto; publicar(); break;
       case "simular": simulador(!S.simulacion); break;
+      case "relleno": S.rellenoActivo = !S.rellenoActivo; if (!S.rellenoActivo) ponerRelleno(false); publicar(); break;
     }
   });
 });
 server.listen(PUERTO, () => {
   console.log(`\n  Pantalla del directo: http://localhost:${PUERTO}\n`);
+  if (process.env.PRUEBA_ESPECTADORES) { S.conectado = true; S.espectadores = +process.env.PRUEBA_ESPECTADORES; return; }   // solo para pruebas
   if (simular) simulador(true); else conectarTikTok();
 });

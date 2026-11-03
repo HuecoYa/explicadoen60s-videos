@@ -90,6 +90,18 @@ html, body { background: #000; }
 
 #conexion { position: absolute; left: 38.4px; top: 28.8px; font-size: 26.9px; padding: 5.8px 19.2px; border-radius: 1900.8px; background: rgba(0,0,0,.5); opacity: .85; }
 #conexion:empty { display: none; }
+/* ── Relleno: vídeos del canal mientras hay pocos espectadores ── */
+#relleno { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; background: #000; display: none; }
+.modo-relleno #relleno { display: block; }
+.modo-relleno #marcador, .modo-relleno #resultado, .modo-relleno #espera, .modo-relleno #banner { display: none !important; }
+#rellenoInfo { position: absolute; left: 4%; right: 13%; top: 168px; text-align: center; display: none; }
+.modo-relleno #rellenoInfo { display: block; }
+#rellenoInfo .pill { display: inline-block; background: rgba(10,14,32,.82); border: 4px solid rgba(255,255,255,.18); border-radius: 40px; padding: 12px 30px 16px; box-shadow: 0 10px 0 rgba(0,0,0,.35); }
+#rellenoInfo .t { font-size: 34px; } #rellenoInfo .t b { color: var(--oro); }
+#rellenoInfo .vivo { display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #ff3b3b; margin-right: 10px; vertical-align: 2px; animation: late .6s infinite alternate; }
+#rellenoInfo .meta { margin: 10px auto 0; width: 520px; height: 22px; border-radius: 99px; background: rgba(255,255,255,.18); overflow: hidden; }
+#rellenoInfo .meta i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--a), var(--b)); transition: width .6s; }
+#rellenoInfo .n { font-size: 26px; margin-top: 6px; opacity: .9; }
 #ayuda { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(5,8,20,.94); border-radius: 38.4px; padding: 46.1px 57.6px; font-size: 34.6px; line-height: 1.7; display: none; pointer-events: auto; }
 #ayuda.ver { display: block; }
 #ayuda kbd { background: #fff; color: #111; border-radius: 11.5px; padding: 0 15.4px; font-family: inherit; }
@@ -101,6 +113,8 @@ html, body { background: #000; }
 </head>
 <body>
 <div id="escenario">
+<video id="relleno" playsinline preload="auto"></video>
+<div id="rellenoInfo"><div class="pill"><div class="t"><span class="vivo"></span>EN DIRECTO · el duelo empieza cuando seamos <b id="rMin">10</b></div><div class="meta"><i id="rBar"></i></div><div class="n" id="rN"></div></div></div>
 <div id="capa">
   <div id="conexion"></div>
   <div id="marcador">
@@ -333,7 +347,7 @@ function animar() {
   const kc = 1 - Math.pow(0.15, dt); camP.lerp(objetivo.p, kc); camT.lerp(objetivo.t, kc); temblor *= Math.pow(0.08, dt);
   camera.position.copy(camP).add(new THREE.Vector3(Math.sin(tGlobal * 0.31) * 0.25 + (Math.random() - .5) * temblor * 0.25, Math.sin(tGlobal * 0.23) * 0.12 + (Math.random() - .5) * temblor * 0.25, 0));
   camera.lookAt(camT);
-  renderer.render(scene, camera);
+  if (!E?.relleno) renderer.render(scene, camera);
   requestAnimationFrame(animar);
 }
 
@@ -440,7 +454,7 @@ function conectar() {
       }
       if (m.fase === "votacion") m.totalVoto = Math.max(E?.totalVoto && !nuevoDuelo ? E.totalVoto : 0, (m.fin - m.ahora) / 1000);
       if (nuevoDuelo) { montarDuelo(m.duelo); mostrados = { a: 0, b: 0 }; obj.a && (obj.a.sMin = undefined); obj.b && (obj.b.sMin = undefined); }
-      E = m; pintar();
+      E = m; pintar(); modoRelleno();
     } else if (m.tipo === "voto") {
       toast(`<b>${esc(m.nombre)}</b>&nbsp;vota <b>${m.lado.toUpperCase()}</b>${m.puntos > 1 ? `&nbsp;<span class="mas">+${fmt(m.puntos)}</span>` : ""}`, m.lado, m.foto);
       sfx.voto(); if (obj[m.lado]) obj[m.lado].wob = Math.max(obj[m.lado].wob, 0.25); golpe(m.lado);
@@ -473,6 +487,34 @@ addEventListener("keydown", e => {
   else if (k === "f") document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen?.();
 });
 addEventListener("pointerdown", () => { if (!ctxAudio) try { ctxAudio = new AudioContext(); } catch {} else ctxAudio.resume(); });
+// ═════════════ Relleno con los vídeos del canal ═════════════
+let lista = null, pos = 0;
+const vid = $("relleno");
+async function cargarLista() {
+  if (lista) return lista;
+  try {
+    const r = await fetch("https://api.github.com/repos/explicadoen60s/explicadoen60s.github.io/releases/tags/videos");
+    const d = await r.json();
+    lista = (d.assets || []).filter(a => /^[a-z0-9]+\.mp4$/.test(a.name)).sort((x, y) => y.updated_at.localeCompare(x.updated_at)).map(a => a.browser_download_url);
+  } catch { lista = []; }
+  return lista;
+}
+async function siguienteVideo() {
+  const l = await cargarLista(); if (!l.length) return;
+  vid.src = l[pos++ % l.length]; vid.muted = !sonido;
+  try { await vid.play(); } catch { vid.muted = true; try { await vid.play(); } catch {} }
+}
+vid.addEventListener("ended", siguienteVideo);
+vid.addEventListener("error", () => setTimeout(siguienteVideo, 1000));
+function modoRelleno() {
+  const on = !!E?.relleno; document.body.classList.toggle("modo-relleno", on);
+  if (on) {
+    const n = E.espectadores ?? 0, min = E.minimo || 10;
+    $("rMin").textContent = min; $("rBar").style.width = Math.min(100, n / min * 100) + "%";
+    $("rN").textContent = `${n}/${min} 👀 · ¡comparte el directo!`;
+    if (vid.paused && !vid.dataset.cargando) { vid.dataset.cargando = 1; siguienteVideo().finally(() => delete vid.dataset.cargando); }
+  } else if (!vid.paused) vid.pause();
+}
 window.__listo = true;
 </script>
 </body>

@@ -41,6 +41,15 @@ que ve cualquier espectador: comentarios, regalos y seguidores. No usa servicios
 - En el control sale 🟢 cuando ya llegan mensajes. Si el directo aún no ha empezado, la ventana se recarga sola cada 30 s.
 - Hay otro modo (`"modo": "libreria"` en `config.json`) que no abre ventana, pero su servidor puede pedir un plan de pago.
 
+## Si hay pocos espectadores
+Si hay menos de **10 personas** viendo el directo durante 15 segundos, la pantalla pone **vídeos del canal** (los del release `videos`)
+con un aviso arriba: «el duelo empieza cuando seamos 10» y una barra con cuántos hay. En cuanto llegan a 10, vuelve el duelo
+donde se quedó. El número se cambia en `config.json` (`minimo_espectadores`), y en el control hay un botón para quitarlo.
+Mientras salen los vídeos, **sigue hablando a cámara**: TikTok penaliza los directos con contenido grabado y sin nadie presentando.
+
+## Si algo falla
+Todo lo que pasa se guarda en **`registro.txt`** (en esta carpeta). Si el directo se corta, mándale ese archivo a Claude.
+
 ## Durante el directo
 | Botón del control | Tecla en la pantalla | Qué hace |
 |---|---|---|
