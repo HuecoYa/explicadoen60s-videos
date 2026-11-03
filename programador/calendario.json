@@ -38,9 +38,14 @@
     "construcción",
     "historia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17907525231669903",
+    "url": "https://www.instagram.com/reel/DfSVOOKlRuq/"
+   },
+   "publicado": "2026-11-03T16:40:38.280959+00:00"
   },
   {
    "id": "rascacielos-tiktok",
@@ -56,9 +61,15 @@
     "arquitectura",
     "física"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "v_inbox_file~v2.7703985806129694722",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-03T16:41:16.711196+00:00"
   },
   {
    "id": "tunel-youtube",
@@ -74,9 +85,14 @@
     "construcción",
     "historia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "wDwDLVzDu5c",
+    "url": "https://youtube.com/shorts/wDwDLVzDu5c"
+   },
+   "publicado": "2026-11-03T16:41:19.875162+00:00"
   },
   {
    "id": "rascacielos-instagram",
