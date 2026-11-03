@@ -1,0 +1,16 @@
+{
+ "version": 1,
+ "iteraciones": 600000,
+ "usuarios": {
+  "Nikoloz_Lekishvili": {
+   "salt": "eNMQ0CPr+arGQMMNiFtYIQ==",
+   "iv": "0cIMiLBSajdtg88c",
+   "ct": "vyvkW8/qJDvhPBPdoPVUD2exmDWhzdoOCq8qi7bzC/qVpy/hqtWove5lV63q4+zGlDVtVoBP6YEMarpyBjEMHdAobcYASdHM4VCBK3yGEIXpM2uPrrw9ZxMFDfsBf/yT/uk9YOWW75oS0Gma1w=="
+  },
+  "Christian_Civico": {
+   "salt": "RzeEv4HV5Ec8uKPgt/K8gA==",
+   "iv": "6Gj5MlCI6OlLqrgc",
+   "ct": "QLpnCFH3QHxCtb86cJ3qLVtlTzbznOAEB1T5V8ZjLnIerRDjbfiGPfLOcOW/7w3bdZJfZ5DMuqzIlC1JbBaC08A/uyliTUY2xR6UBZVVuTH1A8ghkG1TLXjMMTP4SN7xxGK/hHILuK7KN2/IfQ=="
+  }
+ }
+}
