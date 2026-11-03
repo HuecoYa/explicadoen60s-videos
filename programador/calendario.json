@@ -14,9 +14,15 @@
     "construcción",
     "historia"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7703960187287685123",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-03T15:03:03.371622+00:00"
   },
   {
    "id": "tunel-instagram",
