@@ -112,18 +112,35 @@ function regalo(usuario, nombre, foto, nombreRegalo, monedas, imagen) {
 // ───────────── Conexión con TikTok ─────────────
 async function conectarTikTok() {
   if (!usuarioTikTok) { S.mensaje = "Pon tu usuario en config.json"; publicar(); return; }
+  if ((CONFIG.modo || "navegador") === "navegador") {
+    // Modo gratis: lee el directo desde una ventana de Edge/Chrome (sin servicios de pago)
+    const { leerConNavegador } = await import("./lector-navegador.js");
+    let antes = null;
+    return leerConNavegador({
+      usuario: usuarioTikTok, carpeta: DIR,
+      alComentario: (u, texto) => comentario(u.id, u.nombre, u.foto, texto),
+      alRegalo: (u, nombre, monedas, img) => regalo(u.id, u.nombre, u.foto, nombre, monedas, img),
+      alSeguidor: u => enviar({ tipo: "seguidor", nombre: u.nombre }),
+      alEstado: (ok, msg) => {
+        if (S.simulacion) return;
+        if (ok !== antes) console.log(ok ? `✔ Leyendo el directo de @${usuarioTikTok}` : `… ${msg}`);
+        antes = ok; if (S.conectado !== ok || S.mensaje !== msg) { S.conectado = ok; S.mensaje = msg; publicar(); }
+      },
+    });
+  }
+  // Modo «libreria»: conexión directa con tiktok-live-connector (puede pedir plan de pago a su servidor de firmas)
   const { TikTokLiveConnection, WebcastEvent } = await import("tiktok-live-connector");
-  const con = new TikTokLiveConnection(usuarioTikTok, { enableExtendedGiftInfo: true });
-  const usr = d => ({ id: d.user?.uniqueId || "anonimo", nombre: d.user?.nickname || d.user?.uniqueId || "alguien",
-    foto: d.user?.profilePicture?.url?.[0] || d.user?.profilePictureUrl || "" });
-  con.on(WebcastEvent.CHAT, d => { const u = usr(d); comentario(u.id, u.nombre, u.foto, d.comment); });
+  const con = new TikTokLiveConnection(usuarioTikTok, { enableExtendedGiftInfo: false });
+  const usr = d => ({ id: d.user?.displayId || d.user?.uniqueId || "anonimo", nombre: d.user?.nickname || d.user?.displayId || d.user?.uniqueId || "alguien",
+    foto: d.user?.avatarThumb?.urlList?.[0] || d.user?.profilePicture?.url?.[0] || "" });
+  con.on(WebcastEvent.CHAT, d => { const u = usr(d); comentario(u.id, u.nombre, u.foto, d.content ?? d.comment ?? ""); });
   con.on(WebcastEvent.GIFT, d => {
-    const det = d.giftDetails || d;
-    if (det.giftType === 1 && !d.repeatEnd) return;   // racha en curso: se cuenta al terminar
+    const det = d.gift || d.giftDetails || {};
+    if ((det.combo === true || (det.type ?? det.giftType) === 1) && !d.repeatEnd) return;   // racha en curso: se cuenta al terminar
     const u = usr(d);
-    const unit = det.diamondCount ?? d.extendedGiftInfo?.diamond_count ?? 1;
-    const img = det.giftImage?.url?.[0] || d.extendedGiftInfo?.image?.url_list?.[0] || "";
-    regalo(u.id, u.nombre, u.foto, det.giftName || d.extendedGiftInfo?.name || "Regalo", unit * (d.repeatCount || 1), img);
+    const unit = Number(det.diamondCount ?? 1) || 1;
+    const img = det.image?.urlList?.[0] || det.giftImage?.url?.[0] || "";
+    regalo(u.id, u.nombre, u.foto, det.name || det.giftName || "Regalo", unit * (Number(d.repeatCount) || 1), img);
   });
   con.on(WebcastEvent.FOLLOW, d => { const u = usr(d); enviar({ tipo: "seguidor", nombre: u.nombre }); });
   con.on(WebcastEvent.STREAM_END, () => { S.conectado = false; S.mensaje = "El directo ha terminado"; publicar(); });

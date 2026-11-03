@@ -1,5 +1,6 @@
 {
   "usuario": "explicadoen60s",
+  "modo": "navegador",
   "puerto": 3060,
   "segundos_votacion": 120,
   "segundos_prensa": 14,

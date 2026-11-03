@@ -33,7 +33,13 @@ Se abren dos ventanas:
 4. Para que se oigan los efectos, activa el **audio del sistema** en LIVE Studio y haz un clic una vez en la ventana de la pantalla:
    los navegadores no dejan sonar nada hasta el primer clic.
 
-El programa se conecta solo cuando empieza tu directo. En el control sale 🟢 cuando ya está leyendo el chat y los regalos.
+## Cómo lee los comentarios y regalos (gratis)
+Al arrancar se abre una **ventana de Edge (o Chrome) con tu directo**. El programa escucha ahí los mismos mensajes
+que ve cualquier espectador: comentarios, regalos y seguidores. No usa servicios de pago ni claves.
+- **No cierres esa ventana** durante el directo (puedes minimizarla). Está silenciada.
+- Si TikTok te pide iniciar sesión en esa ventana, inicia sesión una vez (mejor con otra cuenta que no sea la del directo). Se queda guardado.
+- En el control sale 🟢 cuando ya llegan mensajes. Si el directo aún no ha empezado, la ventana se recarga sola cada 30 s.
+- Hay otro modo (`"modo": "libreria"` en `config.json`) que no abre ventana, pero su servidor puede pedir un plan de pago.
 
 ## Durante el directo
 | Botón del control | Tecla en la pantalla | Qué hace |
@@ -53,8 +59,8 @@ Objetos disponibles: `huevo`, `bombilla`, `lata`, `botella`, `sandia`, `pelota`,
 Para añadir objetos nuevos, pídeselo a Claude (están en `pantalla/objetos.js`).
 
 ## A tener en cuenta
-- Para leer el chat y los regalos se usa una librería **no oficial** (`tiktok-live-connector`) porque TikTok no ofrece una forma oficial.
-  Funciona sin tu contraseña, pero si TikTok cambia algo puede dejar de funcionar unos días hasta que la actualicen (`npm update`).
+- TikTok no ofrece una forma oficial de leer el chat de un directo. Este programa lee la página de TikTok como un espectador
+  y traduce sus mensajes con una librería no oficial; si TikTok cambia algo, puede dejar de funcionar unos días hasta que se actualice.
 - Para tener regalos en el directo, la cuenta debe cumplir los requisitos de TikTok: ser mayor de edad y tener un mínimo de seguidores.
 - Las normas de TikTok exigen que hables tú en directo. El programa no pone voces: la voz eres tú.
 - No prometas nada a cambio de regalos fuera de lo que se ve en pantalla.
