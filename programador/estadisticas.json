@@ -1,35 +1,44 @@
 {
- "actualizado": "2026-11-03T16:16:56.024036+00:00",
+ "actualizado": "2026-11-03T17:19:57.688055+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
    "seguidores": 50,
    "vistas": 23508,
-   "videos": 22
+   "videos": 23
   },
   "instagram": {
    "nombre": "@explicadoen60s",
    "seguidores": 14,
-   "videos": 23,
-   "vistas": 24633
+   "videos": 24,
+   "vistas": 24771
   },
   "tiktok": {
    "nombre": "explicadoen60s",
-   "seguidores": 44,
-   "likes": 1944,
+   "seguidores": 46,
+   "likes": 1967,
    "videos": 29,
-   "vistas": 53398
+   "vistas": 53747
   }
  },
  "videos": {
   "youtube": [
    {
+    "id": "wDwDLVzDu5c",
+    "titulo": "¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso",
+    "fecha": "2026-11-03T16:42:02Z",
+    "url": "https://youtube.com/shorts/wDwDLVzDu5c",
+    "vistas": 199,
+    "likes": 7,
+    "comentarios": 0
+   },
+   {
     "id": "pbocshzw1Mo",
     "titulo": "Un airbag se infla en 30 milésimas de segundo 🚗",
     "fecha": "2026-11-03T11:03:14Z",
     "url": "https://youtube.com/shorts/pbocshzw1Mo",
-    "vistas": 1338,
-    "likes": 53,
+    "vistas": 1459,
+    "likes": 54,
     "comentarios": 0
    },
    {
@@ -46,7 +55,7 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 1590,
+    "vistas": 1600,
     "likes": 59,
     "comentarios": 0
    },
@@ -55,7 +64,7 @@
     "titulo": "Tu tarjeta calcula un código nuevo en cada compra 💳",
     "fecha": "2026-11-01T17:07:27Z",
     "url": "https://youtube.com/shorts/HuIneB5kG3g",
-    "vistas": 1393,
+    "vistas": 1395,
     "likes": 52,
     "comentarios": 0
    },
@@ -64,7 +73,7 @@
     "titulo": "¿La máquina de peluches está trucada? 🧸",
     "fecha": "2026-11-01T15:07:27Z",
     "url": "https://youtube.com/shorts/3QeKEF6QIT8",
-    "vistas": 2029,
+    "vistas": 2068,
     "likes": 45,
     "comentarios": 0
    },
@@ -82,7 +91,7 @@
     "titulo": "Así te pilla Hacienda si inventas números (ley de Benford) #shorts",
     "fecha": "2026-10-31T21:03:45Z",
     "url": "https://youtube.com/shorts/csfOC8UIebg",
-    "vistas": 1231,
+    "vistas": 1233,
     "likes": 63,
     "comentarios": 0
    },
@@ -101,7 +110,7 @@
     "fecha": "2026-10-31T20:31:32Z",
     "url": "https://youtube.com/shorts/1gx47YGrvnA",
     "vistas": 1173,
-    "likes": 25,
+    "likes": 26,
     "comentarios": 0
    },
    {
@@ -136,7 +145,7 @@
     "titulo": "RULETA | explicadoen60s",
     "fecha": "2026-10-30T16:50:46Z",
     "url": "https://youtube.com/shorts/ApcW-U0XSUQ",
-    "vistas": 1321,
+    "vistas": 1318,
     "likes": 49,
     "comentarios": 0
    },
@@ -224,14 +233,26 @@
   ],
   "instagram": [
    {
+    "id": "17907525231669903",
+    "titulo": "La idea de las tuneladoras salió de un bicho que se come los barcos. ¿Te lo esperabas? 👇",
+    "fecha": "2026-11-03T16:40:32+0000",
+    "url": "https://www.instagram.com/reel/DfSVOOKlRuq/",
+    "likes": 2,
+    "comentarios": 0,
+    "vistas": 129,
+    "alcance": 0,
+    "guardados": 0,
+    "compartidos": 0
+   },
+   {
     "id": "17966427606244834",
     "titulo": "Un airbag se infla 10 veces más rápido que un parpadeo… y no lleva aire dentro 🚗💥 ¿Sabías ",
     "fecha": "2026-11-03T09:06:42+0000",
     "url": "https://www.instagram.com/reel/DfRhKWHArIT/",
     "likes": 56,
     "comentarios": 0,
-    "vistas": 1718,
-    "alcance": 1284,
+    "vistas": 1726,
+    "alcance": 1291,
     "guardados": 1,
     "compartidos": 1
    },
@@ -338,8 +359,8 @@
     "url": "https://www.instagram.com/reel/DfKIGXwAEbS/",
     "likes": 36,
     "comentarios": 0,
-    "vistas": 1660,
-    "alcance": 1428,
+    "vistas": 1661,
+    "alcance": 1430,
     "guardados": 5,
     "compartidos": 7
    },
@@ -506,18 +527,18 @@
     "titulo": "La idea de las tuneladoras salió de un bicho que se come los barcos. ¿Te lo esperabas? 👇 #",
     "fecha": "2026-11-03T15:25:05+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703966581226753302?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 421,
-    "likes": 14,
+    "vistas": 726,
+    "likes": 35,
     "comentarios": 0,
-    "compartidos": 0
+    "compartidos": 2
    },
    {
     "id": "7703868479748803862",
     "titulo": "Si tuvieras que inventar un termo… El calor se escapa por 3 caminos y el termo los bloquea",
     "fecha": "2026-11-03T09:04:10+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703868479748803862?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 829,
-    "likes": 64,
+    "vistas": 845,
+    "likes": 66,
     "comentarios": 0,
     "compartidos": 1
    },
@@ -526,7 +547,7 @@
     "titulo": "Ese rectángulo en el asfalto antes del semáforo esconde un cable que te detecta 🚦 ¿Te ha p",
     "fecha": "2026-11-02T20:02:57+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703667173281074454?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1003,
+    "vistas": 1007,
     "likes": 53,
     "comentarios": 0,
     "compartidos": 8
@@ -536,7 +557,7 @@
     "titulo": "Inventamos el mechero pieza a pieza: chispa, butano, válvula, regulador y chimenea 🔥 ¿Cono",
     "fecha": "2026-11-02T17:06:27+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703621697571802390?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1004,
+    "vistas": 1010,
     "likes": 60,
     "comentarios": 0,
     "compartidos": 0
@@ -546,7 +567,7 @@
     "titulo": "La máquina expendedora le hace 3 exámenes a tu moneda mientras cae 🪙 ¿Alguna vez te la ha ",
     "fecha": "2026-11-02T15:06:59+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703590908201028886?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 4373,
+    "vistas": 4376,
     "likes": 111,
     "comentarios": 1,
     "compartidos": 1
@@ -556,7 +577,7 @@
     "titulo": "Si tuvieras que inventar la cremallera desde cero… 🧥 La pieza clave tiene forma de Y. ¿Te ",
     "fecha": "2026-11-02T12:03:13+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703543548813020439?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 6698,
+    "vistas": 6703,
     "likes": 268,
     "comentarios": 0,
     "compartidos": 1
@@ -566,7 +587,7 @@
     "titulo": "Un airbag se infla 10 veces más rápido que un parpadeo… y no lleva aire dentro 🚗💥 ¿Sabías ",
     "fecha": "2026-11-02T09:05:04+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703497625814715670?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 4795,
+    "vistas": 4797,
     "likes": 204,
     "comentarios": 0,
     "compartidos": 0
@@ -686,7 +707,7 @@
     "titulo": "Ha salido negro 10 veces seguidas… ¿apuestas al rojo? 🎲 Spoiler: la ruleta no tiene memori",
     "fecha": "2026-10-30T16:57:49+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7702506136305487126?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 20482,
+    "vistas": 20486,
     "likes": 643,
     "comentarios": 2,
     "compartidos": 256
@@ -696,7 +717,7 @@
     "titulo": "Antes de que acabe este vídeo vas a bostezar 🥱 (y no es por sueño). ¿Lo has hecho? Confies",
     "fecha": "2026-10-29T22:40:18+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7702223310326697238?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1128,
+    "vistas": 1130,
     "likes": 23,
     "comentarios": 5,
     "compartidos": 0
@@ -726,7 +747,7 @@
     "titulo": "Cuando frenas a fondo, tu coche suelta el freno 20 veces por segundo 🚗 Y eso te salva la v",
     "fecha": "2026-10-29T21:24:10+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7702203693889850646?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1055,
+    "vistas": 1056,
     "likes": 73,
     "comentarios": 1,
     "compartidos": 2
@@ -776,7 +797,7 @@
     "titulo": "¿Sabías que tu wifi vibra 2.400 millones de veces por segundo? 📡 Así llega un vídeo a tu m",
     "fecha": "2026-10-29T19:09:00+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7702168862346824982?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 778,
+    "vistas": 779,
     "likes": 12,
     "comentarios": 0,
     "compartidos": 1
@@ -789,12 +810,12 @@
    "fecha": "2026-11-03",
    "youtube_seguidores": 50,
    "youtube_vistas": 23508,
-   "youtube_videos": 22,
+   "youtube_videos": 23,
    "instagram_seguidores": 14,
-   "instagram_vistas": 24633,
-   "instagram_videos": 23,
-   "tiktok_seguidores": 44,
-   "tiktok_vistas": 53398,
+   "instagram_vistas": 24771,
+   "instagram_videos": 24,
+   "tiktok_seguidores": 46,
+   "tiktok_vistas": 53747,
    "tiktok_videos": 29
   }
  ]
