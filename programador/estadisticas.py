@@ -53,23 +53,35 @@ def instagram(tok):
         G = f"https://graph.instagram.com/{IG_VERSION}"
     u = _ok(requests.get(f"{G}/{uid}", timeout=60, params={"fields": "username,followers_count,follows_count,media_count", "access_token": at}))
     cuenta = {"nombre": "@" + u.get("username", ""), "seguidores": u.get("followers_count", 0), "videos": u.get("media_count", 0)}
-    videos, url = [], f"{G}/{uid}/media"
+    videos, url, errores_ins = [], f"{G}/{uid}/media", []
     params = {"fields": "id,caption,media_type,timestamp,permalink,like_count,comments_count", "limit": 50, "access_token": at}
     while url and len(videos) < 200:
         r = _ok(requests.get(url, params=params, timeout=60))
         for m in r.get("data", []):
             v = {"id": m["id"], "titulo": (m.get("caption") or "").split("\n")[0][:90], "fecha": m.get("timestamp"),
                  "url": m.get("permalink"), "likes": m.get("like_count", 0), "comentarios": m.get("comments_count", 0)}
-            try:  # requiere el permiso instagram_manage_insights
-                ins = _ok(requests.get(f"{G}/{m['id']}/insights", timeout=60,
-                                       params={"metric": "views,reach,saved,shares", "access_token": at}))
-                for x in ins.get("data", []):
-                    v[{"views": "vistas", "reach": "alcance", "saved": "guardados", "shares": "compartidos"}[x["name"]]] = x["values"][0]["value"]
-            except Exception:
-                pass
+            # requiere el permiso instagram_manage_insights; si una métrica no vale, se piden de una en una
+            nombres = {"views": "vistas", "reach": "alcance", "saved": "guardados", "shares": "compartidos"}
+            for grupo in (["views,reach,saved,shares"], list(nombres)):
+                fallos = []
+                for met in grupo:
+                    r2 = requests.get(f"{G}/{m['id']}/insights", timeout=60, params={"metric": met, "access_token": at})
+                    if r2.status_code >= 400:
+                        fallos.append(f"{met}: HTTP {r2.status_code} {r2.text[:200]}")
+                        continue
+                    for x in r2.json().get("data", []):
+                        if x["name"] in nombres:
+                            val = x["values"][0]["value"] if x.get("values") else x.get("total_value", {}).get("value", 0)
+                            v[nombres[x["name"]]] = val
+                if not fallos:
+                    break
+            if fallos and not errores_ins:
+                errores_ins.append(fallos[0])
             videos.append(v)
         url, params = r.get("paging", {}).get("next"), None
     cuenta["vistas"] = sum(v.get("vistas", 0) for v in videos)
+    if errores_ins:
+        cuenta["error_vistas"] = errores_ins[0][:300]
     return cuenta, videos
 
 
