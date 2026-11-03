@@ -26,7 +26,7 @@ def leer_calendario():
 
 
 def guardar_calendario(cal):
-    cal["posts"].sort(key=lambda p: (p["hora"], p["red"]))
+    cal["posts"].sort(key=lambda p: (dt.datetime.fromisoformat(p["hora"].replace("Z", "+00:00")), p["red"]))
     CALENDARIO.write_text(json.dumps(cal, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 

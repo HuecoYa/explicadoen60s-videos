@@ -20,12 +20,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: subida
+          sparse-checkout: subida
       - name: Subir al release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release view videos >/dev/null 2>&1 || gh release create videos --title "Vídeos para publicar" --notes "Almacén de vídeos del programador. No borrar." --latest=false
-          for f in videos/*.mp4; do
+          for f in subida/*.mp4; do
             [ -f "$f" ] || continue
             gh release upload videos "$f" --clobber
             echo "guardado $(basename "$f")"

@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Panel explicadoen60s</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f6f5f1;--fg:#16171b;--mut:#6a6a73;--card:#fff;--bd:#e3e1da;--acc:#ffd23f;--acc-fg:#16171b;--ok:#1f9d55;--err:#d64545;--warn:#c98a00;--chip:#efede6}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121316;--fg:#f1f0ec;--mut:#9d9ca6;--card:#1c1d22;--bd:#2f3037;--chip:#2a2b31}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--bd)}
+.top{max-width:860px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:10px}
+.logo{background:var(--acc);color:var(--acc-fg);font-weight:800;border-radius:8px;padding:4px 8px;font-size:14px;letter-spacing:-.3px}
+.top h1{font-size:17px;margin:0;flex:1}
+nav{max-width:860px;margin:0 auto;padding:0 8px;display:flex;gap:2px;overflow-x:auto}
+nav button{border:0;background:none;color:var(--mut);font:600 14px system-ui;padding:10px 12px;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap}
+nav button.on{color:var(--fg);border-color:var(--acc)}
+nav .n{background:var(--err);color:#fff;border-radius:9px;font-size:11px;padding:1px 6px;margin-left:4px}
+main{max-width:860px;margin:0 auto;padding:16px 16px 80px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;margin:0 0 14px}
+h2{font-size:16px;margin:22px 0 8px;color:var(--mut);font-weight:600}
+h2::first-letter{text-transform:uppercase}
+h2:first-child{margin-top:0}
+.row{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--bd)}
+.row:first-child{border-top:0}
+.hora{font-variant-numeric:tabular-nums;font-weight:700;width:46px;flex:none}
+.tit{flex:1;min-width:0}
+.tit b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}
+.tit small{color:var(--mut)}
+.red{font-size:12px;font-weight:700;border-radius:6px;padding:2px 7px;flex:none;width:84px;text-align:center}
+.red.tiktok{background:#111;color:#fff}.red.instagram{background:#e1306c;color:#fff}.red.youtube{background:#e62117;color:#fff}
+.est{font-size:12px;border-radius:12px;padding:2px 8px;background:var(--chip);white-space:nowrap}
+.est.publicado{color:var(--ok)}.est.error,.est.caducado{color:var(--err)}.est.borrador{color:var(--warn)}
+.acc{display:flex;gap:4px;flex:none}
+.ib{border:1px solid var(--bd);background:var(--card);color:var(--fg);border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:15px}
+.ib:hover{border-color:var(--fg)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:10px;background:var(--acc);color:var(--acc-fg);font:700 15px system-ui;padding:11px 16px;cursor:pointer;text-decoration:none}
+.btn.sec{background:var(--chip);color:var(--fg)}
+.btn:disabled{opacity:.5;cursor:default}
+label{display:block;font-weight:600;font-size:13px;margin:14px 0 5px}
+input,textarea,select{width:100%;font:15px system-ui;padding:10px 12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--fg)}
+textarea{min-height:90px;resize:vertical}
+.net{display:grid;grid-template-columns:auto auto minmax(0,1fr);gap:8px;align-items:center;margin:8px 0}
+.net input[type=datetime-local]{min-width:0}
+.net input[type=checkbox]{width:20px;height:20px}
+.mut{color:var(--mut);font-size:13px}
+.msg{padding:10px 12px;border-radius:10px;margin:10px 0;font-size:14px}
+.msg.ok{background:color-mix(in srgb,var(--ok) 14%,transparent)}.msg.err{background:color-mix(in srgb,var(--err) 14%,transparent)}
+pre{white-space:pre-wrap;background:var(--bg);border:1px solid var(--bd);border-radius:10px;padding:10px;font:13px/1.45 ui-monospace,monospace;margin:8px 0}
+.empty{color:var(--mut);text-align:center;padding:30px 0}
+.conn{display:flex;gap:10px;align-items:center;padding:8px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:560px){.red{width:auto}.grid2{grid-template-columns:1fr}.hora{width:42px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="top"><span class="logo">60s</span><h1>Panel de publicaciones</h1><button class="ib" id="recargar" title="Recargar">⟳</button></div>
+ <nav id="tabs">
+  <button data-t="cal" class="on">Calendario</button>
+  <button data-t="nuevo">+ Nuevo vídeo</button>
+  <button data-t="avisos">Avisos<span class="n" id="navisos" hidden></span></button>
+  <button data-t="conex">Conexiones</button>
+  <button data-t="ajustes">Ajustes</button>
+ </nav>
+</header>
+<main id="app"><div class="empty">Cargando…</div></main>
+
+<script>
+const O="explicadoen60s",R="explicadoen60s.github.io",API=`https://api.github.com/repos/${O}/${R}`;
+const TZ="Europe/Madrid";
+const HUECOS={tiktok:[10,13,16,18,21],instagram:[10,18],youtube:[12,16]};
+const REDES=["tiktok","instagram","youtube"];
+const EST={pendiente:"⏳ Pendiente",publicado:"✅ Publicado",borrador:"📲 En tu bandeja",error:"❌ Error",caducado:"⚠️ No salió"};
+let tok="";try{tok=localStorage.getItem("ghtoken")||""}catch(e){}
+let tab="cal",cal=null,calSha=null,TEXTOS=[];
+const $=s=>document.querySelector(s), app=$("#app");
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// ── GitHub ──
+async function gh(path,opt={}){
+  const r=await fetch(path.startsWith("http")?path:API+path,{...opt,headers:{Authorization:`Bearer ${tok}`,Accept:"application/vnd.github+json",...(opt.headers||{})}});
+  if(!r.ok){const t=await r.text();const e=new Error(`GitHub ${r.status}: ${t.slice(0,200)}`);e.status=r.status;throw e}
+  return r.status===204?null:r.json();
+}
+const b64e=s=>btoa(unescape(encodeURIComponent(s))), b64d=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+async function leerArchivo(p){const j=await gh(`/contents/${p}?ref=main&t=${Date.now()}`);return {txt:b64d(j.content),sha:j.sha}}
+async function cargarCal(){const f=await leerArchivo("programador/calendario.json");cal=JSON.parse(f.txt);calSha=f.sha;return cal}
+async function guardarCal(cambio,msg){
+  for(let i=0;i<4;i++){
+    await cargarCal();cambio(cal);
+    cal.posts.sort((a,b)=>new Date(a.hora)-new Date(b.hora)||a.red.localeCompare(b.red));
+    try{const j=await gh("/contents/programador/calendario.json",{method:"PUT",body:JSON.stringify({message:msg+" [skip ci]",content:b64e(JSON.stringify(cal,null,1)+"\n"),sha:calSha,branch:"main"})});calSha=j.content.sha;return}
+    catch(e){if(e.status!==409&&e.status!==422)throw e;await new Promise(r=>setTimeout(r,1500))}
+  }
+  throw new Error("No se pudo guardar: el calendario cambió a la vez. Vuelve a intentarlo.");
+}
+async function lanzar(probar=false){await gh("/actions/workflows/publicar.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main",inputs:{probar}})})}
+
+// ── Fechas (hora de Madrid) ──
+function partes(d){const o={};new Intl.DateTimeFormat("en-GB",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(d).forEach(p=>o[p.type]=p.value);return o}
+function aLocal(iso){const p=partes(new Date(iso));return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`}
+function aIso(local){ // "YYYY-MM-DDTHH:MM" en Madrid -> ISO con desfase
+  const [d,t]=local.split("T"),[Y,M,D]=d.split("-").map(Number),[h,m]=t.split(":").map(Number);
+  const utc=Date.UTC(Y,M-1,D,h,m),p=partes(new Date(utc));
+  const off=Math.round((Date.UTC(+p.year,p.month-1,+p.day,+p.hour,+p.minute)-utc)/60000);
+  const s=off>=0?"+":"-",a=Math.abs(off);
+  return `${d}T${t}:00${s}${String(a/60|0).padStart(2,"0")}:${String(a%60).padStart(2,"0")}`;
+}
+const fmtDia=iso=>new Date(iso).toLocaleDateString("es-ES",{timeZone:TZ,weekday:"long",day:"numeric",month:"long"});
+const fmtHora=iso=>new Date(iso).toLocaleTimeString("es-ES",{timeZone:TZ,hour:"2-digit",minute:"2-digit"});
+function siguienteHueco(red,ocupados){
+  const ahora=Date.now()+15*60000;
+  for(let d=0;d<30;d++){
+    const base=new Date(Date.now()+d*864e5),p=partes(base);
+    for(const h of HUECOS[red]){
+      const loc=`${p.year}-${p.month}-${p.day}T${String(h).padStart(2,"0")}:00`,iso=aIso(loc);
+      if(new Date(iso)<ahora)continue;
+      if(!ocupados.some(x=>x.red===red&&Math.abs(new Date(x.hora)-new Date(iso))<30*60000))return loc;
+    }
+  }
+}
+
+// ── Vistas ──
+function pantallaToken(err){
+  app.innerHTML=`<div class="card"><h2>Conectar el panel con GitHub</h2>
+  <p class="mut">Solo hace falta una vez en cada navegador. La clave se guarda en este dispositivo y no se sube a ningún sitio.</p>
+  <ol class="mut"><li>Con la cuenta <b>explicadoen60s</b>, abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">crear token</a>.</li>
+  <li>Nombre: <i>panel</i>. Caducidad: la más larga que te deje.</li>
+  <li>Repository access: <b>Only select repositories</b> → <i>${R}</i>.</li>
+  <li>Permissions → Repository: <b>Contents</b>, <b>Actions</b> e <b>Issues</b> en <i>Read and write</i>.</li>
+  <li>Pulsa <b>Generate token</b>, cópialo y pégalo aquí.</li></ol>
+  ${err?`<div class="msg err">${esc(err)}</div>`:""}
+  <label for="tk">Token</label><input id="tk" type="password" placeholder="github_pat_…" autocomplete="off">
+  <p><button class="btn" id="guardarTk">Entrar</button></p></div>`;
+  $("#guardarTk").onclick=async()=>{tok=$("#tk").value.trim();try{await cargarCal();try{localStorage.setItem("ghtoken",tok)}catch(e){}ir("cal")}catch(e){pantallaToken("El token no funciona: "+e.message)}};
+}
+
+async function vistaCal(){
+  await cargarCal();
+  const desde=Date.now()-2*864e5, posts=[...cal.posts].sort((a,b)=>new Date(a.hora)-new Date(b.hora)).filter(p=>p.estado==="pendiente"||new Date(p.hora)>desde);
+  if(!posts.length){app.innerHTML=`<div class="card empty">No hay nada programado.<br><br><button class="btn" onclick="ir('nuevo')">+ Programar un vídeo</button></div>`;return}
+  let html="",dia="";
+  for(const p of posts){
+    const d=fmtDia(p.hora);
+    if(d!==dia){html+=(dia?"</div>":"")+`<h2>${d}</h2><div class="card">`;dia=d}
+    const url=p.resultado&&p.resultado.url;
+    html+=`<div class="row"><span class="hora">${fmtHora(p.hora)}</span><span class="red ${p.red}">${p.red}</span>
+    <span class="tit"><b>${esc(p.titulo)}</b><small><span class="est ${p.estado}">${EST[p.estado]||p.estado}</span>${url?` · <a href="${esc(url)}" target="_blank">ver</a>`:""}${p.ultimo_error&&p.estado!=="publicado"?` · <span title="${esc(p.ultimo_error)}">⚠ ${esc(p.ultimo_error.slice(0,60))}</span>`:""}</small></span>
+    <span class="acc">${p.estado!=="publicado"&&p.estado!=="borrador"?`<button class="ib" title="Cambiar hora" onclick="mover('${p.id}')">🕑</button><button class="ib" title="Publicar ya" onclick="yaa('${p.id}')">▶</button><button class="ib" title="Quitar" onclick="quitar('${p.id}')">🗑</button>`:""}</span></div>`;
+  }
+  app.innerHTML=html+"</div>";
+}
+async function mover(id){
+  const p=cal.posts.find(x=>x.id===id);const v=prompt("Nueva fecha y hora (AAAA-MM-DD HH:MM, hora de Madrid):",aLocal(p.hora).replace("T"," "));
+  if(!v)return;const m=v.trim().match(/^(\d{4}-\d{2}-\d{2})[ T](\d{1,2}):(\d{2})$/);if(!m)return alert("Formato no válido");
+  const loc=`${m[1]}T${m[2].padStart(2,"0")}:${m[3]}`;
+  await accion(()=>guardarCal(c=>{const q=c.posts.find(x=>x.id===id);q.hora=aIso(loc);q.estado="pendiente";q.intentos=0;delete q.ultimo_error},`Panel: mover ${id}`));
+}
+async function quitar(id){if(!confirm("¿Quitar esta publicación del calendario?"))return;await accion(()=>guardarCal(c=>{c.posts=c.posts.filter(x=>x.id!==id)},`Panel: quitar ${id}`))}
+async function yaa(id){if(!confirm("¿Publicar ahora mismo?"))return;
+  await accion(async()=>{await guardarCal(c=>{const q=c.posts.find(x=>x.id===id);q.hora=new Date(Date.now()-60000).toISOString().replace(/\.\d+Z$/,"+00:00");q.estado="pendiente";q.intentos=0},`Panel: publicar ya ${id}`);await lanzar(false)},"Enviado. Se publicará en 1-3 minutos.")}
+async function accion(fn,ok){try{await fn();if(ok)alert(ok)}catch(e){alert(e.message)}ir(tab)}
+
+function vistaNuevo(){
+  app.innerHTML=`<div class="card">
+  <label for="ti">Título</label><input id="ti" maxlength="100" placeholder="Así funciona un termo ☕">
+  <label for="tx">Descripción</label><textarea id="tx" placeholder="Texto del post. Los hashtags se añaden solos."></textarea>
+  <label for="tg">Hashtags (separados por comas, sin #)</label><input id="tg" placeholder="termo, física, curiosidades">
+  <div class="grid2"><div><label for="v1">Vídeo (Instagram y YouTube)</label><input id="v1" type="file" accept="video/mp4"></div>
+  <div><label for="v2">Vídeo con música para TikTok <span class="mut">(opcional)</span></label><input id="v2" type="file" accept="video/mp4"></div></div>
+  <label>Dónde y cuándo (hora de Madrid)</label>
+  ${REDES.map(r=>`<div class="net"><input type="checkbox" id="c_${r}" checked><span class="red ${r}">${r}</span><input type="datetime-local" id="h_${r}"></div>`).join("")}
+  <p class="mut">Se rellenan solos con el siguiente hueco libre de tu horario. Puedes cambiarlos.</p>
+  <div id="nmsg"></div>
+  <button class="btn" id="prog">Programar</button></div>`;
+  cargarCal().then(()=>REDES.forEach(r=>{$("#h_"+r).value=siguienteHueco(r,cal.posts)||""})).catch(()=>{});
+  $("#prog").onclick=programar;
+}
+function slug(t){return t.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_|_$/g,"").slice(0,40)||"video"}
+async function programar(){
+  const msg=(t,c="ok")=>$("#nmsg").innerHTML=`<div class="msg ${c}">${t}</div>`;
+  const titulo=$("#ti").value.trim(),texto=$("#tx").value.trim(),tags=$("#tg").value.split(",").map(s=>s.trim().replace(/^#/,"")).filter(Boolean);
+  const v1=$("#v1").files[0],v2=$("#v2").files[0];
+  const redes=REDES.filter(r=>$("#c_"+r).checked);
+  if(!titulo||!texto)return msg("Falta el título o la descripción.","err");
+  if(!v1)return msg("Falta el vídeo.","err");
+  if(!redes.length)return msg("Elige al menos una red.","err");
+  for(const r of redes)if(!$("#h_"+r).value)return msg(`Falta la hora de ${r}.`,"err");
+  const base=slug(titulo)+"_"+Date.now().toString(36).slice(-4), n1=base+".mp4", n2=base+"_tiktok.mp4";
+  const subir={[n1]:v1};if(v2&&redes.includes("tiktok"))subir[n2]=v2;
+  $("#prog").disabled=true;
+  try{
+    msg("Subiendo el vídeo… no cierres la página.");
+    await subirVideos(subir,t=>msg(t));
+    msg("Guardando en el calendario…");
+    await guardarCal(c=>{for(const r of redes){c.posts.push({id:`${base}-${r}`,red:r,hora:aIso($("#h_"+r).value),video:(r==="tiktok"&&subir[n2])?n2:n1,titulo,texto,tags,estado:"pendiente",intentos:0})}},`Panel: programar ${titulo}`);
+    msg(`✅ Programado en ${redes.join(", ")}. Lo verás en el calendario.`);
+    setTimeout(()=>ir("cal"),1800);
+  }catch(e){msg("No se pudo: "+esc(e.message),"err");$("#prog").disabled=false}
+}
+async function subirVideos(archivos,progreso){
+  // 1º directo al release «videos»; si el navegador lo bloquea, vía rama «subida» (la acción lo pasa al release)
+  try{
+    const rel=await gh("/releases/tags/videos");
+    for(const [n,f] of Object.entries(archivos)){
+      progreso(`Subiendo ${n} (${(f.size/1048576).toFixed(1)} MB)…`);
+      const r=await fetch(`https://uploads.github.com/repos/${O}/${R}/releases/${rel.id}/assets?name=${encodeURIComponent(n)}`,{method:"POST",headers:{Authorization:`Bearer ${tok}`,"Content-Type":"video/mp4"},body:f});
+      if(!r.ok)throw new Error("release "+r.status);
+    }
+    return;
+  }catch(e){if(e.status===401)throw e;console.log("Subida directa no disponible:",e.message)}
+  progreso("Subiendo por la vía alternativa…");
+  const main=await gh("/git/ref/heads/main"),com=await gh(`/git/commits/${main.object.sha}`);
+  const arbol=[];
+  for(const [n,f] of Object.entries(archivos)){
+    progreso(`Subiendo ${n} (${(f.size/1048576).toFixed(1)} MB)…`);
+    const b64=await new Promise((ok,ko)=>{const fr=new FileReader();fr.onload=()=>ok(fr.result.split(",")[1]);fr.onerror=ko;fr.readAsDataURL(f)});
+    const bl=await gh("/git/blobs",{method:"POST",body:JSON.stringify({content:b64,encoding:"base64"})});
+    arbol.push({path:`subida/${n}`,mode:"100644",type:"blob",sha:bl.sha});
+  }
+  const tr=await gh("/git/trees",{method:"POST",body:JSON.stringify({base_tree:com.tree.sha,tree:arbol})});
+  const nc=await gh("/git/commits",{method:"POST",body:JSON.stringify({message:"Vídeos nuevos desde el panel",tree:tr.sha,parents:[main.object.sha]})});
+  try{await gh("/git/refs/heads/subida",{method:"PATCH",body:JSON.stringify({sha:nc.sha,force:true})})}
+  catch(e){await gh("/git/refs",{method:"POST",body:JSON.stringify({ref:"refs/heads/subida",sha:nc.sha})})}
+}
+
+async function vistaAvisos(){
+  const iss=(await gh("/issues?state=open&per_page=50")).filter(i=>!i.pull_request);
+  contarAvisos(iss.length);
+  if(!iss.length){app.innerHTML=`<div class="card empty">No hay avisos pendientes. 👌</div>`;return}
+  TEXTOS=[];
+  app.innerHTML=iss.map(i=>{const m=(i.body||"").match(/```\n?([\s\S]*?)```/);const txt=m?m[1].trim():"";const k=TEXTOS.push(txt)-1;
+    return `<div class="card"><b>${esc(i.title)}</b><div class="mut">${new Date(i.created_at).toLocaleString("es-ES",{timeZone:TZ})}</div>
+    ${txt?`<pre>${esc(txt)}</pre><button class="btn sec" onclick="copiar(this,TEXTOS[${k}])">Copiar texto</button> `:`<p class="mut">${esc((i.body||"").replace(/@\w+/g,"").slice(0,300))}</p>`}
+    <button class="btn" onclick="cerrar(${i.number})">Hecho ✓</button></div>`}).join("");
+}
+async function copiar(b,t){try{await navigator.clipboard.writeText(t);b.textContent="¡Copiado!"}catch(e){prompt("Copia el texto:",t)}}
+async function cerrar(n){await accion(()=>gh(`/issues/${n}`,{method:"PATCH",body:JSON.stringify({state:"closed"})}))}
+function contarAvisos(n){const e=$("#navisos");e.hidden=!n;e.textContent=n}
+
+async function vistaConex(){
+  let txt="";try{txt=(await leerArchivo("CONEXIONES.md")).txt}catch(e){txt="Aún no se ha hecho ninguna comprobación."}
+  const filas=txt.split("\n").filter(l=>l.startsWith("- ")).map(l=>`<div class="conn">${esc(l.slice(2)).replace(/\*\*(.*?)\*\*/g,"<b>$1</b>")}</div>`).join("");
+  const fecha=(txt.match(/_Comprobado: (.*?)_/)||[])[1];
+  app.innerHTML=`<div class="card">${filas||esc(txt)}<p class="mut">${fecha?"Comprobado: "+esc(fecha):""}</p>
+  <button class="btn" id="comp">Comprobar ahora</button> <a class="btn sec" href="conectar.html" target="_blank">Conectar una red</a><div id="cmsg"></div></div>
+  <div class="card"><b>Si una red falla</b><p class="mut">TikTok o YouTube: pulsa «Conectar una red», autoriza y pega el código en «Conectar red social» de GitHub. Instagram: revisa el usuario del sistema de Meta (IG_TOKEN).</p></div>`;
+  $("#comp").onclick=async()=>{$("#comp").disabled=true;try{await lanzar(true);$("#cmsg").innerHTML=`<div class="msg ok">Comprobando… se actualiza en 1-2 minutos.</div>`;setTimeout(()=>tab==="conex"&&vistaConex(),90000)}catch(e){$("#cmsg").innerHTML=`<div class="msg err">${esc(e.message)}</div>`;$("#comp").disabled=false}};
+}
+
+function vistaAjustes(){
+  app.innerHTML=`<div class="card"><b>Horario habitual</b><p class="mut">TikTok ${HUECOS.tiktok.join(", ")} h · Instagram ${HUECOS.instagram.join(", ")} h · YouTube ${HUECOS.youtube.join(", ")} h (hora de Madrid). Se usa para proponer el siguiente hueco libre.</p></div>
+  <div class="card"><b>Enlaces</b><p><a href="https://github.com/${O}/${R}/actions" target="_blank">Ejecuciones en GitHub</a> · <a href="https://github.com/${O}/${R}/releases/tag/videos" target="_blank">Vídeos guardados</a> · <a href="https://github.com/${O}/${R}/blob/main/programador/LEEME.md" target="_blank">Guía</a></p></div>
+  <div class="card"><b>Este dispositivo</b><p class="mut">El panel usa tu token de GitHub guardado en este navegador.</p><button class="btn sec" id="salir">Cerrar sesión en este navegador</button></div>`;
+  $("#salir").onclick=()=>{try{localStorage.removeItem("ghtoken")}catch(e){}tok="";pantallaToken()};
+}
+
+const VISTAS={cal:vistaCal,nuevo:vistaNuevo,avisos:vistaAvisos,conex:vistaConex,ajustes:vistaAjustes};
+async function ir(t){
+  tab=t;document.querySelectorAll("#tabs button").forEach(b=>b.classList.toggle("on",b.dataset.t===t));
+  if(!tok)return pantallaToken();
+  if(t!=="nuevo")app.innerHTML=`<div class="empty">Cargando…</div>`;
+  try{await VISTAS[t]()}catch(e){if(e.status===401)return pantallaToken("El token ha caducado o no es válido.");app.innerHTML=`<div class="card msg err">${esc(e.message)}</div>`}
+}
+$("#tabs").onclick=e=>{const b=e.target.closest("button");if(b)ir(b.dataset.t)};
+$("#recargar").onclick=()=>ir(tab);
+ir("cal");
+if(tok)gh("/issues?state=open&per_page=50").then(i=>contarAvisos(i.filter(x=>!x.pull_request).length)).catch(()=>{});
+</script>
+</body>
+</html>

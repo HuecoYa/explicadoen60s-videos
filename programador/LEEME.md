@@ -75,7 +75,16 @@ Además, el ID de cliente de YouTube, el ID de la app de Instagram y el client k
 
 Repite los pasos con las tres redes.
 
-## Uso diario (lo hace Claude)
+## Panel web
+Todo se gestiona desde **<https://explicadoen60s.github.io/panel.html>**, también desde el móvil:
+- **Calendario:** cambiar hora, publicar ya o quitar.
+- **Nuevo vídeo:** subir el vídeo y elegir redes y horas. Propone el siguiente hueco libre.
+- **Avisos:** los borradores de TikTok con su texto para copiar, y los errores.
+- **Conexiones:** estado de cada red y botón para comprobarlas.
+
+La primera vez pide un *token* de GitHub (fine-grained, solo este repositorio, con permisos Contents, Actions e Issues en lectura y escritura). Se guarda solo en ese navegador.
+
+## Uso diario desde la terminal (lo hace Claude)
 ```bash
 python3 programador/cola.py nuevo termo --mp4 termo.mp4 --mp4-tiktok termo_tiktok.mp4 \
   --titulo "…" --texto "…" --tags "termo,física" \
