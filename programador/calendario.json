@@ -199,6 +199,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "cerradura-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-03T19:00:00+01:00",
+   "video": "cerradura_tiktok.mp4",
+   "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
+   "texto": "Cada diente de tu llave tiene una misión. Y la idea tiene cuatro mil años. ¿Lo sabías? 👇",
+   "tags": [
+    "cerradura",
+    "llaves",
+    "mecanismos",
+    "seguridad",
+    "historia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Christian_Civico"
+  },
+  {
    "id": "rascacielos-youtube",
    "red": "youtube",
    "hora": "2026-11-03T19:00:00+01:00",
@@ -215,6 +233,42 @@
    "estado": "pendiente",
    "intentos": 0,
    "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "cerradura-instagram",
+   "red": "instagram",
+   "hora": "2026-11-03T20:00:00+01:00",
+   "video": "cerradura.mp4",
+   "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
+   "texto": "Cada diente de tu llave tiene una misión. Y la idea tiene cuatro mil años. ¿Lo sabías? 👇",
+   "tags": [
+    "cerradura",
+    "llaves",
+    "mecanismos",
+    "seguridad",
+    "historia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Christian_Civico"
+  },
+  {
+   "id": "cerradura-youtube",
+   "red": "youtube",
+   "hora": "2026-11-03T20:00:00+01:00",
+   "video": "cerradura.mp4",
+   "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
+   "texto": "Cada diente de tu llave tiene una misión. Y la idea tiene cuatro mil años. ¿Lo sabías? 👇",
+   "tags": [
+    "cerradura",
+    "llaves",
+    "mecanismos",
+    "seguridad",
+    "historia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Christian_Civico"
   }
  ]
 }
