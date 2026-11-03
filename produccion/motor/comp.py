@@ -6,6 +6,7 @@ import numpy as np, cairo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 W, H, FPS = 1080, 1920, 30
+ESTILO_ACTUAL = "palabra"
 YL = (1.0, 0.82, 0.16); RED = (0.93, 0.2, 0.22); GREEN = (0.25, 0.85, 0.45)
 
 def ease(x): x = max(0.0, min(1.0, x)); return 1 - (1 - x) ** 3
@@ -128,6 +129,60 @@ def build_sfx(dur, events, path):
     with wave.open(path, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out * 32767 * 0.8).astype(np.int16).tobytes())
 
+# ---------------- subtítulo en frases (estilo «karaoke») ----------------
+# La frase se escribe palabra a palabra arriba; la palabra que suena va en blanco y las anteriores en gris.
+# Las palabras clave llevan un recuadro azul. Fondo oscuro suave para que se lea sobre cualquier escena.
+def frases(ws):
+    # corta por signos de puntuación o pausas; las frases largas se parten por la mitad (nunca quedan palabras sueltas)
+    bloques, cur = [], []
+    for i, (ta, tb, w) in enumerate(ws):
+        if cur and ta - cur[-1][1] > 0.6: bloques.append(cur); cur = []
+        cur.append((ta, tb, w))
+        if re.search(r"[.,;:?!…]$", w): bloques.append(cur); cur = []
+    if cur: bloques.append(cur)
+    out = []
+    for b in bloques:
+        while len(b) > 8:
+            n = max(3, (len(b) + 1) // 2 if len(b) <= 16 else 8); out.append(b[:n]); b = b[n:]
+        out.append(b)
+    return out
+
+def subtitulo_frase(ctx, t, FR, kws, y0):
+    for k, fr in enumerate(FR):
+        ini = fr[0][0] - 0.05
+        fin = FR[k + 1][0][0] - 0.05 if k + 1 < len(FR) else fr[-1][1] + 0.6
+        if not (ini <= t < fin): continue
+        size = 70; ctx.select_font_face("Poppins", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); ctx.set_font_size(size)
+        esp = ctx.text_extents(" ").x_advance * 1.1
+        toks = [(ta, tb, re.sub(r"^[\"“(]+|[\"”)]+$", "", w)) for ta, tb, w in fr]
+        lineas, linea, ancho = [], [], 0
+        for tok in toks:
+            wd = ctx.text_extents(tok[2]).x_advance
+            if linea and ancho + esp + wd > 880: lineas.append((linea, ancho)); linea, ancho = [], 0
+            ancho += (esp if linea else 0) + wd; linea.append((tok, wd))
+        if linea: lineas.append((linea, ancho))
+        lh = size * 1.22; alto = lh * len(lineas)
+        vis = [tok for tok in toks if tok[0] - 0.03 <= t]
+        if not vis: return
+        a = min(1, (t - ini) / 0.12)
+        anch = max(an for _, an in lineas)
+        rrect(ctx, W / 2 - anch / 2 - 30, y0 - 18, anch + 60, alto + 30, 26); ctx.set_source_rgba(0.04, 0.06, 0.14, 0.58 * a); ctx.fill()
+        for j, (linea, an) in enumerate(lineas):
+            x = W / 2 - an / 2; y = y0 + j * lh + size * 0.88
+            for (ta, tb, w), wd in linea:
+                if ta - 0.03 > t: x += wd + esp; continue
+                actual = ta - 0.03 <= t < max(tb, ta + 0.18)
+                limpio = re.sub(r"[.,;:?!…¿¡]", "", w).lower()
+                if limpio in kws:
+                    rrect(ctx, x - 9, y - size * 0.86, wd + 18, size * 1.12, 8)
+                    ctx.set_source_rgba(0.2, 0.55, 1.0, 0.95); ctx.set_line_width(3.5); ctx.stroke()
+                    for cx, cy in ((x - 9, y - size * 0.86), (x + wd + 9, y + size * 0.26)):
+                        ctx.arc(cx, cy, 5, 0, 7); ctx.set_source_rgb(1, 1, 1); ctx.fill()
+                ctx.move_to(x, y); ctx.text_path(w)
+                ctx.set_source_rgba(1, 1, 1, 1 if (actual or limpio in kws) else 0.62); ctx.fill()
+                x += wd + esp
+        return
+
 # ---------------- montaje ----------------
 def main(name, t0=None, t1=None):
     spec = importlib.import_module(f"{name}_ov")
@@ -145,6 +200,9 @@ def main(name, t0=None, t1=None):
     enc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgra", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                             "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", vout], stdin=subprocess.PIPE)
     last_anchor = None
+    global ESTILO_ACTUAL
+    estilo = getattr(spec, "SUB_ESTILO", "palabra"); FR = frases(ws); ESTILO_ACTUAL = estilo
+    kws = {k.lower() for k in spec.KEYWORDS}
     for f in range(f0, f1):
         raw = dec.stdout.read(W * H * 4)
         if len(raw) < W * H * 4: break
@@ -154,6 +212,9 @@ def main(name, t0=None, t1=None):
         a = anc.get(f, last_anchor); last_anchor = a
         A = (lambda k: (a[k][0] * W, a[k][1] * H)) if a else (lambda k: (W / 2, H / 2))
         spec.overlay(ctx, t, A, sys.modules[__name__])
+        if estilo == "frase":
+            subtitulo_frase(ctx, t, FR, kws, H * getattr(spec, "SUB_Y_FRASE", 0.12))
+            surf.flush(); enc.stdin.write(bytes(buf)); continue
         # subtítulo: una sola palabra
         cur = None
         for i, (ta, tb, w) in enumerate(ws):

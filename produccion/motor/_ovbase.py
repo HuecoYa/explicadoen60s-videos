@@ -10,4 +10,5 @@ def label(C, ctx, t, a, b, text, A, key, dx=0, dy=-220, size=68):
         x, y = A(key); C.callout(ctx, text, clampx(x + dx), clampy(y + dy), p, size=size)
 def badge(C, ctx, t, a, b, text, col, size=70):
     p = win(t, a, b)
-    if p: C.badge(ctx, text, W / 2, H * 0.165, p, col, size=size)
+    # con subtítulos en frase (arriba) los marcadores bajan para no pisarlos
+    if p: C.badge(ctx, text, W / 2, H * (0.265 if getattr(C, "ESTILO_ACTUAL", "") == "frase" else 0.165), p, col, size=size)

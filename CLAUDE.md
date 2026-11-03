@@ -22,6 +22,16 @@ Claude **nunca** aprueba vídeos ni los programa: eso lo hace el usuario en el p
 4. **Propuestas**: que haya siempre unos **8** vídeos entre `propuesto`, `aprobado`, `voz` y `escena`. Añade los que falten como `propuesto`.
 5. Si una entrada tiene `error`, intenta resolverlo. Si no puedes (falta un secreto, por ejemplo), déjalo anotado en `error` en palabras sencillas.
 
+## Las 3 reglas que deciden si un vídeo funciona (obligatorias)
+Las sacó el usuario de un creador que publicó el mismo tipo de vídeo con dos resultados: unos 60 mil frente a 10,5 millones de visualizaciones.
+1. **De qué hablas: algo que el espectador tiene en la mano o usa todos los días.** Mejor la pantalla del móvil, «que estás tocando ahora mismo», que un gadget que no todo el mundo tiene. Prioriza temas universales y conéctalos con el espectador en la primera frase («ahora mismo», «tu», «cada mañana»).
+2. **El primer segundo: el objeto ya en acción, en primer plano y moviéndose.** Nada de planos generales quietos ni objetos en reposo. Ejemplo bueno: un dedo gigante tocando la pantalla. Ejemplo malo: un móvil quieto en un bolsillo. Ahí es donde la gente decide si pasa el vídeo.
+3. **No lo cuentes, enséñalo.** Nada de metáforas que haya que imaginar («hay un detective en tu bolsillo»). Muestra el mecanismo real con algo que cambie en pantalla: «tu dedo se lleva electricidad y un número baja de 100 a 62». Usa contadores, medidores, cifras que suben o bajan, flechas de corriente o de fuerza y etiquetas pequeñas en mayúsculas sobre las piezas (CRISTAL, CABLES…).
+
+Formato visual de referencia:
+- Subtítulos en frase arriba: la frase se escribe palabra a palabra, la palabra que suena en blanco, las anteriores en gris y las palabras clave en un recuadro azul. En `_ov.py`, pon `SUB_ESTILO = "frase"` en todas las escenas nuevas. Los marcadores (`badge`) bajan solos para no pisar el subtítulo.
+- Primeros planos, cámara cerca del mecanismo y fondos oscuros o neutros que hagan resaltar el objeto.
+
 ## Guiones (propuestas)
 Campos de cada entrada nueva en `estado.json`:
 - `id`: corto, ASCII y único, por ejemplo `piscina`.
@@ -40,7 +50,8 @@ Formatos (mezclarlos; uno de cada tres, más o menos):
 Reglas del guion:
 - **Longitud:** 205-245 palabras (≈60-72 s: la voz va a unas 3,4 palabras por segundo). Escribe con gancho: preguntas, exclamaciones (¡…!) y puntos suspensivos antes de los datos sorprendentes; la puntuación da la entonación.
 - **Estilo:** tuteo, vocabulario de España, frases de 6-12 palabras, sin relleno. Números en letra.
-- **Estructura:** gancho en la primera frase (dato chocante o pregunta); un dato sorprendente en mitad del vídeo; cierre con «Sígueme para más.».
+- **Estructura:** gancho en la primera frase (dato chocante o pregunta), conectado con el espectador (regla 1); un dato sorprendente en mitad del vídeo; cierre con «Sígueme para más.».
+- **Cifras que se puedan enseñar:** cada guion debe tener al menos 2 números que cambian y que la escena pueda mostrar como contador o medidor (regla 3).
 - **Datos:** comprueba con búsqueda web cada dato técnico, cifra o récord antes de proponerlo.
 - **Temas:** no repitas nada que ya esté en `estado.json` ni en `produccion/escenas/`. Nada de casinos ni apuestas, nada de marcas reales en pantalla.
 
@@ -62,7 +73,8 @@ Calidad que exige el usuario:
 - Vídeo continuo, sin imágenes fijas; algo se mueve siempre.
 - Un único estilo; texto en pantalla solo para palabras clave o cifras, **sin repetir lo que dice el subtítulo**.
 - La cámara nunca atraviesa objetos y lo importante siempre está dentro del encuadre. Respeta las zonas seguras: los 150 px de arriba, los 420 px de abajo y los 140 px de la derecha quedan libres de cosas importantes.
-- El primer segundo ya muestra el objeto completo; nada de pantallas vacías.
+- El primer segundo ya muestra el objeto en acción, en primer plano y moviéndose (regla 2); nada de pantallas vacías ni planos quietos.
+- Lo que la voz explica se ve: contadores, medidores y flechas en lugar de metáforas (regla 3).
 - No repitas siempre los mismos elementos de un vídeo a otro.
 
 ## Revisar antes de entregar (obligatorio)
