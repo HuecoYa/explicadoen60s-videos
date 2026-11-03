@@ -1,6 +1,6 @@
 name: Generar voces
 
-# Al aprobar guiones en el panel (cambia produccion/estado.json) genera su voz con ElevenLabs.
+# Al aprobar guiones en el panel (cambia produccion/estado.json) genera su voz con la voz del dueño (Qwen3-TTS, gratis).
 on:
   push:
     branches: [main]
@@ -17,6 +17,7 @@ permissions:
 jobs:
   voz:
     runs-on: ubuntu-latest
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,13 +26,21 @@ jobs:
         id: hay
         run: echo "n=$(python3 -c "import json;print(sum(v.get('estado')=='aprobado' for v in json.load(open('produccion/estado.json'))['videos']))")" >> $GITHUB_OUTPUT
       - if: steps.hay.outputs.n != '0'
-        run: pip install -q requests
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
       - if: steps.hay.outputs.n != '0'
-        name: Generar
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: qwen3-tts-base-1.7b
+      - if: steps.hay.outputs.n != '0'
+        run: |
+          sudo apt-get install -y -qq ffmpeg sox > /dev/null
+          pip install -q qwen-tts soundfile numpy
+      - if: steps.hay.outputs.n != '0'
+        name: Generar con tu voz
         working-directory: produccion
-        env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          ELEVEN_VOICE_ID: ${{ vars.ELEVEN_VOICE_ID }}
         run: python3 voces.py
       - if: steps.hay.outputs.n != '0'
         name: Guardar

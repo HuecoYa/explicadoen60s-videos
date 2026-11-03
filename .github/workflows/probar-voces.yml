@@ -1,9 +1,6 @@
 name: Probar voces
 
 on:
-  push:
-    branches: [main]
-    paths: [produccion/voz_pruebas/**, produccion/voz/**, .github/workflows/probar-voces.yml]
   workflow_dispatch:
 
 permissions:

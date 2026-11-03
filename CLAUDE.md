@@ -6,7 +6,7 @@ Cuenta @explicadoen60s (TikTok, Instagram, YouTube «explicadoen60s_shorts»). V
 | estado | quién lo mueve | qué significa |
 |---|---|---|
 | `propuesto` | **Claude** (pasada diaria) | guion propuesto, esperando al usuario |
-| `aprobado` | usuario (panel) | la acción «Generar voces» crea `escenas/<id>.mp3` con ElevenLabs |
+| `aprobado` | usuario (panel) | la acción «Generar voces» crea `escenas/<id>.mp3` con la voz del dueño (Qwen3-TTS, `produccion/voz.py`) |
 | `voz` | GitHub | hay voz; **Claude** debe escribir la escena 3D |
 | `escena` | **Claude** | escena escrita y revisada; al hacer push se lanza «Renderizar vídeos» |
 | `revision` | GitHub | vídeo en el release `videos`; el usuario lo ve en el panel |
@@ -38,7 +38,7 @@ Formatos (mezclarlos; uno de cada tres, más o menos):
 - **C · «¿Y si construyes…?»**: construcción grande en corte bajo tierra o en sección. Cada paso crea un problema («pero…») y el siguiente lo soluciona («así que…»). Ejemplos de temas: piscina, rascacielos, túnel bajo un río, pozo, presa.
 
 Reglas del guion:
-- **Longitud:** 170-200 palabras (≈65-75 s con Jaime a 0,95).
+- **Longitud:** 210-250 palabras (≈60-75 s: la voz habla a unas 3,4 palabras por segundo).
 - **Estilo:** tuteo, vocabulario de España, frases de 6-12 palabras, sin relleno. Números en letra.
 - **Estructura:** gancho en la primera frase (dato chocante o pregunta); un dato sorprendente en mitad del vídeo; cierre con «Sígueme para más.».
 - **Datos:** comprueba con búsqueda web cada dato técnico, cifra o récord antes de proponerlo.

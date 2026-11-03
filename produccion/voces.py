@@ -13,8 +13,6 @@ for v in est["videos"]:
         (voz.ESCENAS / f"{v['id']}.txt").write_text(v["guion"].strip() + "\n", encoding="utf-8")
         voz.generar(v["id"])
         v["estado"] = "voz"; v.pop("error", None); hechos += 1
-    except SystemExit as e:
-        v["error"] = f"Voz: {e}"
     except Exception as e:
         traceback.print_exc(); v["error"] = f"Voz: {str(e)[:300]}"
 EST.write_text(json.dumps(est, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
