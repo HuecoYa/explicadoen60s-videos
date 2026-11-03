@@ -7,7 +7,7 @@ from marcas import cargar
 from mathutils import Vector, Matrix
 
 T, DUR = cargar("boligrafo")
-INK = (0.12, 0.25, 0.85); INK2 = (0.08, 0.14, 0.55); BARREL = (0.84, 0.9, 0.96); METAL = (0.75, 0.77, 0.8); PAPER = (0.99, 0.98, 0.95)
+INK = (0.12, 0.25, 0.85); INK2 = (0.08, 0.14, 0.55); BARREL = (0.45, 0.68, 0.92); METAL = (0.75, 0.77, 0.8); PAPER = (0.99, 0.98, 0.95)
 DESK = (0.72, 0.52, 0.34); TILT = math.radians(38)
 
 def cut(o, c):
@@ -17,6 +17,7 @@ def build():
     sc, cam = scene_setup(world=(0.86, 0.9, 0.98))
     S = {"cam": cam}
     box((60, 60, 0.1), (0, 0, -0.05), DESK)
+    box((60, 0.2, 30), (0, 7, 10), (0.97, 0.88, 0.7))
     box((6, 8, 0.02), (0.5, 1.0, 0.01), PAPER)
     for k in range(9): box((5.6, 0.015, 0.004), (0.5, -2.6 + k * 0.8, 0.022), (0.75, 0.82, 0.95))
     bpy.ops.mesh.primitive_cube_add(size=1, location=(0, -5.0, 2)); cutter = bpy.context.object; cutter.scale = (14, 10, 14); cutter.hide_render = True
@@ -28,7 +29,7 @@ def build():
     S["barrel"].modifiers.move(1, 0)
     bpy.ops.mesh.primitive_cone_add(radius1=0.075, radius2=0.24, depth=0.95, location=(0, 0, 0.47), vertices=48)
     S["punta"] = bpy.context.object; setup(S["punta"], METAL, parent=pen, smooth=True, unique=True); cut(S["punta"], cutter)
-    S["tubo"] = cyl(0.11, 4.6, (0, 0, 3.25), (0.92, 0.94, 0.97), parent=pen, unique=True); cut(S["tubo"], cutter)
+    S["tubo"] = cyl(0.11, 4.6, (0, 0, 3.25), (0.98, 0.98, 1.0), parent=pen, unique=True); cut(S["tubo"], cutter)
     S["tinta"] = cyl(0.095, 1.0, (0, 0, 2.0), INK, parent=pen, unique=True)
     S["bola"] = sph(0.075, (0, 0, 0.02), (0.88, 0.9, 0.95), parent=pen, seg=24, unique=True)
     S["raya"] = box((0.02, 0.16, 0.02), (0, 0, 0.02), (0.3, 0.32, 0.36), parent=S["bola"])   # marca para ver girar la bola
@@ -47,7 +48,7 @@ def build():
     cyl(0.5, 1.6, (0, 0, 0.8), (0.4, 0.75, 0.9), parent=S["deo"]); S["deo_bola"] = sph(0.42, (0, 0, 1.75), (0.92, 0.94, 0.97), parent=S["deo"], unique=True)
     box((0.05, 0.6, 0.06), (0, 0, 0.42), (0.6, 0.62, 0.7), parent=S["deo_bola"])
     S["gotas"] = [sph(0.06, (0, 0, -9), INK) for _ in range(6)]
-    S["manchas"] = [cyl(0.25, 0.01, (0, 0, -9), INK, v=24) for _ in range(5)]
+    S["manchas"] = [cyl(0.14, 0.01, (0, 0, -9), INK, v=24) for _ in range(5)]
     S["trazo"] = [box((0.09, 0.05, 0.006), (0, 0, -9), INK2) for _ in range(60)]
     S["burb"] = [sph(0.03, (0, 0, -9), (0.95, 0.97, 1)) for _ in range(8)]
     join_static([cam, cutter, pen, S["tintero"], S["pluma"], S["deo"], S["gotas"], S["manchas"], S["trazo"], S["burb"]])
@@ -61,7 +62,7 @@ def pose(t, S):
     t_dep, t_got, t_esp, t_bol, t_gir = T("depósito"), T("gotea"), T("espesa"), T("bolita"), T("la bola gira")
     t_deo, t_rod, t_tapa, t_justa, t_suel = T("desodorante"), T("al rodar"), T("mientras no"), T("demasiado justa"), T("suelta")
     t_casq, t_ult, t_vac, t_aguj, t_cap, t_biro = T("casquillo"), T("último problema"), T("se forma un vacío"), T("agujerito"), T("capuchón"), T("patentó")
-    S["cutter"].location.y = -5.0 - 25 * (1 - seg(t, t_dep - 0.2, t_dep + 0.7))
+    pass
     # pluma mojándose en el tintero (primeros segundos)
     dip = 0.5 + 0.5 * math.cos(t * 4.5)
     S["pluma"].location = (-2.6, 2.2, (1.0 + 1.6 * dip) if t < t_dep else -9)
@@ -72,7 +73,8 @@ def pose(t, S):
     u_esc = (t * 0.22) % 1.0
     tip = path(u_esc) if escribiendo else Vector((0.4, -1.0, 1.1 if t < t_rod else 0.9))
     S["pen"].location = tip + Vector((0, 0, 0.06))
-    S["pen"].rotation_euler = (TILT, 0, 0.15)
+    S["cutter"].location.y = tip.y - 5.0 - 25 * (1 - seg(t, t_dep - 0.2, t_dep + 0.7))
+    S["pen"].rotation_euler = (0, -TILT, 0)
     S["pen"].scale = (aparece,) * 3
     # tinta: líquida (clara) → espesa (oscura); nivel baja al final
     esp = seg(t, t_esp, t_esp + 0.6)
@@ -121,14 +123,14 @@ def pose(t, S):
 
 def V(at, d, h=1.2, lens=34, dx=0.0): at = Vector(at); return ((at.x + dx, at.y - d, at.z + h), tuple(at), lens)
 def CAM():
-    tip = (0.4, -1.0, 1.1)
+    tip = Vector((0.4, -1.0, 1.1)); mid = tip + Vector((-1.6, 0, 2.1)); top = tip + Vector((-3.1, 0, 4.1))
     return [(0.0,) + V((-2.4, 2.2, 1.2), 7.0, 1.6), (T("depósito") - 0.3,) + V((-1.0, 0.8, 1.6), 8.0, 1.4),
-            (T("depósito") + 1.0,) + V((1.2, 0, 3.0), 9.0, 0.8), (T("gotea"),) + V((0.5, -1, 0.8), 6.0, 0.8),
+            (T("depósito") + 1.0,) + V(mid, 8.5, 0.6), (T("gotea"),) + V(tip + Vector((-0.6, 0, 0.6)), 6.0, 0.6),
             (T("bolita"),) + V(tip, 2.6, 0.4, 40), (T("grano de arena"),) + V(tip, 1.6, 0.2, 45), (T("desodorante"),) + V((2.0, 0, 1.0), 6.5, 0.8),
-            (T("al rodar"),) + V((0.2, -1, 0.3), 3.2, 0.6, 40), (T("mientras no"),) + V((0.4, -1, 0.8), 2.6, 0.4, 42),
-            (T("demasiado justa"),) + V(tip, 2.0, 0.3, 44), (T("casquillo"),) + V(tip, 1.8, 0.3, 46), (T("último problema"),) + V((1.6, -0.6, 3.2), 7.5, 0.8),
-            (T("agujerito"),) + V((2.6, 0.5, 4.6), 3.8, 0.6, 40), (T("capuchón"),) + V((0.6, -0.6, 1.5), 6.0, 1.0),
-            (T("patentó"),) + V((0.8, 0, 2.2), 9.5, 1.2), (DUR + 2,) + V((0.8, 0, 2.2), 10.0, 1.4)]
+            (T("al rodar"),) + V((0.2, -1, 0.4), 3.6, 0.7, 40), (T("mientras no"),) + V((0.4, -1, 0.6), 3.0, 0.4, 42),
+            (T("demasiado justa"),) + V(tip, 2.0, 0.3, 44), (T("casquillo"),) + V(tip, 1.8, 0.3, 46), (T("último problema"),) + V(mid + Vector((0, 0, 0.6)), 7.0, 0.6),
+            (T("agujerito"),) + V(top, 3.6, 0.4, 40), (T("capuchón"),) + V(mid, 7.5, 0.8),
+            (T("patentó"),) + V(mid, 9.5, 1.0), (DUR + 2,) + V(mid, 10.0, 1.2)]
 
 def anchors(sc, S, t):
     cam = S["cam"]; Pj = lambda v: proj(sc, cam, v)

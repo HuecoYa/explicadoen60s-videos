@@ -52,7 +52,7 @@ def build():
         bpy.ops.mesh.primitive_cone_add(radius1=0.09, radius2=0, depth=0.24, location=(0, 0, -9)); f = bpy.context.object; setup(f, (1, 0.82, 0.2), unique=False)
         f["a"] = a; f["z"] = z; S["flechas"].append(f)
     # rueda de coche y hoja de papel de referencia
-    S["rueda"] = empty((3.4, 0.8, -9))
+    S["rueda"] = empty((2.3, 0.8, -9))
     torus(1.0, 0.38, (0, 0, 0), (0.12, 0.12, 0.14), parent=S["rueda"], rot=(math.pi / 2, 0, 0)); cyl(0.65, 0.5, (0, 0, 0), (0.75, 0.77, 0.8), parent=S["rueda"], rot=(math.pi / 2, 0, 0))
     S["papel"] = box((1.4, 0.006, 1.9), (2.4, -0.2, -9), (1, 1, 1))
     S["barniz"] = []
@@ -73,13 +73,13 @@ def pose(t, S):
     t_bota, t_vacia, t_gas = T("cerrada aguanta"), T("pero vacía"), T("el propio gas")
     S["cutter"].location.y = -5.0 - 25 * (1 - seg(t, t_alu - 0.2, t_alu + 0.6)) if t < t_bota - 0.5 else -30
     # cuerpo crece al principio
-    g = seg(t, 0.0, 0.8); S["lata"].scale = (1, 1, max(0.02, g))
+    g = 1.0; S["lata"].scale = (1, 1, 1)
     # paredes: gruesas al principio, finas al decirlo
     S["body"].modifiers["sol"].thickness = mix(0.09, 0.012, seg(t, t_fina, t_fina + 0.8))
     # papel de comparación
     S["papel"].location.z = 1.2 if t_fina - 0.1 < t < t_plano - 0.3 else -9
     # rueda de coche al comparar presiones
-    S["rueda"].location.z = 1.2 if T("rueda") - 0.2 < t < t_alu - 0.2 else -9
+    S["rueda"].location.z = 1.4 if T("rueda") - 0.2 < t < t_alu - 0.2 else -9
     S["rueda"].rotation_euler.y = t * 2
     # fondo plano que se abomba / cúpula
     abom = seg(t, t_plano + 0.3, t_plano + 1.2) * (1 - seg(t, t_cup - 0.1, t_cup + 0.3))
@@ -131,7 +131,7 @@ def pose(t, S):
     S["liq"].scale.z = 1.0 if t < t_vacia - 0.2 or t > t_gas + 0.5 else 0.0001
     apply_cam(S["cam"], *cam_state(t, CAM(), drift=0.03))
 
-def V(z, d, x=0.0, h=0.7, lens=34): return ((x, -d, z + h), (x * 0.4, 0, z), lens)
+def V(z, d, x=0.0, h=0.7, lens=34): return ((x, -d * 0.85, z + h), (x * 0.4, 0, z), lens)
 def CAM():
     return [(0.0,) + V(1.2, 8.5), (T("rueda") - 0.3,) + V(1.3, 9.5, 1.2), (T("aluminio"),) + V(1.2, 7.2), (T("tan finas"),) + V(1.5, 5.0, 0.8),
             (T("fondo plano"),) + V(0.6, 6.5, 0, 0.3), (T("cúpula") + 0.5,) + V(0.4, 4.6, 0, -0.1), (T("barniz"),) + V(1.4, 5.4),
@@ -142,7 +142,7 @@ def CAM():
 def anchors(sc, S, t):
     cam = S["cam"]; Pj = lambda v: proj(sc, cam, v)
     return {"pared": Pj((-R0, -0.05, 1.4)), "fondo": Pj((0, -0.3, 0.1)), "tapa": Pj((0, -0.3, H0 + 0.1)), "lata": Pj((0, -R0, 1.2)),
-            "rueda": Pj((3.4, 0.8, 1.2)), "tab": Pj((0.3, 0, H0 + 0.1)), "papel": Pj((2.4, -0.2, 1.9)), "suelo": Pj((2.8, 0, 0.05))}
+            "rueda": Pj((2.3, 0.8, 1.4)), "tab": Pj((0.3, 0, H0 + 0.1)), "papel": Pj((2.4, -0.2, 1.9)), "suelo": Pj((2.8, 0, 0.05))}
 
 if __name__ == "__main__":
     run("lata", build, pose, anchors)
