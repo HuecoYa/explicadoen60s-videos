@@ -101,11 +101,12 @@
     "hogar",
     "ciencia"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-03",
    "aprobado": "2026-11-03T12:55:24.629Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 71.3
+   "duracion": 71.3,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "boligrafo",
