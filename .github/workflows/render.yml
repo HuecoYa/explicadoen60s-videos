@@ -1,6 +1,6 @@
 name: Renderizar vídeos
 
-# Cada vídeo es un trabajo aparte (en paralelo).
+# Cada vídeo es un trabajo aparte (en paralelo); cada push con escenas nuevas lanza su propia tanda.
 # Renderiza los vídeos en estado «escena» (escena 3D escrita por Claude) y los deja «en revisión» en el panel.
 on:
   push:
