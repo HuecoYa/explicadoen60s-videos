@@ -108,9 +108,14 @@
     "arquitectura",
     "física"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "18137723239710545",
+    "url": "https://www.instagram.com/reel/DfSa6R_DdOz/"
+   },
+   "publicado": "2026-11-03T17:30:12.042750+00:00"
   },
   {
    "id": "boligrafo-tiktok",
@@ -126,9 +131,15 @@
     "diseño",
     "curiosidades"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7703998829959776278",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-03T17:30:42.702873+00:00"
   },
   {
    "id": "lata-tiktok",
@@ -144,9 +155,15 @@
     "física",
     "reciclaje"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7703998922939090966",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-03T17:32:34.058726+00:00"
   },
   {
    "id": "rascacielos-youtube",
@@ -162,9 +179,14 @@
     "arquitectura",
     "física"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "xav4qmx7Oxs",
+    "url": "https://youtube.com/shorts/xav4qmx7Oxs"
+   },
+   "publicado": "2026-11-03T17:32:36.774033+00:00"
   },
   {
    "id": "boligrafo-instagram",
