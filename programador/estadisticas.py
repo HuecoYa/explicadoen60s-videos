@@ -53,7 +53,7 @@ def instagram(tok):
         G = f"https://graph.instagram.com/{IG_VERSION}"
     u = _ok(requests.get(f"{G}/{uid}", timeout=60, params={"fields": "username,followers_count,follows_count,media_count", "access_token": at}))
     cuenta = {"nombre": "@" + u.get("username", ""), "seguidores": u.get("followers_count", 0), "videos": u.get("media_count", 0)}
-    videos, url, errores_ins = [], f"{G}/{uid}/media", []
+    videos, url, errores_ins, muestra = [], f"{G}/{uid}/media", [], []
     params = {"fields": "id,caption,media_type,timestamp,permalink,like_count,comments_count", "limit": 50, "access_token": at}
     while url and len(videos) < 200:
         r = _ok(requests.get(url, params=params, timeout=60))
@@ -69,6 +69,8 @@ def instagram(tok):
                     if r2.status_code >= 400:
                         fallos.append(f"{met}: HTTP {r2.status_code} {r2.text[:200]}")
                         continue
+                    if not muestra:
+                        muestra.append(r2.text[:400])
                     for x in r2.json().get("data", []):
                         if x["name"] in nombres:
                             val = x["values"][0]["value"] if x.get("values") else x.get("total_value", {}).get("value", 0)
@@ -82,6 +84,8 @@ def instagram(tok):
     cuenta["vistas"] = sum(v.get("vistas", 0) for v in videos)
     if errores_ins:
         cuenta["error_vistas"] = errores_ins[0][:300]
+    if not cuenta["vistas"] and muestra:
+        cuenta["muestra_insights"] = muestra[0]
     return cuenta, videos
 
 
