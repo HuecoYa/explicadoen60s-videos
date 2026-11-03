@@ -1,40 +1,168 @@
 {
- "videos": [
-  {
-   "id": "termo",
-   "formato": "B",
-   "titulo": "PRUEBA de renderizado: termo (ya publicado, no aprobar)",
-   "guion": "Vamos a inventar un termo. Quieres que tu café siga caliente durante horas. El problema es que el calor se escapa por tres caminos. Primero, por contacto: el café calienta la pared, y la pared calienta todo lo que toca. Segundo, por el aire: el aire caliente sube, se va, y entra aire frío. Y tercero, por radiación: todo lo caliente suelta calor en forma de luz invisible, infrarroja. Para frenar el primero, haces el termo con dos paredes, una dentro de otra, que casi no se tocan. Pero entre ellas hay aire, y el aire sigue llevándose calor. Así que sacas el aire. Vacío. Sin aire, no hay nada que transporte el calor por contacto ni por corrientes. Queda la radiación: la paras haciendo las paredes plateadas por dentro, como un espejo, para que el calor rebote y vuelva al café. Y el último punto débil: arriba. Por la boca se escapa casi todo lo que queda, así que pones un tapón grueso que aísle. Ya está. Esto lo inventó James Dewar en 1892 para guardar gases muy fríos. Por eso un termo funciona igual al revés: lo frío sigue frío. Sígueme para inventar el siguiente objeto.",
-   "texto": "Prueba",
-   "tags": [
-    "termo"
-   ],
-   "estado": "rechazado",
-   "creado": "2026-11-03",
-   "duracion": 72.6,
-   "nota": "Prueba del sistema de renderizado (vídeo ya publicado)"
-  },
-  {
-   "id": "prueba_voz",
-   "formato": "C",
-   "titulo": "PRUEBA de voz (no producir)",
-   "guion": "¿Y si construyes una piscina en tu jardín? Empiezas cavando un agujero de dos metros. Pero la tierra de los lados se derrumba. Así que forras el hueco con una malla de acero y le lanzas hormigón a presión. Ahora tienes un vaso de hormigón. Lo llenas de agua… y a los pocos días el agua se escapa: el hormigón tiene poros. Lo cubres con una lámina impermeable, y ya no pierde ni una gota. Pero a la semana el agua se pone verde: son algas. Necesitas mover el agua. Pones unas boquillas en las paredes y un sumidero en el fondo, conectados a una bomba que hace pasar toda la piscina por un filtro de arena varias veces al día. Y añades cloro, que mata las bacterias. Llega el invierno, la vacías para limpiarla… y la piscina sale flotando del suelo. Parece imposible, pero el agua subterránea la empuja desde abajo, como a un barco. Por eso se pone una válvula en el fondo que deja entrar esa agua y alivia la presión. Por último, una escalera y unas luces bajo el agua… y ya tienes tu piscina. Sígueme para más.",
-   "texto": "prueba",
-   "tags": [],
-   "estado": "rechazado",
-   "creado": "2026-11-03",
-   "nota": "Prueba de la voz automática"
-  },
-  {
-   "id": "prueba_voz2",
-   "formato": "C",
-   "titulo": "PRUEBA de voz 2 (no producir)",
-   "guion": "¿Y si construyes una piscina en tu jardín? Empiezas cavando un agujero de dos metros. Pero la tierra de los lados se derrumba. Así que forras el hueco con una malla de acero y le lanzas hormigón a presión. Ahora tienes un vaso de hormigón. Lo llenas de agua… y a los pocos días el agua se escapa: el hormigón tiene poros. Lo cubres con una lámina impermeable, y ya no pierde ni una gota. Pero a la semana el agua se pone verde: son algas. Necesitas mover el agua. Pones unas boquillas en las paredes y un sumidero en el fondo, conectados a una bomba que hace pasar toda la piscina por un filtro de arena varias veces al día. Y añades cloro, que mata las bacterias. Llega el invierno, la vacías para limpiarla… y la piscina sale flotando del suelo. Parece imposible, pero el agua subterránea la empuja desde abajo, como a un barco. Por eso se pone una válvula en el fondo que deja entrar esa agua y alivia la presión. Por último, una escalera y unas luces bajo el agua… y ya tienes tu piscina. Sígueme para más.",
-   "texto": "prueba",
-   "tags": [],
-   "estado": "rechazado",
-   "creado": "2026-11-03",
-   "nota": "Prueba de la voz automática"
-  }
- ]
+  "videos": [
+    {
+      "id": "termo",
+      "formato": "B",
+      "titulo": "PRUEBA de renderizado: termo (ya publicado, no aprobar)",
+      "guion": "Vamos a inventar un termo. Quieres que tu café siga caliente durante horas. El problema es que el calor se escapa por tres caminos. Primero, por contacto: el café calienta la pared, y la pared calienta todo lo que toca. Segundo, por el aire: el aire caliente sube, se va, y entra aire frío. Y tercero, por radiación: todo lo caliente suelta calor en forma de luz invisible, infrarroja. Para frenar el primero, haces el termo con dos paredes, una dentro de otra, que casi no se tocan. Pero entre ellas hay aire, y el aire sigue llevándose calor. Así que sacas el aire. Vacío. Sin aire, no hay nada que transporte el calor por contacto ni por corrientes. Queda la radiación: la paras haciendo las paredes plateadas por dentro, como un espejo, para que el calor rebote y vuelva al café. Y el último punto débil: arriba. Por la boca se escapa casi todo lo que queda, así que pones un tapón grueso que aísle. Ya está. Esto lo inventó James Dewar en 1892 para guardar gases muy fríos. Por eso un termo funciona igual al revés: lo frío sigue frío. Sígueme para inventar el siguiente objeto.",
+      "texto": "Prueba",
+      "tags": [
+        "termo"
+      ],
+      "estado": "rechazado",
+      "creado": "2026-11-03",
+      "duracion": 72.6,
+      "nota": "Prueba del sistema de renderizado (vídeo ya publicado)"
+    },
+    {
+      "id": "prueba_voz",
+      "formato": "C",
+      "titulo": "PRUEBA de voz (no producir)",
+      "guion": "¿Y si construyes una piscina en tu jardín? Empiezas cavando un agujero de dos metros. Pero la tierra de los lados se derrumba. Así que forras el hueco con una malla de acero y le lanzas hormigón a presión. Ahora tienes un vaso de hormigón. Lo llenas de agua… y a los pocos días el agua se escapa: el hormigón tiene poros. Lo cubres con una lámina impermeable, y ya no pierde ni una gota. Pero a la semana el agua se pone verde: son algas. Necesitas mover el agua. Pones unas boquillas en las paredes y un sumidero en el fondo, conectados a una bomba que hace pasar toda la piscina por un filtro de arena varias veces al día. Y añades cloro, que mata las bacterias. Llega el invierno, la vacías para limpiarla… y la piscina sale flotando del suelo. Parece imposible, pero el agua subterránea la empuja desde abajo, como a un barco. Por eso se pone una válvula en el fondo que deja entrar esa agua y alivia la presión. Por último, una escalera y unas luces bajo el agua… y ya tienes tu piscina. Sígueme para más.",
+      "texto": "prueba",
+      "tags": [],
+      "estado": "rechazado",
+      "creado": "2026-11-03",
+      "nota": "Prueba de la voz automática"
+    },
+    {
+      "id": "prueba_voz2",
+      "formato": "C",
+      "titulo": "PRUEBA de voz 2 (no producir)",
+      "guion": "¿Y si construyes una piscina en tu jardín? Empiezas cavando un agujero de dos metros. Pero la tierra de los lados se derrumba. Así que forras el hueco con una malla de acero y le lanzas hormigón a presión. Ahora tienes un vaso de hormigón. Lo llenas de agua… y a los pocos días el agua se escapa: el hormigón tiene poros. Lo cubres con una lámina impermeable, y ya no pierde ni una gota. Pero a la semana el agua se pone verde: son algas. Necesitas mover el agua. Pones unas boquillas en las paredes y un sumidero en el fondo, conectados a una bomba que hace pasar toda la piscina por un filtro de arena varias veces al día. Y añades cloro, que mata las bacterias. Llega el invierno, la vacías para limpiarla… y la piscina sale flotando del suelo. Parece imposible, pero el agua subterránea la empuja desde abajo, como a un barco. Por eso se pone una válvula en el fondo que deja entrar esa agua y alivia la presión. Por último, una escalera y unas luces bajo el agua… y ya tienes tu piscina. Sígueme para más.",
+      "texto": "prueba",
+      "tags": [],
+      "estado": "rechazado",
+      "creado": "2026-11-03",
+      "nota": "Prueba de la voz automática"
+    },
+    {
+      "id": "microondas",
+      "formato": "A",
+      "titulo": "¿Cómo calienta el microondas la comida? 📡🍲 Así funciona por dentro",
+      "guion": "Tu microondas calienta la comida… agitando el agua dos mil cuatrocientos cincuenta millones de veces por segundo. Mira dentro. Detrás de la pared lateral hay una pieza con imanes: el magnetrón. Convierte la electricidad en microondas, unas ondas invisibles parecidas a las de la radio. Un tubo metálico las lleva hasta la cavidad. Las paredes son de metal, así que las ondas rebotan de un lado a otro sin escapar. ¿Y la puerta? Tiene una rejilla con agujeritos. La luz los atraviesa y puedes mirar. Pero las microondas son demasiado grandes para pasar. Cuando las ondas atraviesan la comida, las moléculas de agua intentan girar con ellas. Giran y giran, chocan con las de alrededor… y ese roce es calor. Por eso el plato casi no se calienta y la comida sí. Pero aquí está lo curioso. Las ondas rebotadas se cruzan y forman zonas de mucha energía y zonas casi muertas. Si la comida estuviera quieta, quedaría ardiendo por un lado y helada por otro. Por eso gira el plato: para que cada trozo pase por las zonas calientes. Y por eso conviene remover a mitad de tiempo. ¿Y quién lo descubrió? Un ingeniero, Percy Spencer, en mil novecientos cuarenta y cinco. Trabajaba junto a un radar… y notó que la chocolatina de su bolsillo se había derretido. Sígueme para más.",
+      "texto": "El plato no gira por gusto: sin él tendrías la comida ardiendo por un lado y helada por otro. ¿Tú remueves a mitad? 👇",
+      "tags": [
+        "microondas",
+        "ciencia",
+        "cocina",
+        "física",
+        "comosehace"
+      ],
+      "estado": "propuesto",
+      "creado": "2026-11-03"
+    },
+    {
+      "id": "ascensor",
+      "formato": "B",
+      "titulo": "Si tuvieras que inventar el ascensor… 🛗 ¿y si se rompe el cable?",
+      "guion": "Vamos a inventar el ascensor. Quieres subir a un décimo piso sin escaleras. Lo más fácil: una cabina colgada de un cable, y un motor arriba que tire de él. Pero subir toda esa cabina, más la gente, necesita un motor enorme. Así que al otro lado del cable cuelgas un contrapeso que pesa casi lo mismo que la cabina medio llena. Uno baja cuando la otra sube, y el motor solo tiene que mover la diferencia. Pero el cable pasa por una polea. Si solo apoya, resbala. Así que la polea tiene ranuras, y el peso aprieta el cable dentro de ellas. Ahora el gran miedo: ¿y si se rompe el cable? Así que añades raíles a los lados del hueco, con dientes, y en la cabina pones unas uñas que saltan con un muelle. Mientras el cable tira, las uñas están recogidas. Si el cable se afloja, saltan, se clavan en los raíles… y la cabina se queda clavada. Esto lo enseñó Elisha Otis en Nueva York en mil ochocientos cincuenta y cuatro. Subió a una plataforma, mandó cortar la cuerda delante del público… y no se cayó. Hoy, además, un limitador de velocidad activa los frenos si la cabina baja demasiado rápido. Y nunca cuelga de un solo cable, sino de varios, y cada uno podría sostenerla solo. Gracias a esto pudimos construir rascacielos. Sígueme para inventar el siguiente objeto.",
+      "texto": "Un hombre subió a una plataforma y mandó cortar la cuerda delante de todos. ¿Tú te atreverías? 👇",
+      "tags": [
+        "ascensor",
+        "inventos",
+        "ingeniería",
+        "historia",
+        "seguridad"
+      ],
+      "estado": "propuesto",
+      "creado": "2026-11-03"
+    },
+    {
+      "id": "rascacielos",
+      "formato": "C",
+      "titulo": "¿Y si construyes un rascacielos? 🏙️ El truco de la bola gigante",
+      "guion": "¿Y si construyes un rascacielos de cuatrocientos metros? Empiezas apilando plantas de hormigón. Pero todo ese peso hunde el edificio en el suelo, como un tacón en la arena. Así que excavas y clavas pilotes, columnas enormes que bajan decenas de metros hasta la roca dura. Ahora el peso tiene dónde apoyarse. Subes plantas y plantas. Pero las de abajo tienen que aguantar a todas las de encima. Así que haces un núcleo central de hormigón armado, donde van los ascensores y las escaleras. Es la columna vertebral del edificio. Pero a esa altura, el viento sopla muchísimo más fuerte. Y el edificio se balancea. No se va a caer… pero la gente de arriba se marea. Así que haces algo que parece una locura. Cuelgas una bola de acero gigante en lo más alto, como un péndulo. Cuando el viento empuja la torre hacia un lado, la bola, por inercia, se queda atrás y tira en sentido contrario. Frena el balanceo. En Taipéi, en Taiwán, hay una de seiscientas sesenta toneladas, colgada entre las plantas ochenta y siete y noventa y dos. ¡Y se puede visitar! Pero aún queda el agua. Bombearla hasta arriba del todo exige demasiada presión. Así que pones depósitos y bombas cada pocas decenas de plantas, que la suben por tramos, como una escalera. Y por fuera, una piel de cristal ligera, colgada del esqueleto. Sígueme para más.",
+      "texto": "Hay rascacielos con una bola de 660 toneladas colgada arriba para no marear a nadie. ¿Lo sabías? 👇",
+      "tags": [
+        "rascacielos",
+        "construcción",
+        "ingeniería",
+        "arquitectura",
+        "física"
+      ],
+      "estado": "propuesto",
+      "creado": "2026-11-03"
+    },
+    {
+      "id": "frigorifico",
+      "formato": "A",
+      "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
+      "guion": "Tu nevera no fabrica frío. Lo que hace es sacar el calor de dentro… y tirarlo por detrás. Mira dentro. Por unos tubos circula un líquido especial, el refrigerante. Hierve a una temperatura bajísima, muy por debajo de cero. Dentro de la nevera, en la pared del fondo, ese líquido se evapora. Y para evaporarse necesita calor, así que se lo roba a la comida. Igual que el sudor te enfría la piel al secarse. Ahora es un gas frío. Pero hay que deshacerse de ese calor. Así que el gas llega al compresor, ese motor que oyes zumbar abajo. Lo aprieta con fuerza, y al comprimirlo se calienta muchísimo. Ese gas caliente pasa por la rejilla negra de la parte de atrás. Allí suelta el calor a la cocina, se enfría y vuelve a ser líquido. Por eso la parte trasera de la nevera está tibia. Después, el líquido atraviesa un tubo finísimo, un estrechamiento. Al salir, la presión cae de golpe y el líquido se enfría muchísimo. Vuelve a entrar en la nevera, listo para robar más calor. Y así, una y otra vez, siempre el mismo líquido. Un termostato apaga el compresor cuando dentro hace bastante frío. Y un dato: si dejas la puerta abierta para enfriar la cocina… la calientas. Todo el calor que saca, lo suelta en la misma habitación. Sígueme para más.",
+      "texto": "Dejar la nevera abierta en verano no enfría la cocina: la calienta. ¿Lo habías probado? 👇",
+      "tags": [
+        "nevera",
+        "frigorífico",
+        "física",
+        "hogar",
+        "ciencia"
+      ],
+      "estado": "propuesto",
+      "creado": "2026-11-03"
+    },
+    {
+      "id": "boligrafo",
+      "formato": "B",
+      "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
+      "guion": "Vamos a inventar el bolígrafo. Quieres escribir sin mojar la pluma en el tintero cada dos palabras. Primero, pones un depósito de tinta dentro de un tubo. Pero la tinta de pluma es líquida como el agua: gotea y mancha todo. Así que usas una tinta espesa, casi como una pasta, que se seca enseguida. Problema: esa tinta tan espesa no sale por un agujero. Así que en la punta pones una bolita metálica, del tamaño de un grano de arena. La bola gira, como la de un desodorante. Al rodar sobre el papel, por arriba se moja de tinta, y por abajo la deja en la hoja. Y mientras no escribes, la propia bola tapa el agujero, así que la tinta no se seca. Pero si la bola encaja demasiado justa, no gira. Y si está suelta, se sale. Así que la sujetas en un casquillo de metal que la abraza casi entera, dejando asomar solo una parte. Último problema: la tinta baja y deja un hueco arriba. Si a ese hueco no le llega aire, se forma un vacío y la tinta deja de salir. Así que haces un agujerito en el tubo, para que entre aire. ¿Y el agujero del capuchón? Por si alguien se lo traga… que pueda respirar. Esta idea la patentó László Bíró, un periodista húngaro, en mil novecientos treinta y ocho. Sígueme para inventar el siguiente objeto.",
+      "texto": "El agujero del capuchón no está ahí por casualidad. ¿Sabías para qué servía? 👇",
+      "tags": [
+        "bolígrafo",
+        "inventos",
+        "historia",
+        "diseño",
+        "curiosidades"
+      ],
+      "estado": "propuesto",
+      "creado": "2026-11-03"
+    },
+    {
+      "id": "cerradura",
+      "formato": "A",
+      "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
+      "guion": "Tu llave tiene una fila de dientes que parecen puestos al azar. Pues no: cada diente levanta una pieza a la altura exacta. Mira dentro de la cerradura. Hay un cilindro que puede girar, metido dentro de una carcasa fija. Y atravesando los dos, de arriba abajo, hay cinco o seis agujeros. En cada agujero hay dos pernos, uno encima de otro, empujados hacia abajo por un muelle. Sin llave, los pernos de arriba quedan a medio camino. Medio dentro del cilindro, medio en la carcasa. Hacen de cerrojo: el cilindro no puede girar. Ahora metes la llave. Cada diente empuja hacia arriba un perno distinto. Y como los pernos de abajo tienen alturas diferentes, cada uno necesita un diente de la altura justa. Cuando todos están bien, la separación entre los dos pernos queda justo en el borde del cilindro. Esa línea se llama línea de corte. Ya nada atraviesa el borde… y el cilindro gira. Al girar, mueve una leva que arrastra el pestillo de la puerta. Si un solo diente está un poco alto o un poco bajo, un perno se queda atravesado, y no gira. Con seis pernos y varias alturas posibles, salen miles de combinaciones distintas. Y lo más sorprendente: la idea ya la usaban los egipcios, con pernos de madera, hace unos cuatro mil años. La versión con muelles la perfeccionó Linus Yale, en el siglo diecinueve. Sígueme para más.",
+      "texto": "Cada diente de tu llave tiene una misión. Y la idea tiene cuatro mil años. ¿Lo sabías? 👇",
+      "tags": [
+        "cerradura",
+        "llaves",
+        "mecanismos",
+        "seguridad",
+        "historia"
+      ],
+      "estado": "propuesto",
+      "creado": "2026-11-03"
+    },
+    {
+      "id": "tunel",
+      "formato": "C",
+      "titulo": "¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso",
+      "guion": "¿Y si construyes un túnel por debajo de un río? Empiezas cavando un agujero bajo el fondo. Pero esa tierra está empapada, y en cuanto cavas, el techo se derrumba y entra el agua. Así que usas un escudo: un tubo de acero gigante que protege a los que excavan. Hoy es una tuneladora, una máquina redonda con una rueda de cuchillas que gira y muerde la tierra. Pero el río empuja agua y barro contra la cara de la máquina. Así que, detrás de la rueda, la tuneladora mantiene una cámara llena de tierra a presión. Empuja hacia fuera tanto como el río empuja hacia dentro. Y avanza. Pero al avanzar, deja detrás un agujero sin paredes. Así que, a cada paso, la máquina coloca anillos de hormigón, pieza a pieza, como un puzle. Se llaman dovelas. Unos gatos hidráulicos empujan contra el último anillo… y la máquina avanza un poco más. Pero entre las piezas se puede colar el agua. Así que llevan juntas de goma que se aprietan y lo sellan todo. Y el hueco que queda por fuera se rellena con mortero. Por último, bombas en el punto más bajo, por si entra alguna gota. ¿Sabes de dónde salió la idea del escudo? De la broma, un bicho que perfora la madera de los barcos. Con ese invento, Marc Brunel hizo el primer túnel bajo un río navegable, el Támesis, en mil ochocientos cuarenta y tres. Sígueme para más.",
+      "texto": "La idea de las tuneladoras salió de un bicho que se come los barcos. ¿Te lo esperabas? 👇",
+      "tags": [
+        "túnel",
+        "tuneladora",
+        "ingeniería",
+        "construcción",
+        "historia"
+      ],
+      "estado": "propuesto",
+      "creado": "2026-11-03"
+    },
+    {
+      "id": "lata",
+      "formato": "B",
+      "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
+      "guion": "Vamos a inventar la lata de refresco. Necesitas guardar un líquido con gas, que empuja hacia fuera con tanta fuerza como el aire de la rueda de un coche. Y quieres que pese casi nada. Así que usas aluminio, que es ligero y no se oxida. Y estiras las paredes hasta dejarlas tan finas como una hoja de papel. Pero el gas empuja hacia todos lados. Un fondo plano se abombaría y la lata se volcaría. Así que haces el fondo con forma de cúpula hacia dentro, como un arco. Aguanta la presión y la lata sigue de pie. Por dentro pones una capa de barniz finísima. Si no, el refresco, que es ácido, atacaría el metal y sabría raro. La tapa necesita ser más gruesa, y eso cuesta más aluminio. Así que estrechas el cuello de la lata, para que la tapa sea más pequeña. Problema: ¿cómo la abres sin abrelatas? Las primeras tenían una anilla que se arrancaba entera… y acababan tiradas por todas partes. Así que inventas una lengüeta que se queda pegada. Al tirar, hace de palanca, empuja hacia dentro un trozo de tapa ya marcado, y la lengüeta no se suelta. Y aquí lo increíble: una lata cerrada aguanta el peso de una persona de pie encima. Pero vacía, la aplastas con la mano. Lo que la hace fuerte… es el propio gas. Sígueme para inventar el siguiente objeto.",
+      "texto": "Una lata cerrada aguanta a una persona encima. Vacía, la aplastas con la mano. ¿Por qué? 👇",
+      "tags": [
+        "lata",
+        "inventos",
+        "diseño",
+        "física",
+        "reciclaje"
+      ],
+      "estado": "propuesto",
+      "creado": "2026-11-03"
+    }
+  ]
 }
