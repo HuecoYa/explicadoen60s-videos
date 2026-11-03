@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T01:28:53.458883+00:00",
+ "actualizado": "2026-11-03T01:43:50.998858+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
@@ -21,7 +21,7 @@
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1201,
+    "vistas": 1200,
     "likes": 52,
     "comentarios": 0
    },
@@ -30,7 +30,7 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 1462,
+    "vistas": 1465,
     "likes": 56,
     "comentarios": 0
    },
@@ -39,7 +39,7 @@
     "titulo": "Tu tarjeta calcula un código nuevo en cada compra 💳",
     "fecha": "2026-11-01T17:07:27Z",
     "url": "https://youtube.com/shorts/HuIneB5kG3g",
-    "vistas": 1357,
+    "vistas": 1356,
     "likes": 47,
     "comentarios": 0
    },
@@ -48,7 +48,7 @@
     "titulo": "¿La máquina de peluches está trucada? 🧸",
     "fecha": "2026-11-01T15:07:27Z",
     "url": "https://youtube.com/shorts/3QeKEF6QIT8",
-    "vistas": 1926,
+    "vistas": 1975,
     "likes": 44,
     "comentarios": 0
    },
@@ -57,7 +57,7 @@
     "titulo": "Dobla un papel 42 veces y llegas a la Luna #shorts",
     "fecha": "2026-10-31T21:16:00Z",
     "url": "https://youtube.com/shorts/dj4KPOwBVtA",
-    "vistas": 1195,
+    "vistas": 1198,
     "likes": 43,
     "comentarios": 4
    },
@@ -66,7 +66,7 @@
     "titulo": "Así te pilla Hacienda si inventas números (ley de Benford) #shorts",
     "fecha": "2026-10-31T21:03:45Z",
     "url": "https://youtube.com/shorts/csfOC8UIebg",
-    "vistas": 1227,
+    "vistas": 1226,
     "likes": 63,
     "comentarios": 0
    },
@@ -84,7 +84,7 @@
     "titulo": "Este orden de cartas NUNCA ha existido en la historia #shorts",
     "fecha": "2026-10-31T20:31:32Z",
     "url": "https://youtube.com/shorts/1gx47YGrvnA",
-    "vistas": 1144,
+    "vistas": 1143,
     "likes": 24,
     "comentarios": 0
    },
@@ -120,7 +120,7 @@
     "titulo": "RULETA | explicadoen60s",
     "fecha": "2026-10-30T16:50:46Z",
     "url": "https://youtube.com/shorts/ApcW-U0XSUQ",
-    "vistas": 1312,
+    "vistas": 1313,
     "likes": 49,
     "comentarios": 0
    },
@@ -147,8 +147,8 @@
     "titulo": "PANTALLA TACTIL | explicadoen60s",
     "fecha": "2026-10-30T16:48:22Z",
     "url": "https://youtube.com/shorts/_DXMGg0osc4",
-    "vistas": 1347,
-    "likes": 69,
+    "vistas": 1340,
+    "likes": 68,
     "comentarios": 0
    },
    {
@@ -174,7 +174,7 @@
     "titulo": "MICROONDAS | explicadoen60s",
     "fecha": "2026-10-30T16:46:48Z",
     "url": "https://youtube.com/shorts/VyW5fmr331E",
-    "vistas": 1260,
+    "vistas": 1258,
     "likes": 40,
     "comentarios": 1
    },
@@ -183,7 +183,7 @@
     "titulo": "RADARES PARTE 2 | explicadoen60s",
     "fecha": "2026-10-30T16:45:47Z",
     "url": "https://youtube.com/shorts/fNCMYQjzoPw",
-    "vistas": 1347,
+    "vistas": 1336,
     "likes": 15,
     "comentarios": 0
    },
@@ -192,7 +192,7 @@
     "titulo": "RADARES PARTE 1 | explicadoen60s",
     "fecha": "2026-10-30T16:40:23Z",
     "url": "https://youtube.com/shorts/Ay-O_51j0WA",
-    "vistas": 1630,
+    "vistas": 1615,
     "likes": 25,
     "comentarios": 0
    },
@@ -386,7 +386,7 @@
   ]
  },
  "errores": {
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"202611030129000BDDCA8A15C3244BA795\"}}"
+  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"2026110301435606B05D017F141C3E2152\"}}"
  },
  "historial": [
   {
