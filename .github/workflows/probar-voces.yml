@@ -12,14 +12,11 @@ permissions:
 jobs:
   voz:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - {nombre: clon_a, pip: "chatterbox-tts soundfile numpy", voz: produccion/voz/referencia.wav}
-          - {nombre: clon_b, pip: "chatterbox-tts soundfile numpy", voz: produccion/voz/referencia.wav}
-          - {nombre: clon_c, pip: "chatterbox-tts soundfile numpy", voz: produccion/voz/referencia.wav}
+        nombre: [qwen_icl, qwen_xvec, vc_qwen, vc_piper]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,25 +26,41 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: sudo apt-get install -y -qq espeak-ng ffmpeg > /dev/null
-      - run: pip install -q ${{ matrix.pip }} 2>&1 | tail -5
-      - name: Modelo Piper
-        if: startsWith(matrix.nombre, 'piper')
-        run: |
-          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/${{ matrix.modelo }}
-          curl -sL -o /tmp/m.onnx "$base.onnx"; curl -sL -o /tmp/m.onnx.json "$base.onnx.json"
+      - run: sudo apt-get install -y -qq espeak-ng ffmpeg sox > /dev/null
       - name: Generar
         run: |
           set -o pipefail
-          arg=""; [ -n "${{ matrix.modelo }}" ] && arg=/tmp/m.onnx; [ -n "${{ matrix.voz }}" ] && arg=${{ matrix.voz }}
-          /usr/bin/time -v python produccion/voz_pruebas/probar.py ${{ matrix.nombre }} /tmp/out.wav $arg 2>&1 | tail -40 | tee /tmp/log.txt
-          ffmpeg -loglevel error -y -i /tmp/out.wav -b:a 128k /tmp/voz_${{ matrix.nombre }}.mp3
+          P=produccion/voz_pruebas/probar2.py; REF=produccion/voz/referencia.wav; LARGA=produccion/voz/referencia_larga.wav
+          n=${{ matrix.nombre }}
+          {
+          if [ $n = qwen_icl ]; then
+            pip install -q qwen-tts soundfile faster-whisper
+            python $P transcribir $REF /tmp/ref.txt
+            python $P qwen_icl $REF /tmp/out.wav /tmp/ref.txt
+          elif [ $n = qwen_xvec ]; then
+            pip install -q qwen-tts soundfile
+            python $P qwen_xvec $LARGA /tmp/out.wav
+          elif [ $n = vc_qwen ]; then
+            python -m venv /tmp/q && /tmp/q/bin/pip install -q qwen-tts soundfile
+            /tmp/q/bin/python $P qwen_diseno /tmp/src.wav
+            python -m venv /tmp/c && /tmp/c/bin/pip install -q chatterbox-tts soundfile
+            /tmp/c/bin/python $P vc /tmp/src.wav $LARGA /tmp/out.wav
+            ffmpeg -loglevel error -y -i /tmp/src.wav -b:a 128k /tmp/voz_fuente_qwen.mp3
+          else
+            pip install -q piper-tts soundfile chatterbox-tts
+            base=https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_ES/davefx/medium/es_ES-davefx-medium
+            curl -sL -o /tmp/m.onnx "$base.onnx"; curl -sL -o /tmp/m.onnx.json "$base.onnx.json"
+            python $P piper /tmp/m.onnx /tmp/src.wav
+            python $P vc /tmp/src.wav $LARGA /tmp/out.wav
+          fi
+          } 2>&1 | grep -v "Warning\|warn" | tail -40 | tee /tmp/log.txt
+          ffmpeg -loglevel error -y -i /tmp/out.wav -b:a 128k /tmp/voz_$n.mp3
       - name: Subir
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release view voces-prueba >/dev/null 2>&1 || gh release create voces-prueba --title "Pruebas de voz" --notes "Muestras de voces libres" --latest=false
-          cp /tmp/log.txt /tmp/log_${{ matrix.nombre }}.txt 2>/dev/null || echo "sin log" > /tmp/log_${{ matrix.nombre }}.txt
-          gh release upload voces-prueba /tmp/log_${{ matrix.nombre }}.txt --clobber
-          [ -f /tmp/voz_${{ matrix.nombre }}.mp3 ] && gh release upload voces-prueba /tmp/voz_${{ matrix.nombre }}.mp3 --clobber || true
+          n=${{ matrix.nombre }}
+          cp /tmp/log.txt /tmp/log_$n.txt 2>/dev/null || echo "sin log" > /tmp/log_$n.txt
+          gh release upload voces-prueba /tmp/log_$n.txt --clobber
+          for f in /tmp/voz_$n.mp3 /tmp/voz_fuente_qwen.mp3; do [ -f $f ] && gh release upload voces-prueba $f --clobber; done; true
