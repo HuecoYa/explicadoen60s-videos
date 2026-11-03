@@ -1,0 +1,17 @@
+{
+  "name": "explicadoen60s-directo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pantalla de duelos de objetos para los directos de TikTok de @explicadoen60s",
+  "type": "module",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "simular": "node servidor.js --simular"
+  },
+  "dependencies": {
+    "three": "0.160.0",
+    "tiktok-live-connector": "2.5.0",
+    "ws": "8.18.0"
+  }
+}

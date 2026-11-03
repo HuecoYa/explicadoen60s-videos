@@ -1,0 +1,21 @@
+{
+  "_nota": "Lista de duelos, en orden. 'modelo' debe existir en pantalla/objetos.js. 'nota' solo la ves tú en la página de control (no sale en el directo).",
+  "duelos": [
+    { "a": { "modelo": "huevo", "nombre": "Huevo" }, "b": { "modelo": "bombilla", "nombre": "Bombilla" },
+      "nota": "Los dos son curvos: la forma de cúpula reparte la fuerza por toda la cáscara. El huevo aguanta mucho apretado por las puntas; el vidrio de la bombilla es duro pero frágil y estalla de golpe." },
+    { "a": { "modelo": "lata", "nombre": "Lata" }, "b": { "modelo": "botella", "nombre": "Botella" },
+      "nota": "La lata cerrada aguanta por la presión del gas; vacía, una pequeña abolladura en la pared la hunde. La botella de plástico se deforma y casi vuelve a su forma: el plástico es elástico y el aire de dentro hace de muelle." },
+    { "a": { "modelo": "sandia", "nombre": "Sandía" }, "b": { "modelo": "pelota", "nombre": "Pelota de tenis" },
+      "nota": "La corteza de la sandía es una cáscara gruesa: aguanta bastante y luego revienta de golpe porque dentro casi todo es agua, que no se comprime. La pelota tiene aire a presión: se aplasta y vuelve." },
+    { "a": { "modelo": "movil", "nombre": "Móvil" }, "b": { "modelo": "mando", "nombre": "Mando a distancia" },
+      "nota": "En el móvil lo primero que cede es el cristal. Avisa: en la vida real nunca aplastes baterías de litio, pueden arder. El mando es plástico hueco con pilas: cruje y se abre por las juntas." },
+    { "a": { "modelo": "tomate", "nombre": "Tomate" }, "b": { "modelo": "donut", "nombre": "Dónut" },
+      "nota": "El tomate es casi todo agua con una piel finísima: revienta. El dónut es una espuma: miles de burbujas de aire que se aplastan sin romperse del todo." },
+    { "a": { "modelo": "cubo", "nombre": "Cubo de colores" }, "b": { "modelo": "vela", "nombre": "Vela" },
+      "nota": "El cubo son piezas encajadas alrededor de un núcleo: al aplastarlo, las piezas salen disparadas. La cera de la vela es blanda: se aplasta, se agrieta y la mecha queda dentro." },
+    { "a": { "modelo": "bombilla", "nombre": "Bombilla" }, "b": { "modelo": "cubo", "nombre": "Cubo de colores" },
+      "nota": "Vidrio contra plástico: el vidrio no se dobla nada, así que en cuanto pasa su límite se rompe en mil trozos. El plástico se dobla antes de romperse." },
+    { "a": { "modelo": "sandia", "nombre": "Sandía" }, "b": { "modelo": "lata", "nombre": "Lata" },
+      "nota": "Agua contra gas: el agua de la sandía no se puede comprimir, por eso revienta hacia los lados. El gas de la lata sí se comprime, así que la lata se va arrugando como un acordeón." }
+  ]
+}

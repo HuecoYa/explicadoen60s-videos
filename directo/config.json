@@ -1,0 +1,10 @@
+{
+  "usuario": "explicadoen60s",
+  "puerto": 3060,
+  "segundos_votacion": 120,
+  "segundos_prensa": 14,
+  "segundos_resultado": 12,
+  "puntos_comentario": 1,
+  "puntos_por_moneda": 10,
+  "automatico": true
+}
