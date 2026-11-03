@@ -91,6 +91,24 @@
    "por": "Christian_Civico"
   },
   {
+   "id": "boligrafo-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-03T18:00:00+01:00",
+   "video": "boligrafo_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
+   "texto": "El agujero del capuchón no está ahí por casualidad. ¿Sabías para qué servía? 👇",
+   "tags": [
+    "bolígrafo",
+    "inventos",
+    "historia",
+    "diseño",
+    "curiosidades"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "rascacielos-youtube",
    "red": "youtube",
    "hora": "2026-11-03T18:00:00+01:00",
@@ -109,6 +127,24 @@
    "por": "Christian_Civico"
   },
   {
+   "id": "boligrafo-instagram",
+   "red": "instagram",
+   "hora": "2026-11-03T19:00:00+01:00",
+   "video": "boligrafo.mp4",
+   "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
+   "texto": "El agujero del capuchón no está ahí por casualidad. ¿Sabías para qué servía? 👇",
+   "tags": [
+    "bolígrafo",
+    "inventos",
+    "historia",
+    "diseño",
+    "curiosidades"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "cerradura-tiktok",
    "red": "tiktok",
    "hora": "2026-11-03T19:00:00+01:00",
@@ -125,6 +161,24 @@
    "estado": "pendiente",
    "intentos": 0,
    "por": "Christian_Civico"
+  },
+  {
+   "id": "boligrafo-youtube",
+   "red": "youtube",
+   "hora": "2026-11-03T19:00:00+01:00",
+   "video": "boligrafo.mp4",
+   "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
+   "texto": "El agujero del capuchón no está ahí por casualidad. ¿Sabías para qué servía? 👇",
+   "tags": [
+    "bolígrafo",
+    "inventos",
+    "historia",
+    "diseño",
+    "curiosidades"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cerradura-instagram",
