@@ -1,0 +1,58 @@
+name: Probar voz expresiva
+
+on:
+  push:
+    branches: [main]
+    paths: [produccion/voz_pruebas/probar3.py, .github/workflows/probar-voces2.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        nombre: [xvec_t11, xvec_t125, icl, diseno_vc]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            produccion/voz_pruebas
+            produccion/voz
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: qwen3-tts-base-1.7b
+      - run: sudo apt-get install -y -qq ffmpeg sox > /dev/null
+      - name: Generar
+        run: |
+          set -o pipefail
+          P=produccion/voz_pruebas/probar3.py; n=${{ matrix.nombre }}
+          {
+          python -m venv /tmp/q && /tmp/q/bin/pip install -q qwen-tts soundfile numpy
+          if [ $n = diseno_vc ]; then
+            /tmp/q/bin/python $P diseno /tmp/src.wav
+            python -m venv /tmp/c && /tmp/c/bin/pip install -q chatterbox-tts soundfile numpy
+            /tmp/c/bin/python $P vc /tmp/raw.wav /tmp/src.wav produccion/voz/referencia_larga.wav
+          elif [ $n = icl ]; then
+            /tmp/q/bin/python $P icl /tmp/raw.wav produccion/voz/referencia.wav
+          else
+            /tmp/q/bin/python $P $n /tmp/raw.wav produccion/voz/referencia_larga.wav
+          fi
+          } 2>&1 | grep -v -i "warn" | tail -30 | tee /tmp/log.txt
+          # acabado «TikTok»: un poco más rápido, más presencia y compresión
+          ffmpeg -loglevel error -y -i /tmp/raw.wav -af "atempo=1.08,highpass=f=70,equalizer=f=3500:t=q:w=1:g=3,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-15:TP=-1.5" -b:a 160k /tmp/expr_$n.mp3
+      - name: Subir
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=${{ matrix.nombre }}; cp /tmp/log.txt /tmp/log_expr_$n.txt 2>/dev/null || echo "sin log" > /tmp/log_expr_$n.txt
+          gh release upload voces-prueba /tmp/log_expr_$n.txt --clobber
+          [ -f /tmp/expr_$n.mp3 ] && gh release upload voces-prueba /tmp/expr_$n.mp3 --clobber; true
