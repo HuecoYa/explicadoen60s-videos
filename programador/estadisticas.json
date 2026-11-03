@@ -1,6 +1,12 @@
 {
- "actualizado": "2026-11-03T01:25:56.173360+00:00",
+ "actualizado": "2026-11-03T01:28:53.458883+00:00",
  "cuentas": {
+  "youtube": {
+   "nombre": "explicadoen60s",
+   "seguidores": 46,
+   "vistas": 20192,
+   "videos": 21
+  },
   "instagram": {
    "nombre": "@explicadoen60s",
    "seguidores": 13,
@@ -9,6 +15,197 @@
   }
  },
  "videos": {
+  "youtube": [
+   {
+    "id": "84MP3nyp62w",
+    "titulo": "El último número del código de barras es un detector de errores",
+    "fecha": "2026-11-02T15:05:37Z",
+    "url": "https://youtube.com/shorts/84MP3nyp62w",
+    "vistas": 1201,
+    "likes": 52,
+    "comentarios": 0
+   },
+   {
+    "id": "Z9_XGbMXxjU",
+    "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
+    "fecha": "2026-11-02T11:04:09Z",
+    "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
+    "vistas": 1462,
+    "likes": 56,
+    "comentarios": 0
+   },
+   {
+    "id": "HuIneB5kG3g",
+    "titulo": "Tu tarjeta calcula un código nuevo en cada compra 💳",
+    "fecha": "2026-11-01T17:07:27Z",
+    "url": "https://youtube.com/shorts/HuIneB5kG3g",
+    "vistas": 1357,
+    "likes": 47,
+    "comentarios": 0
+   },
+   {
+    "id": "3QeKEF6QIT8",
+    "titulo": "¿La máquina de peluches está trucada? 🧸",
+    "fecha": "2026-11-01T15:07:27Z",
+    "url": "https://youtube.com/shorts/3QeKEF6QIT8",
+    "vistas": 1926,
+    "likes": 44,
+    "comentarios": 0
+   },
+   {
+    "id": "dj4KPOwBVtA",
+    "titulo": "Dobla un papel 42 veces y llegas a la Luna #shorts",
+    "fecha": "2026-10-31T21:16:00Z",
+    "url": "https://youtube.com/shorts/dj4KPOwBVtA",
+    "vistas": 1195,
+    "likes": 43,
+    "comentarios": 4
+   },
+   {
+    "id": "csfOC8UIebg",
+    "titulo": "Así te pilla Hacienda si inventas números (ley de Benford) #shorts",
+    "fecha": "2026-10-31T21:03:45Z",
+    "url": "https://youtube.com/shorts/csfOC8UIebg",
+    "vistas": 1227,
+    "likes": 63,
+    "comentarios": 0
+   },
+   {
+    "id": "LESWLq8dyZU",
+    "titulo": "Por qué tu cola del súper SIEMPRE es la más lenta #shorts",
+    "fecha": "2026-10-31T20:45:57Z",
+    "url": "https://youtube.com/shorts/LESWLq8dyZU",
+    "vistas": 1415,
+    "likes": 27,
+    "comentarios": 0
+   },
+   {
+    "id": "1gx47YGrvnA",
+    "titulo": "Este orden de cartas NUNCA ha existido en la historia #shorts",
+    "fecha": "2026-10-31T20:31:32Z",
+    "url": "https://youtube.com/shorts/1gx47YGrvnA",
+    "vistas": 1144,
+    "likes": 24,
+    "comentarios": 0
+   },
+   {
+    "id": "mruyrmJquJ8",
+    "titulo": "¿Cambias de puerta? El problema que engañó a 1.000 doctores #shorts",
+    "fecha": "2026-10-30T18:40:00Z",
+    "url": "https://youtube.com/shorts/mruyrmJquJ8",
+    "vistas": 13,
+    "likes": 1,
+    "comentarios": 0
+   },
+   {
+    "id": "6w5lAh7qh58",
+    "titulo": "ENVIO WHATSAPP | explicadoen60s",
+    "fecha": "2026-10-30T18:29:31Z",
+    "url": "https://youtube.com/shorts/6w5lAh7qh58",
+    "vistas": 20,
+    "likes": 0,
+    "comentarios": 0
+   },
+   {
+    "id": "vJXp2E0jr30",
+    "titulo": "CUMPLEAÑOS | explicadoen60s",
+    "fecha": "2026-10-30T18:27:44Z",
+    "url": "https://youtube.com/shorts/vJXp2E0jr30",
+    "vistas": 11,
+    "likes": 0,
+    "comentarios": 0
+   },
+   {
+    "id": "ApcW-U0XSUQ",
+    "titulo": "RULETA | explicadoen60s",
+    "fecha": "2026-10-30T16:50:46Z",
+    "url": "https://youtube.com/shorts/ApcW-U0XSUQ",
+    "vistas": 1312,
+    "likes": 49,
+    "comentarios": 0
+   },
+   {
+    "id": "xlZJu4TfVRw",
+    "titulo": "BOSTEZO | explicadoen60s",
+    "fecha": "2026-10-30T16:50:17Z",
+    "url": "https://youtube.com/shorts/xlZJu4TfVRw",
+    "vistas": 1309,
+    "likes": 43,
+    "comentarios": 2
+   },
+   {
+    "id": "td8wQB-m7DM",
+    "titulo": "ASCENSOR | explicadoen60s",
+    "fecha": "2026-10-30T16:49:18Z",
+    "url": "https://youtube.com/shorts/td8wQB-m7DM",
+    "vistas": 1360,
+    "likes": 74,
+    "comentarios": 0
+   },
+   {
+    "id": "_DXMGg0osc4",
+    "titulo": "PANTALLA TACTIL | explicadoen60s",
+    "fecha": "2026-10-30T16:48:22Z",
+    "url": "https://youtube.com/shorts/_DXMGg0osc4",
+    "vistas": 1347,
+    "likes": 69,
+    "comentarios": 0
+   },
+   {
+    "id": "ip7vXvvOkuM",
+    "titulo": "ABS | explicadoen60s",
+    "fecha": "2026-10-30T16:47:49Z",
+    "url": "https://youtube.com/shorts/ip7vXvvOkuM",
+    "vistas": 1403,
+    "likes": 48,
+    "comentarios": 0
+   },
+   {
+    "id": "L-TNiTfVOuU",
+    "titulo": "GPS | explicadoen60s",
+    "fecha": "2026-10-30T16:47:20Z",
+    "url": "https://youtube.com/shorts/L-TNiTfVOuU",
+    "vistas": 1281,
+    "likes": 49,
+    "comentarios": 0
+   },
+   {
+    "id": "VyW5fmr331E",
+    "titulo": "MICROONDAS | explicadoen60s",
+    "fecha": "2026-10-30T16:46:48Z",
+    "url": "https://youtube.com/shorts/VyW5fmr331E",
+    "vistas": 1260,
+    "likes": 40,
+    "comentarios": 1
+   },
+   {
+    "id": "fNCMYQjzoPw",
+    "titulo": "RADARES PARTE 2 | explicadoen60s",
+    "fecha": "2026-10-30T16:45:47Z",
+    "url": "https://youtube.com/shorts/fNCMYQjzoPw",
+    "vistas": 1347,
+    "likes": 15,
+    "comentarios": 0
+   },
+   {
+    "id": "Ay-O_51j0WA",
+    "titulo": "RADARES PARTE 1 | explicadoen60s",
+    "fecha": "2026-10-30T16:40:23Z",
+    "url": "https://youtube.com/shorts/Ay-O_51j0WA",
+    "vistas": 1630,
+    "likes": 25,
+    "comentarios": 0
+   },
+   {
+    "id": "gMxmhKpkam4",
+    "titulo": "WIFI EXPLICADO EN 60s | explicadoen60s",
+    "fecha": "2026-10-30T16:39:32Z",
+    "url": "https://youtube.com/shorts/gMxmhKpkam4",
+    "vistas": 305,
+    "likes": 5,
+    "comentarios": 0
+   }
+  ],
   "instagram": [
    {
     "id": "18097565453660587",
@@ -189,12 +386,14 @@
   ]
  },
  "errores": {
-  "youtube": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Request had insufficient authentication scopes.\",\n    \"errors\": [\n      {\n        \"message\": \"Insufficient Permission\",\n        \"domain\": \"global\",\n        \"reason\": \"insufficientPermissions\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\",\n",
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"20261103012606DF134F0061228E2BFDF6\"}}"
+  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"202611030129000BDDCA8A15C3244BA795\"}}"
  },
  "historial": [
   {
    "fecha": "2026-11-03",
+   "youtube_seguidores": 46,
+   "youtube_vistas": 20192,
+   "youtube_videos": 21,
    "instagram_seguidores": 13,
    "instagram_vistas": 0,
    "instagram_videos": 22
