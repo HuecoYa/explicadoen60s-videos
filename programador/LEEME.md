@@ -3,7 +3,7 @@
 Sustituto gratuito de Metricool. GitHub publica solo los vídeos a su hora, sin límite al mes.
 
 - **Calendario:** [`CALENDARIO.md`](../CALENDARIO.md) (se actualiza solo cada 10 minutos).
-- **Vídeos:** se guardan en el release [`videos`](https://github.com/HuecoYa/explicadoen60s-videos/releases/tag/videos) para no llenar el repositorio.
+- **Vídeos:** se guardan en el release [`videos`](https://github.com/explicadoen60s/explicadoen60s.github.io/releases/tag/videos) para no llenar el repositorio.
 - **Avisos:** cuando hay que hacer algo (un TikTok listo en tu bandeja o un error), se abre un *issue* y te llega una notificación de GitHub.
 - **YouTube e Instagram:** publicación automática.
 - **TikTok:** a su hora, el vídeo llega a tu bandeja de TikTok y el aviso trae el texto para pegar. Publicas con un toque. Cuando TikTok apruebe la app, pasará a ser automático.
@@ -15,12 +15,12 @@ En el repositorio, ve a **Settings → Pages**:
 - En **Build and deployment → Source**, elige **Deploy from a branch**.
 - Rama `main`, carpeta `/docs`, y pulsa **Save**.
 
-En un par de minutos estará en <https://huecoya.github.io/explicadoen60s-videos/>.
+En un par de minutos estará en <https://explicadoen60s.github.io/>.
 
 Después necesitas crear una «app» en cada red. Es gratis y solo la usas tú. En todas, la dirección de retorno (*redirect URI*) es:
 
 ```
-https://huecoya.github.io/explicadoen60s-videos/callback.html
+https://explicadoen60s.github.io/callback.html
 ```
 
 ### 1. YouTube (Google Cloud), unos 7 minutos
@@ -51,7 +51,7 @@ Las apps nuevas de Meta obligan a usar un **portfolio comercial**. Se usa un «u
 ### 3. TikTok, unos 10 minutos (+ revisión de TikTok)
 1. Entra en <https://developers.tiktok.com/> y ve a **Manage apps → Connect an app**. Rellena:
    - Nombre: `Programador explicadoen60s`, con icono y descripción.
-   - Web: `https://huecoya.github.io/explicadoen60s-videos/`
+   - Web: `https://explicadoen60s.github.io/`
    - Términos: `…/terminos.html`; Privacidad: `…/privacidad.html`
 2. Añade los productos **Login Kit**, con la dirección de retorno, y **Content Posting API**.
 3. Permisos (*scopes*): `user.info.basic` y `video.upload`.
@@ -69,7 +69,7 @@ Ponlas en GitHub:
 Además, el ID de cliente de YouTube, el ID de la app de Instagram y el client key de TikTok van en `docs/conectar.html`. No son secretos.
 
 ### 5. Conectar las cuentas
-1. Abre <https://huecoya.github.io/explicadoen60s-videos/conectar.html> y pulsa una red.
+1. Abre <https://explicadoen60s.github.io/conectar.html> y pulsa una red.
 2. Acepta los permisos y copia el código que aparece.
 3. Ve a **Actions → Conectar red social → Run workflow**, elige la red, pega el código y ejecútalo.
 

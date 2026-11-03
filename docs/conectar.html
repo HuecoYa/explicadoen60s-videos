@@ -9,7 +9,7 @@
 <script>
 // Identificadores públicos de las apps (no son secretos)
 const C={tiktok:"sbawlvxzv7zq3jpouz",youtube:"853124508421-h6le0f96s4u27456ccih5albd5m9il5l.apps.googleusercontent.com"};
-const CB=encodeURIComponent("https://huecoya.github.io/explicadoen60s-videos/callback.html");
+const CB=encodeURIComponent("https://explicadoen60s.github.io/callback.html");
 const U={
  tiktok:k=>`https://www.tiktok.com/v2/auth/authorize/?client_key=${k}&scope=user.info.basic,video.upload&response_type=code&redirect_uri=${CB}&state=tiktok`,
  youtube:k=>`https://accounts.google.com/o/oauth2/v2/auth?client_id=${k}&redirect_uri=${CB}&response_type=code&scope=${encodeURIComponent('https://www.googleapis.com/auth/youtube.upload')}&access_type=offline&prompt=consent&state=youtube`};

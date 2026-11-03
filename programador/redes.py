@@ -5,7 +5,7 @@ import requests
 
 from comun import secreto, descargar_video, url_directa, texto_completo, ahora
 
-CALLBACK = "https://huecoya.github.io/explicadoen60s-videos/callback.html"
+CALLBACK = "https://explicadoen60s.github.io/callback.html"
 IG_VERSION = "v23.0"
 
 

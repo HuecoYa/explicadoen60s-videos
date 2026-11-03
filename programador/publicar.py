@@ -10,7 +10,7 @@ from redes import REDES
 ADELANTO = dt.timedelta(minutes=3)      # puede salir hasta 3 min antes de la hora
 MAX_RETRASO = dt.timedelta(hours=12)    # si se pasó más de esto, no se publica (avisa)
 MAX_INTENTOS = 3
-AVISAR_A = "@HuecoYa"
+AVISAR_A = "@explicadoen60s"
 
 
 def issue(titulo, cuerpo):

@@ -10,7 +10,7 @@ RAIZ = Path(__file__).resolve().parent
 CALENDARIO = RAIZ / "calendario.json"
 TOKENS = RAIZ / "tokens.enc"
 MADRID = ZoneInfo("Europe/Madrid")
-REPO = os.environ.get("GITHUB_REPOSITORY", "HuecoYa/explicadoen60s-videos")
+REPO = os.environ.get("GITHUB_REPOSITORY", "explicadoen60s/explicadoen60s.github.io")
 TAG_VIDEOS = "videos"
 HASHTAG_CUENTA = "#explicadoen60s"
 
