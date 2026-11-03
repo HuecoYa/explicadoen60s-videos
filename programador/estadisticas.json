@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T04:16:28.123695+00:00",
+ "actualizado": "2026-11-03T05:18:51.357665+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
@@ -48,7 +48,7 @@
     "titulo": "¿La máquina de peluches está trucada? 🧸",
     "fecha": "2026-11-01T15:07:27Z",
     "url": "https://youtube.com/shorts/3QeKEF6QIT8",
-    "vistas": 1975,
+    "vistas": 2006,
     "likes": 44,
     "comentarios": 0
    },
@@ -58,7 +58,7 @@
     "fecha": "2026-10-31T21:16:00Z",
     "url": "https://youtube.com/shorts/dj4KPOwBVtA",
     "vistas": 1195,
-    "likes": 43,
+    "likes": 44,
     "comentarios": 4
    },
    {
@@ -156,7 +156,7 @@
     "titulo": "ABS | explicadoen60s",
     "fecha": "2026-10-30T16:47:49Z",
     "url": "https://youtube.com/shorts/ip7vXvvOkuM",
-    "vistas": 1403,
+    "vistas": 1400,
     "likes": 48,
     "comentarios": 0
    },
@@ -386,7 +386,7 @@
   ]
  },
  "errores": {
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"202611030416369FCBA32E89EDCB5FF6C0\"}}"
+  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"202611030518576AB6DC1BCADB3D80C8B1\"}}"
  },
  "historial": [
   {
