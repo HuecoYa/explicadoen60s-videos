@@ -1,10 +1,10 @@
 {
- "actualizado": "2026-11-03T01:43:50.998858+00:00",
+ "actualizado": "2026-11-03T03:12:40.612245+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
-   "seguidores": 46,
-   "vistas": 20192,
+   "seguidores": 45,
+   "vistas": 23508,
    "videos": 21
   },
   "instagram": {
@@ -21,7 +21,7 @@
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1200,
+    "vistas": 1209,
     "likes": 52,
     "comentarios": 0
    },
@@ -39,7 +39,7 @@
     "titulo": "Tu tarjeta calcula un código nuevo en cada compra 💳",
     "fecha": "2026-11-01T17:07:27Z",
     "url": "https://youtube.com/shorts/HuIneB5kG3g",
-    "vistas": 1356,
+    "vistas": 1358,
     "likes": 47,
     "comentarios": 0
    },
@@ -57,7 +57,7 @@
     "titulo": "Dobla un papel 42 veces y llegas a la Luna #shorts",
     "fecha": "2026-10-31T21:16:00Z",
     "url": "https://youtube.com/shorts/dj4KPOwBVtA",
-    "vistas": 1198,
+    "vistas": 1195,
     "likes": 43,
     "comentarios": 4
    },
@@ -66,7 +66,7 @@
     "titulo": "Así te pilla Hacienda si inventas números (ley de Benford) #shorts",
     "fecha": "2026-10-31T21:03:45Z",
     "url": "https://youtube.com/shorts/csfOC8UIebg",
-    "vistas": 1226,
+    "vistas": 1224,
     "likes": 63,
     "comentarios": 0
    },
@@ -120,7 +120,7 @@
     "titulo": "RULETA | explicadoen60s",
     "fecha": "2026-10-30T16:50:46Z",
     "url": "https://youtube.com/shorts/ApcW-U0XSUQ",
-    "vistas": 1313,
+    "vistas": 1312,
     "likes": 49,
     "comentarios": 0
    },
@@ -138,7 +138,7 @@
     "titulo": "ASCENSOR | explicadoen60s",
     "fecha": "2026-10-30T16:49:18Z",
     "url": "https://youtube.com/shorts/td8wQB-m7DM",
-    "vistas": 1360,
+    "vistas": 1355,
     "likes": 74,
     "comentarios": 0
    },
@@ -147,7 +147,7 @@
     "titulo": "PANTALLA TACTIL | explicadoen60s",
     "fecha": "2026-10-30T16:48:22Z",
     "url": "https://youtube.com/shorts/_DXMGg0osc4",
-    "vistas": 1340,
+    "vistas": 1341,
     "likes": 68,
     "comentarios": 0
    },
@@ -156,7 +156,7 @@
     "titulo": "ABS | explicadoen60s",
     "fecha": "2026-10-30T16:47:49Z",
     "url": "https://youtube.com/shorts/ip7vXvvOkuM",
-    "vistas": 1403,
+    "vistas": 1400,
     "likes": 48,
     "comentarios": 0
    },
@@ -183,7 +183,7 @@
     "titulo": "RADARES PARTE 2 | explicadoen60s",
     "fecha": "2026-10-30T16:45:47Z",
     "url": "https://youtube.com/shorts/fNCMYQjzoPw",
-    "vistas": 1336,
+    "vistas": 1347,
     "likes": 15,
     "comentarios": 0
    },
@@ -192,7 +192,7 @@
     "titulo": "RADARES PARTE 1 | explicadoen60s",
     "fecha": "2026-10-30T16:40:23Z",
     "url": "https://youtube.com/shorts/Ay-O_51j0WA",
-    "vistas": 1615,
+    "vistas": 1630,
     "likes": 25,
     "comentarios": 0
    },
@@ -386,13 +386,13 @@
   ]
  },
  "errores": {
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"2026110301435606B05D017F141C3E2152\"}}"
+  "tiktok": "HTTP 401: {\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"2026110303124688A9D616A86D2A42B895\"},\"data\":{}}"
  },
  "historial": [
   {
    "fecha": "2026-11-03",
-   "youtube_seguidores": 46,
-   "youtube_vistas": 20192,
+   "youtube_seguidores": 45,
+   "youtube_vistas": 23508,
    "youtube_videos": 21,
    "instagram_seguidores": 13,
    "instagram_vistas": 0,
