@@ -21,6 +21,14 @@ elif motor.startswith("kokoro"):
     p = KPipeline(lang_code="e")
     voz = sys.argv[3]
     guardar(np.concatenate([np.asarray(a) for _, _, a in p(TEXTO, voice=voz, speed=1.0)]), 24000)
+elif motor.startswith("clon"):
+    import numpy as np
+    from chatterbox.mtl_tts import ChatterboxMultilingualTTS
+    m = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
+    ex, cfg = {"clon_a": (0.5, 0.5), "clon_b": (0.65, 0.35), "clon_c": (0.4, 0.3)}[motor]
+    partes = [s for s in re.split(r"(?<=[.?!:])\s+", TEXTO) if s]
+    audio = np.concatenate([m.generate(s, language_id="es", audio_prompt_path=sys.argv[3], exaggeration=ex, cfg_weight=cfg).squeeze().cpu().numpy() for s in partes])
+    guardar(audio, m.sr)
 elif motor == "chatterbox":
     import torch, numpy as np
     from chatterbox.mtl_tts import ChatterboxMultilingualTTS

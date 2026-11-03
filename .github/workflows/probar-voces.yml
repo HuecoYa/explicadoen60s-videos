@@ -3,7 +3,7 @@ name: Probar voces
 on:
   push:
     branches: [main]
-    paths: [produccion/voz_pruebas/**, .github/workflows/probar-voces.yml]
+    paths: [produccion/voz_pruebas/**, produccion/voz/**, .github/workflows/probar-voces.yml]
   workflow_dispatch:
 
 permissions:
@@ -17,16 +17,15 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - {nombre: piper_davefx, pip: "piper-tts soundfile numpy", modelo: "es/es_ES/davefx/medium/es_ES-davefx-medium"}
-          - {nombre: piper_sharvard, pip: "piper-tts soundfile numpy", modelo: "es/es_ES/sharvard/medium/es_ES-sharvard-medium"}
-          - {nombre: kokoro_em_alex, pip: "kokoro>=0.9 soundfile numpy", voz: em_alex}
-          - {nombre: kokoro_em_santa, pip: "kokoro>=0.9 soundfile numpy", voz: em_santa}
-          - {nombre: chatterbox, pip: "chatterbox-tts soundfile numpy"}
-          - {nombre: qwen, pip: "qwen-tts soundfile numpy"}
+          - {nombre: clon_a, pip: "chatterbox-tts soundfile numpy", voz: produccion/voz/referencia.wav}
+          - {nombre: clon_b, pip: "chatterbox-tts soundfile numpy", voz: produccion/voz/referencia.wav}
+          - {nombre: clon_c, pip: "chatterbox-tts soundfile numpy", voz: produccion/voz/referencia.wav}
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: produccion/voz_pruebas
+          sparse-checkout: |
+            produccion/voz_pruebas
+            produccion/voz
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
