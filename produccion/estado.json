@@ -117,8 +117,10 @@
     "diseño",
     "curiosidades"
    ],
-   "estado": "propuesto",
-   "creado": "2026-11-03"
+   "estado": "aprobado",
+   "creado": "2026-11-03",
+   "aprobado": "2026-11-03T12:55:37.734Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cerradura",
