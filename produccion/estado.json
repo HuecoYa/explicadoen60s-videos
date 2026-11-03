@@ -81,8 +81,10 @@
     "arquitectura",
     "física"
    ],
-   "estado": "propuesto",
-   "creado": "2026-11-03"
+   "estado": "aprobado",
+   "creado": "2026-11-03",
+   "aprobado": "2026-11-03T12:55:13.778Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "frigorifico",
