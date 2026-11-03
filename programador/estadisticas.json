@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-03T06:17:20.323652+00:00",
+ "actualizado": "2026-11-03T07:38:29.920248+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
-   "seguidores": 45,
+   "seguidores": 46,
    "vistas": 23508,
    "videos": 21
   },
@@ -386,12 +386,12 @@
   ]
  },
  "errores": {
-  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"20261103061728567E690A3408215C103B\"}}"
+  "tiktok": "HTTP 401: {\"data\":{},\"error\":{\"code\":\"scope_not_authorized\",\"message\":\"The user did not authorize the scope required for completing this request.\",\"log_id\":\"20261103073838F0E17C94F46972933C67\"}}"
  },
  "historial": [
   {
    "fecha": "2026-11-03",
-   "youtube_seguidores": 45,
+   "youtube_seguidores": 46,
    "youtube_vistas": 23508,
    "youtube_videos": 21,
    "instagram_seguidores": 13,
