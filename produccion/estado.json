@@ -120,11 +120,12 @@
     "diseño",
     "curiosidades"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-03",
    "aprobado": "2026-11-03T12:55:37.734Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 68.9
+   "duracion": 68.9,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cerradura",
