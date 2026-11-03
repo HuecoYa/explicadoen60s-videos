@@ -9,9 +9,9 @@
    "tags": [
     "termo"
    ],
-   "estado": "escena",
+   "estado": "revision",
    "creado": "2026-11-03",
-   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
+   "duracion": 72.6
   }
  ]
 }
