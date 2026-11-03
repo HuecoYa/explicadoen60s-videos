@@ -100,10 +100,11 @@
     "hogar",
     "ciencia"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-03",
    "aprobado": "2026-11-03T12:55:24.629Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 71.3
   },
   {
    "id": "boligrafo",
@@ -118,10 +119,11 @@
     "diseño",
     "curiosidades"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-03",
    "aprobado": "2026-11-03T12:55:37.734Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 68.9
   },
   {
    "id": "cerradura",
@@ -173,10 +175,11 @@
     "física",
     "reciclaje"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-03",
    "aprobado": "2026-11-03T12:56:06.191Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 69.9
   }
  ]
 }
