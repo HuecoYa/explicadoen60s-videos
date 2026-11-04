@@ -262,7 +262,7 @@
    "creado": "2026-11-03",
    "aprobado": "2026-11-04T14:20:54.756Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 69.0
+   "duracion": 69
   },
   {
    "id": "auriculares",
@@ -350,8 +350,10 @@
     "ciencia",
     "fotografia"
    ],
-   "estado": "propuesto",
-   "creado": "2026-11-04"
+   "estado": "aprobado",
+   "creado": "2026-11-04",
+   "aprobado": "2026-11-04T22:35:57.951Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   }
  ]
 }
