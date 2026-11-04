@@ -491,45 +491,9 @@
    "publicado": "2026-11-03T21:21:47.969305+00:00"
   },
   {
-   "id": "pantalla-tiktok",
-   "red": "tiktok",
-   "hora": "2026-11-05T10:00:00+01:00",
-   "video": "pantalla_tiktok.mp4",
-   "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
-   "texto": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes? 👇",
-   "tags": [
-    "móvil",
-    "pantalla táctil",
-    "tecnología",
-    "electricidad",
-    "ciencia"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
-   "id": "bateria-tiktok",
-   "red": "tiktok",
-   "hora": "2026-11-05T10:00:00+01:00",
-   "video": "bateria_tiktok.mp4",
-   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
-   "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
-   "tags": [
-    "batería",
-    "móvil",
-    "litio",
-    "tecnología",
-    "ciencia"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
-   "id": "pantalla-youtube",
-   "red": "youtube",
-   "hora": "2026-11-05T12:00:00+01:00",
+   "id": "pantalla-instagram",
+   "red": "instagram",
+   "hora": "2026-11-05T00:35:00+01:00",
    "video": "pantalla.mp4",
    "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
    "texto": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes? 👇",
@@ -545,17 +509,17 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
-   "id": "bateria-youtube",
-   "red": "youtube",
-   "hora": "2026-11-05T12:00:00+01:00",
-   "video": "bateria.mp4",
-   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
-   "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
+   "id": "pantalla-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T00:35:00+01:00",
+   "video": "pantalla_tiktok.mp4",
+   "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
+   "texto": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes? 👇",
    "tags": [
-    "batería",
     "móvil",
-    "litio",
+    "pantalla táctil",
     "tecnología",
+    "electricidad",
     "ciencia"
    ],
    "estado": "pendiente",
@@ -563,63 +527,9 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
-   "id": "cafetera-tiktok",
-   "red": "tiktok",
-   "hora": "2026-11-05T13:00:00+01:00",
-   "video": "cafetera_tiktok.mp4",
-   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
-   "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
-   "tags": [
-    "café",
-    "cafetera",
-    "cocina",
-    "física",
-    "hogar"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
-   "id": "bombilla-tiktok",
-   "red": "tiktok",
-   "hora": "2026-11-05T16:00:00+01:00",
-   "video": "bombilla_tiktok.mp4",
-   "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
-   "texto": "Las bombillas de antes eran, sobre todo, estufas que daban un poco de luz. ¿Aún te queda alguna en casa? 👇",
-   "tags": [
-    "bombilla",
-    "LED",
-    "luz",
-    "energía",
-    "inventos"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
-   "id": "cafetera-youtube",
+   "id": "pantalla-youtube",
    "red": "youtube",
-   "hora": "2026-11-05T16:00:00+01:00",
-   "video": "cafetera.mp4",
-   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
-   "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
-   "tags": [
-    "café",
-    "cafetera",
-    "cocina",
-    "física",
-    "hogar"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
-   "id": "pantalla-instagram",
-   "red": "instagram",
-   "hora": "2026-11-05T18:00:00+01:00",
+   "hora": "2026-11-05T00:35:00+01:00",
    "video": "pantalla.mp4",
    "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
    "texto": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes? 👇",
@@ -637,7 +547,7 @@
   {
    "id": "bateria-instagram",
    "red": "instagram",
-   "hora": "2026-11-05T18:00:00+01:00",
+   "hora": "2026-11-05T00:36:00+01:00",
    "video": "bateria.mp4",
    "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
    "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
@@ -653,18 +563,36 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
-   "id": "auriculares-tiktok",
+   "id": "bateria-tiktok",
    "red": "tiktok",
-   "hora": "2026-11-05T18:00:00+01:00",
-   "video": "auriculares_tiktok.mp4",
-   "titulo": "Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes electricidad en sonido?",
-   "texto": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dónde llega tu oído? 👇",
+   "hora": "2026-11-05T00:36:00+01:00",
+   "video": "bateria_tiktok.mp4",
+   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
+   "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
    "tags": [
-    "auriculares",
-    "sonido",
-    "música",
-    "física",
-    "inventos"
+    "batería",
+    "móvil",
+    "litio",
+    "tecnología",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "bateria-youtube",
+   "red": "youtube",
+   "hora": "2026-11-05T00:36:00+01:00",
+   "video": "bateria.mp4",
+   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
+   "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
+   "tags": [
+    "batería",
+    "móvil",
+    "litio",
+    "tecnología",
+    "ciencia"
    ],
    "estado": "pendiente",
    "intentos": 0,
@@ -673,7 +601,7 @@
   {
    "id": "cafetera-instagram",
    "red": "instagram",
-   "hora": "2026-11-06T10:00:00+01:00",
+   "hora": "2026-11-05T10:00:00+01:00",
    "video": "cafetera.mp4",
    "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
    "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
@@ -689,9 +617,81 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "cafetera-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T10:00:00+01:00",
+   "video": "cafetera_tiktok.mp4",
+   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
+   "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
+   "tags": [
+    "café",
+    "cafetera",
+    "cocina",
+    "física",
+    "hogar"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "cafetera-youtube",
+   "red": "youtube",
+   "hora": "2026-11-05T12:00:00+01:00",
+   "video": "cafetera.mp4",
+   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
+   "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
+   "tags": [
+    "café",
+    "cafetera",
+    "cocina",
+    "física",
+    "hogar"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "bombilla-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T13:00:00+01:00",
+   "video": "bombilla_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
+   "texto": "Las bombillas de antes eran, sobre todo, estufas que daban un poco de luz. ¿Aún te queda alguna en casa? 👇",
+   "tags": [
+    "bombilla",
+    "LED",
+    "luz",
+    "energía",
+    "inventos"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "auriculares-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T16:00:00+01:00",
+   "video": "auriculares_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes electricidad en sonido?",
+   "texto": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dónde llega tu oído? 👇",
+   "tags": [
+    "auriculares",
+    "sonido",
+    "música",
+    "física",
+    "inventos"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "bombilla-youtube",
    "red": "youtube",
-   "hora": "2026-11-06T12:00:00+01:00",
+   "hora": "2026-11-05T16:00:00+01:00",
    "video": "bombilla.mp4",
    "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
    "texto": "Las bombillas de antes eran, sobre todo, estufas que daban un poco de luz. ¿Aún te queda alguna en casa? 👇",
@@ -707,27 +707,9 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
-   "id": "auriculares-youtube",
-   "red": "youtube",
-   "hora": "2026-11-06T16:00:00+01:00",
-   "video": "auriculares.mp4",
-   "titulo": "Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes electricidad en sonido?",
-   "texto": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dónde llega tu oído? 👇",
-   "tags": [
-    "auriculares",
-    "sonido",
-    "música",
-    "física",
-    "inventos"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
    "id": "bombilla-instagram",
    "red": "instagram",
-   "hora": "2026-11-06T18:00:00+01:00",
+   "hora": "2026-11-05T18:00:00+01:00",
    "video": "bombilla.mp4",
    "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
    "texto": "Las bombillas de antes eran, sobre todo, estufas que daban un poco de luz. ¿Aún te queda alguna en casa? 👇",
@@ -745,7 +727,25 @@
   {
    "id": "auriculares-instagram",
    "red": "instagram",
-   "hora": "2026-11-07T10:00:00+01:00",
+   "hora": "2026-11-06T10:00:00+01:00",
+   "video": "auriculares.mp4",
+   "titulo": "Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes electricidad en sonido?",
+   "texto": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dónde llega tu oído? 👇",
+   "tags": [
+    "auriculares",
+    "sonido",
+    "música",
+    "física",
+    "inventos"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "auriculares-youtube",
+   "red": "youtube",
+   "hora": "2026-11-06T12:00:00+01:00",
    "video": "auriculares.mp4",
    "titulo": "Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes electricidad en sonido?",
    "texto": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dónde llega tu oído? 👇",

@@ -386,14 +386,17 @@ async function rehacer(id){const nota=prompt("¿Qué hay que cambiar? (se lo dir
 async function aprobarVideo(id){
   const v=PROD.find(x=>x.id===id);
   await accion(async()=>{
-    await cargarCal();
-    if(cal.posts.some(x=>x.id===`${id}-tiktok`&&x.estado==="pendiente"))throw new Error("Este vídeo ya está programado");
-    const ocup=[...cal.posts],horas={};
-    horas.tiktok=siguienteHueco("tiktok",ocup);
-    const tt=new Date(aIso(horas.tiktok));
-    for(const r of ["youtube","instagram"]){let h,ex=[...ocup];
-      while((h=siguienteHueco(r,ex))&&new Date(aIso(h))<=tt)ex.push({red:r,hora:aIso(h)});horas[r]=h}
-    await guardarCal(c=>{for(const r of REDES)c.posts.push({id:`${id}-${r}`,red:r,hora:aIso(horas[r]),video:r==="tiktok"?`${id}_tiktok.mp4`:`${id}.mp4`,titulo:v.titulo,texto:v.texto,tags:v.tags||[],estado:"pendiente",intentos:0,por:usuario})},`Panel: programar ${id} (${usuario})`);
+    // los huecos se calculan DENTRO del guardado, con el calendario recién leído:
+    // así dos aprobaciones seguidas nunca cogen la misma hora
+    await guardarCal(c=>{
+      if(c.posts.some(x=>x.id===`${id}-tiktok`&&x.estado==="pendiente"))throw new Error("Este vídeo ya está programado");
+      const ocup=[...c.posts],horas={};
+      horas.tiktok=siguienteHueco("tiktok",ocup);
+      const tt=new Date(aIso(horas.tiktok));
+      for(const r of ["youtube","instagram"]){let h,ex=[...ocup];
+        while((h=siguienteHueco(r,ex))&&new Date(aIso(h))<=tt)ex.push({red:r,hora:aIso(h)});horas[r]=h}
+      for(const r of REDES)c.posts.push({id:`${id}-${r}`,red:r,hora:aIso(horas[r]),video:r==="tiktok"?`${id}_tiktok.mp4`:`${id}.mp4`,titulo:v.titulo,texto:v.texto,tags:v.tags||[],estado:"pendiente",intentos:0,por:usuario});
+    },`Panel: programar ${id} (${usuario})`);
     await editarJson("produccion/estado.json",d=>{const q=d.videos.find(x=>x.id===id);q.estado="programado";q.programado_por=usuario},`Panel: vídeo aprobado ${id} [skip ci]`);
   },"Programado en TikTok, Instagram y YouTube. Míralo en el Calendario.");
 }
@@ -618,7 +621,7 @@ function tablaVideos(vids){
 }
 
 // ════════════ Arranque ════════════
-const VERSION="2026-11-03.5";
+const VERSION="2026-11-05.1";
 (async()=>{try{const t=await (await fetch(location.pathname+"?nv="+Date.now(),{cache:"no-store"})).text();const m=t.match(/const VERSION="([^"]+)"/);
   if(m&&m[1]!==VERSION&&!sessionStorage.getItem("rv"+m[1])){sessionStorage.setItem("rv"+m[1],1);location.replace(location.pathname+"?v="+m[1])}}catch(e){}})();
 setInterval(()=>{if(document.hidden||!tok)return;const f=document.activeElement;if(f&&f.matches("input,textarea,select"))return;
