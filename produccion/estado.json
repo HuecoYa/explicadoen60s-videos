@@ -241,11 +241,12 @@
     "física",
     "hogar"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-03",
    "aprobado": "2026-11-04T14:20:48.632Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 66.8
+   "duracion": 66.8,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "bombilla",
