@@ -46,9 +46,16 @@ jobs:
         with:
           path: ~/.cache/huggingface
           key: qwen3-tts-base-1.7b
+      - name: Hacer sitio en el disco (el runner a veces se queda sin espacio)
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/share/boost /usr/share/swift || true
+          sudo docker image prune -af > /dev/null 2>&1 || true
+          df -h / | tail -1
       - run: |
           sudo apt-get install -y -qq ffmpeg sox > /dev/null
-          pip install -q qwen-tts soundfile numpy
+          # PyTorch sin CUDA: ocupa una décima parte y aquí no hay tarjeta gráfica
+          pip install -q --no-cache-dir torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q --no-cache-dir qwen-tts soundfile numpy
       - name: Voz de ${{ matrix.id }}
         working-directory: produccion
         run: python3 voces.py generar "${{ matrix.id }}"
