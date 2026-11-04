@@ -509,6 +509,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "bateria-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T10:00:00+01:00",
+   "video": "bateria_tiktok.mp4",
+   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
+   "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
+   "tags": [
+    "batería",
+    "móvil",
+    "litio",
+    "tecnología",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "pantalla-youtube",
    "red": "youtube",
    "hora": "2026-11-05T12:00:00+01:00",
@@ -520,6 +538,24 @@
     "pantalla táctil",
     "tecnología",
     "electricidad",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "bateria-youtube",
+   "red": "youtube",
+   "hora": "2026-11-05T12:00:00+01:00",
+   "video": "bateria.mp4",
+   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
+   "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
+   "tags": [
+    "batería",
+    "móvil",
+    "litio",
+    "tecnología",
     "ciencia"
    ],
    "estado": "pendiente",
@@ -574,6 +610,24 @@
     "pantalla táctil",
     "tecnología",
     "electricidad",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "bateria-instagram",
+   "red": "instagram",
+   "hora": "2026-11-05T18:00:00+01:00",
+   "video": "bateria.mp4",
+   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
+   "texto": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un ciclo? 👇",
+   "tags": [
+    "batería",
+    "móvil",
+    "litio",
+    "tecnología",
     "ciencia"
    ],
    "estado": "pendiente",
