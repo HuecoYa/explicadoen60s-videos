@@ -489,6 +489,60 @@
     "url": "https://youtube.com/shorts/tZVW9vqDMa8"
    },
    "publicado": "2026-11-03T21:21:47.969305+00:00"
+  },
+  {
+   "id": "pantalla-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T10:00:00+01:00",
+   "video": "pantalla_tiktok.mp4",
+   "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
+   "texto": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes? 👇",
+   "tags": [
+    "móvil",
+    "pantalla táctil",
+    "tecnología",
+    "electricidad",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "pantalla-youtube",
+   "red": "youtube",
+   "hora": "2026-11-05T12:00:00+01:00",
+   "video": "pantalla.mp4",
+   "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
+   "texto": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes? 👇",
+   "tags": [
+    "móvil",
+    "pantalla táctil",
+    "tecnología",
+    "electricidad",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "pantalla-instagram",
+   "red": "instagram",
+   "hora": "2026-11-05T18:00:00+01:00",
+   "video": "pantalla.mp4",
+   "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
+   "texto": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes? 👇",
+   "tags": [
+    "móvil",
+    "pantalla táctil",
+    "tecnología",
+    "electricidad",
+    "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
   }
  ]
 }
