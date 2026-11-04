@@ -504,9 +504,14 @@
     "electricidad",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17991968694074434",
+    "url": "https://www.instagram.com/reel/DfVpg-QEoq0/"
+   },
+   "publicado": "2026-11-04T23:35:19.390980+00:00"
   },
   {
    "id": "pantalla-tiktok",
@@ -522,9 +527,15 @@
     "electricidad",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704463463280805910",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-04T23:36:06.929818+00:00"
   },
   {
    "id": "pantalla-youtube",
@@ -540,9 +551,14 @@
     "electricidad",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "_jgz1oGTBxk",
+    "url": "https://youtube.com/shorts/_jgz1oGTBxk"
+   },
+   "publicado": "2026-11-04T23:36:08.750525+00:00"
   },
   {
    "id": "bateria-instagram",
@@ -558,9 +574,14 @@
     "tecnología",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17908299924596458",
+    "url": "https://www.instagram.com/reel/DfVpvuKgf5f/"
+   },
+   "publicado": "2026-11-04T23:37:29.084537+00:00"
   },
   {
    "id": "bateria-tiktok",
@@ -576,9 +597,15 @@
     "tecnología",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704463885013616662",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-04T23:37:59.737813+00:00"
   },
   {
    "id": "bateria-youtube",
@@ -594,9 +621,14 @@
     "tecnología",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "qA9E1SHz4nw",
+    "url": "https://youtube.com/shorts/qA9E1SHz4nw"
+   },
+   "publicado": "2026-11-04T23:38:01.673050+00:00"
   },
   {
    "id": "cafetera-instagram",

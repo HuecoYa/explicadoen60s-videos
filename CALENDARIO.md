@@ -25,18 +25,18 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 03/11 | 21:00 | youtube | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://youtube.com/shorts/cjkK7egXM3A) |
 | mar 03/11 | 22:00 | instagram | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://www.instagram.com/reel/DfS1aWwDZIv/) |
 | mar 03/11 | 22:00 | youtube | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://youtube.com/shorts/tZVW9vqDMa8) |
-| jue 05/11 | 10:00 | tiktok | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | ⏳ pendiente |
-| jue 05/11 | 10:00 | tiktok | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | ⏳ pendiente |
-| jue 05/11 | 12:00 | youtube | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | ⏳ pendiente |
-| jue 05/11 | 12:00 | youtube | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | ⏳ pendiente |
-| jue 05/11 | 13:00 | tiktok | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | ⏳ pendiente |
-| jue 05/11 | 16:00 | tiktok | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | ⏳ pendiente |
-| jue 05/11 | 16:00 | youtube | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | ⏳ pendiente |
-| jue 05/11 | 18:00 | instagram | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | ⏳ pendiente |
-| jue 05/11 | 18:00 | instagram | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | ⏳ pendiente |
-| jue 05/11 | 18:00 | tiktok | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
-| vie 06/11 | 10:00 | instagram | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | ⏳ pendiente |
-| vie 06/11 | 12:00 | youtube | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | ⏳ pendiente |
-| vie 06/11 | 16:00 | youtube | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
-| vie 06/11 | 18:00 | instagram | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | ⏳ pendiente |
-| sáb 07/11 | 10:00 | instagram | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
+| jue 05/11 | 00:35 | instagram | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | [✅ publicado](https://www.instagram.com/reel/DfVpg-QEoq0/) |
+| jue 05/11 | 00:35 | tiktok | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | 📲 en tu bandeja de TikTok |
+| jue 05/11 | 00:35 | youtube | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | [✅ publicado](https://youtube.com/shorts/_jgz1oGTBxk) |
+| jue 05/11 | 00:36 | instagram | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | [✅ publicado](https://www.instagram.com/reel/DfVpvuKgf5f/) |
+| jue 05/11 | 00:36 | tiktok | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | 📲 en tu bandeja de TikTok |
+| jue 05/11 | 00:36 | youtube | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | [✅ publicado](https://youtube.com/shorts/qA9E1SHz4nw) |
+| jue 05/11 | 10:00 | instagram | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | ⏳ pendiente |
+| jue 05/11 | 10:00 | tiktok | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | ⏳ pendiente |
+| jue 05/11 | 12:00 | youtube | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | ⏳ pendiente |
+| jue 05/11 | 13:00 | tiktok | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | ⏳ pendiente |
+| jue 05/11 | 16:00 | tiktok | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
+| jue 05/11 | 16:00 | youtube | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | ⏳ pendiente |
+| jue 05/11 | 18:00 | instagram | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | ⏳ pendiente |
+| vie 06/11 | 10:00 | instagram | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
+| vie 06/11 | 12:00 | youtube | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
