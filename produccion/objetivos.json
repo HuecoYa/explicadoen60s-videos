@@ -1,0 +1,9 @@
+{
+ "objetivos": [
+  {"id": "tt1000", "red": "tiktok", "metrica": "seguidores", "meta": 1000, "fecha": "2026-12-31"},
+  {"id": "yt500", "red": "youtube", "metrica": "seguidores", "meta": 500, "fecha": "2026-12-31"},
+  {"id": "ig300", "red": "instagram", "metrica": "seguidores", "meta": 300, "fecha": "2026-12-31"},
+  {"id": "vistas500k", "red": "todas", "metrica": "vistas", "meta": 500000, "fecha": "2026-12-31"}
+ ],
+ "competencia": []
+}

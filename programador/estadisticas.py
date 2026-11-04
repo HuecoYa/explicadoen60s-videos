@@ -9,6 +9,8 @@ from comun import leer_tokens, guardar_tokens, ahora, MADRID, RAIZ
 from redes import REDES, IG_VERSION
 
 SALIDA = RAIZ / "estadisticas.json"
+SERIES = RAIZ / "series.json"          # vistas de cada vídeo a lo largo del tiempo (para detectar los que despegan)
+COMUNIDAD = RAIZ / "comunidad.json"    # comentarios de YouTube e Instagram (TikTok no da comentarios por API)
 
 
 def _ok(r):
@@ -116,6 +118,64 @@ def tiktok(tok):
 RECOGER = {"youtube": youtube, "instagram": instagram, "tiktok": tiktok}
 
 
+# ── Comentarios ──
+def comentarios_youtube(tok, videos):
+    h = {"Authorization": f"Bearer {tok['access_token']}"}
+    out = []
+    for v in sorted(videos, key=lambda x: x.get("fecha") or "", reverse=True)[:40]:
+        if not v.get("comentarios"):
+            continue
+        r = requests.get("https://www.googleapis.com/youtube/v3/commentThreads", headers=h, timeout=60,
+                         params={"part": "snippet", "videoId": v["id"], "maxResults": 50, "order": "time", "textFormat": "plainText"})
+        if r.status_code >= 400:
+            raise RuntimeError(f"comentarios YouTube: HTTP {r.status_code} {r.text[:200]}")
+        for it in r.json().get("items", []):
+            c = it["snippet"]["topLevelComment"]["snippet"]
+            out.append({"id": "yt_" + it["id"], "red": "youtube", "video": v["titulo"], "video_url": v.get("url"),
+                        "autor": c.get("authorDisplayName", ""), "texto": c.get("textDisplay", ""), "fecha": c.get("publishedAt"),
+                        "likes": c.get("likeCount", 0), "respuestas": it["snippet"].get("totalReplyCount", 0),
+                        "url": f"https://www.youtube.com/watch?v={v['id']}&lc={it['id']}"})
+    return out
+
+
+def comentarios_instagram(tok, videos):
+    G = f"https://graph.facebook.com/{IG_VERSION}"
+    if "graph.instagram.com" in getattr(REDES["instagram"], "G", ""):
+        G = f"https://graph.instagram.com/{IG_VERSION}"
+    out = []
+    for v in sorted(videos, key=lambda x: x.get("fecha") or "", reverse=True)[:40]:
+        if not v.get("comentarios"):
+            continue
+        r = requests.get(f"{G}/{v['id']}/comments", timeout=60,
+                         params={"fields": "id,text,username,timestamp,like_count,replies{id}", "limit": 50, "access_token": tok["access_token"]})
+        if r.status_code >= 400:
+            raise RuntimeError(f"comentarios Instagram: HTTP {r.status_code} {r.text[:200]}")
+        for c in r.json().get("data", []):
+            out.append({"id": "ig_" + c["id"], "red": "instagram", "video": v["titulo"], "video_url": v.get("url"),
+                        "autor": c.get("username", ""), "texto": c.get("text", ""), "fecha": c.get("timestamp"),
+                        "likes": c.get("like_count", 0), "respuestas": len((c.get("replies") or {}).get("data", [])), "url": v.get("url")})
+    return out
+
+
+def guardar_series(out):
+    """Una foto por hora de las vistas de cada vídeo (los de los últimos 14 días)."""
+    series = json.loads(SERIES.read_text(encoding="utf-8")) if SERIES.exists() else {}
+    t = ahora().replace(minute=0, second=0, microsecond=0).isoformat()
+    limite = (ahora() - dt.timedelta(days=14)).isoformat()
+    vivos = set()
+    for red, vids in out["videos"].items():
+        for v in vids:
+            if not v.get("fecha") or v["fecha"] < limite or v.get("vistas") is None:
+                continue
+            k = f"{red}:{v['id']}"; vivos.add(k)
+            s = series.setdefault(k, {"red": red, "titulo": v.get("titulo", ""), "fecha": v["fecha"], "url": v.get("url"), "p": []})
+            if not s["p"] or s["p"][-1][0] != t:
+                s["p"].append([t, v["vistas"]])
+            s["p"] = s["p"][-24 * 14:]
+    series = {k: v for k, v in series.items() if k in vivos}
+    SERIES.write_text(json.dumps(series, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+
+
 def main():
     previo = json.loads(SALIDA.read_text(encoding="utf-8")) if SALIDA.exists() else {}
     out = {"actualizado": ahora().isoformat(), "cuentas": {}, "videos": {}, "errores": {},
@@ -138,6 +198,23 @@ def main():
             out["errores"][red] = str(e)[:300]
             if red in previo.get("cuentas", {}):  # conserva el último dato bueno
                 out["cuentas"][red] = previo["cuentas"][red]; out["videos"][red] = previo.get("videos", {}).get(red, [])
+    # comentarios cada 3 horas (para no gastar cuota)
+    if ahora().hour % 3 == 0 or not COMUNIDAD.exists() or os.environ.get("FORZAR_COMENTARIOS"):
+        com = {"actualizado": ahora().isoformat(), "comentarios": [], "errores": {}}
+        for red, fn in (("youtube", comentarios_youtube), ("instagram", comentarios_instagram)):
+            try:
+                r = REDES[red]
+                tok = r.preparar() if hasattr(r, "preparar") else r.refrescar(tokens[red])
+                com["comentarios"] += fn(tok, out["videos"].get(red, []))
+            except Exception as e:
+                traceback.print_exc(); com["errores"][red] = str(e)[:300]
+        com["errores"]["tiktok"] = "TikTok no permite leer comentarios con su API pública"
+        com["comentarios"].sort(key=lambda c: c.get("fecha") or "", reverse=True)
+        COMUNIDAD.write_text(json.dumps(com, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    try:
+        guardar_series(out)
+    except Exception:
+        traceback.print_exc()
     if cambios:
         guardar_tokens({n: t for n, t in tokens.items() if not hasattr(REDES[n], "preparar")})
     hoy = ahora().astimezone(MADRID).date().isoformat()
