@@ -1,0 +1,21 @@
+{
+ "actualizado": "2026-11-04T23:48:14.899249+00:00",
+ "comentarios": [
+  {
+   "id": "ig_18106910756365693",
+   "red": "instagram",
+   "video": "El agujero del capuchón no está ahí por casualidad. ¿Sabías para qué servía? 👇",
+   "video_url": "https://www.instagram.com/reel/DfSgCZkoKrJ/",
+   "autor": "",
+   "texto": "Ala lapicera se invento en argentina",
+   "fecha": "2026-11-03T19:12:44+0000",
+   "likes": 1,
+   "respuestas": 0,
+   "url": "https://www.instagram.com/reel/DfSgCZkoKrJ/"
+  }
+ ],
+ "errores": {
+  "youtube": "comentarios YouTube: HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Request had insufficient authentication scopes.\",\n    \"errors\": [\n      {\n        \"message\": \"Insufficient Permission\",\n        \"domain\": \"global\",\n    ",
+  "tiktok": "TikTok no permite leer comentarios con su API pública"
+ }
+}
