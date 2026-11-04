@@ -327,8 +327,10 @@
     "energía",
     "construcción"
    ],
-   "estado": "propuesto",
-   "creado": "2026-11-03"
+   "estado": "aprobado",
+   "creado": "2026-11-03",
+   "aprobado": "2026-11-04T14:21:18.916Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   }
  ]
 }
