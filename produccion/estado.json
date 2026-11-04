@@ -257,10 +257,11 @@
     "energía",
     "inventos"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-03",
    "aprobado": "2026-11-04T14:20:54.756Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 69.0
   },
   {
    "id": "auriculares",
