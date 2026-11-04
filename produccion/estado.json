@@ -201,8 +201,10 @@
     "electricidad",
     "ciencia"
    ],
-   "estado": "propuesto",
-   "creado": "2026-11-03"
+   "estado": "aprobado",
+   "creado": "2026-11-03",
+   "aprobado": "2026-11-04T14:20:33.356Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "bateria",
