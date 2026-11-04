@@ -281,11 +281,12 @@
     "física",
     "inventos"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-03",
    "aprobado": "2026-11-04T14:20:59.438Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 69.2
+   "duracion": 69.2,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "enchufe",
