@@ -221,11 +221,12 @@
     "tecnología",
     "ciencia"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-03",
    "aprobado": "2026-11-04T14:20:44.280Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 73.3
+   "duracion": 73.3,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cafetera",
