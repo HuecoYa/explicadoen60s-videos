@@ -18,7 +18,7 @@ Claude **nunca** aprueba vídeos ni los programa: eso lo hace el usuario en el p
 ## Pasada diaria de Claude (por este orden)
 1. `git pull`. Lee `produccion/estado.json`.
 2. **`rehacer`**: lee `nota`, corrige `escenas/<id>_scene.py` / `_ov.py`, revísalo (ver «Revisar antes de entregar») y ponlo en `escena`. Borra `nota`.
-3. **`voz`** (máx. 5 por pasada, los más antiguos primero): escribe `escenas/<id>_scene.py` y `escenas/<id>_ov.py`, revísalos y pon `escena`. Haz un commit y un push por vídeo, para que el render empiece cuanto antes (cada push lanza el render de todos los que están en `escena`).
+3. **`voz`** (todos los que haya, hasta 8 por pasada, los más antiguos primero): escribe `escenas/<id>_scene.py` y `escenas/<id>_ov.py`, revísalos y pon `escena`. Haz un commit y un push por vídeo, para que el render empiece cuanto antes (cada push lanza el render de todos los que están en `escena`).
 4. **Propuestas**: que haya siempre unos **8** vídeos entre `propuesto`, `aprobado`, `voz` y `escena`. Añade los que falten como `propuesto`.
 5. Si una entrada tiene `error`, intenta resolverlo. Si no puedes (falta un secreto, por ejemplo), déjalo anotado en `error` en palabras sencillas.
 
