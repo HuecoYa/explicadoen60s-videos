@@ -527,6 +527,42 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "cafetera-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T13:00:00+01:00",
+   "video": "cafetera_tiktok.mp4",
+   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
+   "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
+   "tags": [
+    "café",
+    "cafetera",
+    "cocina",
+    "física",
+    "hogar"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "cafetera-youtube",
+   "red": "youtube",
+   "hora": "2026-11-05T16:00:00+01:00",
+   "video": "cafetera.mp4",
+   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
+   "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
+   "tags": [
+    "café",
+    "cafetera",
+    "cocina",
+    "física",
+    "hogar"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "pantalla-instagram",
    "red": "instagram",
    "hora": "2026-11-05T18:00:00+01:00",
@@ -539,6 +575,24 @@
     "tecnología",
     "electricidad",
     "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "cafetera-instagram",
+   "red": "instagram",
+   "hora": "2026-11-06T10:00:00+01:00",
+   "video": "cafetera.mp4",
+   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
+   "texto": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar alguna vez? 👇",
+   "tags": [
+    "café",
+    "cafetera",
+    "cocina",
+    "física",
+    "hogar"
    ],
    "estado": "pendiente",
    "intentos": 0,
