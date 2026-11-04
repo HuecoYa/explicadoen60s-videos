@@ -309,8 +309,10 @@
     "verano",
     "agua"
    ],
-   "estado": "propuesto",
-   "creado": "2026-11-03"
+   "estado": "aprobado",
+   "creado": "2026-11-03",
+   "aprobado": "2026-11-04T14:21:09.463Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "presa",
