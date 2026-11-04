@@ -220,10 +220,11 @@
     "tecnología",
     "ciencia"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-03",
    "aprobado": "2026-11-04T14:20:44.280Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 73.3
   },
   {
    "id": "cafetera",
