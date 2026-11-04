@@ -219,8 +219,10 @@
     "tecnología",
     "ciencia"
    ],
-   "estado": "propuesto",
-   "creado": "2026-11-03"
+   "estado": "aprobado",
+   "creado": "2026-11-03",
+   "aprobado": "2026-11-04T14:20:38.984Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cafetera",
