@@ -581,6 +581,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "bombilla-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T16:00:00+01:00",
+   "video": "bombilla_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
+   "texto": "Las bombillas de antes eran, sobre todo, estufas que daban un poco de luz. ¿Aún te queda alguna en casa? 👇",
+   "tags": [
+    "bombilla",
+    "LED",
+    "luz",
+    "energía",
+    "inventos"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "cafetera-youtube",
    "red": "youtube",
    "hora": "2026-11-05T16:00:00+01:00",
@@ -647,6 +665,42 @@
     "cocina",
     "física",
     "hogar"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "bombilla-youtube",
+   "red": "youtube",
+   "hora": "2026-11-06T12:00:00+01:00",
+   "video": "bombilla.mp4",
+   "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
+   "texto": "Las bombillas de antes eran, sobre todo, estufas que daban un poco de luz. ¿Aún te queda alguna en casa? 👇",
+   "tags": [
+    "bombilla",
+    "LED",
+    "luz",
+    "energía",
+    "inventos"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "bombilla-instagram",
+   "red": "instagram",
+   "hora": "2026-11-06T18:00:00+01:00",
+   "video": "bombilla.mp4",
+   "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
+   "texto": "Las bombillas de antes eran, sobre todo, estufas que daban un poco de luz. ¿Aún te queda alguna en casa? 👇",
+   "tags": [
+    "bombilla",
+    "LED",
+    "luz",
+    "energía",
+    "inventos"
    ],
    "estado": "pendiente",
    "intentos": 0,
