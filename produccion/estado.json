@@ -201,11 +201,12 @@
     "electricidad",
     "ciencia"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-03",
    "aprobado": "2026-11-04T14:20:33.356Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 66.5
+   "duracion": 66.5,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "bateria",
