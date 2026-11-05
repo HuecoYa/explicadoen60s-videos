@@ -38,5 +38,17 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 05/11 | 16:00 | tiktok | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | 📲 en tu bandeja de TikTok |
 | jue 05/11 | 16:00 | youtube | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | [✅ publicado](https://youtube.com/shorts/c3Srh3Iietk) |
 | jue 05/11 | 18:00 | instagram | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | ⏳ pendiente |
+| jue 05/11 | 18:00 | tiktok | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | ⏳ pendiente |
+| jue 05/11 | 21:00 | tiktok | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
 | vie 06/11 | 10:00 | instagram | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
+| vie 06/11 | 10:00 | tiktok | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
 | vie 06/11 | 12:00 | youtube | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
+| vie 06/11 | 13:00 | tiktok | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
+| vie 06/11 | 16:00 | youtube | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | ⏳ pendiente |
+| vie 06/11 | 18:00 | instagram | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | ⏳ pendiente |
+| sáb 07/11 | 10:00 | instagram | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
+| sáb 07/11 | 12:00 | youtube | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
+| sáb 07/11 | 16:00 | youtube | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
+| sáb 07/11 | 18:00 | instagram | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
+| dom 08/11 | 10:00 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
+| dom 08/11 | 12:00 | youtube | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
