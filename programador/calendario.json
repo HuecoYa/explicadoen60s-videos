@@ -785,9 +785,14 @@
     "energía",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17944364691369316",
+    "url": "https://www.instagram.com/reel/DfXl6zEihqi/"
+   },
+   "publicado": "2026-11-05T17:42:39.429808+00:00"
   },
   {
    "id": "enchufe-tiktok",
@@ -803,9 +808,15 @@
     "hogar",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704743983196899350",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-05T17:43:20.603859+00:00"
   },
   {
    "id": "piscina-tiktok",
