@@ -832,9 +832,15 @@
     "verano",
     "agua"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704780978703108118",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-05T20:08:56.400197+00:00"
   },
   {
    "id": "auriculares-instagram",

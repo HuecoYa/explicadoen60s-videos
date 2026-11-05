@@ -39,7 +39,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 05/11 | 16:00 | youtube | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | [✅ publicado](https://youtube.com/shorts/c3Srh3Iietk) |
 | jue 05/11 | 18:00 | instagram | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | [✅ publicado](https://www.instagram.com/reel/DfXl6zEihqi/) |
 | jue 05/11 | 18:00 | tiktok | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | 📲 en tu bandeja de TikTok |
-| jue 05/11 | 21:00 | tiktok | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
+| jue 05/11 | 21:00 | tiktok | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | 📲 en tu bandeja de TikTok |
 | vie 06/11 | 10:00 | instagram | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
 | vie 06/11 | 10:00 | tiktok | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
 | vie 06/11 | 12:00 | youtube | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | ⏳ pendiente |
