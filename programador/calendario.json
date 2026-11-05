@@ -738,9 +738,15 @@
     "física",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704712435562776598",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-05T15:40:46.355555+00:00"
   },
   {
    "id": "bombilla-youtube",
@@ -756,9 +762,14 @@
     "energía",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "c3Srh3Iietk",
+    "url": "https://youtube.com/shorts/c3Srh3Iietk"
+   },
+   "publicado": "2026-11-05T15:41:00.766707+00:00"
   },
   {
    "id": "bombilla-instagram",
