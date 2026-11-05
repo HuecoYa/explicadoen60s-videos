@@ -409,7 +409,7 @@
     "cristal",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 6,
@@ -424,7 +424,9 @@
     "Este cristal se ha doblado doscientas mil veces… y no se ha roto.",
     "¿Cómo puede doblarse un cristal sin romperse?"
    ],
-   "idea": "imw2sroo7"
+   "idea": "imw2sroo7",
+   "aprobado": "2026-11-05T15:43:15.966Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cargador",
