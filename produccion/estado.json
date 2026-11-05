@@ -301,11 +301,12 @@
     "hogar",
     "inventos"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-03",
    "aprobado": "2026-11-04T14:21:04.350Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 65.9
+   "duracion": 65.9,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "piscina",
