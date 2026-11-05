@@ -1,66 +1,12 @@
 {
- "actualizado": "2026-11-05T01:30:00+01:00",
- "resumen": "En el nicho de «cómo funciona» lo que más se ve esta semana son objetos que el espectador tiene en la mano: un cargador de móvil (15,3 millones de vistas, el vídeo de ciencia y tecnología más visto en YouTube España), un bolígrafo (1,8 millones) y un ventilador (1 millón). Esto confirma la regla 1. Prioridad hoy: el cargador del móvil y el móvil que se moja (arroz sí o no). Las búsquedas de Google y Wikipedia de hoy son casi todas de famosos, televisión, fútbol y política, y no encajan con la cuenta.",
+ "actualizado": "2026-11-05T20:30:00+01:00",
+ "resumen": "Hoy manda el tiempo: las lluvias atlánticas de esta semana tienen «meteovigo» y «meteorólogo» en Google Trends España. Encaja con objetos y sitios que el espectador tiene cerca: la rejilla de su calle (tanque de tormentas, ya propuesto), el paraguas y la app del tiempo. WhatsApp es el único tema de tecnología entre lo más leído de Wikipedia (22.697 lecturas) y ya está propuesto, igual que el móvil mojado. En el nicho, lo más visto es la rueda del avión (3,6 M). El resto de búsquedas son baloncesto, bolsa, política de EE. UU. y un accidente con víctimas, que no encajan. Cargador, pantalla plegable, ChatGPT y lavavajillas ya están en producción.",
  "tendencias": [
-  {
-   "id": "cargador",
-   "tema": "Qué pasa dentro del cargador del móvil",
-   "tipo": "nicho",
-   "puntuacion": 92,
-   "por_que": "Es el vídeo de ciencia y tecnología más visto en YouTube España esta semana: 15,3 millones de visualizaciones en diez días. La gente quiere entender el objeto que enchufa cada noche.",
-   "senales": [
-    {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "n.º 1: «¿Qué pasa dentro de un cargador cuando cargas tu móvil?», 15,3 M vistas (25 oct)"
-    },
-    {
-     "fuente": "Tu propio canal",
-     "dato": "«Batería» y «pantalla» son del mismo tema (el móvil): el cargador completaría la serie"
-    }
-   ],
-   "urgencia": "Esta semana",
-   "angulo": "No repetir el vídeo viral: enseñar con cifras en pantalla cómo los voltios bajan dentro del cargador. Un contador que va de 230 a 5 voltios mientras la cámara atraviesa cada pieza.",
-   "titulo": "Tu cargador baja 230 voltios a 5 en una caja así de pequeña 🔌 Así funciona por dentro",
-   "gancho": "Ahora mismo, en tu enchufe hay doscientos treinta voltios… y a tu móvil solo le llegan cinco.",
-   "primer_segundo": "Primer plano del enchufe de la pared con chispas azules entrando en el cargador y un contador en pantalla: «230 V».",
-   "cifras": [
-    "230 V → 5 V (hasta 20 V en carga rápida)",
-    "Conmuta decenas de miles de veces por segundo",
-    "Corriente alterna: 50 cambios de sentido por segundo"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: 230 voltios entran y 5 salen",
-    "Corte del cargador: rectificador, la corriente alterna se convierte en continua",
-    "El truco: encender y apagar la corriente muy rápido para usar un transformador diminuto",
-    "Transformador y aislamiento: por qué no te da calambre",
-    "El chip que «habla» con el móvil y pide más voltios en la carga rápida",
-    "Dato sorprendente: por qué los cargadores nuevos son tan pequeños",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 10,
-    "primer_segundo": 9,
-    "ensenar": 9
-   },
-   "potencial": "muy alto",
-   "por_que_funcionaria": "Cumple las tres reglas: el espectador tiene el objeto enchufado ahora mismo, el primer segundo tiene chispas y un número que cambia, y todo el mecanismo se puede enseñar con contadores de voltios. Además, el tema ya ha demostrado demanda masiva.",
-   "competencia": "Ya existe un short viral (15,3 M). Se compite enseñando el mecanismo real con números, no solo contándolo.",
-   "riesgos": "Comprobar cifras antes del guion (frecuencia de conmutación según el modelo). No enseñar marcas en el cargador.",
-   "mejor_hora": "Tus mejores horas hasta ahora: 13:00 y 12:00 (TikTok y YouTube).",
-   "hashtags": [
-    "cargador",
-    "electricidad",
-    "comofunciona",
-    "movil",
-    "ciencia"
-   ]
-  },
   {
    "id": "arroz",
    "tema": "Móvil mojado: ¿arroz sí o no?",
    "tipo": "actualidad",
-   "puntuacion": 88,
+   "puntuacion": 86,
    "por_que": "«¿Qué hacer si se te cae el móvil al agua?» lleva 672 mil vistas esta semana en ciencia y tecnología. El mito del arroz sigue vivo, aunque Apple publicó que no conviene hacerlo.",
    "senales": [
     {
@@ -71,17 +17,22 @@
      "fuente": "Apple (documento de soporte, 2024)",
      "dato": "Recomienda no meter el iPhone mojado en una bolsa de arroz",
      "url": "https://www.techradar.com/phones/dont-dry-your-wet-iphone-in-a-bag-of-rice-apple-warns-do-this-instead"
+    },
+    {
+     "fuente": "Prueba de secantes (Gazelle, 2014)",
+     "dato": "Tras 24 horas, el arroz crudo fue el secante que menos agua absorbió; al aire libre secaba más",
+     "url": "https://www.gazelle.com/thehorn/2014/05/06/gazelles-guide-water-damage-truth-rice-galaxy-everything/"
     }
    ],
-   "urgencia": "Esta semana",
+   "urgencia": "Ya propuesto como guion «arroz» (esperando tu aprobación)",
    "angulo": "Enseñar por dentro qué hace el agua en el conector y en la placa y por qué el arroz casi no la saca, con una gota que avanza y un medidor de humedad que apenas baja.",
    "titulo": "¿Tu móvil se ha mojado? El arroz no hace lo que crees 🍚📱",
    "gancho": "Si se te cae el móvil al agua, lo primero que haces… es justo lo que el fabricante te pide que no hagas.",
    "primer_segundo": "El móvil cayendo al agua a cámara lenta, con burbujas entrando por el puerto de carga.",
    "cifras": [
-    "Resistencia IP68: hasta 6 metros durante 30 minutos en muchos móviles de gama alta",
-    "Medidor de humedad dentro del puerto: el arroz apenas la baja",
-    "Tiempo recomendado de secado al aire (comprobar con fuentes)"
+    "Espera mínima antes de cargar: 30 minutos (recomendación del fabricante)",
+    "Secado completo: hasta 24 horas",
+    "Prueba de 24 horas: el arroz crudo, el que menos agua absorbió"
    ],
    "formato": "A",
    "estructura": [
@@ -111,139 +62,94 @@
    ]
   },
   {
-   "id": "plegable",
-   "tema": "Cómo se dobla una pantalla de cristal",
+   "id": "tormentas",
+   "tema": "Lluvias de esta semana: a dónde va el agua de la calle",
    "tipo": "actualidad",
-   "puntuacion": 80,
-   "por_que": "Los móviles plegables están en tendencia esta semana en YouTube España: vídeos de 4,6 M, 1,5 M y 740 mil vistas sobre un plegable nuevo y su resistencia.",
+   "puntuacion": 84,
+   "por_que": "«meteovigo» (500+ búsquedas) y «meteorólogo» están en Google Trends España por las lluvias atlánticas de los próximos siete días (más de 100 mm previstos en La Palma y Tenerife). Cuando llueve fuerte, la pregunta natural es a dónde va el agua de la calle.",
    "senales": [
     {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "Vídeos sobre un plegable nuevo: 4,6 M, 1,5 M y 740 mil vistas (finales de octubre)"
+     "fuente": "Google Trends España",
+     "dato": "«meteovigo», 500+ búsquedas (5 nov)",
+     "url": "https://www.meteovigo.es/actualidad/lluvias-siete-dias-gfs-4-noviembre-2026-00utc.html"
     },
     {
-     "fuente": "Fabricante de pantallas",
-     "dato": "Cristal ultrafino probado durante más de 200.000 pliegues",
-     "url": "https://news.samsung.com/us/samsung-utg-glass-foldable-display-easily-bendable-ultra-thin-glass"
+     "fuente": "Google Trends España",
+     "dato": "«meteorólogo» entre las búsquedas del día"
+    },
+    {
+     "fuente": "Canal de Isabel II",
+     "dato": "Arroyofresno: unos 400.000 m³, el tanque de tormentas más grande del mundo; se vacía en 14,5 horas",
+     "url": "https://canaldeisabelsegunda.es/documents/d/site/arroyofresno_stormtank"
     }
    ],
-   "urgencia": "En los próximos días",
-   "angulo": "Comparar el grosor del cristal con un pelo en pantalla (contador de micras) y enseñar la bisagra y las capas que se doblan sin romperse.",
-   "titulo": "Este cristal se dobla 200.000 veces sin romperse 🤯 Así funciona una pantalla plegable",
-   "gancho": "El cristal de este móvil se dobla… y es más fino que un pelo.",
-   "primer_segundo": "Una pantalla doblándose en primer plano y un contador de pliegues girando a toda velocidad.",
+   "urgencia": "Esta semana o la próxima, mientras siga lloviendo (ya propuesto como guion «tormentas»)",
+   "angulo": "Formato C: la rejilla de tu calle, el tubo que rebosa y el depósito gigante bajo tierra que se llena y luego se vacía hacia la depuradora.",
+   "titulo": "¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la lluvia de tu calle",
+   "gancho": "Cuando llueve fuerte en tu ciudad… ¿a dónde va toda esa agua?",
+   "primer_segundo": "Lluvia cayendo en primer plano por la rejilla de una calle, en corte, y el agua bajando a la alcantarilla.",
    "cifras": [
-    "Cristal ultrafino de unas 30 micras (comprobar)",
-    "Un pelo mide unas 70 micras",
-    "Más de 200.000 pliegues en las pruebas"
+    "400.000 m³ de capacidad (Arroyofresno, Madrid)",
+    "Superficie de unos 5 campos de fútbol; profundidad como un edificio de 6 plantas",
+    "Vaciado completo en 14,5 horas",
+    "65 tanques en la Comunidad de Madrid, 36 en la ciudad"
    ],
-   "formato": "A",
+   "formato": "C",
    "estructura": [
-    "Gancho: un cristal que se dobla",
-    "Por qué el cristal normal se rompe",
-    "Cuanto más fino, más flexible: el truco del grosor",
-    "Capas: plástico protector, cristal, panel y bisagra",
-    "La bisagra que deja un hueco en forma de gota",
-    "Dato sorprendente: la máquina que lo dobla miles de veces",
+    "Gancho: la lluvia de tu calle",
+    "El tubo compartido se llena y la calle se inunda",
+    "Pero no puedes cambiar todos los tubos… así que depósito bajo tierra",
+    "Muros, pilares y la tierra que empuja",
+    "Compuerta y rejas para la basura",
+    "Dato sorprendente: el más grande del mundo está en Madrid",
+    "Bombas que lo vacían hacia la depuradora",
     "Cierre: Sígueme para más."
    ],
    "reglas": {
-    "cotidiano": 6,
-    "primer_segundo": 9,
+    "cotidiano": 7,
+    "primer_segundo": 8,
     "ensenar": 9
    },
    "potencial": "alto",
-   "por_que_funcionaria": "Aprovecha el interés por el lanzamiento sin depender de una marca y tiene una imagen impactante en el primer segundo.",
-   "competencia": "Abundan las reseñas y las pruebas de tortura; pocos explican el cristal por dentro.",
-   "riesgos": "No enseñar ni nombrar marcas. Comprobar el grosor exacto del cristal antes del guion. Regla 1 a medias: no todo el mundo tiene un plegable, así que conviene conectarlo con «la pantalla que estás mirando ahora».",
-   "mejor_hora": "12:00 o 13:00",
+   "por_que_funcionaria": "Une la noticia del tiempo con un dato de orgullo local («el más grande del mundo está en Madrid») y una obra gigante que nadie ha visto.",
+   "competencia": "Hay reportajes largos, pero casi ningún short en corte.",
+   "riesgos": "No relacionarlo con inundaciones con víctimas. Las medidas exactas del tanque no son públicas: usar las comparaciones oficiales (campos de fútbol, plantas).",
+   "mejor_hora": "18:00",
    "hashtags": [
-    "pantalla",
-    "tecnologia",
-    "cristal",
-    "movil",
+    "lluvia",
+    "madrid",
+    "ingenieria",
+    "construccion",
     "comofunciona"
-   ]
-  },
-  {
-   "id": "chatgpt",
-   "tema": "Cómo elige ChatGPT la siguiente palabra",
-   "tipo": "evergreen",
-   "puntuacion": 82,
-   "por_que": "ChatGPT está entre los artículos más leídos de Wikipedia en español (14 mil lecturas en un día) y casi todo el mundo lo ha usado.",
-   "senales": [
-    {
-     "fuente": "Wikipedia en español",
-     "dato": "«ChatGPT», 14.335 lecturas en un día"
-    },
-    {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«Masterclass IA gratis: novedades de ChatGPT», 145 mil vistas"
-    }
-   ],
-   "urgencia": "Cuando quieras",
-   "angulo": "Enseñarlo con barras de probabilidad: la frase se escribe palabra a palabra y en cada paso aparecen candidatas con su porcentaje («casa 62 %, coche 21 %…»).",
-   "titulo": "ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona",
-   "gancho": "Cuando le preguntas algo a ChatGPT… no sabe cómo va a terminar su propia frase.",
-   "primer_segundo": "Texto escribiéndose solo y, encima de cada palabra, barras de porcentaje que suben y bajan.",
-   "cifras": [
-    "Porcentaje de cada palabra candidata (barras que cambian)",
-    "Trozos de palabra (tokens) que lee cada vez",
-    "Cuántas palabras escribe por segundo"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: no sabe cómo acabará la frase",
-    "Tu pregunta se trocea en tokens",
-    "Cada token se convierte en números",
-    "Barras de probabilidad: elige una palabra",
-    "Vuelve a empezar con la frase más larga",
-    "Dato sorprendente: por eso a veces se inventa cosas",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 8,
-    "primer_segundo": 8,
-    "ensenar": 10
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Es la tecnología de la que más se habla y casi nadie sabe cómo funciona. Las barras de porcentaje son perfectas para la regla 3.",
-   "competencia": "Hay explicaciones largas; en formato de 60 segundos y visual hay poco en español.",
-   "riesgos": "No enseñar el logotipo ni la interfaz real: usar un chat genérico. Simplificar sin decir cosas falsas.",
-   "mejor_hora": "13:00",
-   "hashtags": [
-    "inteligenciaartificial",
-    "chatgpt",
-    "tecnologia",
-    "comofunciona",
-    "ia"
    ]
   },
   {
    "id": "whatsapp",
    "tema": "El viaje de un mensaje de WhatsApp (y por qué nadie más lo lee)",
    "tipo": "evergreen",
-   "puntuacion": 78,
+   "puntuacion": 80,
    "por_que": "WhatsApp está entre lo más leído de Wikipedia en español (19 mil lecturas) y es la app que más usa el público en España.",
    "senales": [
     {
-     "fuente": "Wikipedia en español",
-     "dato": "«WhatsApp», 19.457 lecturas en un día"
+     "fuente": "Wikipedia España",
+     "dato": "«WhatsApp», 22.697 lecturas en un día (el único artículo de tecnología entre los más leídos)",
+     "url": "https://es.wikipedia.org/wiki/WhatsApp"
     },
     {
-     "fuente": "Tu propio canal",
-     "dato": "Ya tienes un vídeo de WhatsApp (los cables submarinos), que rindió poco: este enfoque, el del candado, es más visual"
+     "fuente": "Meta (resultados del primer trimestre de 2025)",
+     "dato": "Más de 3.000 millones de usuarios al mes",
+     "url": "https://techeconomy.ng/whatsapp-hits-3-billion-monthly-users/"
     }
    ],
-   "urgencia": "Cuando quieras",
+   "urgencia": "Ya propuesto como guion «whatsapp» (esperando tu aprobación)",
    "angulo": "Nuevo enfoque sobre WhatsApp: el candado. El mensaje se convierte en un galimatías que viaja por el servidor y solo el móvil de destino lo descifra.",
    "titulo": "Tu mensaje de WhatsApp pasa por un servidor… y ni ellos lo pueden leer 🔒",
    "gancho": "El mensaje que acabas de mandar ha cruzado medio mundo… y nadie, ni la propia app, puede leerlo.",
    "primer_segundo": "Un dedo pulsando «enviar» y las letras del mensaje transformándose al momento en símbolos sin sentido.",
    "cifras": [
-    "Unos 100.000 millones de mensajes al día (dato de la empresa, 2020: comprobar el actual)",
-    "Las dos marcas azules: enviado, entregado y leído",
-    "Tiempo que tarda en llegar"
+    "Más de 100.000 millones de mensajes al día (dato de 2020)",
+    "Llave de 256 bits: un número de 78 cifras",
+    "Una llave nueva por cada mensaje (doble trinquete del protocolo)"
    ],
    "formato": "A",
    "estructura": [
@@ -274,10 +180,169 @@
    ]
   },
   {
+   "id": "paraguas",
+   "tema": "Cómo se abre un paraguas automático",
+   "tipo": "actualidad",
+   "puntuacion": 74,
+   "por_que": "Con las lluvias de esta semana (Meteovigo y «meteorólogo» en tendencia), el paraguas es el objeto que el espectador tiene literalmente en la mano.",
+   "senales": [
+    {
+     "fuente": "Google Trends España",
+     "dato": "Búsquedas sobre lluvias de los próximos 7 días (meteovigo, 500+)"
+    }
+   ],
+   "urgencia": "Esta semana o la próxima",
+   "angulo": "Formato B: inventar el paraguas pieza a pieza (tela, varillas, corredera, muelle del botón automático) con flechas de fuerza del viento.",
+   "titulo": "Si tuvieras que inventar el paraguas… ☔ ¿por qué se da la vuelta con el viento?",
+   "gancho": "El paraguas que llevas hoy se abre en menos de un segundo… ¿qué lo empuja?",
+   "primer_segundo": "Un pulgar pulsando el botón y el paraguas abriéndose de golpe en primer plano bajo la lluvia.",
+   "cifras": [
+    "Número de varillas: normalmente 8 (comprobar)",
+    "Velocidad del viento a la que se da la vuelta (comprobar)",
+    "Fuerza del muelle (comprobar)"
+   ],
+   "formato": "B",
+   "estructura": [
+    "Gancho: se abre solo",
+    "Tela impermeable",
+    "Varillas que la tensan",
+    "Corredera y muelle del botón",
+    "Pero el viento lo da la vuelta… así que varillas flexibles",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "primer_segundo": 9,
+    "ensenar": 6
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Objeto universal y de temporada; todo el mundo ha visto un paraguas dado la vuelta.",
+   "competencia": "Poca en español.",
+   "riesgos": "Las cifras son difíciles de enseñar; hay que buscar un medidor claro (viento en km/h).",
+   "mejor_hora": "13:00",
+   "hashtags": [
+    "paraguas",
+    "lluvia",
+    "inventos",
+    "comofunciona",
+    "otono"
+   ]
+  },
+  {
+   "id": "prevision",
+   "tema": "Cómo se calcula la previsión del tiempo",
+   "tipo": "actualidad",
+   "puntuacion": 70,
+   "por_que": "«meteorólogo» y «meteovigo» en tendencia, con noticias que comparan los modelos alemán (ICON), europeo y estadounidense (GFS). La app del tiempo se mira cada día.",
+   "senales": [
+    {
+     "fuente": "Google Trends España",
+     "dato": "«meteovigo», 500+ búsquedas; titulares «según el modelo alemán», «según el modelo europeo»",
+     "url": "https://www.meteovigo.es/actualidad/lluvias-siete-dias-europeo-determinista-5-noviembre-2026-00utc.html"
+    },
+    {
+     "fuente": "ECMWF (modelo europeo)",
+     "dato": "Rejilla de unos 9 km, cuatro pasadas al día y 51 versiones para medir la incertidumbre",
+     "url": "https://en.wikipedia.org/wiki/Integrated_Forecast_System"
+    }
+   ],
+   "urgencia": "Esta semana",
+   "angulo": "El mapa de tu app dividido en cuadraditos de 9 km; en cada uno, números de temperatura, viento y humedad que se calculan paso a paso; 51 previsiones que se separan con los días.",
+   "titulo": "Tu app del tiempo no adivina: divide el cielo en cuadraditos de 9 km 🌦️",
+   "gancho": "Cuando miras si va a llover mañana… estás viendo el resultado de un superordenador.",
+   "primer_segundo": "Un dedo deslizando la app del tiempo y el mapa convirtiéndose en una rejilla de cubos con flechas de viento.",
+   "cifras": [
+    "Rejilla de unos 9 km",
+    "4 previsiones al día",
+    "51 versiones que se separan con los días"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: tu app",
+    "Observaciones de satélites y globos",
+    "La rejilla",
+    "Calcular paso a paso",
+    "Dato sorprendente: 51 previsiones a la vez",
+    "Por qué a 10 días falla",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "primer_segundo": 7,
+    "ensenar": 8
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Todo el mundo mira el tiempo y se queja cuando falla; explica por qué.",
+   "competencia": "Pocos shorts visuales en español.",
+   "riesgos": "No enseñar marcas de apps. Es abstracto: hay que mostrar la rejilla y los números.",
+   "mejor_hora": "21:00",
+   "hashtags": [
+    "tiempo",
+    "lluvia",
+    "meteorologia",
+    "ciencia",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "rueda_avion",
+   "tema": "Por qué no revientan las ruedas de un avión",
+   "tipo": "nicho",
+   "puntuacion": 64,
+   "por_que": "Un short sobre el neumático del avión lleva 3,6 millones de vistas en una semana: el más visto del nicho.",
+   "senales": [
+    {
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«Como funciona o pneu do avião», 3,61 M vistas (31 oct)"
+    },
+    {
+     "fuente": "SlashGear (Michelin, FAA)",
+     "dato": "Unos 200 psi (seis veces un coche), inflado con nitrógeno, unos 500 aterrizajes antes de recauchutar",
+     "url": "https://www.slashgear.com/851871/why-dont-airplane-tires-explode/"
+    }
+   ],
+   "urgencia": "Cuando quieras",
+   "angulo": "Medidor de presión que sube a 14 bar frente a los 2,3 de un coche, y velocímetro a unos 270 km/h en el aterrizaje con la rueda que pasa de 0 a girar.",
+   "titulo": "Esta rueda aterriza a 270 km/h y no revienta ✈️ Así funciona",
+   "gancho": "La rueda de un avión toca el suelo a casi trescientos por hora… y está parada.",
+   "primer_segundo": "La rueda tocando la pista en primer plano, con humo y el contador de velocidad.",
+   "cifras": [
+    "Presión: unos 200 psi (≈14 bar), seis veces un coche",
+    "Aterrizaje a unos 270 km/h (170 mph)",
+    "Unos 500 aterrizajes por banda de rodadura; hasta 7 recauchutados"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: rueda quieta a 270 km/h",
+    "Presión altísima",
+    "Nitrógeno en vez de aire",
+    "Fusibles que sueltan el gas si se calienta (comprobar)",
+    "Recauchutado",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 4,
+    "primer_segundo": 10,
+    "ensenar": 9
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Primer segundo espectacular y cifras muy visuales.",
+   "competencia": "Un viral de 3,6 M esta semana (en portugués).",
+   "riesgos": "Regla 1 baja: no es un objeto que el espectador tenga en la mano.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "avion",
+    "ruedas",
+    "ingenieria",
+    "curiosidades",
+    "comofunciona"
+   ]
+  },
+  {
    "id": "ventilador",
    "tema": "Por qué un ventilador no enfría el aire",
    "tipo": "nicho",
-   "puntuacion": 72,
+   "puntuacion": 58,
    "por_que": "«¿Cómo funciona un ventilador?» supera el millón de vistas esta semana. Es el mismo canal del cargador viral, lo que indica un patrón: objetos de casa.",
    "senales": [
     {
@@ -323,60 +388,10 @@
    ]
   },
   {
-   "id": "lavavajillas",
-   "tema": "Lo que hace el lavavajillas cuando cierras la puerta",
-   "tipo": "nicho",
-   "puntuacion": 70,
-   "por_que": "Electrodomésticos por dentro funcionan en el nicho esta semana: lavavajillas (77 mil) y váter (203 mil), en canales pequeños.",
-   "senales": [
-    {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«¿Cómo funciona por dentro un lavavajillas?», 77 mil vistas; «¿Cómo funciona un excusado?», 203 mil"
-    }
-   ],
-   "urgencia": "Cuando quieras",
-   "angulo": "Corte del lavavajillas con el contador de litros: usa mucha menos agua que fregar a mano porque la recircula.",
-   "titulo": "Tu lavavajillas gasta menos agua que tú fregando a mano 💧 Así funciona",
-   "gancho": "Cada vez que friegas a mano gastas más agua… que esta máquina en un lavado entero.",
-   "primer_segundo": "Brazos aspersores girando a toda velocidad con chorros de agua sobre los platos.",
-   "cifras": [
-    "Litros por lavado frente a fregar a mano (comprobar)",
-    "Temperatura del agua",
-    "Vueltas del brazo aspersor"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: gasta menos agua que tú",
-    "Entra el agua y se calienta",
-    "La bomba la lanza por los brazos que giran solos",
-    "El agua cae, se filtra y vuelve a subir",
-    "Pastilla, aclarado y secado",
-    "Dato sorprendente: el agua que recicla",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 9,
-    "primer_segundo": 8,
-    "ensenar": 8
-   },
-   "potencial": "medio",
-   "por_que_funcionaria": "Objeto de casa con un dato que sorprende y genera debate en los comentarios.",
-   "competencia": "Pocos vídeos en español y con poco alcance: hay hueco.",
-   "riesgos": "Comprobar las cifras de consumo con fuentes fiables.",
-   "mejor_hora": "13:00",
-   "hashtags": [
-    "lavavajillas",
-    "cocina",
-    "agua",
-    "comofunciona",
-    "casa"
-   ]
-  },
-  {
    "id": "bunker",
    "tema": "¿Y si construyes un búnker bajo tierra?",
    "tipo": "nicho",
-   "puntuacion": 66,
+   "puntuacion": 52,
    "por_que": "«Cómo funciona un búnker nuclear» tiene 1,5 M de vistas esta semana. Encaja con tu formato C (construcción en corte).",
    "senales": [
     {
@@ -412,7 +427,7 @@
    "potencial": "medio",
    "por_que_funcionaria": "El formato C ya te funciona (por ejemplo, el rascacielos) y el tema tiene demanda.",
    "competencia": "Un viral de 1,5 M esta semana.",
-   "riesgos": "Regla 1 baja: no es algo cotidiano. Evitar el tono alarmista sobre guerras.",
+   "riesgos": "Regla 1 baja: no es algo cotidiano. Evitar el tono alarmista sobre guerras. Esta semana hay temas de mejor encaje (lluvias y tanques de tormentas, con el mismo formato C).",
    "mejor_hora": "18:00",
    "hashtags": [
     "bunker",
@@ -437,10 +452,6 @@
    "motivo": "Política: no encaja con la cuenta."
   },
   {
-   "tema": "Accidente ferroviario",
-   "motivo": "Tema sensible con víctimas: no se hace contenido de entretenimiento sobre ello."
-  },
-  {
    "tema": "Fútbol (Champions, clubes, jugadores)",
    "motivo": "Resultados deportivos, no mecanismos."
   },
@@ -451,6 +462,30 @@
   {
    "tema": "Escalera mecánica y váter",
    "motivo": "Ya los tienes hechos («escalera» y «cisterna»)."
+  },
+  {
+   "tema": "Angrois / Adamuz (accidentes ferroviarios)",
+   "motivo": "Sucesos con víctimas: no se hace contenido de entretenimiento sobre ellos."
+  },
+  {
+   "tema": "Euroliga (Hapoel - Barça, Damian Jones, Anadolu Efes - París)",
+   "motivo": "Resultados deportivos y jugadores, no mecanismos."
+  },
+  {
+   "tema": "IBEX 35 y bolsa",
+   "motivo": "Finanzas del día: no hay un objeto que enseñar y puede parecer consejo de inversión."
+  },
+  {
+   "tema": "Elecciones en EE. UU. (Gina Hinojosa, James Talarico, Senado…)",
+   "motivo": "Política: no encaja con la cuenta."
+  },
+  {
+   "tema": "Cargador, pantalla plegable, ChatGPT y lavavajillas",
+   "motivo": "Ya están en producción (voz grabada, escena en curso)."
+  },
+  {
+   "tema": "Trasplante de pelo, cadera, piedra de riñón",
+   "motivo": "Temas médicos: el canal «Por Dentro De Todo» los domina y no son objetos cotidianos."
   }
  ]
 }

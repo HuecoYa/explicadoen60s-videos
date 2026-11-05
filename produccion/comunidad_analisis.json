@@ -1,8 +1,9 @@
 {
- "actualizado": "2026-11-05T12:00:00+01:00",
- "resumen": "Solo ha llegado 1 comentario nuevo (Instagram, vídeo del bolígrafo). YouTube no deja leer comentarios porque al permiso le falta el alcance de comentarios, y TikTok no los da por su API pública.",
+ "actualizado": "2026-11-05T20:30:00+01:00",
+ "resumen": "Hay 2 comentarios, los dos de Instagram: uno nuevo en el vídeo de la cafetera (compara la presión con un termo con pajita, «efecto greca») y el del bolígrafo. YouTube sigue sin dejar leer comentarios (al permiso le falta el alcance de comentarios) y TikTok no los da por su API pública.",
  "respuestas": {
-  "ig_18106910756365693": "¡Exacto! Lo patentó László Bíró en Argentina en los años 40, por eso allí se llama birome 🙌 ¿Qué otro invento quieres que expliquemos?"
+  "ig_18106910756365693": "¡Exacto! Lo patentó László Bíró en Argentina en los años 40, por eso allí se llama birome 🙌 ¿Qué otro invento quieres que expliquemos?",
+  "ig_18068864396527253": "¡Jajaja, efecto greca le pongo yo también! 😂 Es lo mismo: el calor sube la presión dentro y, en cuanto abres, empuja el líquido hacia fuera. ¿Quieres que hagamos un vídeo del termo?"
  },
  "ideas": [
   {
@@ -11,6 +12,14 @@
    "menciones": 1,
    "ejemplos": [
     "Ala lapicera se invento en argentina"
+   ]
+  },
+  {
+   "tema": "Presión en un termo con pajita",
+   "idea": "Por qué al abrir un termo con agua caliente el líquido sale disparado por la pajita: la presión del aire y el vapor que se acumula dentro, con un manómetro que sube (encaja con el formato A y con la cafetera, que ya gustó)",
+   "menciones": 1,
+   "ejemplos": [
+    "Lo mismo cuando pones agua caliente en un termo con sorbete.. mientras está cerrado no sale nada y cuando lo abres, sale todo disparado.. yo le llamo efecto greca 😂"
    ]
   }
  ]

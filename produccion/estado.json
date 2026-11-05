@@ -526,6 +526,96 @@
    ],
    "aprobado": "2026-11-05T15:43:41.559Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "arroz",
+   "formato": "A",
+   "titulo": "¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱 Así funciona por dentro",
+   "guion": "Si se te cae el móvil al agua… lo primero que haces es justo lo que un gran fabricante te pide que no hagas. Meterlo en arroz. ¿Por qué? Mira dentro. Tu móvil está sellado con juntas de goma alrededor de la pantalla, los botones y la tapa. Por eso aguanta un chapuzón. Pero hay un sitio donde el agua sí se queda: el puerto de carga. Ahí dentro hay unos pines metálicos muy juntos. El agua del grifo lleva sales, y conduce la electricidad. Si enchufas el cargador con agua dentro, la corriente salta de un pin a otro. Y eso corroe el metal, poco a poco. Por eso tu móvil mide la corriente entre los pines. Si detecta agua, te avisa y no carga. ¿Y el arroz? Aquí viene lo curioso… En una prueba, dejaron cosas mojadas veinticuatro horas con distintos secantes. El arroz crudo fue el que menos agua absorbió. Incluso al aire libre se secaban mejor. El arroz solo toca la carcasa, que ya está seca. El agua del puerto ni la nota. Y encima, el polvo y los granitos se pueden colar en el conector. Entonces, ¿qué haces? Sécalo por fuera. Dale golpecitos suaves con el puerto hacia abajo. Déjalo en un sitio seco y ventilado. Espera al menos media hora antes de cargarlo, y hasta un día entero si sigue avisando. Nada de secador ni de bastoncillos. Sígueme para más.",
+   "texto": "En una prueba de 24 horas, el arroz crudo fue el que menos agua absorbió. ¿Tú también lo metías en arroz? 👇",
+   "tags": [
+    "movil",
+    "trucos",
+    "mitos",
+    "agua",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-05",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Todo el mundo tiene móvil y casi todos han oído (o hecho) lo del arroz",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "El móvil cayendo al agua en primer plano, con burbujas entrando por el puerto de carga",
+    "ensenar": 8,
+    "ensenar_nota": "Corte del puerto con gotas entre los pines, chispas de corriente y un medidor que salta a «AGUA»; reloj de 24 h con barras de agua absorbida (arroz la más baja) y cuenta atrás de 30 minutos"
+   },
+   "ganchos": [
+    "Si se te cae el móvil al agua… lo primero que haces es justo lo que un gran fabricante te pide que no hagas.",
+    "¿Metes el móvil en arroz cuando se moja? En una prueba, fue lo que peor secaba.",
+    "Tu móvil aguanta un chapuzón… pero hay un sitio donde el agua se queda escondida."
+   ],
+   "tendencia": "Móvil mojado: ¿arroz sí o no?"
+  },
+  {
+   "id": "whatsapp",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor puede leer tus mensajes?",
+   "guion": "Si tuvieras que inventar WhatsApp… ¿cómo harías que nadie más leyera tus mensajes? Cada día se envían más de cien mil millones. Y todos pasan por un servidor. Lo primero: un candado. Antes de salir de tu móvil, el mensaje se mezcla con un número secreto: la llave. Sale convertido en un churro de letras sin sentido. Pero hay un problema. Tu amigo necesita la misma llave para abrirlo. Y si se la mandas por internet, alguien podría copiarla. Así que cada móvil crea dos llaves. Una pública, que puede ver todo el mundo. Y una privada, que nunca sale de tu móvil. Tu móvil mezcla tu llave privada con la pública de tu amigo. Su móvil hace lo mismo al revés. Y los dos llegan al mismo número secreto… sin habérselo enviado nunca. ¿Y el servidor? Solo ve pasar letras sin sentido. No tiene ninguna llave privada, así que no puede leer nada. Y aquí viene lo curioso… Esa llave es un número de setenta y ocho cifras. Probando millones de combinaciones por segundo, tardarías mucho más que la edad del universo. Pero aún falta algo. Si un día alguien robara una llave, podría leer todo lo anterior. Así que la llave cambia con cada mensaje. Cada mensaje tiene su propio candado. Eso sí: el servidor sigue viendo con quién hablas y cuándo. Sígueme para más.",
+   "texto": "Tu mensaje pasa por un servidor… y ni ellos tienen la llave para leerlo. ¿Lo sabías? 👇",
+   "tags": [
+    "whatsapp",
+    "cifrado",
+    "movil",
+    "privacidad",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-05",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Es la aplicación que el espectador usa decenas de veces al día",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Un pulgar pulsando «enviar» en primer plano y el mensaje saliendo disparado del móvil (sin logotipos)",
+    "ensenar": 8,
+    "ensenar_nota": "Contador de mensajes al día subiendo a 100.000.000.000, el texto que se convierte en letras sin sentido, dos llaves que se mezclan en el mismo número y un número de 78 cifras que cambia con cada mensaje"
+   },
+   "ganchos": [
+    "Si tuvieras que inventar WhatsApp… ¿cómo harías que nadie más leyera tus mensajes?",
+    "Tu mensaje de WhatsApp pasa por un servidor… y ni ellos lo pueden leer.",
+    "Cada día se envían más de cien mil millones de mensajes… y ninguno se puede leer por el camino."
+   ],
+   "tendencia": "El viaje de un mensaje de WhatsApp (y por qué nadie más lo lee)"
+  },
+  {
+   "id": "tormentas",
+   "formato": "C",
+   "titulo": "¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la lluvia de tu calle",
+   "guion": "Cuando llueve fuerte en tu ciudad… ¿a dónde va toda esa agua? Cae por la rejilla de tu calle a la alcantarilla. Pero en muchas ciudades, la lluvia y el agua sucia de las casas van por el mismo tubo. Y en una tormenta, en pocos minutos, cae más agua de la que cabe. Así que el agua sube por las rejillas… y la calle se inunda. Podrías poner tubos más grandes. Pero tendrías que levantar la ciudad entera. Así que construyes un depósito gigante bajo tierra. Excavas, y levantas muros de hormigón. Pero la tierra de alrededor empuja con fuerza. Así que llenas el interior de pilares que sujetan el techo. Encima, puedes poner un parque. Ahora, cuando llueve, una compuerta desvía el agua hacia el tanque, y se va llenando. Pero esa agua arrastra basura. Así que a la entrada pones rejas que atrapan lo más grande. Y aquí viene lo curioso… El más grande del mundo está en Madrid. Ocupa como cinco campos de fútbol, es tan profundo como un edificio de seis plantas, y le caben cuatrocientos mil metros cúbicos. Pero si el agua se queda ahí, se pudre. Así que, cuando pasa la tormenta, unas bombas la vacían poco a poco hacia la depuradora. El de Madrid se vacía entero en unas catorce horas y media. Así, el agua sucia no acaba en el río. Sígueme para más.",
+   "texto": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías que existía? 👇",
+   "tags": [
+    "lluvia",
+    "ciudad",
+    "ingenieria",
+    "construccion",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-05",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "La rejilla de tu calle y la lluvia de esta semana; el tanque no se ve, pero está bajo la ciudad",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Lluvia fuerte cayendo en primer plano por la rejilla de una calle, en corte, con el agua bajando a la alcantarilla",
+    "ensenar": 9,
+    "ensenar_nota": "Nivel del tubo que sube hasta rebosar, compuerta que se abre, contador de llenado hasta 400.000 m³ y cuenta atrás de vaciado de 14,5 horas"
+   },
+   "ganchos": [
+    "Cuando llueve fuerte en tu ciudad… ¿a dónde va toda esa agua?",
+    "Debajo de Madrid hay un depósito donde cabe la lluvia de una tormenta entera.",
+    "La rejilla de tu calle tiene un límite… y en una tormenta lo pasa en minutos."
+   ],
+   "tendencia": "Lluvias de esta semana: a dónde va el agua de la calle"
   }
  ]
 }
