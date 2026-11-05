@@ -360,6 +360,155 @@
    "creado": "2026-11-04",
    "aprobado": "2026-11-04T22:35:57.951Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "chatgpt",
+   "formato": "A",
+   "titulo": "ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona",
+   "guion": "Cuando le preguntas algo a ChatGPT… no sabe cómo va a terminar su propia frase. ¿Cómo escribe entonces? Primero, trocea lo que escribes en pedacitos llamados tokens. A veces es una palabra entera, a veces solo un trozo. Su diccionario tiene unos doscientos mil trozos distintos. Cada trozo se convierte en una lista de números. Y con esos números, una red gigante hace una sola cosa: adivinar qué trozo viene después. No sabe la respuesta. Calcula probabilidades. Por ejemplo, después de «me voy a la», «playa» puede tener un cuarenta por ciento, «cama» un veinte, «oficina» un diez… Elige una, la pega al final y vuelve a empezar con la frase un poco más larga. Otra vez. Y otra. Trozo a trozo, decenas de veces por segundo. Por eso ves el texto aparecer poco a poco. Y aquí viene lo curioso… No siempre elige la más probable. Si lo hiciera, sonaría como un robot repitiendo lo mismo. Así que a veces escoge una de las de abajo, y cada respuesta sale distinta. ¿Y por qué a veces se inventa cosas? Porque no comprueba si es verdad. Solo busca lo que suena más probable. Si un dato falso encaja bien en la frase… lo escribe con toda la seguridad del mundo. Así que compruébalo siempre. Sígueme para más.",
+   "texto": "ChatGPT no sabe cómo va a acabar su propia frase: la adivina trozo a trozo. ¿Lo sabías? 👇",
+   "tags": [
+    "inteligenciaartificial",
+    "chatgpt",
+    "tecnologia",
+    "comofunciona",
+    "ia"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-05",
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "Casi todo el mundo lo ha usado o lo usa en el móvil",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una frase escribiéndose sola en primer plano y, encima de cada palabra, barras de porcentaje que suben y bajan",
+    "ensenar": 9,
+    "ensenar_nota": "Barras de probabilidad (40 %, 20 %, 10 %) que cambian en cada paso y contador de trozos: 200.000 en el diccionario"
+   },
+   "ganchos": [
+    "Cuando le preguntas algo a ChatGPT… no sabe cómo va a terminar su propia frase.",
+    "ChatGPT no piensa la respuesta entera: la adivina trozo a trozo.",
+    "¿Sabes por qué ChatGPT escribe la respuesta poco a poco?"
+   ],
+   "idea": "imw2sr0vy"
+  },
+  {
+   "id": "plegable",
+   "formato": "A",
+   "titulo": "Este cristal se dobla 200.000 veces sin romperse 🤯 Así funciona una pantalla plegable",
+   "guion": "El cristal de este móvil se dobla… y es más fino que un pelo. ¿Cómo no se rompe? Un cristal normal se rompe al doblarlo. Por fuera se estira, por dentro se aprieta, y aparece una grieta. Pero cuanto más fino es, menos se estira al doblarse. Así que lo hacen finísimo: treinta micras. Un pelo mide unas setenta. Para que aguante más, lo bañan en sales calientes. Los átomos pequeños de la superficie se cambian por otros más grandes, que aprietan el cristal desde fuera. Así las grietas no consiguen abrirse. Debajo va la pantalla, con sus millones de lucecitas, que también es flexible. Y encima, una capa de plástico que protege el cristal de los golpes. ¿Y la bisagra? Si la pantalla se doblara en ángulo recto, se partiría. Así que la bisagra deja un hueco en forma de gota. La pantalla se curva suave, sin aplastarse. Por eso, al cerrarlo, queda un poquito de espacio en medio. Y ahora, el dato curioso… Antes de venderlos, una máquina los abre y los cierra sin parar. Doscientos mil pliegues. Si lo abres cien veces al día, son más de cinco años. Y aun así, con el tiempo, se nota una pequeña marca en el centro. Sígueme para más.",
+   "texto": "El cristal de un móvil plegable mide 30 micras: menos de la mitad de un pelo. ¿Te comprarías uno? 👇",
+   "tags": [
+    "pantalla",
+    "movil",
+    "plegable",
+    "cristal",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-05",
+   "reglas": {
+    "cotidiano": 6,
+    "cotidiano_nota": "Plegable no lo tiene todo el mundo, pero el cristal del móvil sí y está en tendencia",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Una pantalla doblándose en primer plano y un contador de pliegues girando a toda velocidad",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de micras (30 frente a 70 de un pelo), contador de pliegues hasta 200.000 y flechas de estirar y apretar en el cristal"
+   },
+   "ganchos": [
+    "El cristal de este móvil se dobla… y es más fino que un pelo.",
+    "Este cristal se ha doblado doscientas mil veces… y no se ha roto.",
+    "¿Cómo puede doblarse un cristal sin romperse?"
+   ],
+   "idea": "imw2sroo7"
+  },
+  {
+   "id": "cargador",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué ahora es tan pequeño?",
+   "guion": "Si tuvieras que inventar el cargador de tu móvil… ¿cómo lo harías? En el enchufe hay doscientos treinta voltios, y cambian de sentido cincuenta veces por segundo. Tu batería quiere unos cinco voltios, siempre en el mismo sentido. Lo primero: unos diodos, que son puertas de una sola dirección. La corriente ya no puede volver atrás. Un condensador la alisa. Pero ahora tienes más de trescientos voltios. Para bajarlos necesitas un transformador: dos bobinas de cobre alrededor de un núcleo. Pero con cincuenta cambios por segundo, tendría que ser enorme. Así que añades un interruptor electrónico que corta la corriente cientos de miles de veces por segundo. Cuanto más rápido corta, más pequeño puede ser el transformador. Por eso los cargadores de antes pesaban tanto, y los de ahora caben en la palma de la mano. Y aquí viene lo curioso… Las dos bobinas no se tocan. La energía salta de una a otra por magnetismo. Así, los doscientos treinta voltios nunca llegan al cable que tienes en la mano. Pero aún falta algo. Un chip vigila la batería. El móvil le pide cinco, nueve o veinte voltios, y el cargador obedece. Cuando la batería está casi llena, la corriente baja… hasta casi cero. Sígueme para más.",
+   "texto": "Dentro de tu cargador hay un interruptor que corta la corriente cientos de miles de veces por segundo. ¿Lo sabías? 👇",
+   "tags": [
+    "cargador",
+    "movil",
+    "electricidad",
+    "bateria",
+    "inventos"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-05",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Todo el mundo enchufa el cargador del móvil cada día",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "El cargador entrando en el enchufe en primer plano y una onda de corriente que se mueve dentro",
+    "ensenar": 9,
+    "ensenar_nota": "Voltímetro que baja de 230 a 325 y a 5 V, contador de cortes por segundo y medidor de voltios que pide el móvil (5, 9, 20)"
+   },
+   "ganchos": [
+    "Si tuvieras que inventar el cargador de tu móvil… ¿cómo lo harías?",
+    "Tu cargador corta la corriente cientos de miles de veces cada segundo.",
+    "¿Por qué los cargadores de antes pesaban tanto y los de ahora no?"
+   ],
+   "tendencia": "Qué pasa dentro del cargador del móvil"
+  },
+  {
+   "id": "lavavajillas",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve la sal?",
+   "guion": "Si tuvieras que inventar el lavavajillas… ¿cómo lavarías los platos sin tocarlos? Lo primero: una caja cerrada y un poco de agua. Solo unos diez litros. Fregando a mano puedes gastar sesenta. Pero el agua quieta no limpia. Así que pones una bomba que la lanza contra los platos por unos brazos con agujeritos. Y fíjate: nadie los mueve. Los agujeros están inclinados, y el chorro empuja el brazo hacia atrás. ¡Gira solo, como un aspersor! Pero el agua fría no quita la grasa. Así que una resistencia la calienta: hasta sesenta y cinco grados, más de lo que aguantan tus manos. Y la misma agua se recicla una y otra vez, pasando por un filtro. Pero el agua del grifo lleva cal, y deja manchas blancas. Así que añades un depósito con bolitas de resina que atrapan la cal. ¿Y la sal que le echas? Sirve para limpiar esas bolitas y que vuelvan a funcionar. Pero al secarse, las gotas dejan marcas. Así que en el último aclarado suelta un chorrito de abrillantador. Hace que el agua resbale en una capa fina, sin formar gotas. Y por último, para secar, muchos no soplan aire caliente: los platos calientes evaporan el agua, y se condensa en las paredes, que están más frías. Sígueme para más.",
+   "texto": "La sal del lavavajillas no lava los platos: limpia unas bolitas que atrapan la cal. ¿Tú se la echas? 👇",
+   "tags": [
+    "lavavajillas",
+    "cocina",
+    "hogar",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-05",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Lo usas cada día después de comer",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "El brazo aspersor girando a toda velocidad en primer plano, con chorros contra un plato",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de litros (10 frente a 60), termómetro hasta 65 °C, flechas de chorro y de giro y bolitas de resina que se llenan de cal"
+   },
+   "ganchos": [
+    "Si tuvieras que inventar el lavavajillas… ¿cómo lavarías los platos sin tocarlos?",
+    "La sal que le echas al lavavajillas no sirve para lavar.",
+    "El brazo de tu lavavajillas gira solo… y nadie lo empuja."
+   ],
+   "tendencia": "Lo que hace el lavavajillas cuando cierras la puerta"
+  },
+  {
+   "id": "pozo",
+   "formato": "C",
+   "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
+   "guion": "¿Y si construyes un pozo para sacar agua de debajo de tu casa? Primero, perforas. Una broca gira y baja metro a metro. A veinte metros… encuentras arena empapada: el agua subterránea. Pero las paredes del agujero se desmoronan hacia dentro. Así que metes un tubo de unos quince centímetros de ancho. Pero el tubo está cerrado, y el agua no puede entrar. Así que, en el fondo, pones un tramo lleno de ranuras finísimas: la rejilla. Deja pasar el agua, pero no la arena. Y alrededor, rellenas con grava, que hace de colador. Arriba, sellas con cemento, para que no se cuele agua sucia de la superficie. Ahora, ¿cómo la subes? Podrías poner arriba una bomba que aspire. Pero aquí viene lo curioso… Aspirando, el agua nunca sube más de unos diez metros. En realidad es el aire de la atmósfera el que la empuja, y no da para más. Así que bajas la bomba hasta el fondo, sumergida. Y en vez de tirar del agua, la empuja hacia arriba. Pero al bombear, el agua de alrededor baja, y forma un embudo bajo tierra. Si bombeas demasiado rápido, el embudo crece… y puedes secar el pozo del vecino. Por eso se mide y se controla cuánta agua sacas. Sígueme para más.",
+   "texto": "Aspirando, ninguna bomba puede subir agua más de unos 10 metros. ¿Sabías por qué? 👇",
+   "tags": [
+    "pozo",
+    "agua",
+    "construccion",
+    "ingenieria",
+    "ciencia"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-05",
+   "reglas": {
+    "cotidiano": 6,
+    "cotidiano_nota": "El agua del grifo sí es cotidiana; el pozo, menos, pero la pregunta engancha",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una broca girando y bajando en primer plano en un corte del terreno, con tierra saltando",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de profundidad (0 a 20 m), medidor de altura de aspiración que se queda en 10 m y nivel del agua que baja en embudo"
+   },
+   "ganchos": [
+    "¿Y si construyes un pozo para sacar agua de debajo de tu casa?",
+    "Ninguna bomba puede aspirar agua desde más de diez metros.",
+    "Debajo de tu casa hay agua… ¿cómo la sacarías?"
+   ]
   }
  ]
 }

@@ -9,7 +9,8 @@
    "tendencia": "chatgpt",
    "por": "Nikoloz_Lekishvili",
    "fecha": "2026-11-05T00:17:47.326Z",
-   "estado": "pendiente"
+   "estado": "usada",
+   "guion": "chatgpt"
   },
   {
    "id": "imw2sroo7",
@@ -20,7 +21,8 @@
    "tendencia": "plegable",
    "por": "Nikoloz_Lekishvili",
    "fecha": "2026-11-05T00:18:18.151Z",
-   "estado": "pendiente"
+   "estado": "usada",
+   "guion": "plegable"
   }
  ]
 }
