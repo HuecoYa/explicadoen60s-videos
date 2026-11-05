@@ -413,7 +413,7 @@
     "cristal",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 6,
@@ -430,7 +430,8 @@
    ],
    "idea": "imw2sroo7",
    "aprobado": "2026-11-05T15:43:15.966Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 65.8
   },
   {
    "id": "cargador",
