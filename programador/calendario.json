@@ -844,6 +844,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "presa-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-06T10:00:00+01:00",
+   "video": "presa_tiktok.mp4",
+   "titulo": "¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo abajo",
+   "texto": "Al fondo de una presa, el agua aprieta con cien toneladas por cada metro cuadrado. ¿Has visitado alguna? 👇",
+   "tags": [
+    "presa",
+    "ingeniería",
+    "agua",
+    "energía",
+    "construcción"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "auriculares-youtube",
    "red": "youtube",
    "hora": "2026-11-06T12:00:00+01:00",
@@ -928,6 +946,42 @@
     "ingeniería",
     "verano",
     "agua"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "presa-youtube",
+   "red": "youtube",
+   "hora": "2026-11-07T16:00:00+01:00",
+   "video": "presa.mp4",
+   "titulo": "¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo abajo",
+   "texto": "Al fondo de una presa, el agua aprieta con cien toneladas por cada metro cuadrado. ¿Has visitado alguna? 👇",
+   "tags": [
+    "presa",
+    "ingeniería",
+    "agua",
+    "energía",
+    "construcción"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "presa-instagram",
+   "red": "instagram",
+   "hora": "2026-11-07T18:00:00+01:00",
+   "video": "presa.mp4",
+   "titulo": "¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo abajo",
+   "texto": "Al fondo de una presa, el agua aprieta con cien toneladas por cada metro cuadrado. ¿Has visitado alguna? 👇",
+   "tags": [
+    "presa",
+    "ingeniería",
+    "agua",
+    "energía",
+    "construcción"
    ],
    "estado": "pendiente",
    "intentos": 0,
