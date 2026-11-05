@@ -691,9 +691,14 @@
     "física",
     "hogar"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "UFWj2_kxP2U",
+    "url": "https://youtube.com/shorts/UFWj2_kxP2U"
+   },
+   "publicado": "2026-11-05T11:36:42.571639+00:00"
   },
   {
    "id": "bombilla-tiktok",
