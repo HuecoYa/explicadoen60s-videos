@@ -808,6 +808,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "piscina-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-05T21:00:00+01:00",
+   "video": "piscina_tiktok.mp4",
+   "titulo": "¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del todo",
+   "texto": "Una piscina vacía puede salir flotando del suelo como un barco. ¿Lo habías oído alguna vez? 👇",
+   "tags": [
+    "piscina",
+    "construcción",
+    "ingeniería",
+    "verano",
+    "agua"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "auriculares-instagram",
    "red": "instagram",
    "hora": "2026-11-06T10:00:00+01:00",
@@ -874,6 +892,42 @@
     "seguridad",
     "hogar",
     "inventos"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "piscina-instagram",
+   "red": "instagram",
+   "hora": "2026-11-07T10:00:00+01:00",
+   "video": "piscina.mp4",
+   "titulo": "¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del todo",
+   "texto": "Una piscina vacía puede salir flotando del suelo como un barco. ¿Lo habías oído alguna vez? 👇",
+   "tags": [
+    "piscina",
+    "construcción",
+    "ingeniería",
+    "verano",
+    "agua"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "piscina-youtube",
+   "red": "youtube",
+   "hora": "2026-11-07T12:00:00+01:00",
+   "video": "piscina.mp4",
+   "titulo": "¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del todo",
+   "texto": "Una piscina vacía puede salir flotando del suelo como un barco. ¿Lo habías oído alguna vez? 👇",
+   "tags": [
+    "piscina",
+    "construcción",
+    "ingeniería",
+    "verano",
+    "agua"
    ],
    "estado": "pendiente",
    "intentos": 0,
