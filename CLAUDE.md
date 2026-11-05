@@ -19,8 +19,11 @@ Claude **nunca** aprueba vídeos ni los programa: eso lo hace el usuario en el p
 1. `git pull`. Lee `produccion/estado.json`.
 2. **`rehacer`**: lee `nota`, corrige `escenas/<id>_scene.py` / `_ov.py`, revísalo (ver «Revisar antes de entregar») y ponlo en `escena`. Borra `nota`.
 3. **`voz`** (todos los que haya, hasta 8 por pasada, los más antiguos primero): escribe `escenas/<id>_scene.py` y `escenas/<id>_ov.py`, revísalos y pon `escena`. Haz un commit y un push por vídeo, para que el render empiece cuanto antes (cada push lanza el render de todos los que están en `escena`).
-4. **Propuestas**: que haya siempre unos **8** vídeos entre `propuesto`, `aprobado`, `voz` y `escena`. Añade los que falten como `propuesto`.
-5. Si una entrada tiene `error`, intenta resolverlo. Si no puedes (falta un secreto, por ejemplo), déjalo anotado en `error` en palabras sencillas.
+4. **Guiones con `nota_guion`** (el usuario pidió «otra versión» desde el panel): reescribe `guion`/`texto`/`titulo` según la nota, deja el estado en `propuesto` y borra `nota_guion`.
+5. **Tendencias** (`produccion/tendencias.json`, lo enseña el panel en «Tendencias»): lee las señales de `programador/tendencias_raw.json` (Google Trends España, Wikipedia, YouTube España, shorts de «cómo funciona» de la semana, competencia) y escribe el análisis completo. Formato: `{actualizado, resumen, tendencias:[…], descartadas:[{tema, motivo}]}`. Cada tendencia lleva `id`, `tema`, `tipo` (`actualidad` | `evergreen` | `nicho`), `puntuacion` (0-100), `por_que` (con cifras de las señales), `senales:[{fuente, dato, url?}]`, `urgencia`, `angulo`, `titulo`, `gancho`, `primer_segundo`, `cifras:[…]`, `formato`, `estructura:[…]`, `reglas:{cotidiano, primer_segundo, ensenar}` (0-10), `potencial`, `por_que_funcionaria`, `competencia`, `riesgos`, `mejor_hora` y `hashtags`. Entre 6 y 10 tendencias, ordenadas por puntuación. Descarta, explicando el motivo, famosos, política, sucesos con víctimas, apuestas, armas y lo que ya está en `produccion/escenas/`. Comprueba con búsqueda web las cifras que propongas; si no puedes, márcalas «(comprobar)».
+6. **Comunidad** (`produccion/comunidad_analisis.json`): con `programador/comunidad.json`, escribe `{actualizado, resumen, respuestas:{<id del comentario>: "respuesta sugerida"}, ideas:[{tema, idea, menciones, ejemplos:[…]}]}`. Las respuestas sugeridas van en tuteo, son cortas y cercanas, y no prometen fechas. Las ideas son los temas que piden los seguidores.
+7. **Propuestas**: que haya siempre unos **8** vídeos entre `propuesto`, `aprobado`, `voz` y `escena`. Añade los que falten como `propuesto`. **Empieza por el banco de ideas** (`produccion/ideas.json`, las de `prioridad: "alta"` primero): cada idea que conviertas en guion se marca `estado: "usada"` con `guion: <id>`. Después, usa las mejores tendencias. Si el guion sale de una idea o de una tendencia, pon `idea: <id>` o `tendencia: <tema>` en la entrada.
+8. Si una entrada tiene `error`, intenta resolverlo. Si no puedes (falta un secreto, por ejemplo), déjalo anotado en `error` en palabras sencillas.
 
 ## Las 3 reglas que deciden si un vídeo funciona (obligatorias)
 Las sacó el usuario de un creador que publicó el mismo tipo de vídeo con dos resultados: unos 60 mil frente a 10,5 millones de visualizaciones.
@@ -41,6 +44,8 @@ Campos de cada entrada nueva en `estado.json`:
 - `texto`: el pie del post, 1-2 frases que terminen en pregunta o 👇.
 - `tags`: 5 temas sin `#`.
 - `estado: "propuesto"` y `creado` (la fecha).
+- `reglas`: tu nota de 0 a 10 para cada una de las 3 reglas, con una frase que lo justifique: `{"cotidiano": 9, "cotidiano_nota": "…", "primer_segundo": 8, "primer_segundo_nota": "qué se verá en el primer segundo", "ensenar": 9, "ensenar_nota": "qué cifras cambian en pantalla"}`. El panel lo enseña como un semáforo.
+- `ganchos`: 3 primeras frases alternativas; la primera es la que va en `guion`. El usuario elige una en el panel.
 
 Formatos (mezclarlos; uno de cada tres, más o menos):
 - **A · «Así funciona»**: un objeto cotidiano en corte (*cutaway*); se ve el mecanismo por dentro y se explica paso a paso. Ejemplos: `cisterna`, `semaforo`, `airbag`.

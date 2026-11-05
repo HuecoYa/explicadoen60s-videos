@@ -1,0 +1,456 @@
+{
+ "actualizado": "2026-11-05T01:30:00+01:00",
+ "resumen": "En el nicho de «cómo funciona» lo que más se ve esta semana son objetos que el espectador tiene en la mano: un cargador de móvil (15,3 millones de vistas, el vídeo de ciencia y tecnología más visto en YouTube España), un bolígrafo (1,8 millones) y un ventilador (1 millón). Esto confirma la regla 1. Prioridad hoy: el cargador del móvil y el móvil que se moja (arroz sí o no). Las búsquedas de Google y Wikipedia de hoy son casi todas de famosos, televisión, fútbol y política, y no encajan con la cuenta.",
+ "tendencias": [
+  {
+   "id": "cargador",
+   "tema": "Qué pasa dentro del cargador del móvil",
+   "tipo": "nicho",
+   "puntuacion": 92,
+   "por_que": "Es el vídeo de ciencia y tecnología más visto en YouTube España esta semana: 15,3 millones de visualizaciones en diez días. La gente quiere entender el objeto que enchufa cada noche.",
+   "senales": [
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "n.º 1: «¿Qué pasa dentro de un cargador cuando cargas tu móvil?», 15,3 M vistas (25 oct)"
+    },
+    {
+     "fuente": "Tu propio canal",
+     "dato": "«Batería» y «pantalla» son del mismo tema (el móvil): el cargador completaría la serie"
+    }
+   ],
+   "urgencia": "Esta semana",
+   "angulo": "No repetir el vídeo viral: enseñar con cifras en pantalla cómo los voltios bajan dentro del cargador. Un contador que va de 230 a 5 voltios mientras la cámara atraviesa cada pieza.",
+   "titulo": "Tu cargador baja 230 voltios a 5 en una caja así de pequeña 🔌 Así funciona por dentro",
+   "gancho": "Ahora mismo, en tu enchufe hay doscientos treinta voltios… y a tu móvil solo le llegan cinco.",
+   "primer_segundo": "Primer plano del enchufe de la pared con chispas azules entrando en el cargador y un contador en pantalla: «230 V».",
+   "cifras": [
+    "230 V → 5 V (hasta 20 V en carga rápida)",
+    "Conmuta decenas de miles de veces por segundo",
+    "Corriente alterna: 50 cambios de sentido por segundo"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: 230 voltios entran y 5 salen",
+    "Corte del cargador: rectificador, la corriente alterna se convierte en continua",
+    "El truco: encender y apagar la corriente muy rápido para usar un transformador diminuto",
+    "Transformador y aislamiento: por qué no te da calambre",
+    "El chip que «habla» con el móvil y pide más voltios en la carga rápida",
+    "Dato sorprendente: por qué los cargadores nuevos son tan pequeños",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 10,
+    "primer_segundo": 9,
+    "ensenar": 9
+   },
+   "potencial": "muy alto",
+   "por_que_funcionaria": "Cumple las tres reglas: el espectador tiene el objeto enchufado ahora mismo, el primer segundo tiene chispas y un número que cambia, y todo el mecanismo se puede enseñar con contadores de voltios. Además, el tema ya ha demostrado demanda masiva.",
+   "competencia": "Ya existe un short viral (15,3 M). Se compite enseñando el mecanismo real con números, no solo contándolo.",
+   "riesgos": "Comprobar cifras antes del guion (frecuencia de conmutación según el modelo). No enseñar marcas en el cargador.",
+   "mejor_hora": "Tus mejores horas hasta ahora: 13:00 y 12:00 (TikTok y YouTube).",
+   "hashtags": [
+    "cargador",
+    "electricidad",
+    "comofunciona",
+    "movil",
+    "ciencia"
+   ]
+  },
+  {
+   "id": "arroz",
+   "tema": "Móvil mojado: ¿arroz sí o no?",
+   "tipo": "actualidad",
+   "puntuacion": 88,
+   "por_que": "«¿Qué hacer si se te cae el móvil al agua?» lleva 672 mil vistas esta semana en ciencia y tecnología. El mito del arroz sigue vivo, aunque Apple publicó que no conviene hacerlo.",
+   "senales": [
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«¿Qué hacer si se te cae el móvil al agua?», 672 mil vistas (29 oct)"
+    },
+    {
+     "fuente": "Apple (documento de soporte, 2024)",
+     "dato": "Recomienda no meter el iPhone mojado en una bolsa de arroz",
+     "url": "https://www.techradar.com/phones/dont-dry-your-wet-iphone-in-a-bag-of-rice-apple-warns-do-this-instead"
+    }
+   ],
+   "urgencia": "Esta semana",
+   "angulo": "Enseñar por dentro qué hace el agua en el conector y en la placa y por qué el arroz casi no la saca, con una gota que avanza y un medidor de humedad que apenas baja.",
+   "titulo": "¿Tu móvil se ha mojado? El arroz no hace lo que crees 🍚📱",
+   "gancho": "Si se te cae el móvil al agua, lo primero que haces… es justo lo que el fabricante te pide que no hagas.",
+   "primer_segundo": "El móvil cayendo al agua a cámara lenta, con burbujas entrando por el puerto de carga.",
+   "cifras": [
+    "Resistencia IP68: hasta 6 metros durante 30 minutos en muchos móviles de gama alta",
+    "Medidor de humedad dentro del puerto: el arroz apenas la baja",
+    "Tiempo recomendado de secado al aire (comprobar con fuentes)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: el gesto que todos hacemos está mal",
+    "Qué pasa dentro: juntas de goma y por qué el puerto es el punto débil",
+    "El aviso del móvil cuando detecta líquido en el conector",
+    "Por qué el arroz casi no absorbe el agua de dentro (y puede dejar polvo y granos)",
+    "Dato sorprendente: lo que de verdad recomiendan",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 10,
+    "primer_segundo": 9,
+    "ensenar": 7
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Desmonta un mito que todo el mundo conoce, y eso genera comentarios («yo siempre lo hago») y se comparte mucho.",
+   "competencia": "Hay vídeos de consejos, pero pocos enseñan por dentro qué hace el agua.",
+   "riesgos": "No dar consejos de reparación peligrosos (secadores calientes, abrir el móvil). Citar al fabricante sin enseñar su marca.",
+   "mejor_hora": "13:00",
+   "hashtags": [
+    "movil",
+    "trucos",
+    "mitos",
+    "agua",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "plegable",
+   "tema": "Cómo se dobla una pantalla de cristal",
+   "tipo": "actualidad",
+   "puntuacion": 80,
+   "por_que": "Los móviles plegables están en tendencia esta semana en YouTube España: vídeos de 4,6 M, 1,5 M y 740 mil vistas sobre un plegable nuevo y su resistencia.",
+   "senales": [
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "Vídeos sobre un plegable nuevo: 4,6 M, 1,5 M y 740 mil vistas (finales de octubre)"
+    },
+    {
+     "fuente": "Fabricante de pantallas",
+     "dato": "Cristal ultrafino probado durante más de 200.000 pliegues",
+     "url": "https://news.samsung.com/us/samsung-utg-glass-foldable-display-easily-bendable-ultra-thin-glass"
+    }
+   ],
+   "urgencia": "En los próximos días",
+   "angulo": "Comparar el grosor del cristal con un pelo en pantalla (contador de micras) y enseñar la bisagra y las capas que se doblan sin romperse.",
+   "titulo": "Este cristal se dobla 200.000 veces sin romperse 🤯 Así funciona una pantalla plegable",
+   "gancho": "El cristal de este móvil se dobla… y es más fino que un pelo.",
+   "primer_segundo": "Una pantalla doblándose en primer plano y un contador de pliegues girando a toda velocidad.",
+   "cifras": [
+    "Cristal ultrafino de unas 30 micras (comprobar)",
+    "Un pelo mide unas 70 micras",
+    "Más de 200.000 pliegues en las pruebas"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: un cristal que se dobla",
+    "Por qué el cristal normal se rompe",
+    "Cuanto más fino, más flexible: el truco del grosor",
+    "Capas: plástico protector, cristal, panel y bisagra",
+    "La bisagra que deja un hueco en forma de gota",
+    "Dato sorprendente: la máquina que lo dobla miles de veces",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 6,
+    "primer_segundo": 9,
+    "ensenar": 9
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Aprovecha el interés por el lanzamiento sin depender de una marca y tiene una imagen impactante en el primer segundo.",
+   "competencia": "Abundan las reseñas y las pruebas de tortura; pocos explican el cristal por dentro.",
+   "riesgos": "No enseñar ni nombrar marcas. Comprobar el grosor exacto del cristal antes del guion. Regla 1 a medias: no todo el mundo tiene un plegable, así que conviene conectarlo con «la pantalla que estás mirando ahora».",
+   "mejor_hora": "12:00 o 13:00",
+   "hashtags": [
+    "pantalla",
+    "tecnologia",
+    "cristal",
+    "movil",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "chatgpt",
+   "tema": "Cómo elige ChatGPT la siguiente palabra",
+   "tipo": "evergreen",
+   "puntuacion": 82,
+   "por_que": "ChatGPT está entre los artículos más leídos de Wikipedia en español (14 mil lecturas en un día) y casi todo el mundo lo ha usado.",
+   "senales": [
+    {
+     "fuente": "Wikipedia en español",
+     "dato": "«ChatGPT», 14.335 lecturas en un día"
+    },
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«Masterclass IA gratis: novedades de ChatGPT», 145 mil vistas"
+    }
+   ],
+   "urgencia": "Cuando quieras",
+   "angulo": "Enseñarlo con barras de probabilidad: la frase se escribe palabra a palabra y en cada paso aparecen candidatas con su porcentaje («casa 62 %, coche 21 %…»).",
+   "titulo": "ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona",
+   "gancho": "Cuando le preguntas algo a ChatGPT… no sabe cómo va a terminar su propia frase.",
+   "primer_segundo": "Texto escribiéndose solo y, encima de cada palabra, barras de porcentaje que suben y bajan.",
+   "cifras": [
+    "Porcentaje de cada palabra candidata (barras que cambian)",
+    "Trozos de palabra (tokens) que lee cada vez",
+    "Cuántas palabras escribe por segundo"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: no sabe cómo acabará la frase",
+    "Tu pregunta se trocea en tokens",
+    "Cada token se convierte en números",
+    "Barras de probabilidad: elige una palabra",
+    "Vuelve a empezar con la frase más larga",
+    "Dato sorprendente: por eso a veces se inventa cosas",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 8,
+    "primer_segundo": 8,
+    "ensenar": 10
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Es la tecnología de la que más se habla y casi nadie sabe cómo funciona. Las barras de porcentaje son perfectas para la regla 3.",
+   "competencia": "Hay explicaciones largas; en formato de 60 segundos y visual hay poco en español.",
+   "riesgos": "No enseñar el logotipo ni la interfaz real: usar un chat genérico. Simplificar sin decir cosas falsas.",
+   "mejor_hora": "13:00",
+   "hashtags": [
+    "inteligenciaartificial",
+    "chatgpt",
+    "tecnologia",
+    "comofunciona",
+    "ia"
+   ]
+  },
+  {
+   "id": "whatsapp",
+   "tema": "El viaje de un mensaje de WhatsApp (y por qué nadie más lo lee)",
+   "tipo": "evergreen",
+   "puntuacion": 78,
+   "por_que": "WhatsApp está entre lo más leído de Wikipedia en español (19 mil lecturas) y es la app que más usa el público en España.",
+   "senales": [
+    {
+     "fuente": "Wikipedia en español",
+     "dato": "«WhatsApp», 19.457 lecturas en un día"
+    },
+    {
+     "fuente": "Tu propio canal",
+     "dato": "Ya tienes un vídeo de WhatsApp (los cables submarinos), que rindió poco: este enfoque, el del candado, es más visual"
+    }
+   ],
+   "urgencia": "Cuando quieras",
+   "angulo": "Nuevo enfoque sobre WhatsApp: el candado. El mensaje se convierte en un galimatías que viaja por el servidor y solo el móvil de destino lo descifra.",
+   "titulo": "Tu mensaje de WhatsApp pasa por un servidor… y ni ellos lo pueden leer 🔒",
+   "gancho": "El mensaje que acabas de mandar ha cruzado medio mundo… y nadie, ni la propia app, puede leerlo.",
+   "primer_segundo": "Un dedo pulsando «enviar» y las letras del mensaje transformándose al momento en símbolos sin sentido.",
+   "cifras": [
+    "Unos 100.000 millones de mensajes al día (dato de la empresa, 2020: comprobar el actual)",
+    "Las dos marcas azules: enviado, entregado y leído",
+    "Tiempo que tarda en llegar"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: nadie puede leerlo",
+    "Tu móvil tiene dos llaves: una pública y una privada",
+    "El candado: cifrado de extremo a extremo",
+    "El servidor solo ve un galimatías",
+    "El móvil de destino lo abre con su llave",
+    "Dato sorprendente: las marcas azules",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 10,
+    "primer_segundo": 8,
+    "ensenar": 7
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Es la app que todos tienen abierta, y el tema de la privacidad provoca comentarios.",
+   "competencia": "Tema muy tratado en vídeos largos; poco visual en formato corto.",
+   "riesgos": "No enseñar el logotipo. Explicar el cifrado sin prometer seguridad absoluta (copias de seguridad, capturas de pantalla).",
+   "mejor_hora": "13:00 o 21:00",
+   "hashtags": [
+    "whatsapp",
+    "privacidad",
+    "tecnologia",
+    "comofunciona",
+    "movil"
+   ]
+  },
+  {
+   "id": "ventilador",
+   "tema": "Por qué un ventilador no enfría el aire",
+   "tipo": "nicho",
+   "puntuacion": 72,
+   "por_que": "«¿Cómo funciona un ventilador?» supera el millón de vistas esta semana. Es el mismo canal del cargador viral, lo que indica un patrón: objetos de casa.",
+   "senales": [
+    {
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«¿Cómo funciona un ventilador?», 1,05 M vistas (30 oct)"
+    }
+   ],
+   "urgencia": "Cuando quieras (mejor en primavera)",
+   "angulo": "Un termómetro en pantalla que no baja ni un grado mientras sopla el ventilador, y otro en la piel que sí baja por la evaporación del sudor.",
+   "titulo": "Tu ventilador no enfría el aire… y aun así te refresca 🌀",
+   "gancho": "Pon un termómetro delante de tu ventilador… y verás que no baja ni un grado.",
+   "primer_segundo": "Aspas girando en primer plano y un termómetro con la cifra quieta.",
+   "cifras": [
+    "Temperatura del aire: igual con y sin ventilador",
+    "Temperatura de la piel: baja varios grados",
+    "Vueltas por minuto del motor"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: el termómetro no baja",
+    "El motor y las aspas empujan el aire",
+    "La capa de aire caliente pegada a tu piel",
+    "El sudor se evapora más rápido",
+    "Dato sorprendente: en una habitación vacía, el ventilador calienta un poco",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "primer_segundo": 7,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Choca con lo que la gente cree y se entiende con dos termómetros.",
+   "competencia": "Un short de 1 M esta semana: dejar pasar unos meses o darle otro ángulo.",
+   "riesgos": "En noviembre el interés por el calor es bajo; guárdalo para mayo.",
+   "mejor_hora": "13:00",
+   "hashtags": [
+    "ventilador",
+    "calor",
+    "fisica",
+    "comofunciona",
+    "ciencia"
+   ]
+  },
+  {
+   "id": "lavavajillas",
+   "tema": "Lo que hace el lavavajillas cuando cierras la puerta",
+   "tipo": "nicho",
+   "puntuacion": 70,
+   "por_que": "Electrodomésticos por dentro funcionan en el nicho esta semana: lavavajillas (77 mil) y váter (203 mil), en canales pequeños.",
+   "senales": [
+    {
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«¿Cómo funciona por dentro un lavavajillas?», 77 mil vistas; «¿Cómo funciona un excusado?», 203 mil"
+    }
+   ],
+   "urgencia": "Cuando quieras",
+   "angulo": "Corte del lavavajillas con el contador de litros: usa mucha menos agua que fregar a mano porque la recircula.",
+   "titulo": "Tu lavavajillas gasta menos agua que tú fregando a mano 💧 Así funciona",
+   "gancho": "Cada vez que friegas a mano gastas más agua… que esta máquina en un lavado entero.",
+   "primer_segundo": "Brazos aspersores girando a toda velocidad con chorros de agua sobre los platos.",
+   "cifras": [
+    "Litros por lavado frente a fregar a mano (comprobar)",
+    "Temperatura del agua",
+    "Vueltas del brazo aspersor"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: gasta menos agua que tú",
+    "Entra el agua y se calienta",
+    "La bomba la lanza por los brazos que giran solos",
+    "El agua cae, se filtra y vuelve a subir",
+    "Pastilla, aclarado y secado",
+    "Dato sorprendente: el agua que recicla",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "primer_segundo": 8,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Objeto de casa con un dato que sorprende y genera debate en los comentarios.",
+   "competencia": "Pocos vídeos en español y con poco alcance: hay hueco.",
+   "riesgos": "Comprobar las cifras de consumo con fuentes fiables.",
+   "mejor_hora": "13:00",
+   "hashtags": [
+    "lavavajillas",
+    "cocina",
+    "agua",
+    "comofunciona",
+    "casa"
+   ]
+  },
+  {
+   "id": "bunker",
+   "tema": "¿Y si construyes un búnker bajo tierra?",
+   "tipo": "nicho",
+   "puntuacion": 66,
+   "por_que": "«Cómo funciona un búnker nuclear» tiene 1,5 M de vistas esta semana. Encaja con tu formato C (construcción en corte).",
+   "senales": [
+    {
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«Cómo funciona un búnker nuclear», 1,49 M vistas (29 oct)"
+    }
+   ],
+   "urgencia": "Cuando quieras",
+   "angulo": "Formato C: cada capa resuelve un problema (tierra que pesa, aire, agua, calor), con medidores de presión y de aire.",
+   "titulo": "¿Y si construyes un búnker? Cada metro de tierra resuelve un problema 🏗️",
+   "gancho": "Para vivir bajo tierra no basta con cavar… el primer problema aparece a los dos metros.",
+   "primer_segundo": "Una excavadora abriendo el suelo en corte, con un medidor de profundidad bajando.",
+   "cifras": [
+    "Metros de profundidad",
+    "Toneladas de tierra encima",
+    "Renovaciones de aire por hora"
+   ],
+   "formato": "C",
+   "estructura": [
+    "Gancho: cavar no basta",
+    "La tierra empuja: muros de hormigón armado",
+    "Sin aire: ventilación con filtros",
+    "El agua del terreno: drenaje y bombas",
+    "Puertas pesadas y entrada en zigzag",
+    "Dato sorprendente",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 3,
+    "primer_segundo": 8,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "El formato C ya te funciona (por ejemplo, el rascacielos) y el tema tiene demanda.",
+   "competencia": "Un viral de 1,5 M esta semana.",
+   "riesgos": "Regla 1 baja: no es algo cotidiano. Evitar el tono alarmista sobre guerras.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "bunker",
+    "construccion",
+    "ingenieria",
+    "comofunciona",
+    "bajotierra"
+   ]
+  }
+ ],
+ "descartadas": [
+  {
+   "tema": "Famosos y televisión (Antonio Banderas, Telecinco, Roberto Leal, Pepe Rodríguez…)",
+   "motivo": "Personas y programas de televisión: no hay un mecanismo que explicar."
+  },
+  {
+   "tema": "Twitch / embajador de una sala de póquer",
+   "motivo": "Relacionado con apuestas: fuera de las normas de la cuenta."
+  },
+  {
+   "tema": "Elecciones en Estados Unidos y política",
+   "motivo": "Política: no encaja con la cuenta."
+  },
+  {
+   "tema": "Accidente ferroviario",
+   "motivo": "Tema sensible con víctimas: no se hace contenido de entretenimiento sobre ello."
+  },
+  {
+   "tema": "Fútbol (Champions, clubes, jugadores)",
+   "motivo": "Resultados deportivos, no mecanismos."
+  },
+  {
+   "tema": "Silenciador de armas",
+   "motivo": "Armas: fuera de la línea de la cuenta."
+  },
+  {
+   "tema": "Escalera mecánica y váter",
+   "motivo": "Ya los tienes hechos («escalera» y «cisterna»)."
+  }
+ ]
+}

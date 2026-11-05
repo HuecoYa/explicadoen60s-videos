@@ -39,8 +39,11 @@ def google_trends():
 
 
 def wikipedia():
-    ayer = (ahora() - dt.timedelta(days=1)).strftime("%Y/%m/%d")
-    r = requests.get(f"https://wikimedia.org/api/rest_v1/metrics/pageviews/top/es.wikipedia/all-access/{ayer}", headers=UA, timeout=60)
+    for dias in (1, 2, 3):   # el dato de ayer a veces aún no está publicado
+        dia = (ahora() - dt.timedelta(days=dias)).strftime("%Y/%m/%d")
+        r = requests.get(f"https://wikimedia.org/api/rest_v1/metrics/pageviews/top/es.wikipedia/all-access/{dia}", headers=UA, timeout=60)
+        if r.status_code != 404:
+            break
     r.raise_for_status()
     fuera = ("Especial:", "Wikipedia:", "Anexo:", "Portal:", "Ayuda:", "Categoría:", "Archivo:")
     art = [a for a in r.json()["items"][0]["articles"] if not a["article"].startswith(fuera) and a["article"] not in ("Wikipedia", "Main_Page")]
