@@ -1,3 +1,15 @@
 {
- "ideas": []
+ "ideas": [
+  {
+   "id": "imw2sr0vy",
+   "texto": "ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona",
+   "prioridad": "alta",
+   "origen": "tendencia: Cómo elige ChatGPT la siguiente palabra",
+   "notas": "Cómo elige ChatGPT la siguiente palabra (82/100)\n\nChatGPT está entre los artículos más leídos de Wikipedia en español (14 mil lecturas en un día) y casi todo el mundo lo ha usado.\n\nEnfoque: Enseñarlo con barras de probabilidad: la frase se escribe palabra a palabra y en cada paso aparecen candidatas con su porcentaje («casa 62 %, coche 21 %…»).\n\nTítulo: ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona\n\nGancho: Cuando le preguntas algo a ChatGPT… no sabe cómo va a terminar su propia frase.\n\nPrimer segundo: Texto escribiéndose solo y, encima de cada palabra, barras de porcentaje que suben y bajan.\n\nCifras: Porcentaje de cada palabra candidata (barras que cambian) · Trozos de palabra (tokens) que lee cada vez · Cuántas palabras escribe por segundo\n\nEstructura:\n1. Gancho: no sabe cómo acabará la frase\n2. Tu pregunta se trocea en tokens\n3. Cada token se convierte en números\n4. Barras de probabilidad: elige una palabra\n5. Vuelve a empezar con la frase más larga\n6. Dato sorprendente: por eso a veces se inventa cosas\n7. Cierre: Sígueme para más.\n\nFormato: A\n\n#inteligenciaartificial #chatgpt #tecnologia #comofunciona #ia",
+   "tendencia": "chatgpt",
+   "por": "Nikoloz_Lekishvili",
+   "fecha": "2026-11-05T00:17:47.326Z",
+   "estado": "pendiente"
+  }
+ ]
 }
