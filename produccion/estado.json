@@ -473,7 +473,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 9,
@@ -488,7 +488,9 @@
     "La sal que le echas al lavavajillas no sirve para lavar.",
     "El brazo de tu lavavajillas gira solo… y nadie lo empuja."
    ],
-   "tendencia": "Lo que hace el lavavajillas cuando cierras la puerta"
+   "tendencia": "Lo que hace el lavavajillas cuando cierras la puerta",
+   "aprobado": "2026-11-05T15:43:29.594Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "pozo",
