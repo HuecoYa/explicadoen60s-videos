@@ -496,7 +496,7 @@
    "id": "pozo",
    "formato": "C",
    "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "guion": "¿Y si construyes un pozo para sacar agua de debajo de tu casa? Primero, perforas. Una broca gira y baja metro a metro. A veinte metros… encuentras arena empapada: el agua subterránea. Pero las paredes del agujero se desmoronan hacia dentro. Así que metes un tubo de unos quince centímetros de ancho. Pero el tubo está cerrado, y el agua no puede entrar. Así que, en el fondo, pones un tramo lleno de ranuras finísimas: la rejilla. Deja pasar el agua, pero no la arena. Y alrededor, rellenas con grava, que hace de colador. Arriba, sellas con cemento, para que no se cuele agua sucia de la superficie. Ahora, ¿cómo la subes? Podrías poner arriba una bomba que aspire. Pero aquí viene lo curioso… Aspirando, el agua nunca sube más de unos diez metros. En realidad es el aire de la atmósfera el que la empuja, y no da para más. Así que bajas la bomba hasta el fondo, sumergida. Y en vez de tirar del agua, la empuja hacia arriba. Pero al bombear, el agua de alrededor baja, y forma un embudo bajo tierra. Si bombeas demasiado rápido, el embudo crece… y puedes secar el pozo del vecino. Por eso se mide y se controla cuánta agua sacas. Sígueme para más.",
+   "guion": "Debajo de tu casa hay agua… ¿cómo la sacarías? Primero, perforas. Una broca gira y baja metro a metro. A veinte metros… encuentras arena empapada: el agua subterránea. Pero las paredes del agujero se desmoronan hacia dentro. Así que metes un tubo de unos quince centímetros de ancho. Pero el tubo está cerrado, y el agua no puede entrar. Así que, en el fondo, pones un tramo lleno de ranuras finísimas: la rejilla. Deja pasar el agua, pero no la arena. Y alrededor, rellenas con grava, que hace de colador. Arriba, sellas con cemento, para que no se cuele agua sucia de la superficie. Ahora, ¿cómo la subes? Podrías poner arriba una bomba que aspire. Pero aquí viene lo curioso… Aspirando, el agua nunca sube más de unos diez metros. En realidad es el aire de la atmósfera el que la empuja, y no da para más. Así que bajas la bomba hasta el fondo, sumergida. Y en vez de tirar del agua, la empuja hacia arriba. Pero al bombear, el agua de alrededor baja, y forma un embudo bajo tierra. Si bombeas demasiado rápido, el embudo crece… y puedes secar el pozo del vecino. Por eso se mide y se controla cuánta agua sacas. Sígueme para más.",
    "texto": "Aspirando, ninguna bomba puede subir agua más de unos 10 metros. ¿Sabías por qué? 👇",
    "tags": [
     "pozo",
@@ -505,7 +505,7 @@
     "ingenieria",
     "ciencia"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 6,
@@ -519,7 +519,9 @@
     "¿Y si construyes un pozo para sacar agua de debajo de tu casa?",
     "Ninguna bomba puede aspirar agua desde más de diez metros.",
     "Debajo de tu casa hay agua… ¿cómo la sacarías?"
-   ]
+   ],
+   "aprobado": "2026-11-05T15:43:41.559Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   }
  ]
 }
