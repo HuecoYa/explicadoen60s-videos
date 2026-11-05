@@ -1,7 +1,57 @@
 {
- "actualizado": "2026-11-04T23:47:43.990123+00:00",
- "errores": {},
+ "actualizado": "2026-11-05T00:02:12.196994+00:00",
+ "errores": {
+  "wikipedia": "404 Client Error: Not Found for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/top/es.wikipedia/all-access/2026/11/04"
+ },
  "google_trends": [
+  {
+   "tema": "gabriel rufián",
+   "busquedas": "500+",
+   "busquedas_n": 500,
+   "fecha": "Wed, 4 Nov 2026 15:40:00 -0800",
+   "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLA5bLrxxmC7mfCVT4ZlfYHsut116FvmQZug_rwy-WAgGmhU8UJPfkHMsZmCE",
+   "noticias": [
+    {
+     "titulo": "Fue el primero en saludar a Puente tras anunciar su dimisión: lo que le dice Rufián no va a dejar indiferente",
+     "url": "https://as.com/actualidad/fue-el-primero-en-saludar-a-puente-tras-anunciar-su-dimision-lo-que-le-dice-rufian-no-va-a-dejar-indiferente-a-nadie-f202611-v/",
+     "fuente": "Diario AS"
+    },
+    {
+     "titulo": "Sin Puente serán los mismos, con más años y más odios",
+     "url": "https://www.elmundo.es/opinion/columnistas/2026/11/04/6aeb0ee9e9cf4abd768b459b.html",
+     "fuente": "El Mundo"
+    },
+    {
+     "titulo": "El discurso de Gabriel Rufián a Óscar Puente por el accidente ferroviario va a recorrer España: la cara del ministro lo dice todo",
+     "url": "https://www.huffingtonpost.es/virales/el-discurso-gabriel-rufian-oscar-puente-accidente-ferroviario-cara-ministro-dice-f202611.html",
+     "fuente": "El HuffPost"
+    }
+   ]
+  },
+  {
+   "tema": "pablo ojeda",
+   "busquedas": "100+",
+   "busquedas_n": 100,
+   "fecha": "Wed, 4 Nov 2026 15:40:00 -0800",
+   "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRluus0cSw5B49YW0iHp4P30MIBws0hyfAj-rJVDF0u0J8mxtKSZFUVCRPXTo",
+   "noticias": [
+    {
+     "titulo": "Pablo Ojeda, nutricionista: “Las sardinas en lata son uno de los alimentos más antiinflamatorios que existen y son muy ricas en omega-3”",
+     "url": "https://www.lavanguardia.com/magazine/bienestar/20261102/11674158/pablo-ojeda-nutricionista-las-sardinas-en-lata-son-uno-de-los-alimentos-mas-antiinflamatorios-que-existen-y-son-muy-ricas-en-omega-3-gvm.html",
+     "fuente": "La Vanguardia"
+    },
+    {
+     "titulo": "Sardinas en lata: tres nutrientes esenciales sin encender el fuego",
+     "url": "https://www.elconfidencialdigital.com/articulo/gourmet/sardinas-lata-omega-3-calcio-vitamina-d-cocinar/202611030927141498817.html",
+     "fuente": "Confidencial Digital"
+    },
+    {
+     "titulo": "Pablo Ojeda, nutricionista: “Las sardinas en lata son uno de los alimentos más antiinflamatorios que existen y son muy ricas en omega 3”",
+     "url": "https://www.directoalpaladar.com/salud/pablo-ojeda-nutricionista-sardinas-lata-uno-alimentos-antiinflamatorios-que-existen-muy-ricas-omega-3",
+     "fuente": "Directo al Paladar"
+    }
+   ]
+  },
   {
    "tema": "twitch",
    "busquedas": "2000+",
@@ -55,22 +105,22 @@
    "busquedas": "1000+",
    "busquedas_n": 1000,
    "fecha": "Wed, 4 Nov 2026 14:50:00 -0800",
-   "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcufG1RsbiIa7bb008JIrvXb5OdEzib3Y5TG4Ixy75eH0iqJ5njZSchdaQXm0",
+   "imagen": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6nJr4SIAOXD6TE_T20ySIT95MsyOwtT43Wvk7krCxinXl-1aKNRU_r56ydfs",
    "noticias": [
     {
-     "titulo": "Altro che Viola (come il mare), chi è Arianna Aragón, la fidanzata attrice di Rodrigo Guirao",
-     "url": "https://www.elle.com/it/showbiz/celebrities/a74321972/rodrigo-guirao-viola-come-il-mare-fidanzata-arianna-aragon/",
-     "fuente": "ELLE"
+     "titulo": "My Sweet Lie, la puntata del 5 novembre in streaming",
+     "url": "https://mediasetinfinity.mediaset.it/news/mediasetinfinity/mysweetlie/my-sweet-lie-puntata-5-novembre-streaming_SE000000002715_t1QeA5Frw4F9rwaQMPLn8Zn",
+     "fuente": "Mediaset Infinity"
     },
     {
-     "titulo": "Dove è stato girato \"Viola come il mare\" con Francesca Chillemi e Can Yaman?",
-     "url": "https://www.immobiliare.it/news/vivere-a/italia/dove-e-stato-girato-viola-come-il-mare-con-francesca-chillemi-e-can-yaman-589689/",
-     "fuente": "Immobiliare.it"
+     "titulo": "My Sweet Lie, anticipazioni 2-6 novembre: Aylin ottiene Kayra, Nejat decide di fuggire con Suna",
+     "url": "https://www.ilmessaggero.it/schede/my_sweet_lie_anticipazioni_oggi_domani_2_3_4_5_6_novembre-9864073.html",
+     "fuente": "Il Messaggero"
     },
     {
-     "titulo": "Lorenzo Scalzo, il Raffaele di ‘Viola come il mare 3’: “Recitando sono me stesso senza esserlo”",
-     "url": "https://www.virgilio.it/notizie/lorenzo-scalzo-il-raffaele-di-viola-come-il-mare-3-recitare-essere-se-stessi-senza-esserlo-1793074",
-     "fuente": "Virgilio"
+     "titulo": "My Sweet Lie, anticipazioni del 2 novembre 2026: Aylin e Nejat trattano con gli avvocati sull'affido di Kayra",
+     "url": "https://zon.it/my-sweet-lie-anticipazioni-2-novembre-affido-kayra/",
+     "fuente": "ZON.it"
     }
    ]
   },
@@ -147,30 +197,6 @@
    ]
   },
   {
-   "tema": "posiciones de fc porto contra ssc napoli",
-   "busquedas": "500+",
-   "busquedas_n": 500,
-   "fecha": "Wed, 4 Nov 2026 14:20:00 -0800",
-   "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSo1pReWl1EvhFOsVLOaTnLyy4DNIrDt4Gd5en4xzI8HgGRLi9Sa6ZF_Eino3M",
-   "noticias": [
-    {
-     "titulo": "Porto 4-1 Napoli: Portuguese side gain first Champions League win of season",
-     "url": "https://www.bbc.com/sport/football/live/cqvg0z3x9k77t",
-     "fuente": "BBC"
-    },
-    {
-     "titulo": "UCL | FC Porto 4-1 Napoli: Error prone Partenopei collapse in Porto",
-     "url": "https://sports.yahoo.com/articles/ucl-fc-porto-4-1-215800311.html",
-     "fuente": "Yahoo Sports"
-    },
-    {
-     "titulo": "Champions League Liveblog: FC Porto vs. Napoli, RC Lens vs. Como",
-     "url": "https://football-italia.net/champions-league-live-porto-napoli-lens-como/",
-     "fuente": "Football Italia"
-    }
-   ]
-  },
-  {
    "tema": "roberto leal",
    "busquedas": "500+",
    "busquedas_n": 500,
@@ -217,232 +243,6 @@
      "fuente": "Dark Horizons"
     }
    ]
-  },
-  {
-   "tema": "pepe rodríguez",
-   "busquedas": "200+",
-   "busquedas_n": 200,
-   "fecha": "Wed, 4 Nov 2026 14:10:00 -0800",
-   "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSsl_BQr7d27Pza53CNPxKpHfAnoEKdYHKBgsoxYr5xpan_1MHzg8EEuknx6TU",
-   "noticias": [
-    {
-     "titulo": "Vídeo: Vídeo | Entrevista a Pepe Rodríguez, cocinero y juez de Masterchef",
-     "url": "https://www.heraldo.es/gastronomia/video-entrevista-pepe-rodriguez-cocinero-juez-masterchef-2065757-2.html",
-     "fuente": "heraldo.es"
-    },
-    {
-     "titulo": "El restaurante donde paran Jorge Azcón y Pepe Rodríguez: más de 30 años de historia y famoso por su ternasco",
-     "url": "https://www.elespanol.com/aragon/vivir/20261104/restaurante-paran-jorge-azcon-pepe-rodriguez-anos-historia-famoso-ternasco/1003744446431_0.html",
-     "fuente": "El Español"
-    },
-    {
-     "titulo": "El restaurante favorito de Pepe Rodríguez (MasterChef) está en el centro de Zaragoza: \"¡Menos mal que no ha venido con el delantal negro!\"",
-     "url": "https://www.elperiodicodearagon.com/zaragoza/2026/11/04/restaurante-favorito-pepe-rodriguez-centro-dv-136074104.html",
-     "fuente": "El Periódico de Aragón"
-    }
-   ]
-  }
- ],
- "wikipedia": [
-  {
-   "tema": "Jesús de Miguel Alameda",
-   "lecturas": 367049,
-   "url": "https://es.wikipedia.org/wiki/Jesús_de_Miguel_Alameda"
-  },
-  {
-   "tema": "Jesús Owono",
-   "lecturas": 161880,
-   "url": "https://es.wikipedia.org/wiki/Jesús_Owono"
-  },
-  {
-   "tema": "Óscar Puente",
-   "lecturas": 48148,
-   "url": "https://es.wikipedia.org/wiki/Óscar_Puente"
-  },
-  {
-   "tema": "Almudena Ariza",
-   "lecturas": 21384,
-   "url": "https://es.wikipedia.org/wiki/Almudena_Ariza"
-  },
-  {
-   "tema": "Donald Trump",
-   "lecturas": 20156,
-   "url": "https://es.wikipedia.org/wiki/Donald_Trump"
-  },
-  {
-   "tema": "WhatsApp",
-   "lecturas": 19457,
-   "url": "https://es.wikipedia.org/wiki/WhatsApp"
-  },
-  {
-   "tema": "Elecciones intermedias en los Estados Unidos",
-   "lecturas": 18620,
-   "url": "https://es.wikipedia.org/wiki/Elecciones_intermedias_en_los_Estados_Unidos"
-  },
-  {
-   "tema": "Brian Fariñas Pérez",
-   "lecturas": 18324,
-   "url": "https://es.wikipedia.org/wiki/Brian_Fariñas_Pérez"
-  },
-  {
-   "tema": "Elecciones a la Cámara de Representantes de los Estados Unidos de 2026",
-   "lecturas": 18103,
-   "url": "https://es.wikipedia.org/wiki/Elecciones_a_la_Cámara_de_Representantes_de_los_Estados_Unidos_de_2026"
-  },
-  {
-   "tema": "ChatGPT",
-   "lecturas": 14335,
-   "url": "https://es.wikipedia.org/wiki/ChatGPT"
-  },
-  {
-   "tema": "Partido Demócrata (Estados Unidos)",
-   "lecturas": 13340,
-   "url": "https://es.wikipedia.org/wiki/Partido_Demócrata_(Estados_Unidos)"
-  },
-  {
-   "tema": "Martín de Porres",
-   "lecturas": 12745,
-   "url": "https://es.wikipedia.org/wiki/Martín_de_Porres"
-  },
-  {
-   "tema": "Club Deportivo Tenerife",
-   "lecturas": 12181,
-   "url": "https://es.wikipedia.org/wiki/Club_Deportivo_Tenerife"
-  },
-  {
-   "tema": "Antonio Navarro Wolff",
-   "lecturas": 11705,
-   "url": "https://es.wikipedia.org/wiki/Antonio_Navarro_Wolff"
-  },
-  {
-   "tema": "Inés Gómez Mont",
-   "lecturas": 11549,
-   "url": "https://es.wikipedia.org/wiki/Inés_Gómez_Mont"
-  },
-  {
-   "tema": "Aston Villa Football Club",
-   "lecturas": 11536,
-   "url": "https://es.wikipedia.org/wiki/Aston_Villa_Football_Club"
-  },
-  {
-   "tema": "Partido Republicano (Estados Unidos)",
-   "lecturas": 11166,
-   "url": "https://es.wikipedia.org/wiki/Partido_Republicano_(Estados_Unidos)"
-  },
-  {
-   "tema": "Arroba (símbolo)",
-   "lecturas": 11002,
-   "url": "https://es.wikipedia.org/wiki/Arroba_(símbolo)"
-  },
-  {
-   "tema": "Romina Ricci",
-   "lecturas": 10822,
-   "url": "https://es.wikipedia.org/wiki/Romina_Ricci"
-  },
-  {
-   "tema": "Futbol Club Andorra",
-   "lecturas": 10483,
-   "url": "https://es.wikipedia.org/wiki/Futbol_Club_Andorra"
-  },
-  {
-   "tema": "Accidente ferroviario de Santiago de Compostela",
-   "lecturas": 10078,
-   "url": "https://es.wikipedia.org/wiki/Accidente_ferroviario_de_Santiago_de_Compostela"
-  },
-  {
-   "tema": "Miguel de Unamuno",
-   "lecturas": 10052,
-   "url": "https://es.wikipedia.org/wiki/Miguel_de_Unamuno"
-  },
-  {
-   "tema": "Andrea Kimi Antonelli",
-   "lecturas": 9796,
-   "url": "https://es.wikipedia.org/wiki/Andrea_Kimi_Antonelli"
-  },
-  {
-   "tema": "Tabla periódica de los elementos",
-   "lecturas": 9496,
-   "url": "https://es.wikipedia.org/wiki/Tabla_periódica_de_los_elementos"
-  },
-  {
-   "tema": "Gmail",
-   "lecturas": 9029,
-   "url": "https://es.wikipedia.org/wiki/Gmail"
-  },
-  {
-   "tema": "The Legend of Zelda: Ocarina of Time",
-   "lecturas": 8848,
-   "url": "https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
-  },
-  {
-   "tema": "Día de Muertos",
-   "lecturas": 8725,
-   "url": "https://es.wikipedia.org/wiki/Día_de_Muertos"
-  },
-  {
-   "tema": "Zion Suzuki",
-   "lecturas": 8636,
-   "url": "https://es.wikipedia.org/wiki/Zion_Suzuki"
-  },
-  {
-   "tema": "Cristina Fernández Cubas",
-   "lecturas": 8544,
-   "url": "https://es.wikipedia.org/wiki/Cristina_Fernández_Cubas"
-  },
-  {
-   "tema": "León XIV",
-   "lecturas": 8046,
-   "url": "https://es.wikipedia.org/wiki/León_XIV"
-  },
-  {
-   "tema": "Google",
-   "lecturas": 7756,
-   "url": "https://es.wikipedia.org/wiki/Google"
-  },
-  {
-   "tema": "Felipe Miñambres",
-   "lecturas": 7587,
-   "url": "https://es.wikipedia.org/wiki/Felipe_Miñambres"
-  },
-  {
-   "tema": "La venganza del Charro Negro",
-   "lecturas": 7439,
-   "url": "https://es.wikipedia.org/wiki/La_venganza_del_Charro_Negro"
-  },
-  {
-   "tema": "Unai Emery",
-   "lecturas": 7337,
-   "url": "https://es.wikipedia.org/wiki/Unai_Emery"
-  },
-  {
-   "tema": "Facebook",
-   "lecturas": 7260,
-   "url": "https://es.wikipedia.org/wiki/Facebook"
-  },
-  {
-   "tema": "Cayetana Álvarez de Toledo",
-   "lecturas": 6622,
-   "url": "https://es.wikipedia.org/wiki/Cayetana_Álvarez_de_Toledo"
-  },
-  {
-   "tema": "Wildwood (película de 2026)",
-   "lecturas": 6475,
-   "url": "https://es.wikipedia.org/wiki/Wildwood_(película_de_2026)"
-  },
-  {
-   "tema": "Matthew Perry (actor)",
-   "lecturas": 6376,
-   "url": "https://es.wikipedia.org/wiki/Matthew_Perry_(actor)"
-  },
-  {
-   "tema": "Elecciones al Senado de los Estados Unidos de 2026",
-   "lecturas": 6356,
-   "url": "https://es.wikipedia.org/wiki/Elecciones_al_Senado_de_los_Estados_Unidos_de_2026"
-  },
-  {
-   "tema": "Pau Torres",
-   "lecturas": 6262,
-   "url": "https://es.wikipedia.org/wiki/Pau_Torres"
   }
  ],
  "youtube": {
@@ -450,8 +250,8 @@
    {
     "titulo": "C. Tangana, Agorazein - Milko Freestyle (Video Oficial)",
     "canal": "CTanganaVEVO",
-    "vistas": 605270,
-    "likes": 35322,
+    "vistas": 613135,
+    "likes": 35440,
     "duracion": "PT2M11S",
     "fecha": "2026-11-03T23:00:15Z",
     "url": "https://www.youtube.com/watch?v=DttlD1UaJu0"
@@ -459,8 +259,8 @@
    {
     "titulo": "EN NOMBRE DE OTRO | Avance Oficial | Netflix España",
     "canal": "Netflix España",
-    "vistas": 13680,
-    "likes": 176,
+    "vistas": 14014,
+    "likes": 177,
     "duracion": "PT1M17S",
     "fecha": "2026-11-04T10:00:00Z",
     "url": "https://www.youtube.com/watch?v=XZ2y5S_ShFc"
@@ -468,8 +268,8 @@
    {
     "titulo": "ESTAFÉ A FAMOSOS PARA HACERME MILLONARIO",
     "canal": "Auron",
-    "vistas": 1760225,
-    "likes": 39812,
+    "vistas": 1771739,
+    "likes": 39942,
     "duracion": "PT52M30S",
     "fecha": "2026-11-03T18:30:01Z",
     "url": "https://www.youtube.com/watch?v=2AY3u6LkKW8"
@@ -477,8 +277,8 @@
    {
     "titulo": "DONDE ESTAN? cap. 11 - YOLAMASCARA FT 50 CENT",
     "canal": "YOLAMASCARA",
-    "vistas": 86369,
-    "likes": 4532,
+    "vistas": 88516,
+    "likes": 4599,
     "duracion": "PT2M40S",
     "fecha": "2026-11-03T23:00:06Z",
     "url": "https://www.youtube.com/watch?v=3ZPHmzC7F9Q"
@@ -486,8 +286,8 @@
    {
     "titulo": "Lords of War | Official Teaser #1 (HD) | Vertical",
     "canal": "Vertical",
-    "vistas": 180062,
-    "likes": 3269,
+    "vistas": 188076,
+    "likes": 3324,
     "duracion": "PT44S",
     "fecha": "2026-11-04T15:55:13Z",
     "url": "https://www.youtube.com/watch?v=6ANmtY7Xtwg"
@@ -495,8 +295,8 @@
    {
     "titulo": "Lo del TOKEN PIRATA es SALVAJE (0.001%)",
     "canal": "Rubius Z",
-    "vistas": 826636,
-    "likes": 35091,
+    "vistas": 889726,
+    "likes": 35887,
     "duracion": "PT26M41S",
     "fecha": "2026-11-04T17:03:19Z",
     "url": "https://www.youtube.com/watch?v=mQ4tEB2UUfw"
@@ -504,8 +304,8 @@
    {
     "titulo": "Gonzy, Sech - Conquistador",
     "canal": "Gonzy",
-    "vistas": 78248,
-    "likes": 5028,
+    "vistas": 79011,
+    "likes": 5054,
     "duracion": "PT3M55S",
     "fecha": "2026-11-03T20:00:10Z",
     "url": "https://www.youtube.com/watch?v=h-hYRw1Llg4"
@@ -513,8 +313,8 @@
    {
     "titulo": "El nuevo teaser de Elder Scrolls VI Sentinel es MUY preocupante",
     "canal": "Chicocartera",
-    "vistas": 30611,
-    "likes": 1030,
+    "vistas": 30661,
+    "likes": 1031,
     "duracion": "PT17M8S",
     "fecha": "2026-11-03T16:36:07Z",
     "url": "https://www.youtube.com/watch?v=a0JJKaDHO_k"
@@ -522,8 +322,8 @@
    {
     "titulo": "NUNCA NADES EN ESTA PISCINA | Pool Loops",
     "canal": "Iker Unzu",
-    "vistas": 474703,
-    "likes": 13605,
+    "vistas": 501318,
+    "likes": 13810,
     "duracion": "PT24M46S",
     "fecha": "2026-11-04T15:00:31Z",
     "url": "https://www.youtube.com/watch?v=8-1PT2vJ4xE"
@@ -531,8 +331,8 @@
    {
     "titulo": "PARADIXE (REMIX)",
     "canal": "Feid - Topic",
-    "vistas": 156521,
-    "likes": 4202,
+    "vistas": 160975,
+    "likes": 4239,
     "duracion": "PT4M21S",
     "fecha": "2026-11-03T23:42:26Z",
     "url": "https://www.youtube.com/watch?v=XksbFiEb9Wk"
@@ -540,8 +340,8 @@
    {
     "titulo": "Character Trailer - \"Mitya: Everything's in Order\" | Genshin Impact #Mitya #GenshinSnezhnaya",
     "canal": "Genshin Impact",
-    "vistas": 870703,
-    "likes": 81634,
+    "vistas": 872413,
+    "likes": 81663,
     "duracion": "PT2M51S",
     "fecha": "2026-11-03T04:00:24Z",
     "url": "https://www.youtube.com/watch?v=9OHKzmmq2e8"
@@ -549,8 +349,8 @@
    {
     "titulo": "Pokémon Super L Ep.5 - NUNCA EN MIS 15 AÑOS ME HABIA PASADO ALGO ASÍ.",
     "canal": "Folagor03",
-    "vistas": 151375,
-    "likes": 14780,
+    "vistas": 156705,
+    "likes": 14930,
     "duracion": "PT1H6M58S",
     "fecha": "2026-11-04T15:16:47Z",
     "url": "https://www.youtube.com/watch?v=-OPJ8XthhNM"
@@ -558,8 +358,8 @@
    {
     "titulo": "FOYONE - POSESION",
     "canal": "FOYONE",
-    "vistas": 49892,
-    "likes": 2271,
+    "vistas": 50076,
+    "likes": 2273,
     "duracion": "PT2M54S",
     "fecha": "2026-11-03T19:23:09Z",
     "url": "https://www.youtube.com/watch?v=-a1fjXfnjb8"
@@ -567,8 +367,8 @@
    {
     "titulo": "LAS NUEVAS DESVENTURAS DE CLIFF BOOTH Tráiler Oficial Español (2026) Brad Pitt",
     "canal": "Trailers In Spanish",
-    "vistas": 10235,
-    "likes": 140,
+    "vistas": 10338,
+    "likes": 139,
     "duracion": "PT1M50S",
     "fecha": "2026-11-04T08:58:45Z",
     "url": "https://www.youtube.com/watch?v=6lHHi-UkRtg"
@@ -576,8 +376,8 @@
    {
     "titulo": "Gus's Origin Story! (Brawl Stars Animation)",
     "canal": "Brawl Stars",
-    "vistas": 9469122,
-    "likes": 365015,
+    "vistas": 9476973,
+    "likes": 365074,
     "duracion": "PT2M35S",
     "fecha": "2026-11-02T08:00:26Z",
     "url": "https://www.youtube.com/watch?v=t6ySEQzL1yE"
@@ -585,8 +385,8 @@
    {
     "titulo": "Camela - Cosas del amor (Videoclip Oficial)",
     "canal": "Camela",
-    "vistas": 25491,
-    "likes": 1034,
+    "vistas": 25796,
+    "likes": 1033,
     "duracion": "PT3M24S",
     "fecha": "2026-11-03T23:00:33Z",
     "url": "https://www.youtube.com/watch?v=d-DtDIgJn5U"
@@ -594,8 +394,8 @@
    {
     "titulo": "AVENGERS 5: DOOMSDAY Official “Gambit Meets Herbie\" Promo Clip (2026)",
     "canal": "KinoCheck.com",
-    "vistas": 647684,
-    "likes": 8713,
+    "vistas": 656046,
+    "likes": 8774,
     "duracion": "PT1M51S",
     "fecha": "2026-11-04T11:24:39Z",
     "url": "https://www.youtube.com/watch?v=K5BlylIjjCY"
@@ -603,8 +403,8 @@
    {
     "titulo": "Explorando Miami días antes de GTA VI 🗺️ - Miami Stories #1",
     "canal": "IlloJuan",
-    "vistas": 2627668,
-    "likes": 105312,
+    "vistas": 2636215,
+    "likes": 105381,
     "duracion": "PT33M31S",
     "fecha": "2026-11-01T20:56:03Z",
     "url": "https://www.youtube.com/watch?v=r38HzMkc2PM"
@@ -612,7 +412,7 @@
    {
     "titulo": "mil años - FABBIO [Official Video]",
     "canal": "Fabbio",
-    "vistas": 4173,
+    "vistas": 4425,
     "likes": 315,
     "duracion": "PT2M38S",
     "fecha": "2026-11-04T19:00:06Z",
@@ -621,8 +421,8 @@
    {
     "titulo": "XBOX SERIES X-BITE | Sweepstakes Trailer",
     "canal": "XBOX",
-    "vistas": 778449,
-    "likes": 16967,
+    "vistas": 784309,
+    "likes": 17022,
     "duracion": "PT41S",
     "fecha": "2026-11-03T17:00:20Z",
     "url": "https://www.youtube.com/watch?v=YJptn7J1xeI"
@@ -630,8 +430,8 @@
    {
     "titulo": "#WORLDS2026 | TES vs IG | CUARTOS DE FINAL | AL MEJOR DE 5 | SUPER DUELO CHINO",
     "canal": "IbaiExtra",
-    "vistas": 440047,
-    "likes": 4158,
+    "vistas": 440587,
+    "likes": 4159,
     "duracion": "PT5H30M6S",
     "fecha": "2026-11-04T03:14:57Z",
     "url": "https://www.youtube.com/watch?v=XfTek2mxZc8"
@@ -639,8 +439,8 @@
    {
     "titulo": "Eagles - Hotel California (Lyrics)",
     "canal": "Rock Paradise",
-    "vistas": 476233,
-    "likes": 2816,
+    "vistas": 479795,
+    "likes": 2825,
     "duracion": "PT6M32S",
     "fecha": "2026-11-03T11:02:41Z",
     "url": "https://www.youtube.com/watch?v=8Ea83jemnXI"
@@ -648,8 +448,8 @@
    {
     "titulo": "Angry Birds 3 | Tráiler Oficial 2 (DOBLADO) | Enero 2027",
     "canal": "PARAMOUNT PICTURES MÉXICO",
-    "vistas": 1673896,
-    "likes": 10778,
+    "vistas": 1747163,
+    "likes": 10939,
     "duracion": "PT2M24S",
     "fecha": "2026-11-04T14:00:23Z",
     "url": "https://www.youtube.com/watch?v=SvoQBgpQJV4"
@@ -657,8 +457,8 @@
    {
     "titulo": "Bethesda nos da migajas de Elder Scrolls VI",
     "canal": "BaityLive",
-    "vistas": 283161,
-    "likes": 9495,
+    "vistas": 293521,
+    "likes": 9603,
     "duracion": "PT19M42S",
     "fecha": "2026-11-04T15:31:33Z",
     "url": "https://www.youtube.com/watch?v=_Gy7qrZvMNs"
@@ -666,8 +466,8 @@
    {
     "titulo": "Topboy TGR - DESTACADAS (Video Oficial)",
     "canal": "Topboy TGR",
-    "vistas": 105435,
-    "likes": 7895,
+    "vistas": 106991,
+    "likes": 7941,
     "duracion": "PT3M12S",
     "fecha": "2026-11-04T01:00:10Z",
     "url": "https://www.youtube.com/watch?v=_MGWee4NzwY"
@@ -677,7 +477,7 @@
    {
     "titulo": "⚡ ¿Qué Pasa Dentro de un Cargador Cuando Cargas tu Móvil? 😱🔌 #Electricidad",
     "canal": "hecho Secreta",
-    "vistas": 15311772,
+    "vistas": 15315851,
     "likes": 0,
     "duracion": "PT22S",
     "fecha": "2026-10-25T17:02:15Z",
@@ -686,8 +486,8 @@
    {
     "titulo": "Un MacBook Pro de 17.591,98 € 😳 #Apple #MacBookPro #Tecnologia",
     "canal": "Toni Reboredo • Fast Byte Informática",
-    "vistas": 130129,
-    "likes": 3357,
+    "vistas": 131119,
+    "likes": 3364,
     "duracion": "PT1M31S",
     "fecha": "2026-11-02T19:15:37Z",
     "url": "https://www.youtube.com/watch?v=496omg7CU4M"
@@ -695,8 +495,8 @@
    {
     "titulo": "iPhone Duo vs ARENA ☠️",
     "canal": "Tecnonauta",
-    "vistas": 740163,
-    "likes": 25749,
+    "vistas": 742002,
+    "likes": 25795,
     "duracion": "PT59S",
     "fecha": "2026-10-31T19:40:20Z",
     "url": "https://www.youtube.com/watch?v=X588U5BYA18"
@@ -704,8 +504,8 @@
    {
     "titulo": "7000001 Dobladas de iPhone dúo 🥀",
     "canal": "BuX VLOGS",
-    "vistas": 4647006,
-    "likes": 150410,
+    "vistas": 4649891,
+    "likes": 150507,
     "duracion": "PT1M1S",
     "fecha": "2026-10-28T01:18:24Z",
     "url": "https://www.youtube.com/watch?v=OwOGJkOot5g"
@@ -713,7 +513,7 @@
    {
     "titulo": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa Part 39",
     "canal": "MR Latte Green",
-    "vistas": 12328290,
+    "vistas": 12328315,
     "likes": 36261,
     "duracion": "PT10S",
     "fecha": "2026-10-30T22:02:19Z",
@@ -722,8 +522,8 @@
    {
     "titulo": "Apple Confía Mucho En Estos Países...",
     "canal": "Perencejo Historias ",
-    "vistas": 681103,
-    "likes": 18737,
+    "vistas": 685362,
+    "likes": 18835,
     "duracion": "PT24S",
     "fecha": "2026-10-31T19:55:35Z",
     "url": "https://www.youtube.com/watch?v=6hr45DbMOgY"
@@ -731,7 +531,7 @@
    {
     "titulo": "La tele que puedes llevarte por toda la casa 🤯",
     "canal": "Cholloman",
-    "vistas": 163768,
+    "vistas": 164081,
     "likes": 2984,
     "duracion": "PT24S",
     "fecha": "2026-11-01T17:07:47Z",
@@ -740,8 +540,8 @@
    {
     "titulo": "Masterclass IA Gratis: Las Novedades de ChatGPT y Work",
     "canal": "Inteligencia Artificial",
-    "vistas": 144510,
-    "likes": 10014,
+    "vistas": 145057,
+    "likes": 10026,
     "duracion": "PT1H17M24S",
     "fecha": "2026-11-03T20:28:32Z",
     "url": "https://www.youtube.com/watch?v=DP6Hb-TSBAs"
@@ -749,8 +549,8 @@
    {
     "titulo": "Sabes Que Puedes Hacer La Bola 🎱?",
     "canal": "Soy Tropi",
-    "vistas": 583005,
-    "likes": 7376,
+    "vistas": 583516,
+    "likes": 7377,
     "duracion": "PT16S",
     "fecha": "2026-10-31T20:45:00Z",
     "url": "https://www.youtube.com/watch?v=D3am9YOeEw4"
@@ -758,8 +558,8 @@
    {
     "titulo": "Intento reparar Nintendo Switch muerta del tianguis peruano #nintendo #cachina #reparacion #tacora",
     "canal": "SCUF PE",
-    "vistas": 2102377,
-    "likes": 140594,
+    "vistas": 2124819,
+    "likes": 141234,
     "duracion": "PT2M58S",
     "fecha": "2026-11-02T23:32:43Z",
     "url": "https://www.youtube.com/watch?v=2fRlcG1QmR4"
@@ -767,8 +567,8 @@
    {
     "titulo": "¡LOS PRECIOS DE LA PS5 EN BLACK FRIDAY SON UNA LOCURA! 😱🎮  #gaming #ps5",
     "canal": "La Línea Alterna",
-    "vistas": 429522,
-    "likes": 13054,
+    "vistas": 430341,
+    "likes": 13069,
     "duracion": "PT1M9S",
     "fecha": "2026-11-02T19:00:17Z",
     "url": "https://www.youtube.com/watch?v=UR5IcsOLbRM"
@@ -776,7 +576,7 @@
    {
     "titulo": "Usé el Iphone DUO por 48 Horas. No Tiene Sentido.",
     "canal": "Nil OGT",
-    "vistas": 1471261,
+    "vistas": 1471775,
     "likes": 23974,
     "duracion": "PT36M29S",
     "fecha": "2026-10-25T13:00:12Z",
@@ -785,7 +585,7 @@
    {
     "titulo": "el iPhone Duo es basura.",
     "canal": "rickyedit",
-    "vistas": 655768,
+    "vistas": 655940,
     "likes": 12687,
     "duracion": "PT30M58S",
     "fecha": "2026-10-28T14:19:41Z",
@@ -794,8 +594,8 @@
    {
     "titulo": "Mi nuevo PC Gaming 2026: El más potente del mundo para jugar",
     "canal": "Nate Gentile",
-    "vistas": 1535037,
-    "likes": 31373,
+    "vistas": 1538434,
+    "likes": 31406,
     "duracion": "PT25M8S",
     "fecha": "2026-11-01T21:00:39Z",
     "url": "https://www.youtube.com/watch?v=WlzlLybLRcE"
@@ -803,8 +603,8 @@
    {
     "titulo": "THIS IS A REAL SPLIT KEYBOARD?! 🤯 #keyboard #technology #tech #smartkeyboard #virtualkeyboard",
     "canal": "Arya Vale",
-    "vistas": 7461537,
-    "likes": 26531,
+    "vistas": 7509538,
+    "likes": 26626,
     "duracion": "PT13S",
     "fecha": "2026-10-31T07:28:31Z",
     "url": "https://www.youtube.com/watch?v=BmglXbDTibM"
@@ -812,8 +612,8 @@
    {
     "titulo": "¿Qué hacer si se te cae el móvil al agua?",
     "canal": "¿Qué hacer si…?",
-    "vistas": 672373,
-    "likes": 14505,
+    "vistas": 679315,
+    "likes": 14532,
     "duracion": "PT1M10S",
     "fecha": "2026-10-29T12:10:31Z",
     "url": "https://www.youtube.com/watch?v=K7vQ4PkJcP8"
@@ -821,7 +621,7 @@
    {
     "titulo": "Samsung Galaxy S27 Ultra Cobalt Violet 📱🔥 #noads #tiktok #usa",
     "canal": "Sprunki Land",
-    "vistas": 5916792,
+    "vistas": 5917416,
     "likes": 23191,
     "duracion": "PT10S",
     "fecha": "2026-10-30T14:15:08Z",
@@ -830,8 +630,8 @@
    {
     "titulo": "What is sticky keys?? And how to turn off the popup?",
     "canal": "CarterPCs",
-    "vistas": 3481556,
-    "likes": 100660,
+    "vistas": 3549198,
+    "likes": 101263,
     "duracion": "PT30S",
     "fecha": "2026-11-04T06:36:33Z",
     "url": "https://www.youtube.com/watch?v=eP2rasa1P88"
@@ -839,8 +639,8 @@
    {
     "titulo": "Este iPhone tenía algo muy sospechoso",
     "canal": "Flipadatos",
-    "vistas": 358156,
-    "likes": 5598,
+    "vistas": 358732,
+    "likes": 5627,
     "duracion": "PT39S",
     "fecha": "2026-10-28T21:15:29Z",
     "url": "https://www.youtube.com/watch?v=mKDK9FyELW8"
@@ -848,8 +648,8 @@
    {
     "titulo": "Walkie Talkie que funciona con red 4G sin distancia limitado gratis por vida # walkieTalkie #Walkie",
     "canal": "Nouhome_es",
-    "vistas": 443806,
-    "likes": 13162,
+    "vistas": 444707,
+    "likes": 13164,
     "duracion": "PT1M27S",
     "fecha": "2026-10-28T17:50:01Z",
     "url": "https://www.youtube.com/watch?v=bsk_Io4kQEI"
@@ -857,8 +657,8 @@
    {
     "titulo": "¿La K40max es MEJOR que la Switch 2? Probar este anuncio me dejó loco... 🎮😳",
     "canal": "unGamer",
-    "vistas": 988285,
-    "likes": 48444,
+    "vistas": 988559,
+    "likes": 48456,
     "duracion": "PT1M31S",
     "fecha": "2026-10-24T19:45:27Z",
     "url": "https://www.youtube.com/watch?v=TXmaexwB-X4"
@@ -866,8 +666,8 @@
    {
     "titulo": "Bambu Lab Acaba de Revolucionar la Industria: Así es su Nueva Impresora 3D",
     "canal": "Control 3D",
-    "vistas": 146561,
-    "likes": 2608,
+    "vistas": 147805,
+    "likes": 2609,
     "duracion": "PT20M18S",
     "fecha": "2026-11-03T14:06:03Z",
     "url": "https://www.youtube.com/watch?v=P1pZ1bV3fw8"
@@ -875,8 +675,8 @@
    {
     "titulo": "¿Sabías que detrás de tu TV hay un puerto USB 😳 que tiene usos muy interesantes?",
     "canal": "Consejos y trucos",
-    "vistas": 1570341,
-    "likes": 17184,
+    "vistas": 1575711,
+    "likes": 17202,
     "duracion": "PT1M15S",
     "fecha": "2026-10-24T21:07:04Z",
     "url": "https://www.youtube.com/watch?v=EosUaaNH9XA"
@@ -884,8 +684,8 @@
    {
     "titulo": "Imprimí 3 Veces más rápido con estos trucos secretos.",
     "canal": "3DHumbe",
-    "vistas": 822296,
-    "likes": 33684,
+    "vistas": 822399,
+    "likes": 33685,
     "duracion": "PT1M44S",
     "fecha": "2026-10-27T13:50:31Z",
     "url": "https://www.youtube.com/watch?v=v92zJkQnXvA"
@@ -893,15 +693,284 @@
    {
     "titulo": "✏️ Cómo es usar el Apple Pencil con el iPhone Duo? #Tecnologia #iPhoneDuo #ApplePencil #Tips #Apple",
     "canal": "Cris Martínez",
-    "vistas": 113141,
-    "likes": 7419,
+    "vistas": 118579,
+    "likes": 7573,
     "duracion": "PT2M59S",
     "fecha": "2026-11-04T04:01:34Z",
     "url": "https://www.youtube.com/watch?v=ys7Lq2N3r3A"
    }
-  ],
-  "educacion": {
-   "error": "{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"Requested entity was not found.\",\n    \"errors\": [\n      {\n        \"message\": \"Requested entity was not found.\",\n        \"domain\": \"global\",\n        \"rea"
+  ]
+ },
+ "nicho": [
+  {
+   "titulo": "LITO EXPLICA COMO FUNCIONA O PNEU DO AVIÃO #engenheirodaaeronautica #aviõesemúsicas #curiosidades",
+   "canal": "ShortsTalk Brasil",
+   "fecha": "2026-10-31T22:15:06Z",
+   "vistas": 3171261,
+   "likes": 78543,
+   "comentarios": 582,
+   "url": "https://youtube.com/shorts/5TOwl28Jq9c"
+  },
+  {
+   "titulo": "Título: 🖊️😱 ¿Sabías cómo funciona un BOLÍGRAFO? Cada agujero tiene una razón",
+   "canal": "El Mundo Es Raro",
+   "fecha": "2026-11-02T02:37:12Z",
+   "vistas": 1772442,
+   "likes": 36866,
+   "comentarios": 127,
+   "url": "https://youtube.com/shorts/LZrrAxVcb1A"
+  },
+  {
+   "titulo": "Cómo funciona un búnker nuclear",
+   "canal": "Pero Eso No Es Nada",
+   "fecha": "2026-10-29T09:45:17Z",
+   "vistas": 1487457,
+   "likes": 60350,
+   "comentarios": 1300,
+   "url": "https://youtube.com/shorts/OLEQ2OB_5pw"
+  },
+  {
+   "titulo": "¿Cómo Funciona un Ventilador? ¡HULK Tiene la Respuesta! 💀😂 #Hulk",
+   "canal": "hecho Secreta",
+   "fecha": "2026-10-30T13:10:46Z",
+   "vistas": 1047598,
+   "likes": 0,
+   "comentarios": 20,
+   "url": "https://youtube.com/shorts/pZZLpQFwtOU"
+  },
+  {
+   "titulo": "Así funciona REALMENTE un \"Silenciador\" (Supresor) #arma3  #yosoydelos7mil #sabiasque",
+   "canal": "Balistix",
+   "fecha": "2026-10-30T17:58:55Z",
+   "vistas": 814588,
+   "likes": 33299,
+   "comentarios": 91,
+   "url": "https://youtube.com/shorts/f_EZryMjnIk"
+  },
+  {
+   "titulo": "¿Cómo funciona un trasplante de pelo? 🤯 #cuerpohumano  #curiosidades  #3d  #ciencia",
+   "canal": "Por Dentro De Todo",
+   "fecha": "2026-10-31T13:15:58Z",
+   "vistas": 349587,
+   "likes": 8904,
+   "comentarios": 13,
+   "url": "https://youtube.com/shorts/_Y3xFmdlXYc"
+  },
+  {
+   "titulo": "Así comienza la diabetes en los niños",
+   "canal": "Primeros Auxilios",
+   "fecha": "2026-10-30T22:00:19Z",
+   "vistas": 311366,
+   "likes": 6495,
+   "comentarios": 98,
+   "url": "https://youtube.com/shorts/b8MoWL0ZxLs"
+  },
+  {
+   "titulo": "Como a caneta que emagrece funciona de verdade?",
+   "canal": "DUDUTOMAHAWK",
+   "fecha": "2026-11-03T21:00:18Z",
+   "vistas": 289262,
+   "likes": 33509,
+   "comentarios": 259,
+   "url": "https://youtube.com/shorts/ciK6UE-cc0M"
+  },
+  {
+   "titulo": "Como funciona o concreto protendido nas pontes?",
+   "canal": "Mundo da Curiosidade Mundo da Curiosidade",
+   "fecha": "2026-10-29T14:00:36Z",
+   "vistas": 253822,
+   "likes": 880,
+   "comentarios": 1,
+   "url": "https://youtube.com/shorts/NqssFirjUYg"
+  },
+  {
+   "titulo": "Como funciona agacharse en minecraft #minecraft #minecraftshorts",
+   "canal": "17 STUDIOS",
+   "fecha": "2026-10-30T22:00:05Z",
+   "vistas": 233800,
+   "likes": 4438,
+   "comentarios": 51,
+   "url": "https://youtube.com/shorts/2eE2c3W3YPQ"
+  },
+  {
+   "titulo": "¿Cómo funciona un excusado?",
+   "canal": "Ya_entendiste",
+   "fecha": "2026-10-30T19:50:48Z",
+   "vistas": 203454,
+   "likes": 3082,
+   "comentarios": 22,
+   "url": "https://youtube.com/shorts/mwdIpjIV9_s"
+  },
+  {
+   "titulo": "Así Se Acaba Con Una Piedra de Riñon😳 #cuerpohumano  #curiosidades  #3d  #ciencia",
+   "canal": "Por Dentro De Todo",
+   "fecha": "2026-11-01T13:35:48Z",
+   "vistas": 173455,
+   "likes": 4010,
+   "comentarios": 17,
+   "url": "https://youtube.com/shorts/UyBACP6w1hc"
+  },
+  {
+   "titulo": "¿Qué construyeron en este cráter? Así funciona Moray, el invernadero inca",
+   "canal": "¿Cómo lo hicieron?",
+   "fecha": "2026-10-31T23:37:08Z",
+   "vistas": 171555,
+   "likes": 4597,
+   "comentarios": 143,
+   "url": "https://youtube.com/shorts/nckjEdRSmKw"
+  },
+  {
+   "titulo": "Así es cómo te ponen una cadera nueva 🦴 #cuerpohumano  #curiosidades  #3d  #ciencia",
+   "canal": "Por Dentro De Todo",
+   "fecha": "2026-11-02T14:03:48Z",
+   "vistas": 137544,
+   "likes": 1979,
+   "comentarios": 9,
+   "url": "https://youtube.com/shorts/uY3lmpVDm0s"
+  },
+  {
+   "titulo": "Como funciona a economia do Brasil?",
+   "canal": "Desconstruindo Universo",
+   "fecha": "2026-11-01T23:00:40Z",
+   "vistas": 135213,
+   "likes": 10159,
+   "comentarios": 237,
+   "url": "https://youtube.com/shorts/k-kNzZqF79s"
+  },
+  {
+   "titulo": "El láser nació sin uso: nadie sabía para qué servía",
+   "canal": "Soy Prototipo Cero",
+   "fecha": "2026-10-31T01:00:39Z",
+   "vistas": 128461,
+   "likes": 5949,
+   "comentarios": 64,
+   "url": "https://youtube.com/shorts/iBz7ctss2nw"
+  },
+  {
+   "titulo": "COMO FUNCIONA A NOVA LOJA PIRATA?",
+   "canal": "Mantovani",
+   "fecha": "2026-11-01T22:18:21Z",
+   "vistas": 111574,
+   "likes": 5124,
+   "comentarios": 172,
+   "url": "https://youtube.com/shorts/8ArzZ2xQEpM"
+  },
+  {
+   "titulo": "Cómo funciona el legendario Phalanx",
+   "canal": "Mecanoscopio",
+   "fecha": "2026-11-02T22:56:08Z",
+   "vistas": 107294,
+   "likes": 4391,
+   "comentarios": 32,
+   "url": "https://youtube.com/shorts/Cfjr_WN1gVs"
+  },
+  {
+   "titulo": "Cómo funciona el negocio de Trauma team #cyberpunk2077",
+   "canal": "Paolux XG",
+   "fecha": "2026-11-02T12:27:26Z",
+   "vistas": 88105,
+   "likes": 5115,
+   "comentarios": 28,
+   "url": "https://youtube.com/shorts/oJWxhVZ75AI"
+  },
+  {
+   "titulo": "¿Como funciona por dentro un lavavajillas?",
+   "canal": "1bit1bot",
+   "fecha": "2026-10-30T18:15:13Z",
+   "vistas": 77288,
+   "likes": 2497,
+   "comentarios": 28,
+   "url": "https://youtube.com/shorts/mggMM91mu-c"
+  },
+  {
+   "titulo": "¿Cómo funciona un violín?",
+   "canal": "TodoSobreRitmo",
+   "fecha": "2026-10-31T18:59:22Z",
+   "vistas": 64245,
+   "likes": 2121,
+   "comentarios": 13,
+   "url": "https://youtube.com/shorts/nm-roxrYAvc"
+  },
+  {
+   "titulo": "Así funciona el nuevo Autolure de AoE2",
+   "canal": "TaToH",
+   "fecha": "2026-10-30T00:21:21Z",
+   "vistas": 61516,
+   "likes": 2062,
+   "comentarios": 176,
+   "url": "https://youtube.com/shorts/dxPwKuuS8zs"
+  },
+  {
+   "titulo": "🚁 COMO FUNCIONA O SISTEMA DE CONTROLE DO ROTOR DE UM HELICÓPTERO?  #curiosidades #tecnologia",
+   "canal": "INTRIGANTE.IA-80",
+   "fecha": "2026-10-31T21:15:03Z",
+   "vistas": 55976,
+   "likes": 920,
+   "comentarios": 4,
+   "url": "https://youtube.com/shorts/gimlG5Vln18"
+  },
+  {
+   "titulo": "COMO FUNCIONA A CEGUEIRA AO MOVIMENTO",
+   "canal": "Utopia",
+   "fecha": "2026-10-30T00:00:33Z",
+   "vistas": 52109,
+   "likes": 2334,
+   "comentarios": 90,
+   "url": "https://youtube.com/shorts/wqOOxKlSSx0"
+  },
+  {
+   "titulo": "M18 Hellcat: así se mueve este cazacarros por dentro",
+   "canal": "MD Mundo",
+   "fecha": "2026-11-01T21:10:21Z",
+   "vistas": 51985,
+   "likes": 3051,
+   "comentarios": 34,
+   "url": "https://youtube.com/shorts/g2Ejf3ye_fo"
+  },
+  {
+   "titulo": "How the Infinity Floor Works",
+   "canal": "heyimjarv",
+   "fecha": "2026-11-04T01:00:14Z",
+   "vistas": 49015,
+   "likes": 1151,
+   "comentarios": 19,
+   "url": "https://youtube.com/shorts/eHV4M_jHDV4"
+  },
+  {
+   "titulo": "Así funciona el sistema LZB, clave para entender el accidente de Urda #accidenteferroviario #urda",
+   "canal": "El Mundo",
+   "fecha": "2026-10-30T10:26:55Z",
+   "vistas": 38423,
+   "likes": 578,
+   "comentarios": 30,
+   "url": "https://youtube.com/shorts/0owGczLeZ-o"
+  },
+  {
+   "titulo": "Lo que hay debajo de la chapa de la escalera mecánica",
+   "canal": "1bit1bot",
+   "fecha": "2026-10-31T18:00:01Z",
+   "vistas": 34065,
+   "likes": 824,
+   "comentarios": 6,
+   "url": "https://youtube.com/shorts/5ZldAa0rtwE"
+  },
+  {
+   "titulo": "¿Por qué enterraron rocas bajo el muro? Así funciona Tipón, la fortaleza de agua inca",
+   "canal": "¿Cómo lo hicieron?",
+   "fecha": "2026-11-01T23:37:31Z",
+   "vistas": 34000,
+   "likes": 997,
+   "comentarios": 16,
+   "url": "https://youtube.com/shorts/s9D81nY5VYM"
+  },
+  {
+   "titulo": "60 cabras contra los incendios: Así funciona la brigada que protege la U. de Concepción",
+   "canal": "MegaTiempo",
+   "fecha": "2026-10-31T09:30:38Z",
+   "vistas": 31921,
+   "likes": 223,
+   "comentarios": 53,
+   "url": "https://youtube.com/shorts/V8c08drkOyg"
   }
- }
+ ]
 }
