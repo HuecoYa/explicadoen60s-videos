@@ -511,7 +511,7 @@
     "ingenieria",
     "ciencia"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 6,
@@ -527,7 +527,8 @@
     "Debajo de tu casa hay agua… ¿cómo la sacarías?"
    ],
    "aprobado": "2026-11-05T15:43:41.559Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 66.4
   },
   {
    "id": "arroz",
