@@ -441,7 +441,7 @@
     "bateria",
     "inventos"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 10,
@@ -456,7 +456,9 @@
     "Tu cargador corta la corriente cientos de miles de veces cada segundo.",
     "¿Por qué los cargadores de antes pesaban tanto y los de ahora no?"
    ],
-   "tendencia": "Qué pasa dentro del cargador del móvil"
+   "tendencia": "Qué pasa dentro del cargador del móvil",
+   "aprobado": "2026-11-05T15:43:19.856Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "lavavajillas",
