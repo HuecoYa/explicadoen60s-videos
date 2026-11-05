@@ -361,11 +361,12 @@
     "ciencia",
     "fotografia"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-04",
    "aprobado": "2026-11-04T22:35:57.951Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 70.5
+   "duracion": 70.5,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "chatgpt",
