@@ -880,6 +880,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "camara-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-06T13:00:00+01:00",
+   "video": "camara_tiktok.mp4",
+   "titulo": "📸 Así ve la cámara de tu móvil: 50 millones de contadores de luz",
+   "texto": "La mitad de los píxeles de tu cámara solo ven verde. ¿Sabías por qué? 👇",
+   "tags": [
+    "camara",
+    "movil",
+    "tecnologia",
+    "ciencia",
+    "fotografia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "enchufe-youtube",
    "red": "youtube",
    "hora": "2026-11-06T16:00:00+01:00",
@@ -982,6 +1000,42 @@
     "agua",
     "energía",
     "construcción"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "camara-instagram",
+   "red": "instagram",
+   "hora": "2026-11-08T10:00:00+01:00",
+   "video": "camara.mp4",
+   "titulo": "📸 Así ve la cámara de tu móvil: 50 millones de contadores de luz",
+   "texto": "La mitad de los píxeles de tu cámara solo ven verde. ¿Sabías por qué? 👇",
+   "tags": [
+    "camara",
+    "movil",
+    "tecnologia",
+    "ciencia",
+    "fotografia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "camara-youtube",
+   "red": "youtube",
+   "hora": "2026-11-08T12:00:00+01:00",
+   "video": "camara.mp4",
+   "titulo": "📸 Así ve la cámara de tu móvil: 50 millones de contadores de luz",
+   "texto": "La mitad de los píxeles de tu cámara solo ven verde. ¿Sabías por qué? 👇",
+   "tags": [
+    "camara",
+    "movil",
+    "tecnologia",
+    "ciencia",
+    "fotografia"
    ],
    "estado": "pendiente",
    "intentos": 0,
