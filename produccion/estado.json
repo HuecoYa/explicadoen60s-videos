@@ -381,7 +381,7 @@
     "comofunciona",
     "ia"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 8,
@@ -398,7 +398,8 @@
    ],
    "idea": "imw2sr0vy",
    "aprobado": "2026-11-05T15:43:04.028Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 72.2
   },
   {
    "id": "plegable",
