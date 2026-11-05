@@ -480,7 +480,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 9,
@@ -497,7 +497,8 @@
    ],
    "tendencia": "Lo que hace el lavavajillas cuando cierras la puerta",
    "aprobado": "2026-11-05T15:43:29.594Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 66.0
   },
   {
    "id": "pozo",
