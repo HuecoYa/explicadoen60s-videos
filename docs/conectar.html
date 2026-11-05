@@ -12,6 +12,6 @@ const C={tiktok:"sbawlvxzv7zq3jpouz",youtube:"54027634705-kso4u9r3159u2vghs72pbp
 const CB=encodeURIComponent("https://explicadoen60s.github.io/callback.html");
 const U={
  tiktok:k=>`https://www.tiktok.com/v2/auth/authorize/?client_key=${k}&scope=user.info.basic,user.info.stats,video.list,video.upload&response_type=code&redirect_uri=${CB}&state=tiktok`,
- youtube:k=>`https://accounts.google.com/o/oauth2/v2/auth?client_id=${k}&redirect_uri=${CB}&response_type=code&scope=${encodeURIComponent("https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly")}&access_type=offline&prompt=consent&state=youtube`};
+ youtube:k=>`https://accounts.google.com/o/oauth2/v2/auth?client_id=${k}&redirect_uri=${CB}&response_type=code&scope=${encodeURIComponent("https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/youtube.force-ssl")}&access_type=offline&prompt=consent&state=youtube`};
 for(const r in U){const a=document.getElementById(r);if(C[r])a.href=U[r](C[r]);else{a.setAttribute('aria-disabled','true');a.textContent+=' (falta configurar la app)';}}
 </script></main></body></html>

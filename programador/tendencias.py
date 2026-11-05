@@ -50,7 +50,7 @@ def wikipedia():
 def youtube_populares(tok):
     h = {"Authorization": f"Bearer {tok['access_token']}"}
     out = {}
-    for nombre, cat in (("general", None), ("ciencia_tecnologia", "28"), ("educacion", "27")):
+    for nombre, cat in (("general", None), ("ciencia_tecnologia", "28")):
         p = {"part": "snippet,statistics,contentDetails", "chart": "mostPopular", "regionCode": "ES", "maxResults": 25}
         if cat:
             p["videoCategoryId"] = cat
@@ -62,6 +62,27 @@ def youtube_populares(tok):
                         "duracion": v["contentDetails"].get("duration"), "fecha": v["snippet"]["publishedAt"],
                         "url": f"https://www.youtube.com/watch?v={v['id']}"} for v in r.json().get("items", [])]
     return out
+
+
+def nicho(tok):
+    """Shorts más vistos de la última semana sobre «cómo funciona…» en español (lo que ya está funcionando en nuestro tema)."""
+    h = {"Authorization": f"Bearer {tok['access_token']}"}
+    desde = (ahora() - dt.timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    ids = []
+    for q in ("cómo funciona", "por qué funciona así", "así funciona por dentro"):
+        r = requests.get("https://www.googleapis.com/youtube/v3/search", headers=h, timeout=60,
+                         params={"part": "id", "q": q, "type": "video", "videoDuration": "short", "relevanceLanguage": "es", "regionCode": "ES",
+                                 "order": "viewCount", "publishedAfter": desde, "maxResults": 20})
+        if r.ok:
+            ids += [i["id"]["videoId"] for i in r.json().get("items", []) if i["id"]["videoId"] not in ids]
+    if not ids:
+        return []
+    vr = requests.get("https://www.googleapis.com/youtube/v3/videos", headers=h, timeout=60,
+                      params={"part": "snippet,statistics", "id": ",".join(ids[:50])}).json()
+    out = [{"titulo": v["snippet"]["title"], "canal": v["snippet"]["channelTitle"], "fecha": v["snippet"]["publishedAt"],
+            "vistas": int(v["statistics"].get("viewCount", 0)), "likes": int(v["statistics"].get("likeCount", 0) or 0),
+            "comentarios": int(v["statistics"].get("commentCount", 0) or 0), "url": f"https://youtube.com/shorts/{v['id']}"} for v in vr.get("items", [])]
+    return sorted(out, key=lambda x: -x["vistas"])[:30]
 
 
 def competencia(tok, canales):
@@ -105,6 +126,10 @@ def main():
         if tok != tokens["youtube"]:
             tokens["youtube"] = tok; guardar_tokens(tokens)
         out["youtube"] = youtube_populares(tok)
+        try:
+            out["nicho"] = nicho(tok)
+        except Exception as e:
+            out["errores"]["nicho"] = str(e)[:300]
         canales = json.loads(OBJETIVOS.read_text(encoding="utf-8")).get("competencia", []) if OBJETIVOS.exists() else []
         if canales:
             out["competencia"] = competencia(tok, canales)
