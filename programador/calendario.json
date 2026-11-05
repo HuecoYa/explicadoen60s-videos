@@ -714,9 +714,15 @@
     "energía",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704663709411395606",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-05T12:31:11.740468+00:00"
   },
   {
    "id": "auriculares-tiktok",
