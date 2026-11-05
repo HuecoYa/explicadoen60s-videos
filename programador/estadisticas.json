@@ -1,24 +1,24 @@
 {
- "actualizado": "2026-11-04T23:59:07.082550+00:00",
+ "actualizado": "2026-11-05T01:35:07.147482+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
-   "seguidores": 79,
+   "seguidores": 83,
    "vistas": 41637,
    "videos": 30
   },
   "instagram": {
    "nombre": "@explicadoen60s",
-   "seguidores": 19,
+   "seguidores": 20,
    "videos": 31,
-   "vistas": 32786
+   "vistas": 35403
   },
   "tiktok": {
    "nombre": "explicadoen60s",
-   "seguidores": 54,
-   "likes": 2339,
+   "seguidores": 53,
+   "likes": 2367,
    "videos": 35,
-   "vistas": 63660
+   "vistas": 64109
   }
  },
  "videos": {
@@ -28,8 +28,8 @@
     "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
     "fecha": "2026-11-04T23:38:24Z",
     "url": "https://youtube.com/shorts/qA9E1SHz4nw",
-    "vistas": 24,
-    "likes": 1,
+    "vistas": 554,
+    "likes": 15,
     "comentarios": 0
    },
    {
@@ -37,17 +37,17 @@
     "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
     "fecha": "2026-11-04T23:36:31Z",
     "url": "https://youtube.com/shorts/_jgz1oGTBxk",
-    "vistas": 66,
-    "likes": 1,
-    "comentarios": 0
+    "vistas": 622,
+    "likes": 26,
+    "comentarios": 1
    },
    {
     "id": "cjkK7egXM3A",
     "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
     "fecha": "2026-11-03T20:34:34Z",
     "url": "https://youtube.com/shorts/cjkK7egXM3A",
-    "vistas": 1169,
-    "likes": 30,
+    "vistas": 1187,
+    "likes": 31,
     "comentarios": 0
    },
    {
@@ -55,7 +55,7 @@
     "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
     "fecha": "2026-11-03T19:09:40Z",
     "url": "https://youtube.com/shorts/j0-ip-136Z4",
-    "vistas": 1282,
+    "vistas": 1284,
     "likes": 37,
     "comentarios": 0
    },
@@ -64,8 +64,8 @@
     "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
     "fecha": "2026-11-03T18:20:23Z",
     "url": "https://youtube.com/shorts/KlvOp8xaqJE",
-    "vistas": 1633,
-    "likes": 65,
+    "vistas": 1647,
+    "likes": 66,
     "comentarios": 0
    },
    {
@@ -73,16 +73,16 @@
     "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
     "fecha": "2026-11-03T18:20:14Z",
     "url": "https://youtube.com/shorts/1ShGpgz6Y-E",
-    "vistas": 2626,
-    "likes": 100,
-    "comentarios": 2
+    "vistas": 2719,
+    "likes": 101,
+    "comentarios": 3
    },
    {
     "id": "xav4qmx7Oxs",
     "titulo": "¿Y si construyes un rascacielos? 🏙️ El truco de la bola gigante",
     "fecha": "2026-11-03T17:32:59Z",
     "url": "https://youtube.com/shorts/xav4qmx7Oxs",
-    "vistas": 2161,
+    "vistas": 2160,
     "likes": 42,
     "comentarios": 0
    },
@@ -91,8 +91,8 @@
     "titulo": "¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso",
     "fecha": "2026-11-03T16:42:02Z",
     "url": "https://youtube.com/shorts/wDwDLVzDu5c",
-    "vistas": 3476,
-    "likes": 96,
+    "vistas": 3572,
+    "likes": 97,
     "comentarios": 0
    },
    {
@@ -100,17 +100,17 @@
     "titulo": "Un airbag se infla en 30 milésimas de segundo 🚗",
     "fecha": "2026-11-03T11:03:14Z",
     "url": "https://youtube.com/shorts/pbocshzw1Mo",
-    "vistas": 5304,
+    "vistas": 5310,
     "likes": 320,
-    "comentarios": 2
+    "comentarios": 3
    },
    {
     "id": "84MP3nyp62w",
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1498,
-    "likes": 66,
+    "vistas": 1577,
+    "likes": 68,
     "comentarios": 0
    },
    {
@@ -118,8 +118,8 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 1869,
-    "likes": 77,
+    "vistas": 1879,
+    "likes": 78,
     "comentarios": 0
    },
    {
@@ -127,8 +127,8 @@
     "titulo": "Tu tarjeta calcula un código nuevo en cada compra 💳",
     "fecha": "2026-11-01T17:07:27Z",
     "url": "https://youtube.com/shorts/HuIneB5kG3g",
-    "vistas": 2596,
-    "likes": 103,
+    "vistas": 2734,
+    "likes": 113,
     "comentarios": 0
    },
    {
@@ -136,8 +136,8 @@
     "titulo": "¿La máquina de peluches está trucada? 🧸",
     "fecha": "2026-11-01T15:07:27Z",
     "url": "https://youtube.com/shorts/3QeKEF6QIT8",
-    "vistas": 2314,
-    "likes": 47,
+    "vistas": 2322,
+    "likes": 48,
     "comentarios": 0
    },
    {
@@ -244,7 +244,7 @@
     "titulo": "ABS | explicadoen60s",
     "fecha": "2026-10-30T16:47:49Z",
     "url": "https://youtube.com/shorts/ip7vXvvOkuM",
-    "vistas": 1413,
+    "vistas": 1416,
     "likes": 48,
     "comentarios": 0
    },
@@ -300,23 +300,23 @@
     "titulo": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un c",
     "fecha": "2026-11-04T23:37:25+0000",
     "url": "https://www.instagram.com/reel/DfVpvuKgf5f/",
-    "likes": 0,
+    "likes": 47,
     "comentarios": 0,
-    "vistas": 1,
-    "alcance": 0,
-    "guardados": 0,
-    "compartidos": 0
+    "vistas": 1311,
+    "alcance": 1004,
+    "guardados": 3,
+    "compartidos": 1
    },
    {
     "id": "17991968694074434",
     "titulo": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes",
     "fecha": "2026-11-04T23:35:13+0000",
     "url": "https://www.instagram.com/reel/DfVpg-QEoq0/",
-    "likes": 1,
+    "likes": 42,
     "comentarios": 0,
-    "vistas": 42,
-    "alcance": 0,
-    "guardados": 0,
+    "vistas": 1346,
+    "alcance": 1136,
+    "guardados": 3,
     "compartidos": 0
    },
    {
@@ -372,10 +372,10 @@
     "titulo": "Hay rascacielos con una bola de 660 toneladas colgada arriba para no marear a nadie. ¿Lo s",
     "fecha": "2026-11-03T17:30:06+0000",
     "url": "https://www.instagram.com/reel/DfSa6R_DdOz/",
-    "likes": 38,
+    "likes": 39,
     "comentarios": 0,
-    "vistas": 1673,
-    "alcance": 1236,
+    "vistas": 1675,
+    "alcance": 1238,
     "guardados": 2,
     "compartidos": 0
    },
@@ -602,7 +602,7 @@
     "url": "https://www.instagram.com/reel/DfF-Rs_RlId/",
     "likes": 69,
     "comentarios": 0,
-    "vistas": 1334,
+    "vistas": 1335,
     "alcance": 1202,
     "guardados": 2,
     "compartidos": 2
@@ -674,9 +674,9 @@
     "titulo": "Cargar el móvil dos veces al día no gasta el doble de ciclos. ¿Sabías qué cuenta como un c",
     "fecha": "2026-11-04T23:38:55+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704464887057009942?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 242,
-    "likes": 11,
-    "comentarios": 1,
+    "vistas": 471,
+    "likes": 31,
+    "comentarios": 2,
     "compartidos": 0
    },
    {
@@ -684,8 +684,8 @@
     "titulo": "Tu dedo le roba electricidad a la pantalla cada vez que la tocas. ¿Te funciona con guantes",
     "fecha": "2026-11-04T23:38:18+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704464732551433494?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 166,
-    "likes": 5,
+    "vistas": 383,
+    "likes": 13,
     "comentarios": 0,
     "compartidos": 0
    },
@@ -744,7 +744,7 @@
     "titulo": "La idea de las tuneladoras salió de un bicho que se come los barcos. ¿Te lo esperabas? 👇 #",
     "fecha": "2026-11-03T15:25:05+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703966581226753302?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 879,
+    "vistas": 880,
     "likes": 49,
     "comentarios": 0,
     "compartidos": 2
@@ -794,7 +794,7 @@
     "titulo": "Si tuvieras que inventar la cremallera desde cero… 🧥 La pieza clave tiene forma de Y. ¿Te ",
     "fecha": "2026-11-02T12:03:13+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703543548813020439?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 6765,
+    "vistas": 6766,
     "likes": 271,
     "comentarios": 0,
     "compartidos": 1
@@ -934,7 +934,7 @@
     "titulo": "Antes de que acabe este vídeo vas a bostezar 🥱 (y no es por sueño). ¿Lo has hecho? Confies",
     "fecha": "2026-10-29T22:40:18+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7702223310326697238?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1133,
+    "vistas": 1134,
     "likes": 23,
     "comentarios": 5,
     "compartidos": 0
@@ -1049,14 +1049,14 @@
   },
   {
    "fecha": "2026-11-05",
-   "youtube_seguidores": 79,
+   "youtube_seguidores": 83,
    "youtube_vistas": 41637,
    "youtube_videos": 30,
-   "instagram_seguidores": 19,
-   "instagram_vistas": 32786,
+   "instagram_seguidores": 20,
+   "instagram_vistas": 35403,
    "instagram_videos": 31,
-   "tiktok_seguidores": 54,
-   "tiktok_vistas": 63660,
+   "tiktok_seguidores": 53,
+   "tiktok_vistas": 64109,
    "tiktok_videos": 35
   }
  ]
