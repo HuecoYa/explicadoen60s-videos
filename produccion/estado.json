@@ -449,7 +449,7 @@
     "bateria",
     "inventos"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 10,
@@ -467,7 +467,8 @@
    "tendencia": "Qué pasa dentro del cargador del móvil",
    "aprobado": "2026-11-05T15:43:19.856Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 66.1
+   "duracion": 66.1,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "lavavajillas",
