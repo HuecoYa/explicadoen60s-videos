@@ -850,7 +850,7 @@
     "trucos",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 10,
@@ -882,7 +882,7 @@
     "einstein",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 10,
@@ -913,7 +913,7 @@
     "magnetismo",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -944,7 +944,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -975,7 +975,7 @@
     "fisica",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -1006,7 +1006,7 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -1037,7 +1037,7 @@
     "coches",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 7,
