@@ -784,7 +784,7 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 8,
@@ -801,7 +801,8 @@
    ],
    "aprobado": "2026-11-06T16:45:15.007Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 66
+   "duracion": 66,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "placas",
