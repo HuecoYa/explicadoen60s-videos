@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 03/11 | 22:00 | instagram | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://www.instagram.com/reel/DfS1aWwDZIv/) |
-| mar 03/11 | 22:00 | youtube | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://youtube.com/shorts/tZVW9vqDMa8) |
 | jue 05/11 | 00:35 | instagram | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | [✅ publicado](https://www.instagram.com/reel/DfVpg-QEoq0/) |
 | jue 05/11 | 00:35 | tiktok | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | 📲 en tu bandeja de TikTok |
 | jue 05/11 | 00:35 | youtube | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | [✅ publicado](https://youtube.com/shorts/_jgz1oGTBxk) |
