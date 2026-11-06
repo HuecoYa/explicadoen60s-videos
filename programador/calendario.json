@@ -903,9 +903,14 @@
     "física",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "50hYL5a-HZo",
+    "url": "https://youtube.com/shorts/50hYL5a-HZo"
+   },
+   "publicado": "2026-11-06T11:27:10.745019+00:00"
   },
   {
    "id": "camara-tiktok",
