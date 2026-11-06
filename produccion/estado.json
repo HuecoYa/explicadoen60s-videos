@@ -913,7 +913,7 @@
     "magnetismo",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -927,7 +927,9 @@
     "Tu placa de inducción hierve el agua en un momento… pero el cristal de al lado sigue frío.",
     "¿Por qué tu sartén de siempre no funciona en la inducción? Hay un imán de por medio.",
     "La placa de inducción no calienta el cristal. Calienta la olla desde dentro."
-   ]
+   ],
+   "aprobado": "2026-11-06T21:39:08.333Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "qr",
