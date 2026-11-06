@@ -648,7 +648,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -664,7 +664,8 @@
     "Dentro de tu tostadora hay un hilo a más de mil grados… y no se funde."
    ],
    "aprobado": "2026-11-06T16:44:39.372Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 74.4
   },
   {
    "id": "mando",
