@@ -978,6 +978,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "chatgpt-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-06T18:00:00+01:00",
+   "video": "chatgpt_tiktok.mp4",
+   "titulo": "ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona",
+   "texto": "ChatGPT no sabe cómo va a acabar su propia frase: la adivina trozo a trozo. ¿Lo sabías? 👇",
+   "tags": [
+    "inteligenciaartificial",
+    "chatgpt",
+    "tecnologia",
+    "comofunciona",
+    "ia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "piscina-instagram",
    "red": "instagram",
    "hora": "2026-11-07T10:00:00+01:00",
@@ -1080,6 +1098,42 @@
     "tecnologia",
     "ciencia",
     "fotografia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "chatgpt-youtube",
+   "red": "youtube",
+   "hora": "2026-11-08T16:00:00+01:00",
+   "video": "chatgpt.mp4",
+   "titulo": "ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona",
+   "texto": "ChatGPT no sabe cómo va a acabar su propia frase: la adivina trozo a trozo. ¿Lo sabías? 👇",
+   "tags": [
+    "inteligenciaartificial",
+    "chatgpt",
+    "tecnologia",
+    "comofunciona",
+    "ia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "chatgpt-instagram",
+   "red": "instagram",
+   "hora": "2026-11-08T18:00:00+01:00",
+   "video": "chatgpt.mp4",
+   "titulo": "ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona",
+   "texto": "ChatGPT no sabe cómo va a acabar su propia frase: la adivina trozo a trozo. ¿Lo sabías? 👇",
+   "tags": [
+    "inteligenciaartificial",
+    "chatgpt",
+    "tecnologia",
+    "comofunciona",
+    "ia"
    ],
    "estado": "pendiente",
    "intentos": 0,
