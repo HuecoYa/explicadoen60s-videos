@@ -926,9 +926,15 @@
     "ciencia",
     "fotografia"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705030736147204118",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-06T12:17:43.671478+00:00"
   },
   {
    "id": "enchufe-youtube",
