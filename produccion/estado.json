@@ -882,7 +882,7 @@
     "einstein",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 10,
@@ -896,7 +896,9 @@
     "Ahora mismo, tu móvil sabe dónde estás… sin preguntar a nadie.",
     "Tu móvil sabe dónde estás… y no envía ni un solo dato para saberlo.",
     "Si nadie corrigiera a Einstein, tu mapa se equivocaría diez kilómetros cada día."
-   ]
+   ],
+   "aprobado": "2026-11-06T21:39:04.500Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "induccion",
