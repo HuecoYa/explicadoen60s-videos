@@ -713,7 +713,7 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 8,
@@ -730,7 +730,8 @@
    ],
    "tendencia": "Cómo sabe el ordenador qué tecla pulsas",
    "aprobado": "2026-11-06T16:44:52.127Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 70.7
   },
   {
    "id": "ruedas",
