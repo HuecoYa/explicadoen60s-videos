@@ -1020,9 +1020,15 @@
     "cristal",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705157781191477270",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-06T20:28:53.653923+00:00"
   },
   {
    "id": "piscina-instagram",

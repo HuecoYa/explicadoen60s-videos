@@ -4,9 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 03/11 | 21:00 | instagram | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://www.instagram.com/reel/DfSv5kSETDv/) |
-| mar 03/11 | 21:00 | tiktok | Tu nevera no fabrica frío 🧊 Así funciona por dentro | 📲 en tu bandeja de TikTok |
-| mar 03/11 | 21:00 | youtube | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://youtube.com/shorts/cjkK7egXM3A) |
 | mar 03/11 | 22:00 | instagram | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://www.instagram.com/reel/DfS1aWwDZIv/) |
 | mar 03/11 | 22:00 | youtube | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://youtube.com/shorts/tZVW9vqDMa8) |
 | jue 05/11 | 00:35 | instagram | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | [✅ publicado](https://www.instagram.com/reel/DfVpg-QEoq0/) |
@@ -31,7 +28,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 06/11 | 16:00 | youtube | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://youtube.com/shorts/Bx98_RsXlu0) |
 | vie 06/11 | 18:00 | instagram | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://www.instagram.com/reel/DfaJOHhCO66/) |
 | vie 06/11 | 18:00 | tiktok | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | 📲 en tu bandeja de TikTok |
-| vie 06/11 | 21:00 | tiktok | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
+| vie 06/11 | 21:00 | tiktok | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 10:00 | instagram | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
 | sáb 07/11 | 10:00 | tiktok | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | ⏳ pendiente |
 | sáb 07/11 | 12:00 | youtube | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
