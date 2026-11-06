@@ -975,7 +975,7 @@
     "fisica",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -989,7 +989,9 @@
     "Tu lavadora, al centrifugar, gira el tambor más de mil doscientas veces por minuto.",
     "Dentro de tu lavadora hay un bloque de hormigón. Y no es un error.",
     "¿Por qué tu lavadora no sale andando cuando centrifuga?"
-   ]
+   ],
+   "aprobado": "2026-11-06T21:39:16.967Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "depuradora",
