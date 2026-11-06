@@ -1006,7 +1006,7 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -1020,7 +1020,9 @@
     "Tiras de la cadena… y en unos segundos, el agua ha desaparecido.",
     "Cada día mandas unos ciento veintiocho litros de agua a la alcantarilla. ¿Quién la limpia?",
     "El agua de tu váter vuelve al río… pero antes pasa por esto."
-   ]
+   ],
+   "aprobado": "2026-11-06T21:39:21.157Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "parking",
