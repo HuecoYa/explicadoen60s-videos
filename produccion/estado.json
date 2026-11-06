@@ -677,7 +677,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -691,7 +691,9 @@
     "Apunta el mando de tu tele a la cámara del móvil y pulsa un botón… ¿Ves esa lucecita?",
     "El mando de tu tele parpadea treinta y ocho mil veces por segundo… y no lo ves.",
     "Cada vez que cambias de canal, el mando manda treinta y dos mensajes… en un parpadeo."
-   ]
+   ],
+   "aprobado": "2026-11-06T16:44:45.619Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "teclado",
