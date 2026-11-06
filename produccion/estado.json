@@ -582,7 +582,7 @@
     "privacidad",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 10,
@@ -597,7 +597,9 @@
     "Tu mensaje de WhatsApp pasa por un servidor… y ni ellos lo pueden leer.",
     "Cada día se envían más de cien mil millones de mensajes… y ninguno se puede leer por el camino."
    ],
-   "tendencia": "El viaje de un mensaje de WhatsApp (y por qué nadie más lo lee)"
+   "tendencia": "El viaje de un mensaje de WhatsApp (y por qué nadie más lo lee)",
+   "aprobado": "2026-11-06T16:44:26.776Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "tormentas",
