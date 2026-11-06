@@ -944,7 +944,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -958,7 +958,9 @@
     "Le haces una foto a un código QR… y en menos de un segundo, tu móvil abre la carta del bar.",
     "Puedes arrancar un trozo de un código QR… y tu móvil lo sigue leyendo.",
     "Esos tres cuadrados de las esquinas del QR no son decoración."
-   ]
+   ],
+   "aprobado": "2026-11-06T21:39:12.845Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "lavadora",
