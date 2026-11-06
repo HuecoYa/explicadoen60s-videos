@@ -4,9 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 03/11 | 20:00 | instagram | ¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por  | [✅ publicado](https://www.instagram.com/reel/DfSl7GZjRvd/) |
-| mar 03/11 | 20:00 | tiktok | Tu nevera no fabrica frío 🧊 Así funciona por dentro | 📲 en tu bandeja de TikTok |
-| mar 03/11 | 20:00 | youtube | ¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por  | [✅ publicado](https://youtube.com/shorts/j0-ip-136Z4) |
 | mar 03/11 | 21:00 | instagram | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://www.instagram.com/reel/DfSv5kSETDv/) |
 | mar 03/11 | 21:00 | tiktok | Tu nevera no fabrica frío 🧊 Así funciona por dentro | 📲 en tu bandeja de TikTok |
 | mar 03/11 | 21:00 | youtube | Tu nevera no fabrica frío 🧊 Así funciona por dentro | [✅ publicado](https://youtube.com/shorts/cjkK7egXM3A) |
