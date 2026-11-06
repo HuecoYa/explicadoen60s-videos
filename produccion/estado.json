@@ -746,7 +746,7 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 6,
@@ -763,7 +763,8 @@
    ],
    "tendencia": "Por qué no revientan las ruedas de un avión",
    "aprobado": "2026-11-06T16:45:01.645Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 65.7
   },
   {
    "id": "deposito",
