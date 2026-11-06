@@ -856,9 +856,14 @@
     "física",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17910502401666839",
+    "url": "https://www.instagram.com/reel/DfZSjxzCgQ3/"
+   },
+   "publicado": "2026-11-06T09:31:56.080723+00:00"
   },
   {
    "id": "presa-tiktok",
@@ -874,9 +879,15 @@
     "energía",
     "construcción"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7704988731899594774",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-06T09:32:25.952424+00:00"
   },
   {
    "id": "auriculares-youtube",
