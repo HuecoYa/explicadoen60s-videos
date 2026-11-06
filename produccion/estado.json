@@ -850,7 +850,7 @@
     "trucos",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 10,
@@ -865,7 +865,9 @@
     "Si apuntas la antena del router a tu cuarto… le llega menos wifi. Mira por qué.",
     "El wifi no sale de la punta de la antena. Sale como un donut."
    ],
-   "tendencia": "Las antenas del router no van todas de pie"
+   "tendencia": "Las antenas del router no van todas de pie",
+   "aprobado": "2026-11-06T21:38:58.826Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "gps",
