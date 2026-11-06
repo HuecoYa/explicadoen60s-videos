@@ -550,7 +550,7 @@
     "agua",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 10,
@@ -565,7 +565,9 @@
     "¿Metes el móvil en arroz cuando se moja? En una prueba, fue lo que peor secaba.",
     "Tu móvil aguanta un chapuzón… pero hay un sitio donde el agua se queda escondida."
    ],
-   "tendencia": "Móvil mojado: ¿arroz sí o no?"
+   "tendencia": "Móvil mojado: ¿arroz sí o no?",
+   "aprobado": "2026-11-06T16:44:17.461Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "whatsapp",
