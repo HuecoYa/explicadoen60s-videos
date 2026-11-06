@@ -1086,6 +1086,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "lavavajillas-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-07T16:00:00+01:00",
+   "video": "lavavajillas_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve la sal?",
+   "texto": "La sal del lavavajillas no lava los platos: limpia unas bolitas que atrapan la cal. ¿Tú se la echas? 👇",
+   "tags": [
+    "lavavajillas",
+    "cocina",
+    "hogar",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "presa-youtube",
    "red": "youtube",
    "hora": "2026-11-07T16:00:00+01:00",
@@ -1296,6 +1314,42 @@
     "construccion",
     "ingenieria",
     "ciencia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "lavavajillas-youtube",
+   "red": "youtube",
+   "hora": "2026-11-10T16:00:00+01:00",
+   "video": "lavavajillas.mp4",
+   "titulo": "Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve la sal?",
+   "texto": "La sal del lavavajillas no lava los platos: limpia unas bolitas que atrapan la cal. ¿Tú se la echas? 👇",
+   "tags": [
+    "lavavajillas",
+    "cocina",
+    "hogar",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "lavavajillas-instagram",
+   "red": "instagram",
+   "hora": "2026-11-10T18:00:00+01:00",
+   "video": "lavavajillas.mp4",
+   "titulo": "Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve la sal?",
+   "texto": "La sal del lavavajillas no lava los platos: limpia unas bolitas que atrapan la cal. ¿Tú se la echas? 👇",
+   "tags": [
+    "lavavajillas",
+    "cocina",
+    "hogar",
+    "inventos",
+    "comofunciona"
    ],
    "estado": "pendiente",
    "intentos": 0,
