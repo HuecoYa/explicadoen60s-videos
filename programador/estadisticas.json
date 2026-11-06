@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T01:38:13.216022+00:00",
+ "actualizado": "2026-11-06T03:13:07.458735+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
@@ -11,14 +11,14 @@
    "nombre": "@explicadoen60s",
    "seguidores": 21,
    "videos": 33,
-   "vistas": 38810
+   "vistas": 38815
   },
   "tiktok": {
    "nombre": "explicadoen60s",
    "seguidores": 67,
-   "likes": 2668,
+   "likes": 2673,
    "videos": 38,
-   "vistas": 72458
+   "vistas": 72609
   }
  },
  "videos": {
@@ -28,7 +28,7 @@
     "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
     "fecha": "2026-11-05T15:41:21Z",
     "url": "https://youtube.com/shorts/c3Srh3Iietk",
-    "vistas": 1491,
+    "vistas": 1553,
     "likes": 47,
     "comentarios": 0
    },
@@ -37,7 +37,7 @@
     "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
     "fecha": "2026-11-05T11:37:05Z",
     "url": "https://youtube.com/shorts/UFWj2_kxP2U",
-    "vistas": 1291,
+    "vistas": 1292,
     "likes": 56,
     "comentarios": 0
    },
@@ -46,26 +46,26 @@
     "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
     "fecha": "2026-11-04T23:38:24Z",
     "url": "https://youtube.com/shorts/qA9E1SHz4nw",
-    "vistas": 1760,
-    "likes": 53,
-    "comentarios": 0
+    "vistas": 1868,
+    "likes": 58,
+    "comentarios": 1
    },
    {
     "id": "_jgz1oGTBxk",
     "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
     "fecha": "2026-11-04T23:36:31Z",
     "url": "https://youtube.com/shorts/_jgz1oGTBxk",
-    "vistas": 1474,
-    "likes": 54,
-    "comentarios": 1
+    "vistas": 1501,
+    "likes": 55,
+    "comentarios": 2
    },
    {
     "id": "cjkK7egXM3A",
     "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
     "fecha": "2026-11-03T20:34:34Z",
     "url": "https://youtube.com/shorts/cjkK7egXM3A",
-    "vistas": 1231,
-    "likes": 35,
+    "vistas": 1262,
+    "likes": 36,
     "comentarios": 0
    },
    {
@@ -73,7 +73,7 @@
     "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
     "fecha": "2026-11-03T19:09:40Z",
     "url": "https://youtube.com/shorts/j0-ip-136Z4",
-    "vistas": 1360,
+    "vistas": 1380,
     "likes": 43,
     "comentarios": 0
    },
@@ -82,7 +82,7 @@
     "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
     "fecha": "2026-11-03T18:20:23Z",
     "url": "https://youtube.com/shorts/KlvOp8xaqJE",
-    "vistas": 1789,
+    "vistas": 1794,
     "likes": 72,
     "comentarios": 0
    },
@@ -91,8 +91,8 @@
     "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
     "fecha": "2026-11-03T18:20:14Z",
     "url": "https://youtube.com/shorts/1ShGpgz6Y-E",
-    "vistas": 6794,
-    "likes": 245,
+    "vistas": 6966,
+    "likes": 249,
     "comentarios": 5
    },
    {
@@ -100,8 +100,8 @@
     "titulo": "¿Y si construyes un rascacielos? 🏙️ El truco de la bola gigante",
     "fecha": "2026-11-03T17:32:59Z",
     "url": "https://youtube.com/shorts/xav4qmx7Oxs",
-    "vistas": 2270,
-    "likes": 50,
+    "vistas": 2299,
+    "likes": 51,
     "comentarios": 0
    },
    {
@@ -109,8 +109,8 @@
     "titulo": "¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso",
     "fecha": "2026-11-03T16:42:02Z",
     "url": "https://youtube.com/shorts/wDwDLVzDu5c",
-    "vistas": 4868,
-    "likes": 123,
+    "vistas": 4943,
+    "likes": 127,
     "comentarios": 0
    },
    {
@@ -118,8 +118,8 @@
     "titulo": "Un airbag se infla en 30 milésimas de segundo 🚗",
     "fecha": "2026-11-03T11:03:14Z",
     "url": "https://youtube.com/shorts/pbocshzw1Mo",
-    "vistas": 5775,
-    "likes": 343,
+    "vistas": 5892,
+    "likes": 346,
     "comentarios": 3
    },
    {
@@ -127,7 +127,7 @@
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1909,
+    "vistas": 1919,
     "likes": 90,
     "comentarios": 0
    },
@@ -145,7 +145,7 @@
     "titulo": "Tu tarjeta calcula un código nuevo en cada compra 💳",
     "fecha": "2026-11-01T17:07:27Z",
     "url": "https://youtube.com/shorts/HuIneB5kG3g",
-    "vistas": 3401,
+    "vistas": 3402,
     "likes": 145,
     "comentarios": 0
    },
@@ -208,7 +208,7 @@
     "titulo": "ENVIO WHATSAPP | explicadoen60s",
     "fecha": "2026-10-30T18:29:31Z",
     "url": "https://youtube.com/shorts/6w5lAh7qh58",
-    "vistas": 23,
+    "vistas": 25,
     "likes": 0,
     "comentarios": 0
    },
@@ -244,7 +244,7 @@
     "titulo": "ASCENSOR | explicadoen60s",
     "fecha": "2026-10-30T16:49:18Z",
     "url": "https://youtube.com/shorts/td8wQB-m7DM",
-    "vistas": 1359,
+    "vistas": 1360,
     "likes": 74,
     "comentarios": 0
    },
@@ -289,7 +289,7 @@
     "titulo": "RADARES PARTE 2 | explicadoen60s",
     "fecha": "2026-10-30T16:45:47Z",
     "url": "https://youtube.com/shorts/fNCMYQjzoPw",
-    "vistas": 1353,
+    "vistas": 1355,
     "likes": 15,
     "comentarios": 0
    },
@@ -320,7 +320,7 @@
     "url": "https://www.instagram.com/reel/DfXl6zEihqi/",
     "likes": 51,
     "comentarios": 0,
-    "vistas": 1658,
+    "vistas": 1661,
     "alcance": 1284,
     "guardados": 3,
     "compartidos": 0
@@ -332,8 +332,8 @@
     "url": "https://www.instagram.com/reel/DfWu5aiCHXa/",
     "likes": 52,
     "comentarios": 2,
-    "vistas": 1687,
-    "alcance": 1247,
+    "vistas": 1689,
+    "alcance": 1249,
     "guardados": 4,
     "compartidos": 1
    },
@@ -716,8 +716,8 @@
     "titulo": "Las dos láminas de los lados de tu enchufe pueden salvarte la vida. ¿Sabías para qué eran?",
     "fecha": "2026-11-05T20:17:44+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704784184392437024?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 4596,
-    "likes": 130,
+    "vistas": 4744,
+    "likes": 134,
     "comentarios": 0,
     "compartidos": 5
    },
@@ -726,8 +726,8 @@
     "titulo": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dó",
     "fecha": "2026-11-05T15:42:16+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704713190457806112?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1314,
-    "likes": 78,
+    "vistas": 1317,
+    "likes": 79,
     "comentarios": 0,
     "compartidos": 0
    },
@@ -1137,10 +1137,10 @@
    "youtube_vistas": 49849,
    "youtube_videos": 32,
    "instagram_seguidores": 21,
-   "instagram_vistas": 38810,
+   "instagram_vistas": 38815,
    "instagram_videos": 33,
    "tiktok_seguidores": 67,
-   "tiktok_vistas": 72458,
+   "tiktok_vistas": 72609,
    "tiktok_videos": 38
   }
  ]
