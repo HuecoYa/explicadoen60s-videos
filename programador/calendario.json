@@ -1157,6 +1157,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "arroz-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-07T18:00:00+01:00",
+   "video": "arroz_tiktok.mp4",
+   "titulo": "¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱 Así funciona por dentro",
+   "texto": "En una prueba de 24 horas, el arroz crudo fue el que menos agua absorbió. ¿Tú también lo metías en arroz? 👇",
+   "tags": [
+    "movil",
+    "trucos",
+    "mitos",
+    "agua",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "camara-instagram",
    "red": "instagram",
    "hora": "2026-11-08T10:00:00+01:00",
@@ -1366,6 +1384,42 @@
     "cocina",
     "hogar",
     "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "arroz-instagram",
+   "red": "instagram",
+   "hora": "2026-11-11T10:00:00+01:00",
+   "video": "arroz.mp4",
+   "titulo": "¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱 Así funciona por dentro",
+   "texto": "En una prueba de 24 horas, el arroz crudo fue el que menos agua absorbió. ¿Tú también lo metías en arroz? 👇",
+   "tags": [
+    "movil",
+    "trucos",
+    "mitos",
+    "agua",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "arroz-youtube",
+   "red": "youtube",
+   "hora": "2026-11-11T12:00:00+01:00",
+   "video": "arroz.mp4",
+   "titulo": "¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱 Así funciona por dentro",
+   "texto": "En una prueba de 24 horas, el arroz crudo fue el que menos agua absorbió. ¿Tú también lo metías en arroz? 👇",
+   "tags": [
+    "movil",
+    "trucos",
+    "mitos",
+    "agua",
     "comofunciona"
    ],
    "estado": "pendiente",
