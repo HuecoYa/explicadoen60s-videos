@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 03/11 | 16:00 | tiktok | ¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso | 📲 en tu bandeja de TikTok |
 | mar 03/11 | 17:00 | instagram | ¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso | [✅ publicado](https://www.instagram.com/reel/DfSVOOKlRuq/) |
 | mar 03/11 | 17:00 | tiktok | ¿Y si construyes un rascacielos? 🏙️ El truco de la bola giga | 📲 en tu bandeja de TikTok |
 | mar 03/11 | 17:00 | youtube | ¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso | [✅ publicado](https://youtube.com/shorts/wDwDLVzDu5c) |
@@ -44,7 +43,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 06/11 | 10:00 | tiktok | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | 📲 en tu bandeja de TikTok |
 | vie 06/11 | 12:00 | youtube | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | [✅ publicado](https://youtube.com/shorts/50hYL5a-HZo) |
 | vie 06/11 | 13:00 | tiktok | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | 📲 en tu bandeja de TikTok |
-| vie 06/11 | 16:00 | youtube | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | ⏳ pendiente |
+| vie 06/11 | 16:00 | youtube | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://youtube.com/shorts/Bx98_RsXlu0) |
 | vie 06/11 | 18:00 | instagram | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | ⏳ pendiente |
 | sáb 07/11 | 10:00 | instagram | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
 | sáb 07/11 | 12:00 | youtube | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |

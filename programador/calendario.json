@@ -950,9 +950,14 @@
     "hogar",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "Bx98_RsXlu0",
+    "url": "https://youtube.com/shorts/Bx98_RsXlu0"
+   },
+   "publicado": "2026-11-06T15:10:01.514322+00:00"
   },
   {
    "id": "enchufe-instagram",
