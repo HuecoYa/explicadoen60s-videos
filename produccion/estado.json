@@ -582,7 +582,7 @@
     "privacidad",
     "comofunciona"
    ],
-   "estado": "escena",
+   "estado": "renderizando",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 10,
