@@ -684,7 +684,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -701,7 +701,8 @@
    ],
    "aprobado": "2026-11-06T16:44:45.619Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 70.9
+   "duracion": 70.9,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "teclado",
