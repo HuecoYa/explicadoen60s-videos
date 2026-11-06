@@ -34,10 +34,17 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 07/11 | 16:00 | tiktok | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
 | sáb 07/11 | 16:00 | youtube | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
 | sáb 07/11 | 18:00 | instagram | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
+| sáb 07/11 | 18:00 | tiktok | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | ⏳ pendiente |
+| sáb 07/11 | 21:00 | tiktok | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
 | dom 08/11 | 10:00 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
+| dom 08/11 | 10:00 | tiktok | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
 | dom 08/11 | 12:00 | youtube | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
+| dom 08/11 | 13:00 | tiktok | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
+| dom 08/11 | 16:00 | tiktok | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
 | dom 08/11 | 16:00 | youtube | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | ⏳ pendiente |
 | dom 08/11 | 18:00 | instagram | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | ⏳ pendiente |
+| dom 08/11 | 18:00 | tiktok | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
+| dom 08/11 | 21:00 | tiktok | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
 | lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
 | lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
 | lun 09/11 | 16:00 | youtube | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | ⏳ pendiente |
@@ -46,3 +53,17 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 10/11 | 12:00 | youtube | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
 | mar 10/11 | 16:00 | youtube | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
 | mar 10/11 | 18:00 | instagram | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
+| mié 11/11 | 10:00 | instagram | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | ⏳ pendiente |
+| mié 11/11 | 12:00 | youtube | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | ⏳ pendiente |
+| mié 11/11 | 16:00 | youtube | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
+| mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
+| jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
+| jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
+| jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
+| jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
+| vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
+| vie 13/11 | 12:00 | youtube | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
+| vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
+| vie 13/11 | 18:00 | instagram | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
+| sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
+| sáb 14/11 | 12:00 | youtube | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
