@@ -614,7 +614,7 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 7,
@@ -629,7 +629,9 @@
     "Debajo de Madrid hay un depósito donde cabe la lluvia de una tormenta entera.",
     "La rejilla de tu calle tiene un límite… y en una tormenta lo pasa en minutos."
    ],
-   "tendencia": "Lluvias de esta semana: a dónde va el agua de la calle"
+   "tendencia": "Lluvias de esta semana: a dónde va el agua de la calle",
+   "aprobado": "2026-11-06T16:44:31.136Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "tostadora",
