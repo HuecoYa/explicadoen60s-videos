@@ -4,9 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 03/11 | 17:00 | instagram | ¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso | [✅ publicado](https://www.instagram.com/reel/DfSVOOKlRuq/) |
-| mar 03/11 | 17:00 | tiktok | ¿Y si construyes un rascacielos? 🏙️ El truco de la bola giga | 📲 en tu bandeja de TikTok |
-| mar 03/11 | 17:00 | youtube | ¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso | [✅ publicado](https://youtube.com/shorts/wDwDLVzDu5c) |
 | mar 03/11 | 18:00 | instagram | ¿Y si construyes un rascacielos? 🏙️ El truco de la bola giga | [✅ publicado](https://www.instagram.com/reel/DfSa6R_DdOz/) |
 | mar 03/11 | 18:00 | tiktok | Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el ag | 📲 en tu bandeja de TikTok |
 | mar 03/11 | 18:00 | tiktok | Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el  | 📲 en tu bandeja de TikTok |
