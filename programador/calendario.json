@@ -1032,6 +1032,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "cargador-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-07T10:00:00+01:00",
+   "video": "cargador_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué ahora es tan pequeño?",
+   "texto": "Dentro de tu cargador hay un interruptor que corta la corriente cientos de miles de veces por segundo. ¿Lo sabías? 👇",
+   "tags": [
+    "cargador",
+    "movil",
+    "electricidad",
+    "bateria",
+    "inventos"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "piscina-youtube",
    "red": "youtube",
    "hora": "2026-11-07T12:00:00+01:00",
@@ -1188,6 +1206,42 @@
     "plegable",
     "cristal",
     "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "cargador-youtube",
+   "red": "youtube",
+   "hora": "2026-11-09T16:00:00+01:00",
+   "video": "cargador.mp4",
+   "titulo": "Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué ahora es tan pequeño?",
+   "texto": "Dentro de tu cargador hay un interruptor que corta la corriente cientos de miles de veces por segundo. ¿Lo sabías? 👇",
+   "tags": [
+    "cargador",
+    "movil",
+    "electricidad",
+    "bateria",
+    "inventos"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "cargador-instagram",
+   "red": "instagram",
+   "hora": "2026-11-09T18:00:00+01:00",
+   "video": "cargador.mp4",
+   "titulo": "Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué ahora es tan pequeño?",
+   "texto": "Dentro de tu cargador hay un interruptor que corta la corriente cientos de miles de veces por segundo. ¿Lo sabías? 👇",
+   "tags": [
+    "cargador",
+    "movil",
+    "electricidad",
+    "bateria",
+    "inventos"
    ],
    "estado": "pendiente",
    "intentos": 0,
