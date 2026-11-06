@@ -1247,6 +1247,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "ruedas-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-08T13:00:00+01:00",
+   "video": "ruedas_tiktok.mp4",
+   "titulo": "¿Por qué no revientan las ruedas de un avión? ✈️ Así funcionan por dentro",
+   "texto": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
+   "tags": [
+    "aviones",
+    "ruedas",
+    "viajes",
+    "ingenieria",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "chatgpt-youtube",
    "red": "youtube",
    "hora": "2026-11-08T16:00:00+01:00",
@@ -1528,6 +1546,42 @@
     "electricidad",
     "desayuno",
     "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "ruedas-youtube",
+   "red": "youtube",
+   "hora": "2026-11-12T16:00:00+01:00",
+   "video": "ruedas.mp4",
+   "titulo": "¿Por qué no revientan las ruedas de un avión? ✈️ Así funcionan por dentro",
+   "texto": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
+   "tags": [
+    "aviones",
+    "ruedas",
+    "viajes",
+    "ingenieria",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "ruedas-instagram",
+   "red": "instagram",
+   "hora": "2026-11-12T18:00:00+01:00",
+   "video": "ruedas.mp4",
+   "titulo": "¿Por qué no revientan las ruedas de un avión? ✈️ Así funcionan por dentro",
+   "texto": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
+   "tags": [
+    "aviones",
+    "ruedas",
+    "viajes",
+    "ingenieria",
     "comofunciona"
    ],
    "estado": "pendiente",
