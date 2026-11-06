@@ -1319,6 +1319,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "deposito-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-08T18:00:00+01:00",
+   "video": "deposito_tiktok.mp4",
+   "titulo": "¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué sale con fuerza del grifo",
+   "texto": "Cada 10 metros de altura, el agua empuja con 1 bar más. ¿Has visto el depósito de tu pueblo? 👇",
+   "tags": [
+    "agua",
+    "pueblo",
+    "ingenieria",
+    "construccion",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "plegable-instagram",
    "red": "instagram",
    "hora": "2026-11-09T10:00:00+01:00",
@@ -1636,6 +1654,42 @@
     "ordenador",
     "electronica",
     "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "deposito-youtube",
+   "red": "youtube",
+   "hora": "2026-11-13T16:00:00+01:00",
+   "video": "deposito.mp4",
+   "titulo": "¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué sale con fuerza del grifo",
+   "texto": "Cada 10 metros de altura, el agua empuja con 1 bar más. ¿Has visto el depósito de tu pueblo? 👇",
+   "tags": [
+    "agua",
+    "pueblo",
+    "ingenieria",
+    "construccion",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "deposito-instagram",
+   "red": "instagram",
+   "hora": "2026-11-13T18:00:00+01:00",
+   "video": "deposito.mp4",
+   "titulo": "¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué sale con fuerza del grifo",
+   "texto": "Cada 10 metros de altura, el agua empuja con 1 bar más. ¿Has visto el depósito de tu pueblo? 👇",
+   "tags": [
+    "agua",
+    "pueblo",
+    "ingenieria",
+    "construccion",
     "comofunciona"
    ],
    "estado": "pendiente",
