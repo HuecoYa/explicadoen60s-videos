@@ -1,17 +1,76 @@
 {
- "actualizado": "2026-11-05T20:30:00+01:00",
- "resumen": "Hoy manda el tiempo: las lluvias atlánticas de esta semana tienen «meteovigo» y «meteorólogo» en Google Trends España. Encaja con objetos y sitios que el espectador tiene cerca: la rejilla de su calle (tanque de tormentas, ya propuesto), el paraguas y la app del tiempo. WhatsApp es el único tema de tecnología entre lo más leído de Wikipedia (22.697 lecturas) y ya está propuesto, igual que el móvil mojado. En el nicho, lo más visto es la rueda del avión (3,6 M). El resto de búsquedas son baloncesto, bolsa, política de EE. UU. y un accidente con víctimas, que no encajan. Cargador, pantalla plegable, ChatGPT y lavavajillas ya están en producción.",
+ "actualizado": "2026-11-06T09:30:00+01:00",
+ "resumen": "Esta semana mandan los teclados: un teclado partido lleva 12,9 M de vistas y «sticky keys» 5,3 M, así que propongo «teclado» (la cuadrícula de filas y columnas). El móvil mojado (828 mil) y WhatsApp (15.885 lecturas en Wikipedia) siguen fuertes y ya están propuestos. Nuevo: Bruselas pide kits de emergencia de 72 horas y el vídeo de las placas solares que se apagan en un apagón lleva 505 mil. La rueda de avión (3,77 M) ya es guion. La lluvia ha bajado. El resto es fútbol, política y famosos.",
  "tendencias": [
+  {
+   "id": "teclado",
+   "tema": "Cómo sabe el ordenador qué tecla pulsas",
+   "tipo": "evergreen",
+   "puntuacion": 84,
+   "por_que": "Los teclados son lo más visto de la semana en tecnología: «THIS IS A REAL SPLIT KEYBOARD?!» lleva 12,9 M de vistas y «What is sticky keys??» 5,3 M. Es un objeto que el espectador está tocando mientras ve el vídeo.",
+   "senales": [
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«THIS IS A REAL SPLIT KEYBOARD?!», 12,9 M de vistas"
+    },
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«What is sticky keys?? And how to turn off the popup?», 5,3 M de vistas"
+    },
+    {
+     "fuente": "QMK (documentación)",
+     "dato": "Las teclas se cablean en una cuadrícula de filas y columnas y el chip las barre una a una; los diodos evitan teclas fantasma",
+     "url": "https://develop-docs.qmk.fm/how_a_matrix_works"
+    }
+   ],
+   "urgencia": "Ya propuesto como guion «teclado» (esperando tu aprobación)",
+   "angulo": "Abrir el teclado: láminas con pistas, cuadrícula de filas y columnas y un barrido de corriente columna a columna que encuentra la tecla.",
+   "titulo": "¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el teclado por dentro",
+   "gancho": "Ahora mismo, tu teclado tiene más de cien teclas… y no tiene cien cables.",
+   "primer_segundo": "Dedos tecleando rápido en primer plano y las teclas levantándose para enseñar las láminas.",
+   "cifras": [
+    "8 filas × 18 columnas = 144 cruces con solo 26 cables (cálculo)",
+    "Teclados para jugar: el ordenador les pregunta 1.000 veces por segundo",
+    "Retraso medido de una pulsación: 15-50 ms según el teclado"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: más de cien teclas y pocos cables",
+    "Las láminas: pistas, separador con agujeros y contacto",
+    "La cuadrícula de filas y columnas",
+    "El barrido: corriente columna a columna",
+    "Dato sorprendente: mil veces por segundo",
+    "Teclas fantasma y el diodo",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 8,
+    "primer_segundo": 9,
+    "ensenar": 9
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "El espectador tiene el teclado delante y puede probar lo de las tres teclas; los vídeos de teclados están arrasando esta semana.",
+   "competencia": "Mucho contenido de teclados mecánicos y gadgets; casi nadie enseña la cuadrícula por dentro en español.",
+   "riesgos": "No enseñar marcas de teclados ni de ordenadores.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "teclado",
+    "ordenador",
+    "tecnologia",
+    "electronica",
+    "comofunciona"
+   ]
+  },
   {
    "id": "arroz",
    "tema": "Móvil mojado: ¿arroz sí o no?",
    "tipo": "actualidad",
-   "puntuacion": 86,
-   "por_que": "«¿Qué hacer si se te cae el móvil al agua?» lleva 672 mil vistas esta semana en ciencia y tecnología. El mito del arroz sigue vivo, aunque Apple publicó que no conviene hacerlo.",
+   "puntuacion": 83,
+   "por_que": "«¿Qué hacer si se te cae el móvil al agua?» sigue entre lo más visto de ciencia y tecnología en YouTube España: 828 mil vistas (eran 672 mil). El mito del arroz sigue vivo, aunque el fabricante del móvil recomienda no usarlo.",
    "senales": [
     {
      "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«¿Qué hacer si se te cae el móvil al agua?», 672 mil vistas (29 oct)"
+     "dato": "«¿Qué hacer si se te cae el móvil al agua?», 828 mil vistas"
     },
     {
      "fuente": "Apple (documento de soporte, 2024)",
@@ -62,11 +121,187 @@
    ]
   },
   {
+   "id": "whatsapp",
+   "tema": "El viaje de un mensaje de WhatsApp (y por qué nadie más lo lee)",
+   "tipo": "evergreen",
+   "puntuacion": 80,
+   "por_que": "WhatsApp sigue entre lo más leído de Wikipedia en español: 15.885 lecturas en un día, y es la única app entre los 25 primeros artículos. Todo el mundo la tiene abierta ahora mismo.",
+   "senales": [
+    {
+     "fuente": "Wikipedia (es)",
+     "dato": "WhatsApp, 15.885 lecturas en un día",
+     "url": "https://es.wikipedia.org/wiki/WhatsApp"
+    },
+    {
+     "fuente": "Meta (resultados del primer trimestre de 2025)",
+     "dato": "Más de 3.000 millones de usuarios al mes",
+     "url": "https://techeconomy.ng/whatsapp-hits-3-billion-monthly-users/"
+    }
+   ],
+   "urgencia": "Ya propuesto como guion «whatsapp» (esperando tu aprobación)",
+   "angulo": "Nuevo enfoque sobre WhatsApp: el candado. El mensaje se convierte en un galimatías que viaja por el servidor y solo el móvil de destino lo descifra.",
+   "titulo": "Tu mensaje de WhatsApp pasa por un servidor… y ni ellos lo pueden leer 🔒",
+   "gancho": "El mensaje que acabas de mandar ha cruzado medio mundo… y nadie, ni la propia app, puede leerlo.",
+   "primer_segundo": "Un dedo pulsando «enviar» y las letras del mensaje transformándose al momento en símbolos sin sentido.",
+   "cifras": [
+    "Más de 100.000 millones de mensajes al día (dato de 2020)",
+    "Llave de 256 bits: un número de 78 cifras",
+    "Una llave nueva por cada mensaje (doble trinquete del protocolo)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: nadie puede leerlo",
+    "Tu móvil tiene dos llaves: una pública y una privada",
+    "El candado: cifrado de extremo a extremo",
+    "El servidor solo ve un galimatías",
+    "El móvil de destino lo abre con su llave",
+    "Dato sorprendente: las marcas azules",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 10,
+    "primer_segundo": 8,
+    "ensenar": 7
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Es la app que todos tienen abierta, y el tema de la privacidad provoca comentarios.",
+   "competencia": "Tema muy tratado en vídeos largos; poco visual en formato corto.",
+   "riesgos": "No enseñar el logotipo. Explicar el cifrado sin prometer seguridad absoluta (copias de seguridad, capturas de pantalla).",
+   "mejor_hora": "13:00 o 21:00",
+   "hashtags": [
+    "whatsapp",
+    "privacidad",
+    "tecnologia",
+    "comofunciona",
+    "movil"
+   ]
+  },
+  {
+   "id": "ruedas",
+   "tema": "Por qué no revientan las ruedas de un avión",
+   "tipo": "nicho",
+   "puntuacion": 76,
+   "por_que": "El short del neumático de avión sigue siendo el más visto del nicho «cómo funciona» esta semana: 3,77 M de vistas y 86 mil «me gusta». Las cifras son muy visuales: unos 14 bares frente a los 2 del coche.",
+   "senales": [
+    {
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "Neumático de avión, 3,77 M de vistas y 86 mil «me gusta»",
+     "url": "https://youtube.com/shorts/5TOwl28Jq9c"
+    },
+    {
+     "fuente": "WION",
+     "dato": "Unos 200 psi (≈14 bar), casi 6 veces la rueda de un coche; de 0 a más de 250 km/h en un segundo; nitrógeno",
+     "url": "https://www.wionews.com/world/explained-why-plane-tyres-never-burst-at-250-kmph-1778572791677/amp"
+    },
+    {
+     "fuente": "Lazarski University (aviación)",
+     "dato": "Hasta 500 ciclos de despegue y aterrizaje; tapones fusibles que sueltan la presión",
+     "url": "https://aviation.lazarski.pl/aircraft-tires-a-key-component-of-flight-safety/"
+    }
+   ],
+   "urgencia": "Ya propuesto como guion «ruedas» (esperando tu aprobación)",
+   "angulo": "Medidor de presión que sube a 14 bar frente a los 2,3 de un coche, y velocímetro a unos 270 km/h en el aterrizaje con la rueda que pasa de 0 a girar.",
+   "titulo": "¿Por qué no revientan las ruedas de un avión? ✈️ Así funcionan por dentro",
+   "gancho": "Cuando tu avión aterriza, sus ruedas pasan de cero a doscientos cincuenta kilómetros por hora… en un segundo.",
+   "primer_segundo": "La rueda tocando la pista en primer plano, con humo y el contador de velocidad.",
+   "cifras": [
+    "De 0 a 250 km/h en 1 segundo",
+    "Coche ≈2 bar, avión ≈14 bar (200 psi)",
+    "Unos 500 aterrizajes antes de recauchutar"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: rueda quieta a 270 km/h",
+    "Presión altísima",
+    "Nitrógeno en vez de aire",
+    "Fusibles que sueltan el gas si se calienta (comprobar)",
+    "Recauchutado",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 4,
+    "primer_segundo": 10,
+    "ensenar": 9
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Primer segundo espectacular y cifras muy visuales.",
+   "competencia": "Un viral de 3,6 M esta semana (en portugués).",
+   "riesgos": "Regla 1 baja: no es un objeto que el espectador tenga en la mano.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "avion",
+    "ruedas",
+    "ingenieria",
+    "curiosidades",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "placas",
+   "tema": "Por qué las placas solares se apagan cuando se va la luz",
+   "tipo": "actualidad",
+   "puntuacion": 72,
+   "por_que": "«Si se va la luz, tus paneles solares también se apagan, aunque haya sol» lleva 505 mil vistas esta semana en tecnología, y Bruselas acaba de volver a recomendar un kit de emergencia de 72 horas (Google Trends: «emergencia», 200+ búsquedas).",
+   "senales": [
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«Si se va la luz, tus paneles solares también se apagan, aunque haya sol», 505 mil vistas"
+    },
+    {
+     "fuente": "Google Trends España",
+     "dato": "«emergencia», 200+ búsquedas: Bruselas recomienda un kit para 72 horas",
+     "url": "https://www.20minutos.es/internacional/asi-es-kit-emergencia-72-horas-que-vuelve-recomendar-bruselas-que-debe-llevar-como-prepararlo_7057557_0.html"
+    },
+    {
+     "fuente": "Motor.es",
+     "dato": "La normativa obliga a que el inversor lleve protección «anti-isla», que lo desconecta si falla la red, para proteger a los técnicos",
+     "url": "https://www.motor.es/que-es/modo-isla"
+    }
+   ],
+   "urgencia": "Media: el tema del apagón y de los kits de emergencia está en las noticias esta semana",
+   "angulo": "Seguir la corriente del tejado al enchufe: el inversor vigila la red y, si desaparece, corta en una fracción de segundo para no electrocutar al técnico que repara el cable.",
+   "titulo": "Se va la luz y tus placas solares se apagan… aunque haga sol ☀️ ¿Por qué?",
+   "gancho": "Se va la luz en tu barrio… y las placas solares del tejado también se apagan. Aunque haga un sol de justicia.",
+   "primer_segundo": "Una placa solar en primer plano con flechas de corriente que se cortan de golpe y un medidor que cae a cero.",
+   "cifras": [
+    "Red: 230 V y 50 Hz que el inversor vigila sin parar",
+    "Desconexión en menos de un segundo (comprobar)",
+    "Producción de la placa que cae a 0 W en cuanto corta"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: hace sol y no tienes luz",
+    "Placa → corriente continua → inversor",
+    "El inversor copia el ritmo de la red (50 Hz)",
+    "Se va la red: el inversor corta",
+    "Dato sorprendente: lo hace para proteger al técnico",
+    "Qué hace falta para tener luz: batería y modo isla",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 6,
+    "primer_segundo": 7,
+    "ensenar": 8
+   },
+   "potencial": "medio-alto",
+   "por_que_funcionaria": "Sorprende y contradice lo que la gente cree; muchos lo vivieron en un apagón y genera comentarios.",
+   "competencia": "Hay artículos y vídeos largos; pocos shorts lo enseñan con el inversor en corte.",
+   "riesgos": "No dar consejos de instalación eléctrica; comprobar los tiempos de desconexión antes del guion.",
+   "mejor_hora": "21:00",
+   "hashtags": [
+    "placassolares",
+    "energia",
+    "apagon",
+    "electricidad",
+    "comofunciona"
+   ]
+  },
+  {
    "id": "tormentas",
    "tema": "Lluvias de esta semana: a dónde va el agua de la calle",
    "tipo": "actualidad",
-   "puntuacion": 84,
-   "por_que": "«meteovigo» (500+ búsquedas) y «meteorólogo» están en Google Trends España por las lluvias atlánticas de los próximos siete días (más de 100 mm previstos en La Palma y Tenerife). Cuando llueve fuerte, la pregunta natural es a dónde va el agua de la calle.",
+   "puntuacion": 68,
+   "por_que": "La lluvia ya no está en Google Trends hoy, pero el guion «tormentas» sigue esperando tu aprobación y el tema vuelve cada vez que llueve fuerte. Ayer, «meteovigo» y «meteorólogo» estaban en tendencias.",
    "senales": [
     {
      "fuente": "Google Trends España",
@@ -124,67 +359,61 @@
    ]
   },
   {
-   "id": "whatsapp",
-   "tema": "El viaje de un mensaje de WhatsApp (y por qué nadie más lo lee)",
-   "tipo": "evergreen",
-   "puntuacion": 80,
-   "por_que": "WhatsApp está entre lo más leído de Wikipedia en español (19 mil lecturas) y es la app que más usa el público en España.",
+   "id": "linterna",
+   "tema": "Linterna sin pilas (del kit de emergencia)",
+   "tipo": "actualidad",
+   "puntuacion": 64,
+   "por_que": "«emergencia» está en Google Trends España (200+) porque Bruselas vuelve a pedir un kit para 72 horas, que incluye linterna y radio. Una linterna de dinamo o de agitar se explica con un imán y una bobina.",
    "senales": [
     {
-     "fuente": "Wikipedia España",
-     "dato": "«WhatsApp», 22.697 lecturas en un día (el único artículo de tecnología entre los más leídos)",
-     "url": "https://es.wikipedia.org/wiki/WhatsApp"
-    },
-    {
-     "fuente": "Meta (resultados del primer trimestre de 2025)",
-     "dato": "Más de 3.000 millones de usuarios al mes",
-     "url": "https://techeconomy.ng/whatsapp-hits-3-billion-monthly-users/"
+     "fuente": "Google Trends España",
+     "dato": "«emergencia», 200+ búsquedas",
+     "url": "https://www.europapress.es/internacional/noticia-bruselas-vuelve-pedir-kits-emergencia-72-horas-plantea-ensenar-ninos-actuar-crisis-20261103130703.html"
     }
    ],
-   "urgencia": "Ya propuesto como guion «whatsapp» (esperando tu aprobación)",
-   "angulo": "Nuevo enfoque sobre WhatsApp: el candado. El mensaje se convierte en un galimatías que viaja por el servidor y solo el móvil de destino lo descifra.",
-   "titulo": "Tu mensaje de WhatsApp pasa por un servidor… y ni ellos lo pueden leer 🔒",
-   "gancho": "El mensaje que acabas de mandar ha cruzado medio mundo… y nadie, ni la propia app, puede leerlo.",
-   "primer_segundo": "Un dedo pulsando «enviar» y las letras del mensaje transformándose al momento en símbolos sin sentido.",
+   "urgencia": "Media: aprovecha la noticia del kit de esta semana",
+   "angulo": "Formato B: inventar una linterna que no necesita pilas. Imán que atraviesa una bobina, corriente que aparece, condensador que la guarda y LED que gasta muy poco.",
+   "titulo": "Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde sale la luz?",
+   "gancho": "Bruselas te pide tener una linterna en casa… ¿y si se acaban las pilas?",
+   "primer_segundo": "Una mano agitando la linterna en primer plano y un imán atravesando la bobina con un medidor de voltaje que salta.",
    "cifras": [
-    "Más de 100.000 millones de mensajes al día (dato de 2020)",
-    "Llave de 256 bits: un número de 78 cifras",
-    "Una llave nueva por cada mensaje (doble trinquete del protocolo)"
+    "Voltaje que sube con cada sacudida (comprobar)",
+    "Minutos de luz por minuto de manivela (comprobar)",
+    "Kit para 72 horas"
    ],
-   "formato": "A",
+   "formato": "B",
    "estructura": [
-    "Gancho: nadie puede leerlo",
-    "Tu móvil tiene dos llaves: una pública y una privada",
-    "El candado: cifrado de extremo a extremo",
-    "El servidor solo ve un galimatías",
-    "El móvil de destino lo abre con su llave",
-    "Dato sorprendente: las marcas azules",
+    "Gancho: el kit de emergencia",
+    "Problema: sin pilas no hay luz",
+    "Imán + bobina = corriente",
+    "Condensador para guardarla",
+    "LED que gasta poquísimo",
     "Cierre: Sígueme para más."
    ],
    "reglas": {
-    "cotidiano": 10,
+    "cotidiano": 5,
     "primer_segundo": 8,
-    "ensenar": 7
+    "ensenar": 8
    },
-   "potencial": "alto",
-   "por_que_funcionaria": "Es la app que todos tienen abierta, y el tema de la privacidad provoca comentarios.",
-   "competencia": "Tema muy tratado en vídeos largos; poco visual en formato corto.",
-   "riesgos": "No enseñar el logotipo. Explicar el cifrado sin prometer seguridad absoluta (copias de seguridad, capturas de pantalla).",
-   "mejor_hora": "13:00 o 21:00",
+   "potencial": "medio",
+   "por_que_funcionaria": "Conecta con una noticia práctica y enseña un principio físico muy visual.",
+   "competencia": "Poca en shorts en español.",
+   "riesgos": "No dar a entender alarma ni miedo; tono práctico. Comprobar las cifras.",
+   "mejor_hora": "13:00",
    "hashtags": [
-    "whatsapp",
-    "privacidad",
-    "tecnologia",
-    "comofunciona",
-    "movil"
+    "emergencia",
+    "linterna",
+    "electricidad",
+    "inventos",
+    "comofunciona"
    ]
   },
   {
    "id": "paraguas",
    "tema": "Cómo se abre un paraguas automático",
    "tipo": "actualidad",
-   "puntuacion": 74,
-   "por_que": "Con las lluvias de esta semana (Meteovigo y «meteorólogo» en tendencia), el paraguas es el objeto que el espectador tiene literalmente en la mano.",
+   "puntuacion": 60,
+   "por_que": "Ayer el tiempo estaba en tendencias; hoy la señal ha bajado, pero es un objeto de temporada que todo el mundo usa en noviembre y casi nadie sabe cómo se abre solo.",
    "senales": [
     {
      "fuente": "Google Trends España",
@@ -229,263 +458,98 @@
    ]
   },
   {
-   "id": "prevision",
-   "tema": "Cómo se calcula la previsión del tiempo",
-   "tipo": "actualidad",
-   "puntuacion": 70,
-   "por_que": "«meteorólogo» y «meteovigo» en tendencia, con noticias que comparan los modelos alemán (ICON), europeo y estadounidense (GFS). La app del tiempo se mira cada día.",
-   "senales": [
-    {
-     "fuente": "Google Trends España",
-     "dato": "«meteovigo», 500+ búsquedas; titulares «según el modelo alemán», «según el modelo europeo»",
-     "url": "https://www.meteovigo.es/actualidad/lluvias-siete-dias-europeo-determinista-5-noviembre-2026-00utc.html"
-    },
-    {
-     "fuente": "ECMWF (modelo europeo)",
-     "dato": "Rejilla de unos 9 km, cuatro pasadas al día y 51 versiones para medir la incertidumbre",
-     "url": "https://en.wikipedia.org/wiki/Integrated_Forecast_System"
-    }
-   ],
-   "urgencia": "Esta semana",
-   "angulo": "El mapa de tu app dividido en cuadraditos de 9 km; en cada uno, números de temperatura, viento y humedad que se calculan paso a paso; 51 previsiones que se separan con los días.",
-   "titulo": "Tu app del tiempo no adivina: divide el cielo en cuadraditos de 9 km 🌦️",
-   "gancho": "Cuando miras si va a llover mañana… estás viendo el resultado de un superordenador.",
-   "primer_segundo": "Un dedo deslizando la app del tiempo y el mapa convirtiéndose en una rejilla de cubos con flechas de viento.",
-   "cifras": [
-    "Rejilla de unos 9 km",
-    "4 previsiones al día",
-    "51 versiones que se separan con los días"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: tu app",
-    "Observaciones de satélites y globos",
-    "La rejilla",
-    "Calcular paso a paso",
-    "Dato sorprendente: 51 previsiones a la vez",
-    "Por qué a 10 días falla",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 9,
-    "primer_segundo": 7,
-    "ensenar": 8
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Todo el mundo mira el tiempo y se queja cuando falla; explica por qué.",
-   "competencia": "Pocos shorts visuales en español.",
-   "riesgos": "No enseñar marcas de apps. Es abstracto: hay que mostrar la rejilla y los números.",
-   "mejor_hora": "21:00",
-   "hashtags": [
-    "tiempo",
-    "lluvia",
-    "meteorologia",
-    "ciencia",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "rueda_avion",
-   "tema": "Por qué no revientan las ruedas de un avión",
-   "tipo": "nicho",
-   "puntuacion": 64,
-   "por_que": "Un short sobre el neumático del avión lleva 3,6 millones de vistas en una semana: el más visto del nicho.",
-   "senales": [
-    {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«Como funciona o pneu do avião», 3,61 M vistas (31 oct)"
-    },
-    {
-     "fuente": "SlashGear (Michelin, FAA)",
-     "dato": "Unos 200 psi (seis veces un coche), inflado con nitrógeno, unos 500 aterrizajes antes de recauchutar",
-     "url": "https://www.slashgear.com/851871/why-dont-airplane-tires-explode/"
-    }
-   ],
-   "urgencia": "Cuando quieras",
-   "angulo": "Medidor de presión que sube a 14 bar frente a los 2,3 de un coche, y velocímetro a unos 270 km/h en el aterrizaje con la rueda que pasa de 0 a girar.",
-   "titulo": "Esta rueda aterriza a 270 km/h y no revienta ✈️ Así funciona",
-   "gancho": "La rueda de un avión toca el suelo a casi trescientos por hora… y está parada.",
-   "primer_segundo": "La rueda tocando la pista en primer plano, con humo y el contador de velocidad.",
-   "cifras": [
-    "Presión: unos 200 psi (≈14 bar), seis veces un coche",
-    "Aterrizaje a unos 270 km/h (170 mph)",
-    "Unos 500 aterrizajes por banda de rodadura; hasta 7 recauchutados"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: rueda quieta a 270 km/h",
-    "Presión altísima",
-    "Nitrógeno en vez de aire",
-    "Fusibles que sueltan el gas si se calienta (comprobar)",
-    "Recauchutado",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 4,
-    "primer_segundo": 10,
-    "ensenar": 9
-   },
-   "potencial": "medio",
-   "por_que_funcionaria": "Primer segundo espectacular y cifras muy visuales.",
-   "competencia": "Un viral de 3,6 M esta semana (en portugués).",
-   "riesgos": "Regla 1 baja: no es un objeto que el espectador tenga en la mano.",
-   "mejor_hora": "18:00",
-   "hashtags": [
-    "avion",
-    "ruedas",
-    "ingenieria",
-    "curiosidades",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "ventilador",
-   "tema": "Por qué un ventilador no enfría el aire",
-   "tipo": "nicho",
-   "puntuacion": 58,
-   "por_que": "«¿Cómo funciona un ventilador?» supera el millón de vistas esta semana. Es el mismo canal del cargador viral, lo que indica un patrón: objetos de casa.",
-   "senales": [
-    {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«¿Cómo funciona un ventilador?», 1,05 M vistas (30 oct)"
-    }
-   ],
-   "urgencia": "Cuando quieras (mejor en primavera)",
-   "angulo": "Un termómetro en pantalla que no baja ni un grado mientras sopla el ventilador, y otro en la piel que sí baja por la evaporación del sudor.",
-   "titulo": "Tu ventilador no enfría el aire… y aun así te refresca 🌀",
-   "gancho": "Pon un termómetro delante de tu ventilador… y verás que no baja ni un grado.",
-   "primer_segundo": "Aspas girando en primer plano y un termómetro con la cifra quieta.",
-   "cifras": [
-    "Temperatura del aire: igual con y sin ventilador",
-    "Temperatura de la piel: baja varios grados",
-    "Vueltas por minuto del motor"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: el termómetro no baja",
-    "El motor y las aspas empujan el aire",
-    "La capa de aire caliente pegada a tu piel",
-    "El sudor se evapora más rápido",
-    "Dato sorprendente: en una habitación vacía, el ventilador calienta un poco",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 9,
-    "primer_segundo": 7,
-    "ensenar": 8
-   },
-   "potencial": "medio",
-   "por_que_funcionaria": "Choca con lo que la gente cree y se entiende con dos termómetros.",
-   "competencia": "Un short de 1 M esta semana: dejar pasar unos meses o darle otro ángulo.",
-   "riesgos": "En noviembre el interés por el calor es bajo; guárdalo para mayo.",
-   "mejor_hora": "13:00",
-   "hashtags": [
-    "ventilador",
-    "calor",
-    "fisica",
-    "comofunciona",
-    "ciencia"
-   ]
-  },
-  {
-   "id": "bunker",
-   "tema": "¿Y si construyes un búnker bajo tierra?",
+   "id": "helicoptero",
+   "tema": "Cómo se dirige un helicóptero (el plato oscilante)",
    "tipo": "nicho",
    "puntuacion": 52,
-   "por_que": "«Cómo funciona un búnker nuclear» tiene 1,5 M de vistas esta semana. Encaja con tu formato C (construcción en corte).",
+   "por_que": "Short del rotor de helicóptero con 58 mil vistas en el nicho esta semana; el mecanismo es muy visual, pero no es cotidiano.",
    "senales": [
     {
      "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«Cómo funciona un búnker nuclear», 1,49 M vistas (29 oct)"
+     "dato": "«Como funciona o sistema de controle do rotor de um helicóptero?», 58 mil vistas"
     }
    ],
-   "urgencia": "Cuando quieras",
-   "angulo": "Formato C: cada capa resuelve un problema (tierra que pesa, aire, agua, calor), con medidores de presión y de aire.",
-   "titulo": "¿Y si construyes un búnker? Cada metro de tierra resuelve un problema 🏗️",
-   "gancho": "Para vivir bajo tierra no basta con cavar… el primer problema aparece a los dos metros.",
-   "primer_segundo": "Una excavadora abriendo el suelo en corte, con un medidor de profundidad bajando.",
+   "urgencia": "Baja: evergreen",
+   "angulo": "Plato oscilante que inclina cada pala al pasar por un punto y una flecha de empuje que se inclina hacia donde va el helicóptero.",
+   "titulo": "¿Cómo sabe un helicóptero hacia dónde ir? 🚁 Así funciona por dentro",
+   "gancho": "Un helicóptero no tiene alas… pero puede ir hacia delante, hacia atrás o de lado.",
+   "primer_segundo": "Las palas girando en primer plano y una de ellas inclinándose al pasar.",
    "cifras": [
-    "Metros de profundidad",
-    "Toneladas de tierra encima",
-    "Renovaciones de aire por hora"
+    "Vueltas por minuto del rotor (comprobar)",
+    "Ángulo de cada pala (comprobar)"
    ],
-   "formato": "C",
+   "formato": "A",
    "estructura": [
-    "Gancho: cavar no basta",
-    "La tierra empuja: muros de hormigón armado",
-    "Sin aire: ventilación con filtros",
-    "El agua del terreno: drenaje y bombas",
-    "Puertas pesadas y entrada en zigzag",
-    "Dato sorprendente",
+    "Gancho",
+    "Rotor y empuje",
+    "Plato oscilante",
+    "Inclinar el empuje",
+    "Rotor de cola",
     "Cierre: Sígueme para más."
    ],
    "reglas": {
     "cotidiano": 3,
-    "primer_segundo": 8,
+    "primer_segundo": 9,
     "ensenar": 8
    },
    "potencial": "medio",
-   "por_que_funcionaria": "El formato C ya te funciona (por ejemplo, el rascacielos) y el tema tiene demanda.",
-   "competencia": "Un viral de 1,5 M esta semana.",
-   "riesgos": "Regla 1 baja: no es algo cotidiano. Evitar el tono alarmista sobre guerras. Esta semana hay temas de mejor encaje (lluvias y tanques de tormentas, con el mismo formato C).",
-   "mejor_hora": "18:00",
+   "por_que_funcionaria": "Mecanismo muy visual que engancha a los curiosos de la ingeniería.",
+   "competencia": "Hay muchos en inglés y portugués.",
+   "riesgos": "Poco cotidiano (regla 1). No enseñar helicópteros militares.",
+   "mejor_hora": "16:00",
    "hashtags": [
-    "bunker",
-    "construccion",
+    "helicoptero",
+    "aviacion",
     "ingenieria",
-    "comofunciona",
-    "bajotierra"
+    "mecanica",
+    "comofunciona"
    ]
   }
  ],
  "descartadas": [
   {
-   "tema": "Famosos y televisión (Antonio Banderas, Telecinco, Roberto Leal, Pepe Rodríguez…)",
-   "motivo": "Personas y programas de televisión: no hay un mecanismo que explicar."
+   "tema": "Fútbol (Jesús de Miguel, caso Owono, Harvey Elliott, Nico Paz, Real Madrid)",
+   "motivo": "Resultados, fichajes y una muerte: no hay mecanismo y hay víctima."
   },
   {
-   "tema": "Twitch / embajador de una sala de póquer",
-   "motivo": "Relacionado con apuestas: fuera de las normas de la cuenta."
-  },
-  {
-   "tema": "Elecciones en Estados Unidos y política",
+   "tema": "Política (alcaldes de Albacete y Azofra, Paraguay, elecciones de EE. UU., Carlos Cuerpo, Óscar Puente)",
    "motivo": "Política: no encaja con la cuenta."
   },
   {
-   "tema": "Fútbol (Champions, clubes, jugadores)",
-   "motivo": "Resultados deportivos, no mecanismos."
+   "tema": "Famosos y música (Ronnie Wood, Bob Dylan, Almodóvar, C. Tangana, Rolling Stones)",
+   "motivo": "Personas famosas: no hay un mecanismo que explicar."
   },
   {
-   "tema": "Silenciador de armas",
+   "tema": "Depósitos bancarios al 3,24 %",
+   "motivo": "Finanzas: puede parecer consejo de inversión."
+  },
+  {
+   "tema": "Silenciador, Phalanx y cazacarros",
    "motivo": "Armas: fuera de la línea de la cuenta."
   },
   {
-   "tema": "Escalera mecánica y váter",
-   "motivo": "Ya los tienes hechos («escalera» y «cisterna»)."
+   "tema": "Sistema LZB y accidente de Urda",
+   "motivo": "Suceso con víctimas."
   },
   {
-   "tema": "Angrois / Adamuz (accidentes ferroviarios)",
-   "motivo": "Sucesos con víctimas: no se hace contenido de entretenimiento sobre ellos."
+   "tema": "Cargador del móvil (15,5 M de vistas), bolígrafo (2,8 M), lavavajillas, váter",
+   "motivo": "Ya hechos: «cargador», «boligrafo», «lavavajillas» y «cisterna»."
   },
   {
-   "tema": "Euroliga (Hapoel - Barça, Damian Jones, Anadolu Efes - París)",
-   "motivo": "Resultados deportivos y jugadores, no mecanismos."
+   "tema": "Móviles nuevos (iPhone Duo, Galaxy S27), MacBook de 17.000 €, Black Friday PS5",
+   "motivo": "Marcas y precios: no se pueden enseñar marcas reales; el móvil plegable ya está hecho («plegable»)."
   },
   {
-   "tema": "IBEX 35 y bolsa",
-   "motivo": "Finanzas del día: no hay un objeto que enseñar y puede parecer consejo de inversión."
+   "tema": "Ventilador (1,1 M en el nicho)",
+   "motivo": "Fuera de temporada en noviembre: mejor guardarlo para junio."
   },
   {
-   "tema": "Elecciones en EE. UU. (Gina Hinojosa, James Talarico, Senado…)",
-   "motivo": "Política: no encaja con la cuenta."
+   "tema": "Trasplante de pelo, cadera, piedra de riñón, diabetes",
+   "motivo": "Temas médicos: no son objetos y el canal «Por Dentro De Todo» los domina."
   },
   {
-   "tema": "Cargador, pantalla plegable, ChatGPT y lavavajillas",
-   "motivo": "Ya están en producción (voz grabada, escena en curso)."
-  },
-  {
-   "tema": "Trasplante de pelo, cadera, piedra de riñón",
-   "motivo": "Temas médicos: el canal «Por Dentro De Todo» los domina y no son objetos cotidianos."
+   "tema": "Videojuegos (Zelda, Fortnite, Minecraft, Pokémon)",
+   "motivo": "Marcas de videojuegos: no se pueden enseñar."
   }
  ]
 }

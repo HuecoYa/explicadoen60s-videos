@@ -621,6 +621,153 @@
     "La rejilla de tu calle tiene un límite… y en una tormenta lo pasa en minutos."
    ],
    "tendencia": "Lluvias de esta semana: a dónde va el agua de la calle"
+  },
+  {
+   "id": "tostadora",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo saltar?",
+   "guion": "Cada mañana bajas la palanca… y la tostada salta sola en el momento justo. ¿Cómo lo sabe? Vamos a inventarla. Primero necesitas calor. Pero el fuego dentro de casa es peligroso. Así que usas electricidad y un hilo muy especial: el nicrom. Le cuesta mucho dejar pasar la corriente… así que se calienta, y se pone rojo. Aguanta unos mil cuatrocientos grados sin fundirse. Pero el pan no se tuesta por contacto. Ese hilo lanza calor invisible, infrarrojo, directo a la superficie. Pero solo se dora por encima de unos ciento cuarenta grados. Por debajo, el pan solo se seca. Así que pones hilos a los dos lados, muy cerca del pan. Pero ahora tienes que sujetarlo. Así que pones una bandeja con un muelle. Al bajar la palanca, estiras el muelle… y un imán la deja enganchada. Y aquí viene lo curioso… Ese imán solo funciona mientras pasa corriente. Por eso, si la tostadora está desenchufada, la palanca no se queda abajo. Pero falta lo más importante: saber cuándo parar. Así que añades un reloj, o una lámina de dos metales. Al calentarse, uno se estira más que el otro… y la lámina se dobla. Cuando se dobla del todo, corta la corriente. El imán se suelta, el muelle tira… ¡y la tostada salta! Si giras la ruedecita, cambias cuánto tarda en cortarse. Sígueme para más.",
+   "texto": "La palanca de tu tostadora solo se queda abajo si está enchufada. ¿Lo habías probado? 👇",
+   "tags": [
+    "cocina",
+    "electricidad",
+    "desayuno",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Casi todo el mundo usa la tostadora cada mañana; el gancho habla de «cada mañana bajas la palanca»",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Una tostada saltando en primer plano a cámara lenta, con los hilos al rojo debajo",
+    "ensenar": 9,
+    "ensenar_nota": "Termómetro del hilo que sube hasta 1.400 °C, termómetro del pan que cruza los 140 °C y cambia de color, lámina que se dobla hasta cortar la corriente"
+   },
+   "ganchos": [
+    "Cada mañana bajas la palanca… y la tostada salta sola en el momento justo. ¿Cómo lo sabe?",
+    "Desenchufa la tostadora y baja la palanca… no se queda abajo. ¿Por qué?",
+    "Dentro de tu tostadora hay un hilo a más de mil grados… y no se funde."
+   ]
+  },
+  {
+   "id": "mando",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la luz no se ve?",
+   "guion": "Apunta el mando de tu tele a la cámara del móvil y pulsa un botón… ¿Ves esa lucecita? A simple vista no se ve nada. Vamos a inventar el mando. Quieres cambiar de canal desde el sofá, sin cables. Así que usas luz: una bombillita en la punta, un LED. Pero si fuera una luz normal, verías destellos cada vez que pulsas. Así que usas infrarrojo, a unos novecientos cuarenta nanómetros. Tus ojos no lo ven… pero muchas cámaras de móvil, sí. Pero hay un problema. El sol, las bombillas y la estufa también sueltan infrarrojo. ¿Cómo distingue la tele tu mando? Así que haces parpadear el LED muy rápido. Treinta y ocho mil veces por segundo. El receptor de la tele solo escucha ese ritmo, e ignora todo lo demás. Pero ahora tienes que decir qué botón has pulsado. Así que mandas un código de unos y ceros. Ráfaga larga, uno. Ráfaga corta, cero. Y aquí viene lo curioso… Cada pulsación manda treinta y dos de esas señales. Ocho dicen qué aparato eres. Ocho dicen qué tecla. Y las otras dieciséis repiten lo mismo al revés, para comprobar que nada se ha perdido. Si algo no cuadra, la tele lo ignora. Por eso tienes que apuntar más o menos hacia ella: la luz rebota en las paredes, pero no atraviesa el sofá. Sígueme para más.",
+   "texto": "Apunta tu mando a la cámara del móvil y pulsa un botón. ¿Ves la luz? 👇",
+   "tags": [
+    "tele",
+    "infrarrojo",
+    "tecnologia",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "El mando está en todos los salones y el gancho invita a probarlo con tu propio móvil",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Un pulgar apretando el botón en primer plano y el LED de la punta destellando en morado, visto «a través de la cámara»",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de parpadeos hasta 38.000 por segundo, barra de longitud de onda fuera del arcoíris (940 nm) y los 32 bits encendiéndose uno a uno"
+   },
+   "ganchos": [
+    "Apunta el mando de tu tele a la cámara del móvil y pulsa un botón… ¿Ves esa lucecita?",
+    "El mando de tu tele parpadea treinta y ocho mil veces por segundo… y no lo ves.",
+    "Cada vez que cambias de canal, el mando manda treinta y dos mensajes… en un parpadeo."
+   ]
+  },
+  {
+   "id": "teclado",
+   "formato": "A",
+   "titulo": "¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el teclado por dentro",
+   "guion": "Ahora mismo, tu teclado tiene más de cien teclas… y no tiene cien cables. ¿Cómo sabe cuál has pulsado? Vamos a abrirlo. Debajo de cada tecla hay una lámina de plástico con dos capas de pistas de metal. Y entre ellas, una capa con agujeros que las mantiene separadas. Al pulsar, la capa de arriba baja por el agujero… toca la de abajo, y cierra un circuito. Pero no hay un cable por tecla. Las pistas forman una cuadrícula: filas y columnas. Cada tecla está justo en un cruce. Con ocho filas y dieciocho columnas tienes ciento cuarenta y cuatro cruces… con solo veintiséis cables. Ahora, un pequeño chip hace algo muy rápido. Mete corriente en la primera columna, y mira qué filas la reciben. Luego en la segunda. Luego en la tercera. Si la corriente sale por la fila tres en la columna cinco… has pulsado esa tecla. Y aquí viene lo curioso… El chip repasa la cuadrícula entera una y otra vez, sin parar. Y en un teclado para jugar, se lo cuenta al ordenador mil veces cada segundo. Pero si pulsas tres teclas a la vez, la corriente puede dar la vuelta… y aparece una cuarta que no has tocado. Por eso los buenos teclados ponen un diodo en cada tecla: una válvula que deja pasar la corriente en un solo sentido. Sígueme para más.",
+   "texto": "Tu teclado tiene más de 100 teclas y muchos menos cables. ¿Sabías que funcionaba así? 👇",
+   "tags": [
+    "teclado",
+    "ordenador",
+    "electronica",
+    "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "El teclado del portátil o del ordenador se usa a diario; el gancho empieza con «ahora mismo, tu teclado»",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Dedos tecleando rápido en primer plano y las teclas levantándose para dejar ver las láminas debajo",
+    "ensenar": 9,
+    "ensenar_nota": "Cuadrícula de 8×18 con un contador de cruces (144) frente a cables (26), barrido de corriente columna a columna y contador de 1.000 avisos por segundo"
+   },
+   "ganchos": [
+    "Ahora mismo, tu teclado tiene más de cien teclas… y no tiene cien cables.",
+    "Cada vez que pulsas una tecla, un chip la busca en una cuadrícula… miles de veces por segundo.",
+    "Pulsa tres teclas a la vez en un teclado barato… y puede aparecer una cuarta."
+   ],
+   "tendencia": "Cómo sabe el ordenador qué tecla pulsas"
+  },
+  {
+   "id": "ruedas",
+   "formato": "A",
+   "titulo": "¿Por qué no revientan las ruedas de un avión? ✈️ Así funcionan por dentro",
+   "guion": "Cuando tu avión aterriza, sus ruedas pasan de cero a doscientos cincuenta kilómetros por hora… en un segundo. ¿Por qué no revientan? Vamos a mirar dentro. Primero, la presión. La rueda de tu coche lleva unos dos bares. La de un avión, unos catorce. ¡Casi seis veces más! Pero no está llena de aire. Está llena de nitrógeno. El aire tiene oxígeno y humedad. Con el calor del frenado, el oxígeno puede hacer arder la goma por dentro. Y el agua, a diez mil metros, se congela. El nitrógeno no reacciona y casi no cambia con la temperatura. Así que la presión se mantiene. Pero la goma no aguantaría sola. Por dentro lleva capas y capas de tejido de nailon, cruzadas como una cesta. Eso es lo que sujeta la presión. Y aquí viene lo curioso… Al frenar, las llantas se calientan muchísimo. Si la presión subiera demasiado, la rueda explotaría. Así que la llanta lleva unos tapones de metal que se funden con el calor. Sueltan el gas poco a poco… y la rueda se desinfla en vez de reventar. ¿Y cuánto dura? Unos quinientos despegues y aterrizajes. Luego no se tira. Le quitan la banda gastada y le pegan una nueva. Sígueme para más.",
+   "texto": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
+   "tags": [
+    "aviones",
+    "ruedas",
+    "viajes",
+    "ingenieria",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 6,
+    "cotidiano_nota": "No es diario, pero casi todo el mundo ha volado; se conecta con «tu avión» y con la rueda de tu coche",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "La rueda tocando la pista en primer plano, soltando humo, con un velocímetro que salta de 0 a 250 km/h",
+    "ensenar": 9,
+    "ensenar_nota": "Velocímetro 0→250 km/h en 1 s, dos manómetros (coche 2 bar / avión 14 bar), tapón fusible que se derrite y contador de aterrizajes hasta 500"
+   },
+   "ganchos": [
+    "Cuando tu avión aterriza, sus ruedas pasan de cero a doscientos cincuenta kilómetros por hora… en un segundo.",
+    "La rueda de un avión lleva casi seis veces la presión de la de tu coche.",
+    "Las ruedas de los aviones no llevan aire… y hay un buen motivo."
+   ],
+   "tendencia": "Por qué no revientan las ruedas de un avión"
+  },
+  {
+   "id": "deposito",
+   "formato": "C",
+   "titulo": "¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué sale con fuerza del grifo",
+   "guion": "Abres el grifo de tu casa… y el agua sale con fuerza. Pero nadie está empujando. ¿O sí? Vamos a construir un depósito. Tu pueblo necesita agua. La sacas de un pozo con una bomba y la llevas por tubos a las casas. Pero si la bomba se para, el grifo se seca. Y por la mañana todo el mundo se ducha a la vez… y la bomba no da abasto. Así que construyes un depósito para guardar agua. Pero si lo pones en el suelo, el agua no sube a los pisos. Así que lo subes. Muy alto. Ahora la gravedad hace el trabajo. Cada diez metros de altura de agua empujan con un bar de presión. Un depósito de treinta metros… te da unos tres bares en el grifo. Pero tanta agua pesa muchísimo. Así que lo apoyas en una torre de hormigón, y le das forma de copa: ancho arriba, estrecho abajo. Y aquí viene lo curioso… El agua del depósito no se usa directamente. La bomba lo va llenando cuando la gente gasta poco. Y cuando todos abren el grifo a la vez, el depósito baja, y cubre lo que falta. Pero si el agua se queda quieta, se estropea. Así que cada día se vacía y se vuelve a llenar, y el agua siempre se renueva. Por eso, si se va la luz en el pueblo… durante unas horas, sigue saliendo agua. Sígueme para más.",
+   "texto": "Cada 10 metros de altura, el agua empuja con 1 bar más. ¿Has visto el depósito de tu pueblo? 👇",
+   "tags": [
+    "agua",
+    "pueblo",
+    "ingenieria",
+    "construccion",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "El grifo de casa es diario y casi todo el mundo ha visto el depósito en lo alto de su pueblo",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Un grifo abriéndose en primer plano con el chorro saliendo con fuerza y la tubería en corte bajando hacia la calle",
+    "ensenar": 9,
+    "ensenar_nota": "Regla de altura junto a un manómetro: 10 m → 1 bar, 20 m → 2 bar, 30 m → 3 bar; nivel del depósito que baja cuando todos gastan y se rellena cuando gastan poco"
+   },
+   "ganchos": [
+    "Abres el grifo de tu casa… y el agua sale con fuerza. Pero nadie está empujando. ¿O sí?",
+    "Si se va la luz en tu pueblo… el grifo sigue echando agua durante horas. ¿Por qué?",
+    "Cada diez metros de altura, el agua de tu grifo empuja un poco más fuerte."
+   ]
   }
  ]
 }
