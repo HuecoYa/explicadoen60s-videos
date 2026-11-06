@@ -1211,6 +1211,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "tostadora-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-08T10:00:00+01:00",
+   "video": "tostadora_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo saltar?",
+   "texto": "La palanca de tu tostadora solo se queda abajo si está enchufada. ¿Lo habías probado? 👇",
+   "tags": [
+    "cocina",
+    "electricidad",
+    "desayuno",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "camara-youtube",
    "red": "youtube",
    "hora": "2026-11-08T12:00:00+01:00",
@@ -1474,6 +1492,42 @@
     "ciudad",
     "ingenieria",
     "construccion",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "tostadora-instagram",
+   "red": "instagram",
+   "hora": "2026-11-12T10:00:00+01:00",
+   "video": "tostadora.mp4",
+   "titulo": "Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo saltar?",
+   "texto": "La palanca de tu tostadora solo se queda abajo si está enchufada. ¿Lo habías probado? 👇",
+   "tags": [
+    "cocina",
+    "electricidad",
+    "desayuno",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "tostadora-youtube",
+   "red": "youtube",
+   "hora": "2026-11-12T12:00:00+01:00",
+   "video": "tostadora.mp4",
+   "titulo": "Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo saltar?",
+   "texto": "La palanca de tu tostadora solo se queda abajo si está enchufada. ¿Lo habías probado? 👇",
+   "tags": [
+    "cocina",
+    "electricidad",
+    "desayuno",
+    "inventos",
     "comofunciona"
    ],
    "estado": "pendiente",
