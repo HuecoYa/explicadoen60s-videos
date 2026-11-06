@@ -996,6 +996,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "plegable-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-06T21:00:00+01:00",
+   "video": "plegable_tiktok.mp4",
+   "titulo": "Este cristal se dobla 200.000 veces sin romperse 🤯 Así funciona una pantalla plegable",
+   "texto": "El cristal de un móvil plegable mide 30 micras: menos de la mitad de un pelo. ¿Te comprarías uno? 👇",
+   "tags": [
+    "pantalla",
+    "movil",
+    "plegable",
+    "cristal",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "piscina-instagram",
    "red": "instagram",
    "hora": "2026-11-07T10:00:00+01:00",
@@ -1134,6 +1152,42 @@
     "tecnologia",
     "comofunciona",
     "ia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "plegable-instagram",
+   "red": "instagram",
+   "hora": "2026-11-09T10:00:00+01:00",
+   "video": "plegable.mp4",
+   "titulo": "Este cristal se dobla 200.000 veces sin romperse 🤯 Así funciona una pantalla plegable",
+   "texto": "El cristal de un móvil plegable mide 30 micras: menos de la mitad de un pelo. ¿Te comprarías uno? 👇",
+   "tags": [
+    "pantalla",
+    "movil",
+    "plegable",
+    "cristal",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "plegable-youtube",
+   "red": "youtube",
+   "hora": "2026-11-09T12:00:00+01:00",
+   "video": "plegable.mp4",
+   "titulo": "Este cristal se dobla 200.000 veces sin romperse 🤯 Así funciona una pantalla plegable",
+   "texto": "El cristal de un móvil plegable mide 30 micras: menos de la mitad de un pelo. ¿Te comprarías uno? 👇",
+   "tags": [
+    "pantalla",
+    "movil",
+    "plegable",
+    "cristal",
+    "comofunciona"
    ],
    "estado": "pendiente",
    "intentos": 0,
