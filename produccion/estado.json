@@ -775,7 +775,7 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 8,
@@ -791,7 +791,8 @@
     "Cada diez metros de altura, el agua de tu grifo empuja un poco más fuerte."
    ],
    "aprobado": "2026-11-06T16:45:15.007Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 66.0
   }
  ]
 }
