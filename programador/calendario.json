@@ -1337,6 +1337,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "mando-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-08T21:00:00+01:00",
+   "video": "mando_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la luz no se ve?",
+   "texto": "Apunta tu mando a la cámara del móvil y pulsa un botón. ¿Ves la luz? 👇",
+   "tags": [
+    "tele",
+    "infrarrojo",
+    "tecnologia",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "plegable-instagram",
    "red": "instagram",
    "hora": "2026-11-09T10:00:00+01:00",
@@ -1690,6 +1708,42 @@
     "pueblo",
     "ingenieria",
     "construccion",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "mando-instagram",
+   "red": "instagram",
+   "hora": "2026-11-14T10:00:00+01:00",
+   "video": "mando.mp4",
+   "titulo": "Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la luz no se ve?",
+   "texto": "Apunta tu mando a la cámara del móvil y pulsa un botón. ¿Ves la luz? 👇",
+   "tags": [
+    "tele",
+    "infrarrojo",
+    "tecnologia",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "mando-youtube",
+   "red": "youtube",
+   "hora": "2026-11-14T12:00:00+01:00",
+   "video": "mando.mp4",
+   "titulo": "Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la luz no se ve?",
+   "texto": "Apunta tu mando a la cámara del móvil y pulsa un botón. ¿Ves la luz? 👇",
+   "tags": [
+    "tele",
+    "infrarrojo",
+    "tecnologia",
+    "inventos",
     "comofunciona"
    ],
    "estado": "pendiente",
