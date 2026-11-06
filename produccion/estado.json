@@ -793,6 +793,240 @@
    "aprobado": "2026-11-06T16:45:15.007Z",
    "aprobado_por": "Nikoloz_Lekishvili",
    "duracion": 66.0
+  },
+  {
+   "id": "placas",
+   "formato": "A",
+   "titulo": "Se va la luz y tus placas solares se apagan… aunque haga sol ☀️ ¿Por qué?",
+   "guion": "Se va la luz en tu barrio… y las placas solares del tejado también se apagan. ¡Aunque haga un sol de justicia! ¿Por qué? Mira dentro. La placa no da la corriente que usa tu casa. Da corriente continua, que va siempre en el mismo sentido. Tus enchufes necesitan alterna, de doscientos treinta voltios, que cambia de sentido cincuenta veces por segundo. Así que en medio hay una caja: el inversor. Convierte una corriente en la otra. Pero para hacerlo, copia el ritmo de la red. Vigila sin parar la tensión y los cincuenta ciclos por segundo. Si la frecuencia baja de cuarenta y ocho, o pasa de cincuenta y uno… algo va mal. Y aquí viene lo curioso… Si se va la luz, el inversor se desconecta en menos de dos segundos. Aunque tus placas sigan produciendo. ¿Por qué? Por los técnicos. Cuando hay una avería, alguien tiene que reparar el cable. Si tu tejado siguiera mandando corriente a la calle, ese cable tendría tensión… y podría electrocutarle. A esto se le llama protección antiisla. Cuando vuelve la luz, el inversor no se fía. Espera al menos tres minutos con la red estable antes de reconectarse. ¿Y si quieres luz en un apagón? Necesitas baterías y un inversor híbrido, con un interruptor que separe tu casa de la calle. Así tu casa se convierte en una isla. Sígueme para más.",
+   "texto": "El inversor se desconecta en menos de 2 segundos cuando se va la luz, aunque haga sol. ¿Lo sabías? 👇",
+   "tags": [
+    "placassolares",
+    "apagon",
+    "electricidad",
+    "energia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Muchos tejados ya tienen placas y el apagón es algo que todos temen; se conecta con «tu barrio» y «tus enchufes»",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Las luces de una calle apagándose de golpe y, en primer plano, la placa del tejado bajo el sol con su medidor cayendo a 0 W",
+    "ensenar": 9,
+    "ensenar_nota": "Onda de 50 ciclos por segundo, frecuencímetro que se sale de 48-51 Hz, cuenta atrás de 2 s hasta que salta el relé y reloj de 3 minutos para reconectar"
+   },
+   "ganchos": [
+    "Se va la luz en tu barrio… y las placas solares del tejado también se apagan.",
+    "Tu tejado está lleno de placas, hace un sol de justicia… y en el apagón no tienes luz. ¿Por qué?",
+    "En un apagón, tus placas solares se desconectan en menos de dos segundos. Y lo hacen a propósito."
+   ],
+   "tendencia": "Por qué las placas solares se apagan cuando se va la luz"
+  },
+  {
+   "id": "router",
+   "formato": "A",
+   "titulo": "¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de verdad el wifi",
+   "guion": "Las antenitas de tu router… ¿las tienes apuntando a tu habitación? Pues no funcionan así. Vamos a ver qué sale de ellas. Tu router convierte los datos en ondas de radio. En la banda de dos coma cuatro gigahercios, la señal oscila dos mil cuatrocientos millones de veces por segundo. Cada onda mide unos doce centímetros y medio. Dentro de cada antena hay una varilla de metal. La corriente sube y baja por ella… y suelta ondas hacia los lados. Pero no por la punta. La señal tiene forma de donut, con la antena en el agujero. Por eso apuntarla hacia tu cuarto no sirve de nada: por la punta casi no sale señal. Si las pones todas de pie, el donut queda tumbado, y cubre bien tu planta. Pero el piso de arriba se queda en el agujero. Así que, si tienes dos plantas, inclina una antena o ponla tumbada. Y aquí viene lo curioso… La banda de cinco gigahercios es más rápida, pero sus ondas miden solo seis centímetros. Las paredes y el agua las frenan mucho más. Y tu cuerpo es, sobre todo, agua. Por eso, en la otra punta de la casa, el móvil se pasa a la banda lenta. ¿Y dónde pones el router? En el centro de la casa, a la altura de la mesa. Nunca dentro de un mueble, ni detrás de la tele, ni junto al microondas. Sígueme para más.",
+   "texto": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las tuyas? 👇",
+   "tags": [
+    "wifi",
+    "router",
+    "internet",
+    "trucos",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Todo el mundo tiene router en casa y ha movido alguna vez las antenas",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una mano girando una antena del router en primer plano y las ondas saliendo en anillos de colores",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de oscilaciones hasta 2.400 millones por segundo, regla con la onda de 12,5 cm frente a 6 cm, el donut de señal que se tumba y las rayas de cobertura que bajan en el piso de arriba"
+   },
+   "ganchos": [
+    "Las antenitas de tu router… ¿las tienes apuntando a tu habitación?",
+    "Si apuntas la antena del router a tu cuarto… le llega menos wifi. Mira por qué.",
+    "El wifi no sale de la punta de la antena. Sale como un donut."
+   ],
+   "tendencia": "Las antenas del router no van todas de pie"
+  },
+  {
+   "id": "gps",
+   "formato": "A",
+   "titulo": "Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el GPS (y Einstein)",
+   "guion": "Ahora mismo, tu móvil sabe dónde estás… sin preguntar a nadie. Solo escucha. ¿A quién? Mira hacia arriba. A unos veinte mil kilómetros de altura, hay treinta y un satélites dando vueltas a la Tierra. Cada uno lleva un reloj atómico, y no para de repetir: «Soy este satélite, y ahora es exactamente esta hora». Esa señal viaja a la velocidad de la luz… y tarda unas siete centésimas de segundo en llegar a tu bolsillo. Tu móvil compara la hora de la señal con la suya. Con el retraso, calcula la distancia. Con un satélite, sabes que estás en algún punto de una esfera gigante. Con dos, en un círculo. Con tres, en dos puntos, y uno de ellos está en el espacio. Pero hay un problema. El reloj de tu móvil no es atómico. Así que usas un cuarto satélite, que corrige su hora. Por eso necesitas cuatro. Y la precisión es brutal: un error de una millonésima de segundo… ¡son trescientos metros! Y aquí viene lo curioso… Allí arriba, el tiempo pasa más rápido. Los relojes de los satélites se adelantan treinta y ocho millonésimas de segundo cada día. Lo predijo Einstein. Si nadie lo corrigiera, tu mapa se desviaría unos diez kilómetros al día. Así que los relojes se ajustan antes de lanzarlos. Y todo esto pasa sin que tu móvil envíe nada. Sígueme para más.",
+   "texto": "Sin la corrección de Einstein, el GPS se desviaría unos 10 km cada día. ¿Lo sabías? 👇",
+   "tags": [
+    "gps",
+    "movil",
+    "satelites",
+    "einstein",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Cada vez que abres el mapa del móvil; el gancho empieza con «ahora mismo, tu móvil»",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "El punto azul del mapa moviéndose en primer plano mientras la cámara sube a toda velocidad hacia los satélites",
+    "ensenar": 10,
+    "ensenar_nota": "Esferas que se cortan hasta dejar un punto, contador del retraso (0,07 s), error de 1 µs → 300 m y reloj que se adelanta 38 µs al día con el mapa desviándose hasta 10 km"
+   },
+   "ganchos": [
+    "Ahora mismo, tu móvil sabe dónde estás… sin preguntar a nadie.",
+    "Tu móvil sabe dónde estás… y no envía ni un solo dato para saberlo.",
+    "Si nadie corrigiera a Einstein, tu mapa se equivocaría diez kilómetros cada día."
+   ]
+  },
+  {
+   "id": "induccion",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué el cristal no quema?",
+   "guion": "Tu placa de inducción hierve el agua en un momento… pero el cristal de al lado sigue frío. ¿Cómo? Vamos a inventarla. Quieres calentar comida. Con fuego, gran parte del calor se escapa por los lados de la olla. Con gas, solo aprovechas en torno al cuarenta por ciento. Así que pones el calor dentro de la propia olla. ¿Cómo? Debajo del cristal colocas una bobina de cobre. Le metes una corriente que cambia de sentido entre veinte mil y cien mil veces por segundo. Eso crea un campo magnético que sube, atraviesa el cristal… y entra en el fondo de la olla. Ahí dentro mueve la electricidad en remolinos. Y el metal, al resistirse, se calienta. Pero no vale cualquier olla. Tiene que ser de un metal que atraiga a los imanes, como el hierro. Si tu sartén no se pega a un imán… la placa ni se entera. Y aquí viene lo curioso… La bobina no calienta el cristal. El cristal solo se calienta porque la olla caliente está encima. Por eso se enfría tan rápido al quitarla. Y así aprovechas en torno al noventa por ciento de la energía. Pero ahora hay un problema: si quitas la olla, ¿se queda encendida? Así que la placa mide si hay metal encima. Si no detecta nada, corta la corriente. Por eso parpadea cuando levantas la sartén. Sígueme para más.",
+   "texto": "Una placa de inducción aprovecha en torno al 90 % de la energía; el gas, en torno al 40 %. ¿Tu sartén se pega a un imán? 👇",
+   "tags": [
+    "induccion",
+    "cocina",
+    "electricidad",
+    "magnetismo",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "La placa de la cocina se usa cada día en casi todas las casas",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Agua hirviendo a borbotones en una olla en primer plano y, al lado, un termómetro sobre el cristal marcando frío",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de cambios de sentido hasta 100.000 por segundo, líneas de campo atravesando el cristal, remolinos de corriente en el fondo y medidor de energía aprovechada 40 % frente a 90 %"
+   },
+   "ganchos": [
+    "Tu placa de inducción hierve el agua en un momento… pero el cristal de al lado sigue frío.",
+    "¿Por qué tu sartén de siempre no funciona en la inducción? Hay un imán de por medio.",
+    "La placa de inducción no calienta el cristal. Calienta la olla desde dentro."
+   ]
+  },
+  {
+   "id": "qr",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aunque esté roto?",
+   "guion": "Le haces una foto a un código QR… y en menos de un segundo, tu móvil abre la carta del bar. ¿Cómo lee esos cuadraditos? Vamos a inventarlo. Quieres guardar un enlace en un dibujo. Así que usas una cuadrícula: cuadrado negro, uno; blanco, cero. La más pequeña mide veintiuno por veintiuno. Pero hay un problema. Tu móvil no sabe dónde empieza el código, ni si está torcido. Así que pones tres cuadrados grandes en tres esquinas. Al verlos, el móvil sabe dónde está el código y cómo está girado. Y como falta la cuarta esquina, sabe cuál es la de abajo a la derecha. Pero ahora tienes otro problema. Si en el código hay una zona toda blanca, el móvil se pierde contando cuadraditos. Así que lo mezclas con un patrón, y los negros quedan repartidos. Y aquí viene lo curioso… Puedes romper un trozo del código… y se sigue leyendo. Porque guardas el mensaje con información de sobra, repartida por toda la cuadrícula. En el nivel más alto, se recupera hasta un treinta por ciento de los datos. Por eso algunos códigos llevan un dibujo en medio. ¿Y si quieres guardar más? Haces la cuadrícula más grande. Cada versión suma cuatro cuadraditos por lado… hasta ciento setenta y siete por ciento setenta y siete. Lo inventó en mil novecientos noventa y cuatro una empresa japonesa de piezas de coche, para seguir sus piezas. Sígueme para más.",
+   "texto": "Un código QR se puede leer aunque falte un trozo: guarda hasta un 30 % de datos de sobra. ¿Lo habías probado? 👇",
+   "tags": [
+    "codigoqr",
+    "movil",
+    "tecnologia",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Cartas de bar, entradas, billetes: el QR se escanea a diario con el móvil",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "La cámara del móvil acercándose a un QR en primer plano y los cuadraditos encendiéndose uno a uno",
+    "ensenar": 9,
+    "ensenar_nota": "Cuadrícula que crece de 21×21 a 177×177, contador de unos y ceros, un trozo arrancado con una barra de recuperación hasta el 30 %"
+   },
+   "ganchos": [
+    "Le haces una foto a un código QR… y en menos de un segundo, tu móvil abre la carta del bar.",
+    "Puedes arrancar un trozo de un código QR… y tu móvil lo sigue leyendo.",
+    "Esos tres cuadrados de las esquinas del QR no son decoración."
+   ]
+  },
+  {
+   "id": "lavadora",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bloque de hormigón?",
+   "guion": "Tu lavadora, al centrifugar, gira el tambor más de mil doscientas veces por minuto. ¿Y por qué no sale andando por la cocina? Vamos a inventarla. Quieres lavar ropa sin frotar. Así que la metes en un tambor que gira, con agua y detergente. Al girar, unas paletas levantan la ropa… y la dejan caer. Ese golpe hace el trabajo de tus manos. Pero la ropa sale empapada. Así que haces girar el tambor muy rápido. El tambor tiene agujeros. El agua sale disparada por ellos… y la ropa se queda pegada a la pared. A mil doscientas vueltas, la ropa pesa casi cuatrocientas veces más de lo normal. Pero hay un problema. La ropa nunca se reparte bien. Un lado pesa más que el otro, y todo empieza a vibrar. Así que cuelgas el tambor de muelles, y le pones amortiguadores debajo, como un coche. Y aquí viene lo curioso… Tu lavadora lleva dentro bloques de hormigón. Pueden pesar más de veinticinco kilos. Ese peso extra hace que el tambor se mueva mucho menos. Por eso cuesta tanto moverla. Pero aún falta algo. Si la ropa está muy amontonada a un lado, ni el hormigón basta. Así que, antes de centrifugar, el motor gira despacio, a un lado y a otro, para repartirla. Si no lo consigue, centrifuga más lento… o no centrifuga. Sígueme para más.",
+   "texto": "Tu lavadora esconde bloques de hormigón de más de 25 kilos. ¿Sabías por qué pesa tanto? 👇",
+   "tags": [
+    "lavadora",
+    "casa",
+    "electrodomesticos",
+    "fisica",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Casi todo el mundo pone la lavadora cada semana y la ha visto «bailar» al centrifugar",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "El tambor girando a toda velocidad en primer plano, con el agua saliendo disparada por los agujeros",
+    "ensenar": 9,
+    "ensenar_nota": "Cuentarrevoluciones hasta 1.200 por minuto, contador de «peso» de la ropa hasta casi ×400, muelles y amortiguadores vibrando y el bloque de hormigón con su báscula de 25 kg"
+   },
+   "ganchos": [
+    "Tu lavadora, al centrifugar, gira el tambor más de mil doscientas veces por minuto.",
+    "Dentro de tu lavadora hay un bloque de hormigón. Y no es un error.",
+    "¿Por qué tu lavadora no sale andando cuando centrifuga?"
+   ]
+  },
+  {
+   "id": "depuradora",
+   "formato": "C",
+   "titulo": "¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando tiras de la cadena",
+   "guion": "Tiras de la cadena… y en unos segundos, el agua ha desaparecido. ¿Y si tuvieras que limpiarla tú? Vamos a construir una depuradora. Cada persona en España gasta unos ciento veintiocho litros de agua al día en casa. En una ciudad de cien mil personas, son casi trece millones de litros diarios. Todos acaban en la alcantarilla. Primero llegan a unas rejas que atrapan toallitas, plásticos y palos. Pero la arena pasa, y destrozaría las bombas. Así que el agua cruza un canal lento, y la arena cae al fondo. Pero aún flota grasa. Así que soplas aire, la grasa sube, y la retiras por arriba. Ahora el agua va a un depósito enorme y muy tranquilo. Lo más pesado se hunde poco a poco. Pero lo peor sigue disuelto en el agua, y eso no se hunde. Así que contratas a unos trabajadores diminutos: bacterias. Se comen la suciedad disuelta. Pero necesitan respirar. Así que unas máquinas soplan aire por el fondo, sin parar. Y aquí viene lo curioso… Esas bacterias forman grumos. En otro depósito, los grumos se hunden… y arriba queda agua casi transparente. Esa agua vuelve al río. ¿Y el lodo del fondo? Lo metes en tanques cerrados, sin aire. Otras bacterias lo pudren y sueltan gas. Ese gas se quema, y da electricidad a la propia depuradora. Sígueme para más.",
+   "texto": "Una ciudad de 100.000 personas manda casi 13 millones de litros al día a la depuradora. ¿Sabías que las bacterias hacen el trabajo? 👇",
+   "tags": [
+    "agua",
+    "depuradora",
+    "ciudad",
+    "ingenieria",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Tirar de la cadena es lo más diario que hay; se conecta con el agua que gastas en casa",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "La cisterna descargando en primer plano y el agua bajando en corte por la tubería hacia la calle",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de litros por persona (128) y por ciudad (casi 13 millones), burbujas de aire en el reactor, medidor de turbidez que baja hasta agua transparente y contador de electricidad del biogás"
+   },
+   "ganchos": [
+    "Tiras de la cadena… y en unos segundos, el agua ha desaparecido.",
+    "Cada día mandas unos ciento veintiocho litros de agua a la alcantarilla. ¿Quién la limpia?",
+    "El agua de tu váter vuelve al río… pero antes pasa por esto."
+   ]
+  },
+  {
+   "id": "parking",
+   "formato": "C",
+   "titulo": "¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás de sus paredes",
+   "guion": "Bajas la rampa del parking… y aparcas debajo de un edificio entero. ¿Y si tuvieras que construirlo tú? Vamos a excavar. Quieres tres plantas bajo tierra, unos diez metros de hondo. Pero si cavas un agujero, la tierra de los lados se derrumba. Así que, antes de cavar, construyes las paredes. Haces zanjas estrechas y profundas, y las rellenas de acero y hormigón. Se llaman muros pantalla. Ahora sí, vacías la tierra de dentro. Pero la tierra de fuera empuja los muros hacia dentro. Así que haces el suelo de cada planta, que los sujeta como un puntal. Pero al bajar, aparece el agua. En muchas ciudades, a pocos metros, el suelo está empapado. Esa agua empuja hacia arriba y se cuela por las juntas. Así que en el fondo haces un pozo con bombas, que la sacan sin parar. Y aquí viene lo curioso… El mayor peligro de un parking no se ve. Los tubos de escape sueltan monóxido de carbono. No huele, y en un sitio cerrado se acumula. Así que en cada planta pones detectores. Cuando llegan a cincuenta partes por millón, se encienden unos ventiladores enormes. Sacan el aire viciado por chimeneas, y entra aire limpio de la calle. Cuando el aire se limpia, se vuelven a apagar. Por eso nunca debes dejar el coche en marcha en un garaje cerrado. Sígueme para más.",
+   "texto": "Los detectores del parking encienden los ventiladores cuando el monóxido llega a 50 partes por millón. ¿Te habías fijado en ellos? 👇",
+   "tags": [
+    "parking",
+    "construccion",
+    "ingenieria",
+    "coches",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-06",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Casi todo el mundo ha bajado a un parking; se conecta con «bajas la rampa»",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Un coche bajando la rampa en primer plano y la cámara atravesando el suelo en corte para ver las plantas bajo el edificio",
+    "ensenar": 9,
+    "ensenar_nota": "Regla de profundidad hasta 10 m, flechas de empuje de la tierra y del agua, bombas sacando agua y medidor de monóxido que sube a 50 ppm y enciende los ventiladores"
+   },
+   "ganchos": [
+    "Bajas la rampa del parking… y aparcas debajo de un edificio entero.",
+    "Detrás de las paredes del parking hay tierra empujando… y agua intentando entrar.",
+    "El mayor peligro de un parking subterráneo no se ve ni se huele."
+   ]
   }
  ]
 }

@@ -1,238 +1,59 @@
 {
- "actualizado": "2026-11-06T09:30:00+01:00",
- "resumen": "Esta semana mandan los teclados: un teclado partido lleva 12,9 M de vistas y «sticky keys» 5,3 M, así que propongo «teclado» (la cuadrícula de filas y columnas). El móvil mojado (828 mil) y WhatsApp (15.885 lecturas en Wikipedia) siguen fuertes y ya están propuestos. Nuevo: Bruselas pide kits de emergencia de 72 horas y el vídeo de las placas solares que se apagan en un apagón lleva 505 mil. La rueda de avión (3,77 M) ya es guion. La lluvia ha bajado. El resto es fútbol, política y famosos.",
+ "actualizado": "2026-11-06T21:00:00+01:00",
+ "resumen": "Esta semana el router manda: «Las antenitas de tu router NO van todas paradas» lleva 520 mil vistas, así que ya está propuesto como guion («router»), igual que las placas solares en un apagón («placas», con cifras comprobadas: 48-51 Hz, menos de 2 s, 3 min). Nuevo: dos vídeos para resintonizar la TDT suman 136 mil (comprobar si hay cambio de frecuencias). Teclado, arroz, WhatsApp, ruedas y tormentas ya están hechos. Google Trends es casi todo deporte, política y famosos.",
  "tendencias": [
   {
-   "id": "teclado",
-   "tema": "Cómo sabe el ordenador qué tecla pulsas",
+   "id": "router",
+   "tema": "Cómo sale el wifi de las antenas del router",
    "tipo": "evergreen",
-   "puntuacion": 84,
-   "por_que": "Los teclados son lo más visto de la semana en tecnología: «THIS IS A REAL SPLIT KEYBOARD?!» lleva 12,9 M de vistas y «What is sticky keys??» 5,3 M. Es un objeto que el espectador está tocando mientras ve el vídeo.",
+   "puntuacion": 82,
+   "por_que": "«Las antenitas de tu router NO van todas paradas» lleva 519.973 vistas en tecnología esta semana; todo el mundo tiene router y casi nadie sabe que la señal sale como un donut.",
    "senales": [
     {
      "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«THIS IS A REAL SPLIT KEYBOARD?!», 12,9 M de vistas"
+     "dato": "«Las antenitas de tu router NO van todas paradas», 519.973 vistas",
+     "url": "https://www.youtube.com/watch?v=Lwwq2wxvo5M"
     },
     {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«What is sticky keys?? And how to turn off the popup?», 5,3 M de vistas"
-    },
-    {
-     "fuente": "QMK (documentación)",
-     "dato": "Las teclas se cablean en una cuadrícula de filas y columnas y el chip las barre una a una; los diodos evitan teclas fantasma",
-     "url": "https://develop-docs.qmk.fm/how_a_matrix_works"
+     "fuente": "Xataka Home",
+     "dato": "Las antenas dipolo emiten en forma de donut: más hacia los lados que por la punta; de pie para una planta, una inclinada para varias",
+     "url": "https://www.xatakahome.com/a-fondo/da-igual-que-tu-router-sea-muy-caro-habras-tirado-dinero-haces-esto-antenas"
     }
    ],
-   "urgencia": "Ya propuesto como guion «teclado» (esperando tu aprobación)",
-   "angulo": "Abrir el teclado: láminas con pistas, cuadrícula de filas y columnas y un barrido de corriente columna a columna que encuentra la tecla.",
-   "titulo": "¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el teclado por dentro",
-   "gancho": "Ahora mismo, tu teclado tiene más de cien teclas… y no tiene cien cables.",
-   "primer_segundo": "Dedos tecleando rápido en primer plano y las teclas levantándose para enseñar las láminas.",
+   "urgencia": "Media: el vídeo sigue subiendo; ya está propuesto como guion («router»)",
+   "angulo": "Enseñar el donut de señal saliendo de la varilla y cómo se tumba según la antena; comparar las ondas de 2,4 GHz (12,5 cm) y 5 GHz (6 cm).",
+   "titulo": "¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de verdad el wifi",
+   "gancho": "Las antenitas de tu router… ¿las tienes apuntando a tu habitación?",
+   "primer_segundo": "Una mano girando una antena del router en primer plano y anillos de señal saliendo de ella.",
    "cifras": [
-    "8 filas × 18 columnas = 144 cruces con solo 26 cables (cálculo)",
-    "Teclados para jugar: el ordenador les pregunta 1.000 veces por segundo",
-    "Retraso medido de una pulsación: 15-50 ms según el teclado"
+    "2,4 GHz: 2.400 millones de oscilaciones por segundo, onda de 12,5 cm (cálculo c/f)",
+    "5 GHz: onda de 6 cm, se frena más en paredes y agua (cálculo c/f)"
    ],
    "formato": "A",
    "estructura": [
-    "Gancho: más de cien teclas y pocos cables",
-    "Las láminas: pistas, separador con agujeros y contacto",
-    "La cuadrícula de filas y columnas",
-    "El barrido: corriente columna a columna",
-    "Dato sorprendente: mil veces por segundo",
-    "Teclas fantasma y el diodo",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 8,
-    "primer_segundo": 9,
-    "ensenar": 9
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "El espectador tiene el teclado delante y puede probar lo de las tres teclas; los vídeos de teclados están arrasando esta semana.",
-   "competencia": "Mucho contenido de teclados mecánicos y gadgets; casi nadie enseña la cuadrícula por dentro en español.",
-   "riesgos": "No enseñar marcas de teclados ni de ordenadores.",
-   "mejor_hora": "18:00",
-   "hashtags": [
-    "teclado",
-    "ordenador",
-    "tecnologia",
-    "electronica",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "arroz",
-   "tema": "Móvil mojado: ¿arroz sí o no?",
-   "tipo": "actualidad",
-   "puntuacion": 83,
-   "por_que": "«¿Qué hacer si se te cae el móvil al agua?» sigue entre lo más visto de ciencia y tecnología en YouTube España: 828 mil vistas (eran 672 mil). El mito del arroz sigue vivo, aunque el fabricante del móvil recomienda no usarlo.",
-   "senales": [
-    {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«¿Qué hacer si se te cae el móvil al agua?», 828 mil vistas"
-    },
-    {
-     "fuente": "Apple (documento de soporte, 2024)",
-     "dato": "Recomienda no meter el iPhone mojado en una bolsa de arroz",
-     "url": "https://www.techradar.com/phones/dont-dry-your-wet-iphone-in-a-bag-of-rice-apple-warns-do-this-instead"
-    },
-    {
-     "fuente": "Prueba de secantes (Gazelle, 2014)",
-     "dato": "Tras 24 horas, el arroz crudo fue el secante que menos agua absorbió; al aire libre secaba más",
-     "url": "https://www.gazelle.com/thehorn/2014/05/06/gazelles-guide-water-damage-truth-rice-galaxy-everything/"
-    }
-   ],
-   "urgencia": "Ya propuesto como guion «arroz» (esperando tu aprobación)",
-   "angulo": "Enseñar por dentro qué hace el agua en el conector y en la placa y por qué el arroz casi no la saca, con una gota que avanza y un medidor de humedad que apenas baja.",
-   "titulo": "¿Tu móvil se ha mojado? El arroz no hace lo que crees 🍚📱",
-   "gancho": "Si se te cae el móvil al agua, lo primero que haces… es justo lo que el fabricante te pide que no hagas.",
-   "primer_segundo": "El móvil cayendo al agua a cámara lenta, con burbujas entrando por el puerto de carga.",
-   "cifras": [
-    "Espera mínima antes de cargar: 30 minutos (recomendación del fabricante)",
-    "Secado completo: hasta 24 horas",
-    "Prueba de 24 horas: el arroz crudo, el que menos agua absorbió"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: el gesto que todos hacemos está mal",
-    "Qué pasa dentro: juntas de goma y por qué el puerto es el punto débil",
-    "El aviso del móvil cuando detecta líquido en el conector",
-    "Por qué el arroz casi no absorbe el agua de dentro (y puede dejar polvo y granos)",
-    "Dato sorprendente: lo que de verdad recomiendan",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 10,
-    "primer_segundo": 9,
-    "ensenar": 7
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Desmonta un mito que todo el mundo conoce, y eso genera comentarios («yo siempre lo hago») y se comparte mucho.",
-   "competencia": "Hay vídeos de consejos, pero pocos enseñan por dentro qué hace el agua.",
-   "riesgos": "No dar consejos de reparación peligrosos (secadores calientes, abrir el móvil). Citar al fabricante sin enseñar su marca.",
-   "mejor_hora": "13:00",
-   "hashtags": [
-    "movil",
-    "trucos",
-    "mitos",
-    "agua",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "whatsapp",
-   "tema": "El viaje de un mensaje de WhatsApp (y por qué nadie más lo lee)",
-   "tipo": "evergreen",
-   "puntuacion": 80,
-   "por_que": "WhatsApp sigue entre lo más leído de Wikipedia en español: 15.885 lecturas en un día, y es la única app entre los 25 primeros artículos. Todo el mundo la tiene abierta ahora mismo.",
-   "senales": [
-    {
-     "fuente": "Wikipedia (es)",
-     "dato": "WhatsApp, 15.885 lecturas en un día",
-     "url": "https://es.wikipedia.org/wiki/WhatsApp"
-    },
-    {
-     "fuente": "Meta (resultados del primer trimestre de 2025)",
-     "dato": "Más de 3.000 millones de usuarios al mes",
-     "url": "https://techeconomy.ng/whatsapp-hits-3-billion-monthly-users/"
-    }
-   ],
-   "urgencia": "Ya propuesto como guion «whatsapp» (esperando tu aprobación)",
-   "angulo": "Nuevo enfoque sobre WhatsApp: el candado. El mensaje se convierte en un galimatías que viaja por el servidor y solo el móvil de destino lo descifra.",
-   "titulo": "Tu mensaje de WhatsApp pasa por un servidor… y ni ellos lo pueden leer 🔒",
-   "gancho": "El mensaje que acabas de mandar ha cruzado medio mundo… y nadie, ni la propia app, puede leerlo.",
-   "primer_segundo": "Un dedo pulsando «enviar» y las letras del mensaje transformándose al momento en símbolos sin sentido.",
-   "cifras": [
-    "Más de 100.000 millones de mensajes al día (dato de 2020)",
-    "Llave de 256 bits: un número de 78 cifras",
-    "Una llave nueva por cada mensaje (doble trinquete del protocolo)"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: nadie puede leerlo",
-    "Tu móvil tiene dos llaves: una pública y una privada",
-    "El candado: cifrado de extremo a extremo",
-    "El servidor solo ve un galimatías",
-    "El móvil de destino lo abre con su llave",
-    "Dato sorprendente: las marcas azules",
+    "Gancho: ¿apuntas la antena a tu cuarto?",
+    "Datos → ondas de radio, 2.400 millones por segundo",
+    "La varilla y el donut",
+    "De pie: una planta; inclinada: varias",
+    "Dato sorprendente: 5 GHz y el agua (tu cuerpo)",
+    "Dónde poner el router",
     "Cierre: Sígueme para más."
    ],
    "reglas": {
     "cotidiano": 10,
     "primer_segundo": 8,
-    "ensenar": 7
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Es la app que todos tienen abierta, y el tema de la privacidad provoca comentarios.",
-   "competencia": "Tema muy tratado en vídeos largos; poco visual en formato corto.",
-   "riesgos": "No enseñar el logotipo. Explicar el cifrado sin prometer seguridad absoluta (copias de seguridad, capturas de pantalla).",
-   "mejor_hora": "13:00 o 21:00",
-   "hashtags": [
-    "whatsapp",
-    "privacidad",
-    "tecnologia",
-    "comofunciona",
-    "movil"
-   ]
-  },
-  {
-   "id": "ruedas",
-   "tema": "Por qué no revientan las ruedas de un avión",
-   "tipo": "nicho",
-   "puntuacion": 76,
-   "por_que": "El short del neumático de avión sigue siendo el más visto del nicho «cómo funciona» esta semana: 3,77 M de vistas y 86 mil «me gusta». Las cifras son muy visuales: unos 14 bares frente a los 2 del coche.",
-   "senales": [
-    {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "Neumático de avión, 3,77 M de vistas y 86 mil «me gusta»",
-     "url": "https://youtube.com/shorts/5TOwl28Jq9c"
-    },
-    {
-     "fuente": "WION",
-     "dato": "Unos 200 psi (≈14 bar), casi 6 veces la rueda de un coche; de 0 a más de 250 km/h en un segundo; nitrógeno",
-     "url": "https://www.wionews.com/world/explained-why-plane-tyres-never-burst-at-250-kmph-1778572791677/amp"
-    },
-    {
-     "fuente": "Lazarski University (aviación)",
-     "dato": "Hasta 500 ciclos de despegue y aterrizaje; tapones fusibles que sueltan la presión",
-     "url": "https://aviation.lazarski.pl/aircraft-tires-a-key-component-of-flight-safety/"
-    }
-   ],
-   "urgencia": "Ya propuesto como guion «ruedas» (esperando tu aprobación)",
-   "angulo": "Medidor de presión que sube a 14 bar frente a los 2,3 de un coche, y velocímetro a unos 270 km/h en el aterrizaje con la rueda que pasa de 0 a girar.",
-   "titulo": "¿Por qué no revientan las ruedas de un avión? ✈️ Así funcionan por dentro",
-   "gancho": "Cuando tu avión aterriza, sus ruedas pasan de cero a doscientos cincuenta kilómetros por hora… en un segundo.",
-   "primer_segundo": "La rueda tocando la pista en primer plano, con humo y el contador de velocidad.",
-   "cifras": [
-    "De 0 a 250 km/h en 1 segundo",
-    "Coche ≈2 bar, avión ≈14 bar (200 psi)",
-    "Unos 500 aterrizajes antes de recauchutar"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: rueda quieta a 270 km/h",
-    "Presión altísima",
-    "Nitrógeno en vez de aire",
-    "Fusibles que sueltan el gas si se calienta (comprobar)",
-    "Recauchutado",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 4,
-    "primer_segundo": 10,
     "ensenar": 9
    },
-   "potencial": "medio",
-   "por_que_funcionaria": "Primer segundo espectacular y cifras muy visuales.",
-   "competencia": "Un viral de 3,6 M esta semana (en portugués).",
-   "riesgos": "Regla 1 baja: no es un objeto que el espectador tenga en la mano.",
-   "mejor_hora": "18:00",
+   "potencial": "alto",
+   "por_que_funcionaria": "Objeto que todos tienen y consejo que se puede probar al momento; provoca comentarios («yo las tenía mal»).",
+   "competencia": "Hay vídeos de consejos, pocos enseñan la forma real de la señal en 3D.",
+   "riesgos": "No prometer más velocidad; depende de cada casa.",
+   "mejor_hora": "21:00",
    "hashtags": [
-    "avion",
-    "ruedas",
-    "ingenieria",
-    "curiosidades",
+    "wifi",
+    "router",
+    "internet",
+    "trucos",
     "comofunciona"
    ]
   },
@@ -240,7 +61,7 @@
    "id": "placas",
    "tema": "Por qué las placas solares se apagan cuando se va la luz",
    "tipo": "actualidad",
-   "puntuacion": 72,
+   "puntuacion": 74,
    "por_que": "«Si se va la luz, tus paneles solares también se apagan, aunque haya sol» lleva 505 mil vistas esta semana en tecnología, y Bruselas acaba de volver a recomendar un kit de emergencia de 72 horas (Google Trends: «emergencia», 200+ búsquedas).",
    "senales": [
     {
@@ -256,17 +77,28 @@
      "fuente": "Motor.es",
      "dato": "La normativa obliga a que el inversor lleve protección «anti-isla», que lo desconecta si falla la red, para proteger a los técnicos",
      "url": "https://www.motor.es/que-es/modo-isla"
+    },
+    {
+     "fuente": "Kostal (declaración RD 1699/RD 413)",
+     "dato": "Frecuencia 48-51 Hz y reconexión tras al menos 3 minutos",
+     "url": "https://www.kostal-solar-electric.com/fileadmin/downloadcenter/kse/1472_Z-RD1699_RD413_IEC62109-2_Hybrid_es.pdf"
+    },
+    {
+     "fuente": "Canal Solar",
+     "dato": "Tiempo límite de detección y desconexión de isla: hasta 2 segundos",
+     "url": "https://canalsolar.com.br/es/Protecci%C3%B3n-anti-isla-para-inversores-fotovoltaicos/"
     }
    ],
-   "urgencia": "Media: el tema del apagón y de los kits de emergencia está en las noticias esta semana",
+   "urgencia": "Media: ya está propuesto como guion («placas»)",
    "angulo": "Seguir la corriente del tejado al enchufe: el inversor vigila la red y, si desaparece, corta en una fracción de segundo para no electrocutar al técnico que repara el cable.",
    "titulo": "Se va la luz y tus placas solares se apagan… aunque haga sol ☀️ ¿Por qué?",
    "gancho": "Se va la luz en tu barrio… y las placas solares del tejado también se apagan. Aunque haga un sol de justicia.",
    "primer_segundo": "Una placa solar en primer plano con flechas de corriente que se cortan de golpe y un medidor que cae a cero.",
    "cifras": [
     "Red: 230 V y 50 Hz que el inversor vigila sin parar",
-    "Desconexión en menos de un segundo (comprobar)",
-    "Producción de la placa que cae a 0 W en cuanto corta"
+    "Corta si la frecuencia sale de 48-51 Hz (ajustes RD 413/2014 de un fabricante)",
+    "Desconexión anti-isla en menos de 2 s",
+    "Espera al menos 3 minutos para reconectar (IEC 61727)"
    ],
    "formato": "A",
    "estructura": [
@@ -293,68 +125,6 @@
     "energia",
     "apagon",
     "electricidad",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "tormentas",
-   "tema": "Lluvias de esta semana: a dónde va el agua de la calle",
-   "tipo": "actualidad",
-   "puntuacion": 68,
-   "por_que": "La lluvia ya no está en Google Trends hoy, pero el guion «tormentas» sigue esperando tu aprobación y el tema vuelve cada vez que llueve fuerte. Ayer, «meteovigo» y «meteorólogo» estaban en tendencias.",
-   "senales": [
-    {
-     "fuente": "Google Trends España",
-     "dato": "«meteovigo», 500+ búsquedas (5 nov)",
-     "url": "https://www.meteovigo.es/actualidad/lluvias-siete-dias-gfs-4-noviembre-2026-00utc.html"
-    },
-    {
-     "fuente": "Google Trends España",
-     "dato": "«meteorólogo» entre las búsquedas del día"
-    },
-    {
-     "fuente": "Canal de Isabel II",
-     "dato": "Arroyofresno: unos 400.000 m³, el tanque de tormentas más grande del mundo; se vacía en 14,5 horas",
-     "url": "https://canaldeisabelsegunda.es/documents/d/site/arroyofresno_stormtank"
-    }
-   ],
-   "urgencia": "Esta semana o la próxima, mientras siga lloviendo (ya propuesto como guion «tormentas»)",
-   "angulo": "Formato C: la rejilla de tu calle, el tubo que rebosa y el depósito gigante bajo tierra que se llena y luego se vacía hacia la depuradora.",
-   "titulo": "¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la lluvia de tu calle",
-   "gancho": "Cuando llueve fuerte en tu ciudad… ¿a dónde va toda esa agua?",
-   "primer_segundo": "Lluvia cayendo en primer plano por la rejilla de una calle, en corte, y el agua bajando a la alcantarilla.",
-   "cifras": [
-    "400.000 m³ de capacidad (Arroyofresno, Madrid)",
-    "Superficie de unos 5 campos de fútbol; profundidad como un edificio de 6 plantas",
-    "Vaciado completo en 14,5 horas",
-    "65 tanques en la Comunidad de Madrid, 36 en la ciudad"
-   ],
-   "formato": "C",
-   "estructura": [
-    "Gancho: la lluvia de tu calle",
-    "El tubo compartido se llena y la calle se inunda",
-    "Pero no puedes cambiar todos los tubos… así que depósito bajo tierra",
-    "Muros, pilares y la tierra que empuja",
-    "Compuerta y rejas para la basura",
-    "Dato sorprendente: el más grande del mundo está en Madrid",
-    "Bombas que lo vacían hacia la depuradora",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 7,
-    "primer_segundo": 8,
-    "ensenar": 9
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Une la noticia del tiempo con un dato de orgullo local («el más grande del mundo está en Madrid») y una obra gigante que nadie ha visto.",
-   "competencia": "Hay reportajes largos, pero casi ningún short en corte.",
-   "riesgos": "No relacionarlo con inundaciones con víctimas. Las medidas exactas del tanque no son públicas: usar las comparaciones oficiales (campos de fútbol, plantas).",
-   "mejor_hora": "18:00",
-   "hashtags": [
-    "lluvia",
-    "madrid",
-    "ingenieria",
-    "construccion",
     "comofunciona"
    ]
   },
@@ -409,6 +179,61 @@
    ]
   },
   {
+   "id": "tdt",
+   "tema": "Por qué hay que resintonizar la tele (cómo llega la TDT a tu antena)",
+   "tipo": "actualidad",
+   "puntuacion": 62,
+   "por_que": "Dos vídeos sobre resintonizar los canales de la TDT suman 136 mil vistas esta semana (68.405 y 68.060): hay gente que ha perdido canales y no sabe por qué.",
+   "senales": [
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«RESINTONIZAR los canales nuevos de la TDT…», 68.405 vistas",
+     "url": "https://www.youtube.com/watch?v=MsYLGfL5xV4"
+    },
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«¿Han desaparecido canales de tu tele? Así puedes resintonizar…», 68.060 vistas",
+     "url": "https://www.youtube.com/watch?v=HwKjGgzdylU"
+    }
+   ],
+   "urgencia": "Alta si hay un cambio de frecuencias en marcha (comprobar la noticia antes del guion)",
+   "angulo": "La antena del tejado recibe varios canales en una sola frecuencia; si un múltiple cambia de frecuencia, la tele busca en el sitio viejo y no encuentra nada hasta que la vuelves a buscar.",
+   "titulo": "¿Han desaparecido canales de tu tele? 📺 Así llega la TDT a tu antena",
+   "gancho": "Enciendes la tele… y faltan canales. La antena está bien. ¿Qué ha pasado?",
+   "primer_segundo": "El mando pulsando y la pantalla saltando de canal a «sin señal», con la antena del tejado en primer plano.",
+   "cifras": [
+    "Varios canales viajan juntos en un mismo múltiple (comprobar cuántos)",
+    "Frecuencia de cada múltiple en MHz (comprobar)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: faltan canales",
+    "De la torre a la antena del tejado",
+    "Un múltiple: varios canales en una frecuencia",
+    "Cambian la frecuencia",
+    "La tele busca en el sitio viejo",
+    "Resintonizar: barrido de frecuencias",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "primer_segundo": 7,
+    "ensenar": 7
+   },
+   "potencial": "medio-alto",
+   "por_que_funcionaria": "Problema práctico que tiene mucha gente ahora mismo.",
+   "competencia": "Tutoriales paso a paso por marca; nadie explica por qué pasa.",
+   "riesgos": "No enseñar marcas de televisores; confirmar fechas y cadenas en una noticia oficial.",
+   "mejor_hora": "21:00",
+   "hashtags": [
+    "tdt",
+    "television",
+    "antena",
+    "tele",
+    "comofunciona"
+   ]
+  },
+  {
    "id": "paraguas",
    "tema": "Cómo se abre un paraguas automático",
    "tipo": "actualidad",
@@ -458,6 +283,55 @@
    ]
   },
   {
+   "id": "espejo",
+   "tema": "El «suelo infinito» (espejos enfrentados)",
+   "tipo": "nicho",
+   "puntuacion": 54,
+   "por_que": "«How the Infinity Floor Works» lleva 125.610 vistas en el nicho de «cómo funciona»; el efecto de espejos enfrentados está en ascensores y probadores que todo el mundo usa.",
+   "senales": [
+    {
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«How the Infinity Floor Works», 125.610 vistas",
+     "url": "https://youtube.com/shorts/eHV4M_jHDV4"
+    }
+   ],
+   "urgencia": "Baja: evergreen",
+   "angulo": "Espejo normal abajo, espejo semitransparente arriba y LEDs en medio: cada rebote pierde un poco de luz y las copias se apagan hacia el fondo; enlazarlo con el espejo del ascensor.",
+   "titulo": "¿Por qué en el ascensor ves infinitas copias de ti? 🪞 Así funciona",
+   "gancho": "Te miras en el espejo del ascensor… y ves cien copias de ti. ¿Cuál es la de verdad?",
+   "primer_segundo": "Un túnel de luces que se hunde en primer plano y una mano tocando el cristal.",
+   "cifras": [
+    "Luz que se pierde en cada rebote (comprobar %)",
+    "Número de copias visibles antes de apagarse (comprobar)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho: infinitas copias",
+    "Un espejo refleja casi toda la luz",
+    "Dos espejos enfrentados: rebotes",
+    "Cada rebote pierde luz y se aleja",
+    "El suelo infinito: espejo semitransparente",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 7,
+    "primer_segundo": 9,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Visualmente hipnótico: perfecto para el primer segundo.",
+   "competencia": "Pocos vídeos en castellano.",
+   "riesgos": "Comprobar los porcentajes de reflexión.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "espejo",
+    "luz",
+    "ilusion",
+    "fisica",
+    "comofunciona"
+   ]
+  },
+  {
    "id": "helicoptero",
    "tema": "Cómo se dirige un helicóptero (el plato oscilante)",
    "tipo": "nicho",
@@ -504,6 +378,55 @@
     "mecanica",
     "comofunciona"
    ]
+  },
+  {
+   "id": "submarino",
+   "tema": "Cómo se hunde y sale a flote un submarino",
+   "tipo": "nicho",
+   "puntuacion": 46,
+   "por_que": "«¿Cómo funciona un submarino?» lleva 79.870 vistas esta semana en el nicho.",
+   "senales": [
+    {
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«¿Cómo funciona un submarino?», 79.870 vistas",
+     "url": "https://youtube.com/shorts/Qld0IOJO46g"
+    }
+   ],
+   "urgencia": "Baja",
+   "angulo": "Tanques de lastre que se llenan de agua o de aire comprimido, con un medidor de profundidad y otro de presión.",
+   "titulo": "Si tuvieras que inventar un submarino… 🌊 ¿cómo se hunde y vuelve a subir?",
+   "gancho": "Un barco de miles de toneladas… que decide cuándo hundirse.",
+   "primer_segundo": "Burbujas saliendo de los tanques en primer plano mientras el casco se hunde.",
+   "cifras": [
+    "Presión que sube 1 bar cada 10 m (comprobar)",
+    "Profundidad de trabajo (comprobar)"
+   ],
+   "formato": "B",
+   "estructura": [
+    "Gancho",
+    "Flotar: pesar menos que el agua que desplaza",
+    "Tanques de lastre",
+    "Aire comprimido para subir",
+    "Dato sorprendente: la presión",
+    "Cierre: Sígueme para más."
+   ],
+   "reglas": {
+    "cotidiano": 3,
+    "primer_segundo": 8,
+    "ensenar": 8
+   },
+   "potencial": "medio-bajo",
+   "por_que_funcionaria": "Mecanismo muy visual.",
+   "competencia": "Bastantes vídeos ya.",
+   "riesgos": "Poco cotidiano (regla 1); evitar submarinos militares.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "submarino",
+    "flotar",
+    "mar",
+    "fisica",
+    "comofunciona"
+   ]
   }
  ],
  "descartadas": [
@@ -532,10 +455,6 @@
    "motivo": "Suceso con víctimas."
   },
   {
-   "tema": "Cargador del móvil (15,5 M de vistas), bolígrafo (2,8 M), lavavajillas, váter",
-   "motivo": "Ya hechos: «cargador», «boligrafo», «lavavajillas» y «cisterna»."
-  },
-  {
    "tema": "Móviles nuevos (iPhone Duo, Galaxy S27), MacBook de 17.000 €, Black Friday PS5",
    "motivo": "Marcas y precios: no se pueden enseñar marcas reales; el móvil plegable ya está hecho («plegable»)."
   },
@@ -550,6 +469,38 @@
   {
    "tema": "Videojuegos (Zelda, Fortnite, Minecraft, Pokémon)",
    "motivo": "Marcas de videojuegos: no se pueden enseñar."
+  },
+  {
+   "tema": "Teclado, móvil mojado (arroz), WhatsApp, ruedas de avión, lluvia/tanque de tormentas",
+   "motivo": "Ya hechos esta semana: «teclado», «arroz», «whatsapp», «ruedas» y «tormentas» están en produccion/escenas/."
+  },
+  {
+   "tema": "Cargador del móvil (15,6 M de vistas), cargar el móvil toda la noche (301 mil), bolígrafo (2,9 M), váter (204 mil), escalera mecánica (34 mil), tinaco (33 mil)",
+   "motivo": "Ya hechos: «cargador», «bateria», «boligrafo», «cisterna», «escalera» y «deposito»."
+  },
+  {
+   "tema": "Tenis (Masters de París), F1 en Brasil, fútbol argentino",
+   "motivo": "Deportes y resultados: no hay mecanismo."
+  },
+  {
+   "tema": "Koldo García, El Hierro, Santiago Peña, elecciones de EE. UU.",
+   "motivo": "Política: no encaja con la cuenta."
+  },
+  {
+   "tema": "Anuncio de la Lotería de Navidad",
+   "motivo": "Apuestas y loterías: excluido."
+  },
+  {
+   "tema": "Helena Bianco, Sebastián Lelio",
+   "motivo": "Famosos y enfermedad o fallecimiento: no encaja y hay víctimas."
+  },
+  {
+   "tema": "Moray y Tipón (ingeniería inca, 304 mil y 61 mil)",
+   "motivo": "Interesante pero lejos de lo cotidiano (regla 1); ya hicimos «pozo» y «presa»."
+  },
+  {
+   "tema": "Altavoz de 3 vías (105 mil)",
+   "motivo": "Mismo mecanismo que «auriculares», ya hecho."
   }
  ]
 }
