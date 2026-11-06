@@ -1265,6 +1265,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "teclado-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-08T16:00:00+01:00",
+   "video": "teclado_tiktok.mp4",
+   "titulo": "¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el teclado por dentro",
+   "texto": "Tu teclado tiene más de 100 teclas y muchos menos cables. ¿Sabías que funcionaba así? 👇",
+   "tags": [
+    "teclado",
+    "ordenador",
+    "electronica",
+    "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "chatgpt-youtube",
    "red": "youtube",
    "hora": "2026-11-08T16:00:00+01:00",
@@ -1582,6 +1600,42 @@
     "ruedas",
     "viajes",
     "ingenieria",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "teclado-instagram",
+   "red": "instagram",
+   "hora": "2026-11-13T10:00:00+01:00",
+   "video": "teclado.mp4",
+   "titulo": "¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el teclado por dentro",
+   "texto": "Tu teclado tiene más de 100 teclas y muchos menos cables. ¿Sabías que funcionaba así? 👇",
+   "tags": [
+    "teclado",
+    "ordenador",
+    "electronica",
+    "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "teclado-youtube",
+   "red": "youtube",
+   "hora": "2026-11-13T12:00:00+01:00",
+   "video": "teclado.mp4",
+   "titulo": "¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el teclado por dentro",
+   "texto": "Tu teclado tiene más de 100 teclas y muchos menos cables. ¿Sabías que funcionaba así? 👇",
+   "tags": [
+    "teclado",
+    "ordenador",
+    "electronica",
+    "tecnologia",
     "comofunciona"
    ],
    "estado": "pendiente",
