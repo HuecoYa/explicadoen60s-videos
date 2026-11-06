@@ -1,35 +1,44 @@
 {
- "actualizado": "2026-11-06T10:24:48.970036+00:00",
+ "actualizado": "2026-11-06T12:09:36.152545+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
    "seguidores": 100,
    "vistas": 56417,
-   "videos": 32
+   "videos": 33
   },
   "instagram": {
    "nombre": "@explicadoen60s",
-   "seguidores": 21,
+   "seguidores": 22,
    "videos": 34,
-   "vistas": 39011
+   "vistas": 39656
   },
   "tiktok": {
    "nombre": "explicadoen60s",
    "seguidores": 68,
-   "likes": 2727,
-   "videos": 39,
-   "vistas": 75511
+   "likes": 2735,
+   "videos": 40,
+   "vistas": 75908
   }
  },
  "videos": {
   "youtube": [
    {
+    "id": "50hYL5a-HZo",
+    "titulo": "Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes electricidad en sonido?",
+    "fecha": "2026-11-06T11:27:37Z",
+    "url": "https://youtube.com/shorts/50hYL5a-HZo",
+    "vistas": 0,
+    "likes": 0,
+    "comentarios": 0
+   },
+   {
     "id": "c3Srh3Iietk",
     "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
     "fecha": "2026-11-05T15:41:21Z",
     "url": "https://youtube.com/shorts/c3Srh3Iietk",
-    "vistas": 1668,
-    "likes": 54,
+    "vistas": 1709,
+    "likes": 56,
     "comentarios": 0
    },
    {
@@ -37,8 +46,8 @@
     "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
     "fecha": "2026-11-05T11:37:05Z",
     "url": "https://youtube.com/shorts/UFWj2_kxP2U",
-    "vistas": 1329,
-    "likes": 59,
+    "vistas": 1353,
+    "likes": 60,
     "comentarios": 0
    },
    {
@@ -46,8 +55,8 @@
     "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
     "fecha": "2026-11-04T23:38:24Z",
     "url": "https://youtube.com/shorts/qA9E1SHz4nw",
-    "vistas": 2214,
-    "likes": 65,
+    "vistas": 2294,
+    "likes": 67,
     "comentarios": 1
    },
    {
@@ -55,7 +64,7 @@
     "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
     "fecha": "2026-11-04T23:36:31Z",
     "url": "https://youtube.com/shorts/_jgz1oGTBxk",
-    "vistas": 1639,
+    "vistas": 1692,
     "likes": 64,
     "comentarios": 2
    },
@@ -64,7 +73,7 @@
     "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
     "fecha": "2026-11-03T20:34:34Z",
     "url": "https://youtube.com/shorts/cjkK7egXM3A",
-    "vistas": 1291,
+    "vistas": 1289,
     "likes": 37,
     "comentarios": 0
    },
@@ -73,7 +82,7 @@
     "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
     "fecha": "2026-11-03T19:09:40Z",
     "url": "https://youtube.com/shorts/j0-ip-136Z4",
-    "vistas": 1393,
+    "vistas": 1392,
     "likes": 44,
     "comentarios": 0
    },
@@ -82,7 +91,7 @@
     "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
     "fecha": "2026-11-03T18:20:23Z",
     "url": "https://youtube.com/shorts/KlvOp8xaqJE",
-    "vistas": 1802,
+    "vistas": 1803,
     "likes": 73,
     "comentarios": 0
    },
@@ -91,7 +100,7 @@
     "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
     "fecha": "2026-11-03T18:20:14Z",
     "url": "https://youtube.com/shorts/1ShGpgz6Y-E",
-    "vistas": 7388,
+    "vistas": 7691,
     "likes": 264,
     "comentarios": 5
    },
@@ -100,7 +109,7 @@
     "titulo": "¿Y si construyes un rascacielos? 🏙️ El truco de la bola gigante",
     "fecha": "2026-11-03T17:32:59Z",
     "url": "https://youtube.com/shorts/xav4qmx7Oxs",
-    "vistas": 2362,
+    "vistas": 2366,
     "likes": 53,
     "comentarios": 0
    },
@@ -109,8 +118,8 @@
     "titulo": "¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso",
     "fecha": "2026-11-03T16:42:02Z",
     "url": "https://youtube.com/shorts/wDwDLVzDu5c",
-    "vistas": 5031,
-    "likes": 132,
+    "vistas": 5081,
+    "likes": 133,
     "comentarios": 0
    },
    {
@@ -118,8 +127,8 @@
     "titulo": "Un airbag se infla en 30 milésimas de segundo 🚗",
     "fecha": "2026-11-03T11:03:14Z",
     "url": "https://youtube.com/shorts/pbocshzw1Mo",
-    "vistas": 6022,
-    "likes": 354,
+    "vistas": 6092,
+    "likes": 355,
     "comentarios": 3
    },
    {
@@ -127,7 +136,7 @@
     "titulo": "El último número del código de barras es un detector de errores",
     "fecha": "2026-11-02T15:05:37Z",
     "url": "https://youtube.com/shorts/84MP3nyp62w",
-    "vistas": 1923,
+    "vistas": 1924,
     "likes": 90,
     "comentarios": 0
    },
@@ -136,7 +145,7 @@
     "titulo": "¿Cómo sabe la manguera que el depósito está lleno? ⛽",
     "fecha": "2026-11-02T11:04:09Z",
     "url": "https://youtube.com/shorts/Z9_XGbMXxjU",
-    "vistas": 2011,
+    "vistas": 2015,
     "likes": 83,
     "comentarios": 0
    },
@@ -318,11 +327,11 @@
     "titulo": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dó",
     "fecha": "2026-11-06T09:31:47+0000",
     "url": "https://www.instagram.com/reel/DfZSjxzCgQ3/",
-    "likes": 1,
+    "likes": 20,
     "comentarios": 0,
-    "vistas": 147,
-    "alcance": 38,
-    "guardados": 0,
+    "vistas": 783,
+    "alcance": 451,
+    "guardados": 3,
     "compartidos": 0
    },
    {
@@ -332,8 +341,8 @@
     "url": "https://www.instagram.com/reel/DfXl6zEihqi/",
     "likes": 52,
     "comentarios": 0,
-    "vistas": 1707,
-    "alcance": 1322,
+    "vistas": 1716,
+    "alcance": 1326,
     "guardados": 3,
     "compartidos": 0
    },
@@ -724,12 +733,22 @@
   ],
   "tiktok": [
    {
+    "id": "7705023031185345825",
+    "titulo": "Al fondo de una presa, el agua aprieta con cien toneladas por cada metro cuadrado. ¿Has vi",
+    "fecha": "2026-11-06T11:44:38+00:00",
+    "url": "https://www.tiktok.com/@explicadoen60s/video/7705023031185345825?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
+    "vistas": 117,
+    "likes": 4,
+    "comentarios": 0,
+    "compartidos": 0
+   },
+   {
     "id": "7704922759016615200",
     "titulo": "Una piscina vacía puede salir flotando del suelo como un barco. ¿Lo habías oído alguna vez",
     "fecha": "2026-11-06T05:15:50+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704922759016615200?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1926,
-    "likes": 25,
+    "vistas": 2135,
+    "likes": 27,
     "comentarios": 0,
     "compartidos": 0
    },
@@ -738,8 +757,8 @@
     "titulo": "Las dos láminas de los lados de tu enchufe pueden salvarte la vida. ¿Sabías para qué eran?",
     "fecha": "2026-11-05T20:17:44+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704784184392437024?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 5664,
-    "likes": 160,
+    "vistas": 5728,
+    "likes": 161,
     "comentarios": 0,
     "compartidos": 5
    },
@@ -748,7 +767,7 @@
     "titulo": "La membrana de tus auriculares puede vibrar veinte mil veces en un solo segundo. ¿Hasta dó",
     "fecha": "2026-11-05T15:42:16+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704713190457806112?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1334,
+    "vistas": 1335,
     "likes": 80,
     "comentarios": 0,
     "compartidos": 0
@@ -758,7 +777,7 @@
     "titulo": "La tuerca del lateral de tu cafetera está ahí para que no explote. ¿La habías visto saltar",
     "fecha": "2026-11-05T12:04:42+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704657127347883297?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1462,
+    "vistas": 1463,
     "likes": 68,
     "comentarios": 0,
     "compartidos": 1
@@ -818,8 +837,8 @@
     "titulo": "El agujero del capuchón no está ahí por casualidad. ¿Sabías para qué servía? 👇 #bolígrafo ",
     "fecha": "2026-11-03T19:12:15+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7704025132016356611?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 2519,
-    "likes": 83,
+    "vistas": 2520,
+    "likes": 84,
     "comentarios": 0,
     "compartidos": 1
    },
@@ -828,7 +847,7 @@
     "titulo": "Hay rascacielos con una bola de 660 toneladas colgada arriba para no marear a nadie. ¿Lo s",
     "fecha": "2026-11-03T17:34:38+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703999966020160790?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 4089,
+    "vistas": 4090,
     "likes": 133,
     "comentarios": 2,
     "compartidos": 5
@@ -858,7 +877,7 @@
     "titulo": "Ese rectángulo en el asfalto antes del semáforo esconde un cable que te detecta 🚦 ¿Te ha p",
     "fecha": "2026-11-02T20:02:57+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7703667173281074454?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 1027,
+    "vistas": 1028,
     "likes": 54,
     "comentarios": 0,
     "compartidos": 8
@@ -978,7 +997,7 @@
     "titulo": "Cada vez que barajas bien, creas un orden que no ha existido nunca en la historia del univ",
     "fecha": "2026-10-31T20:31:17+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7702932320365366550?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 790,
+    "vistas": 791,
     "likes": 23,
     "comentarios": 0,
     "compartidos": 0
@@ -1018,7 +1037,7 @@
     "titulo": "Ha salido negro 10 veces seguidas… ¿apuestas al rojo? 🎲 Spoiler: la ruleta no tiene memori",
     "fecha": "2026-10-30T16:57:49+00:00",
     "url": "https://www.tiktok.com/@explicadoen60s/video/7702506136305487126?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-    "vistas": 20607,
+    "vistas": 20608,
     "likes": 647,
     "comentarios": 2,
     "compartidos": 258
@@ -1157,13 +1176,13 @@
    "fecha": "2026-11-06",
    "youtube_seguidores": 100,
    "youtube_vistas": 56417,
-   "youtube_videos": 32,
-   "instagram_seguidores": 21,
-   "instagram_vistas": 39011,
+   "youtube_videos": 33,
+   "instagram_seguidores": 22,
+   "instagram_vistas": 39656,
    "instagram_videos": 34,
    "tiktok_seguidores": 68,
-   "tiktok_vistas": 75511,
-   "tiktok_videos": 39
+   "tiktok_vistas": 75908,
+   "tiktok_videos": 40
   }
  ]
 }
