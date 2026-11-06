@@ -651,7 +651,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -668,7 +668,8 @@
    ],
    "aprobado": "2026-11-06T16:44:39.372Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 74.4
+   "duracion": 74.4,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "mando",
