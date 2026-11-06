@@ -381,7 +381,7 @@
     "comofunciona",
     "ia"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 8,
@@ -399,7 +399,8 @@
    "idea": "imw2sr0vy",
    "aprobado": "2026-11-05T15:43:04.028Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 72.2
+   "duracion": 72.2,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "plegable",
@@ -498,7 +499,7 @@
    "tendencia": "Lo que hace el lavavajillas cuando cierras la puerta",
    "aprobado": "2026-11-05T15:43:29.594Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 66.0
+   "duracion": 66
   },
   {
    "id": "pozo",
