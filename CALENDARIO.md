@@ -4,10 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 03/11 | 18:00 | instagram | ¿Y si construyes un rascacielos? 🏙️ El truco de la bola giga | [✅ publicado](https://www.instagram.com/reel/DfSa6R_DdOz/) |
-| mar 03/11 | 18:00 | tiktok | Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el ag | 📲 en tu bandeja de TikTok |
-| mar 03/11 | 18:00 | tiktok | Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el  | 📲 en tu bandeja de TikTok |
-| mar 03/11 | 18:00 | youtube | ¿Y si construyes un rascacielos? 🏙️ El truco de la bola giga | [✅ publicado](https://youtube.com/shorts/xav4qmx7Oxs) |
 | mar 03/11 | 19:00 | instagram | Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el ag | [✅ publicado](https://www.instagram.com/reel/DfSgCZkoKrJ/) |
 | mar 03/11 | 19:00 | instagram | Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el  | [✅ publicado](https://www.instagram.com/reel/DfSgRVQClEr/) |
 | mar 03/11 | 19:00 | tiktok | ¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por  | 📲 en tu bandeja de TikTok |
@@ -41,10 +37,25 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 06/11 | 12:00 | youtube | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | [✅ publicado](https://youtube.com/shorts/50hYL5a-HZo) |
 | vie 06/11 | 13:00 | tiktok | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | 📲 en tu bandeja de TikTok |
 | vie 06/11 | 16:00 | youtube | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://youtube.com/shorts/Bx98_RsXlu0) |
-| vie 06/11 | 18:00 | instagram | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | ⏳ pendiente |
+| vie 06/11 | 18:00 | instagram | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://www.instagram.com/reel/DfaJOHhCO66/) |
+| vie 06/11 | 18:00 | tiktok | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | 📲 en tu bandeja de TikTok |
+| vie 06/11 | 21:00 | tiktok | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
 | sáb 07/11 | 10:00 | instagram | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
+| sáb 07/11 | 10:00 | tiktok | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | ⏳ pendiente |
 | sáb 07/11 | 12:00 | youtube | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
+| sáb 07/11 | 13:00 | tiktok | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
+| sáb 07/11 | 16:00 | tiktok | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
 | sáb 07/11 | 16:00 | youtube | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
 | sáb 07/11 | 18:00 | instagram | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
 | dom 08/11 | 10:00 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
 | dom 08/11 | 12:00 | youtube | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
+| dom 08/11 | 16:00 | youtube | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | ⏳ pendiente |
+| dom 08/11 | 18:00 | instagram | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | ⏳ pendiente |
+| lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
+| lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
+| lun 09/11 | 16:00 | youtube | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | ⏳ pendiente |
+| lun 09/11 | 18:00 | instagram | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | ⏳ pendiente |
+| mar 10/11 | 10:00 | instagram | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
+| mar 10/11 | 12:00 | youtube | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
+| mar 10/11 | 16:00 | youtube | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
+| mar 10/11 | 18:00 | instagram | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |

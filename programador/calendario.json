@@ -973,9 +973,14 @@
     "hogar",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17968102053219106",
+    "url": "https://www.instagram.com/reel/DfaJOHhCO66/"
+   },
+   "publicado": "2026-11-06T17:29:55.790384+00:00"
   },
   {
    "id": "chatgpt-tiktok",
@@ -991,9 +996,15 @@
     "comofunciona",
     "ia"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705111854460438550",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-06T17:30:31.418614+00:00"
   },
   {
    "id": "plegable-tiktok",
