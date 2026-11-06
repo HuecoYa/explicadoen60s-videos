@@ -582,7 +582,7 @@
     "privacidad",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 10,
@@ -614,7 +614,7 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 7,
@@ -646,7 +646,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -677,7 +677,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -708,7 +708,7 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 8,
@@ -740,7 +740,7 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 6,
@@ -772,7 +772,7 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 8,
