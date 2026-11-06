@@ -516,7 +516,7 @@
     "ingenieria",
     "ciencia"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-05",
    "reglas": {
     "cotidiano": 6,
@@ -533,7 +533,8 @@
    ],
    "aprobado": "2026-11-05T15:43:41.559Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 66.4
+   "duracion": 66.4,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "arroz",
