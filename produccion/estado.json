@@ -1037,7 +1037,7 @@
     "coches",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 7,
@@ -1051,7 +1051,9 @@
     "Bajas la rampa del parking… y aparcas debajo de un edificio entero.",
     "Detrás de las paredes del parking hay tierra empujando… y agua intentando entrar.",
     "El mayor peligro de un parking subterráneo no se ve ni se huele."
-   ]
+   ],
+   "aprobado": "2026-11-06T21:39:27.469Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   }
  ]
 }
