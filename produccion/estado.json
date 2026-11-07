@@ -818,7 +818,7 @@
     "energia",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 7,
@@ -835,7 +835,8 @@
    ],
    "tendencia": "Por qué las placas solares se apagan cuando se va la luz",
    "aprobado": "2026-11-06T21:38:53.531Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 71.4
   },
   {
    "id": "router",
