@@ -76,7 +76,7 @@ def overlay(ctx, t, A, C):
     p = win(t, T("convierte"), T("pero para hacerlo"))
     if p:
         onda(C, ctx, W * 0.29, H * 0.66, 340, 150, t, p, "cc", Y); onda(C, ctx, W * 0.67, H * 0.66, 340, 150, t, p, "ca", (0.45, 0.75, 1.0))
-        C.outlined(ctx, "→", W * 0.48, H * 0.66, 90, alpha=p)
+        C.outlined(ctx, ">", W * 0.48, H * 0.66, 90, alpha=p)
     # copia el ritmo
     p = win(t, T("copia el ritmo") - 0.2, T("vigila"))
     if p:
