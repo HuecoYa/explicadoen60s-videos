@@ -1551,6 +1551,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "router-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-10T10:00:00+01:00",
+   "video": "router_tiktok.mp4",
+   "titulo": "¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de verdad el wifi",
+   "texto": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las tuyas? 👇",
+   "tags": [
+    "wifi",
+    "router",
+    "internet",
+    "trucos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "pozo-youtube",
    "red": "youtube",
    "hora": "2026-11-10T12:00:00+01:00",
@@ -2030,6 +2048,42 @@
     "depuradora",
     "ciudad",
     "ingenieria",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "router-instagram",
+   "red": "instagram",
+   "hora": "2026-11-17T10:00:00+01:00",
+   "video": "router.mp4",
+   "titulo": "¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de verdad el wifi",
+   "texto": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las tuyas? 👇",
+   "tags": [
+    "wifi",
+    "router",
+    "internet",
+    "trucos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "router-youtube",
+   "red": "youtube",
+   "hora": "2026-11-17T12:00:00+01:00",
+   "video": "router.mp4",
+   "titulo": "¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de verdad el wifi",
+   "texto": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las tuyas? 👇",
+   "tags": [
+    "wifi",
+    "router",
+    "internet",
+    "trucos",
     "comofunciona"
    ],
    "estado": "pendiente",
