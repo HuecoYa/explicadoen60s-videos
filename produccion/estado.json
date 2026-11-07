@@ -1156,7 +1156,7 @@
     "seguridad",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 10,
@@ -1175,7 +1175,9 @@
     "https://www.biometricupdate.com/201402/apple-publishes-whitepaper-on-ios-security-details-touch-id-fingerprint-sensor-specs-functionality",
     "https://hackaday.com/2017/04/27/fundamentals-of-fingerprint-scanning",
     "https://www.lowi.es/blog/como-funcionan-los-sensores-de-huella-dactilar/"
-   ]
+   ],
+   "aprobado": "2026-11-07T12:00:54.362Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "paraguas",
