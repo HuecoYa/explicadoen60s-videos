@@ -1120,7 +1120,7 @@
     "vapor",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1156,7 +1156,7 @@
     "seguridad",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 10,
@@ -1192,7 +1192,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1230,7 +1230,7 @@
     "agua",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 10,
@@ -1268,7 +1268,7 @@
     "quimica",
     "comofunciona"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1306,7 +1306,7 @@
     "frio",
     "ingenieria"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 7,
@@ -1343,7 +1343,7 @@
     "obras",
     "ingenieria"
    ],
-   "estado": "aprobado",
+   "estado": "voz",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
