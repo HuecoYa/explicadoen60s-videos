@@ -818,7 +818,7 @@
     "energia",
     "comofunciona"
    ],
-   "estado": "escena",
+   "estado": "renderizando",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 7,
@@ -850,7 +850,7 @@
     "trucos",
     "comofunciona"
    ],
-   "estado": "escena",
+   "estado": "renderizando",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 10,
