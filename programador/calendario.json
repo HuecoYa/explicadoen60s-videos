@@ -1185,9 +1185,14 @@
     "energía",
     "construcción"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18105084593381310",
+    "url": "https://www.instagram.com/reel/DfcqxifHFcH/"
+   },
+   "publicado": "2026-11-07T17:01:22.561479+00:00"
   },
   {
    "id": "arroz-tiktok",
@@ -1203,9 +1208,15 @@
     "agua",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705475726350518294",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-07T17:04:07.372373+00:00"
   },
   {
    "id": "tormentas-tiktok",
