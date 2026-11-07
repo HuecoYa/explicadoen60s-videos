@@ -1,132 +1,126 @@
 {
- "actualizado": "2026-11-06T21:00:00+01:00",
- "resumen": "Esta semana el router manda: «Las antenitas de tu router NO van todas paradas» lleva 520 mil vistas, así que ya está propuesto como guion («router»), igual que las placas solares en un apagón («placas», con cifras comprobadas: 48-51 Hz, menos de 2 s, 3 min). Nuevo: dos vídeos para resintonizar la TDT suman 136 mil (comprobar si hay cambio de frecuencias). Teclado, arroz, WhatsApp, ruedas y tormentas ya están hechos. Google Trends es casi todo deporte, política y famosos.",
+ "actualizado": "2026-11-07T12:00:00+01:00",
+ "resumen": "La TDT sube al primer puesto: el cambio del 5 de noviembre (canal nuevo La Séptima y UHD) está confirmado, «La 2» y «La Séptima» están en tendencia y los tutoriales de resintonizar suman unas 168 mil vistas. Nueva: la baliza V16 (53 mil vistas), ya propuesta como guion. Router y placas ya tienen vídeo. El resto de Google Trends es fútbol, política y famosos.",
  "tendencias": [
   {
-   "id": "router",
-   "tema": "Cómo sale el wifi de las antenas del router",
-   "tipo": "evergreen",
-   "puntuacion": 82,
-   "por_que": "«Las antenitas de tu router NO van todas paradas» lleva 519.973 vistas en tecnología esta semana; todo el mundo tiene router y casi nadie sabe que la señal sale como un donut.",
+   "id": "tdt",
+   "tema": "Por qué hay que resintonizar la tele (cómo llega la TDT a tu antena)",
+   "tipo": "actualidad",
+   "puntuacion": 80,
+   "por_que": "Confirmado: el 5 de noviembre de 2026 la TDT cambió (nuevo canal La Séptima y primeras emisiones en ultra alta definición con DVB-T2) y hay que resintonizar. «La 2» está en Google Trends (5.000+ búsquedas), «La Séptima» lleva 25.728 lecturas en Wikipedia y dos tutoriales de resintonizar suman unas 168 mil vistas (85.376 y 82.610).",
    "senales": [
     {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«Las antenitas de tu router NO van todas paradas», 519.973 vistas",
-     "url": "https://www.youtube.com/watch?v=Lwwq2wxvo5M"
+     "fuente": "Google Trends España",
+     "dato": "«la 2», 5.000+ búsquedas"
     },
     {
-     "fuente": "Xataka Home",
-     "dato": "Las antenas dipolo emiten en forma de donut: más hacia los lados que por la punta; de pie para una planta, una inclinada para varias",
-     "url": "https://www.xatakahome.com/a-fondo/da-igual-que-tu-router-sea-muy-caro-habras-tirado-dinero-haces-esto-antenas"
+     "fuente": "Wikipedia",
+     "dato": "«La Séptima», 25.728 lecturas en un día",
+     "url": "https://es.wikipedia.org/wiki/La_Séptima"
+    },
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«RESINTONIZAR los canales nuevos de la TDT…», 85.376 vistas"
+    },
+    {
+     "fuente": "YouTube España · Ciencia y tecnología",
+     "dato": "«Cómo resintonizar tu Smart TV y encontrar todos los canales de la TDT», 82.610 vistas"
+    },
+    {
+     "fuente": "Noticia",
+     "dato": "La TDT cambia el 5 de noviembre: nuevo canal y emisiones UHD",
+     "url": "https://www.ondavasca.com/la-tdt-se-renueva-a-partir-del-5-de-noviembre-llega-un-nuevo-canal-y-las-emisiones-en-ultra-alta-definicion/"
     }
    ],
-   "urgencia": "Media: el vídeo sigue subiendo; ya está propuesto como guion («router»)",
-   "angulo": "Enseñar el donut de señal saliendo de la varilla y cómo se tumba según la antena; comparar las ondas de 2,4 GHz (12,5 cm) y 5 GHz (6 cm).",
-   "titulo": "¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de verdad el wifi",
-   "gancho": "Las antenitas de tu router… ¿las tienes apuntando a tu habitación?",
-   "primer_segundo": "Una mano girando una antena del router en primer plano y anillos de señal saliendo de ella.",
+   "urgencia": "Muy alta: el cambio fue el 5 de noviembre y la gente aún está resintonizando; sacarlo esta semana.",
+   "angulo": "La antena recibe varios canales en una sola frecuencia (un múltiple). El 5 de noviembre se reordenaron y llegó el UHD con DVB-T2: la tele busca en el sitio viejo o no entiende el formato nuevo hasta que resintonizas.",
+   "titulo": "¿Han desaparecido canales de tu tele? 📺 Así llega la TDT a tu antena",
+   "gancho": "Enciendes la tele… y faltan canales. La antena está bien. ¿Qué ha pasado?",
+   "primer_segundo": "El mando pulsando y la pantalla saltando de canal a «sin señal», con la antena del tejado en primer plano.",
    "cifras": [
-    "2,4 GHz: 2.400 millones de oscilaciones por segundo, onda de 12,5 cm (cálculo c/f)",
-    "5 GHz: onda de 6 cm, se frena más en paredes y agua (cálculo c/f)"
+    "Varios canales viajan juntos en un mismo múltiple (comprobar cuántos)",
+    "Frecuencia de cada múltiple en MHz (comprobar)",
+    "Fecha del cambio: 5 de noviembre de 2026"
    ],
    "formato": "A",
    "estructura": [
-    "Gancho: ¿apuntas la antena a tu cuarto?",
-    "Datos → ondas de radio, 2.400 millones por segundo",
-    "La varilla y el donut",
-    "De pie: una planta; inclinada: varias",
-    "Dato sorprendente: 5 GHz y el agua (tu cuerpo)",
-    "Dónde poner el router",
+    "Gancho: faltan canales",
+    "De la torre a la antena del tejado",
+    "Un múltiple: varios canales en una frecuencia",
+    "Cambian la frecuencia",
+    "La tele busca en el sitio viejo",
+    "Resintonizar: barrido de frecuencias",
     "Cierre: Sígueme para más."
    ],
    "reglas": {
-    "cotidiano": 10,
-    "primer_segundo": 8,
-    "ensenar": 9
+    "cotidiano": 9,
+    "primer_segundo": 7,
+    "ensenar": 7
    },
-   "potencial": "alto",
-   "por_que_funcionaria": "Objeto que todos tienen y consejo que se puede probar al momento; provoca comentarios («yo las tenía mal»).",
-   "competencia": "Hay vídeos de consejos, pocos enseñan la forma real de la señal en 3D.",
-   "riesgos": "No prometer más velocidad; depende de cada casa.",
+   "potencial": "medio-alto",
+   "por_que_funcionaria": "Problema práctico que tiene mucha gente ahora mismo.",
+   "competencia": "Tutoriales paso a paso por marca; nadie explica por qué pasa.",
+   "riesgos": "No enseñar marcas de televisores ni logotipos de cadenas; explicar que las teles antiguas sin DVB-T2 no verán el canal UHD.",
    "mejor_hora": "21:00",
    "hashtags": [
-    "wifi",
-    "router",
-    "internet",
-    "trucos",
+    "tdt",
+    "television",
+    "antena",
+    "tele",
     "comofunciona"
    ]
   },
   {
-   "id": "placas",
-   "tema": "Por qué las placas solares se apagan cuando se va la luz",
+   "id": "v16",
+   "tema": "La baliza V16 conectada (adiós a los triángulos)",
    "tipo": "actualidad",
-   "puntuacion": 74,
-   "por_que": "«Si se va la luz, tus paneles solares también se apagan, aunque haya sol» lleva 505 mil vistas esta semana en tecnología, y Bruselas acaba de volver a recomendar un kit de emergencia de 72 horas (Google Trends: «emergencia», 200+ búsquedas).",
+   "puntuacion": 76,
+   "por_que": "«Baliza V16: los triángulos ya no sirven (DGT)» lleva 53.435 vistas en el nicho de «cómo funciona»; es obligatoria desde 2026 y casi todos los conductores la llevan en la guantera sin saber que manda su posición a Tráfico.",
    "senales": [
     {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«Si se va la luz, tus paneles solares también se apagan, aunque haya sol», 505 mil vistas"
-    },
-    {
-     "fuente": "Google Trends España",
-     "dato": "«emergencia», 200+ búsquedas: Bruselas recomienda un kit para 72 horas",
-     "url": "https://www.20minutos.es/internacional/asi-es-kit-emergencia-72-horas-que-vuelve-recomendar-bruselas-que-debe-llevar-como-prepararlo_7057557_0.html"
-    },
-    {
-     "fuente": "Motor.es",
-     "dato": "La normativa obliga a que el inversor lleve protección «anti-isla», que lo desconecta si falla la red, para proteger a los técnicos",
-     "url": "https://www.motor.es/que-es/modo-isla"
-    },
-    {
-     "fuente": "Kostal (declaración RD 1699/RD 413)",
-     "dato": "Frecuencia 48-51 Hz y reconexión tras al menos 3 minutos",
-     "url": "https://www.kostal-solar-electric.com/fileadmin/downloadcenter/kse/1472_Z-RD1699_RD413_IEC62109-2_Hybrid_es.pdf"
-    },
-    {
-     "fuente": "Canal Solar",
-     "dato": "Tiempo límite de detección y desconexión de isla: hasta 2 segundos",
-     "url": "https://canalsolar.com.br/es/Protecci%C3%B3n-anti-isla-para-inversores-fotovoltaicos/"
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«Baliza V16: los triángulos ya no sirven (DGT)», 53.435 vistas"
     }
    ],
-   "urgencia": "Media: ya está propuesto como guion («placas»)",
-   "angulo": "Seguir la corriente del tejado al enchufe: el inversor vigila la red y, si desaparece, corta en una fracción de segundo para no electrocutar al técnico que repara el cable.",
-   "titulo": "Se va la luz y tus placas solares se apagan… aunque haga sol ☀️ ¿Por qué?",
-   "gancho": "Se va la luz en tu barrio… y las placas solares del tejado también se apagan. Aunque haga un sol de justicia.",
-   "primer_segundo": "Una placa solar en primer plano con flechas de corriente que se cortan de golpe y un medidor que cae a cero.",
+   "urgencia": "Esta semana o la próxima",
+   "angulo": "Formato A: la baliza en el techo destellando y, por dentro, el localizador y la SIM que mandan la posición a la DGT 3.0 cada 100 segundos.",
+   "titulo": "Adiós a los triángulos: esta luz avisa a Tráfico de dónde estás 🚨 Así funciona la baliza V16",
+   "gancho": "Si tienes coche, desde este año los triángulos ya no valen.",
+   "primer_segundo": "Un brazo saca la baliza por la ventanilla y la pega en el techo; empieza a destellar en primer plano.",
    "cifras": [
-    "Red: 230 V y 50 Hz que el inversor vigila sin parar",
-    "Corta si la frecuencia sale de 48-51 Hz (ajustes RD 413/2014 de un fabricante)",
-    "Desconexión anti-isla en menos de 2 s",
-    "Espera al menos 3 minutos para reconectar (IEC 61727)"
+    "Visible a 1 km en 360°",
+    "Posición enviada cada 100 s",
+    "12 años de conexión incluida",
+    "Al menos 30 min de batería"
    ],
    "formato": "A",
    "estructura": [
-    "Gancho: hace sol y no tienes luz",
-    "Placa → corriente continua → inversor",
-    "El inversor copia el ritmo de la red (50 Hz)",
-    "Se va la red: el inversor corta",
-    "Dato sorprendente: lo hace para proteger al técnico",
-    "Qué hace falta para tener luz: batería y modo isla",
+    "Gancho: los triángulos ya no valen",
+    "El peligro de andar por el arcén",
+    "Imán y luz visible a 1 km",
+    "Localizador + SIM",
+    "La posición va a la DGT 3.0 y a los paneles",
+    "Cada 100 s, 12 años de conexión",
     "Cierre: Sígueme para más."
    ],
    "reglas": {
-    "cotidiano": 6,
-    "primer_segundo": 7,
+    "cotidiano": 8,
+    "primer_segundo": 9,
     "ensenar": 8
    },
-   "potencial": "medio-alto",
-   "por_que_funcionaria": "Sorprende y contradice lo que la gente cree; muchos lo vivieron en un apagón y genera comentarios.",
-   "competencia": "Hay artículos y vídeos largos; pocos shorts lo enseñan con el inversor en corte.",
-   "riesgos": "No dar consejos de instalación eléctrica; comprobar los tiempos de desconexión antes del guion.",
-   "mejor_hora": "21:00",
+   "potencial": "alto",
+   "por_que_funcionaria": "Obligatoria y polémica: todo el que conduce se siente aludido y comenta.",
+   "competencia": "Vídeos de noticias y de marcas; pocos enseñan qué pasa por dentro.",
+   "riesgos": "No enseñar marcas de balizas; ceñirse a lo que exige la norma.",
+   "mejor_hora": "18:00",
    "hashtags": [
-    "placassolares",
-    "energia",
-    "apagon",
-    "electricidad",
+    "v16",
+    "dgt",
+    "coche",
+    "trafico",
     "comofunciona"
-   ]
+   ],
+   "propuesto": "Ya propuesto como guion «v16»."
   },
   {
    "id": "linterna",
@@ -179,61 +173,6 @@
    ]
   },
   {
-   "id": "tdt",
-   "tema": "Por qué hay que resintonizar la tele (cómo llega la TDT a tu antena)",
-   "tipo": "actualidad",
-   "puntuacion": 62,
-   "por_que": "Dos vídeos sobre resintonizar los canales de la TDT suman 136 mil vistas esta semana (68.405 y 68.060): hay gente que ha perdido canales y no sabe por qué.",
-   "senales": [
-    {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«RESINTONIZAR los canales nuevos de la TDT…», 68.405 vistas",
-     "url": "https://www.youtube.com/watch?v=MsYLGfL5xV4"
-    },
-    {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«¿Han desaparecido canales de tu tele? Así puedes resintonizar…», 68.060 vistas",
-     "url": "https://www.youtube.com/watch?v=HwKjGgzdylU"
-    }
-   ],
-   "urgencia": "Alta si hay un cambio de frecuencias en marcha (comprobar la noticia antes del guion)",
-   "angulo": "La antena del tejado recibe varios canales en una sola frecuencia; si un múltiple cambia de frecuencia, la tele busca en el sitio viejo y no encuentra nada hasta que la vuelves a buscar.",
-   "titulo": "¿Han desaparecido canales de tu tele? 📺 Así llega la TDT a tu antena",
-   "gancho": "Enciendes la tele… y faltan canales. La antena está bien. ¿Qué ha pasado?",
-   "primer_segundo": "El mando pulsando y la pantalla saltando de canal a «sin señal», con la antena del tejado en primer plano.",
-   "cifras": [
-    "Varios canales viajan juntos en un mismo múltiple (comprobar cuántos)",
-    "Frecuencia de cada múltiple en MHz (comprobar)"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: faltan canales",
-    "De la torre a la antena del tejado",
-    "Un múltiple: varios canales en una frecuencia",
-    "Cambian la frecuencia",
-    "La tele busca en el sitio viejo",
-    "Resintonizar: barrido de frecuencias",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 9,
-    "primer_segundo": 7,
-    "ensenar": 7
-   },
-   "potencial": "medio-alto",
-   "por_que_funcionaria": "Problema práctico que tiene mucha gente ahora mismo.",
-   "competencia": "Tutoriales paso a paso por marca; nadie explica por qué pasa.",
-   "riesgos": "No enseñar marcas de televisores; confirmar fechas y cadenas en una noticia oficial.",
-   "mejor_hora": "21:00",
-   "hashtags": [
-    "tdt",
-    "television",
-    "antena",
-    "tele",
-    "comofunciona"
-   ]
-  },
-  {
    "id": "paraguas",
    "tema": "Cómo se abre un paraguas automático",
    "tipo": "actualidad",
@@ -280,7 +219,8 @@
     "inventos",
     "comofunciona",
     "otono"
-   ]
+   ],
+   "propuesto": "Ya propuesto como guion «paraguas» (8 varillas, 1928)."
   },
   {
    "id": "espejo",
@@ -431,76 +371,52 @@
  ],
  "descartadas": [
   {
-   "tema": "Fútbol (Jesús de Miguel, caso Owono, Harvey Elliott, Nico Paz, Real Madrid)",
-   "motivo": "Resultados, fichajes y una muerte: no hay mecanismo y hay víctima."
+   "tema": "Router y placas solares en un apagón",
+   "motivo": "Ya hechos esta semana: «router» y «placas» están en produccion/escenas/."
   },
   {
-   "tema": "Política (alcaldes de Albacete y Azofra, Paraguay, elecciones de EE. UU., Carlos Cuerpo, Óscar Puente)",
-   "motivo": "Política: no encaja con la cuenta."
+   "tema": "Cargar el móvil toda la noche (1,1 M), qué hacer si el móvil cae al agua (920 mil), cargador (16 M)",
+   "motivo": "Ya hechos: «bateria», «arroz» y «cargador»."
   },
   {
-   "tema": "Famosos y música (Ronnie Wood, Bob Dylan, Almodóvar, C. Tangana, Rolling Stones)",
-   "motivo": "Personas famosas: no hay un mecanismo que explicar."
-  },
-  {
-   "tema": "Depósitos bancarios al 3,24 %",
-   "motivo": "Finanzas: puede parecer consejo de inversión."
-  },
-  {
-   "tema": "Silenciador, Phalanx y cazacarros",
-   "motivo": "Armas: fuera de la línea de la cuenta."
-  },
-  {
-   "tema": "Sistema LZB y accidente de Urda",
-   "motivo": "Suceso con víctimas."
-  },
-  {
-   "tema": "Móviles nuevos (iPhone Duo, Galaxy S27), MacBook de 17.000 €, Black Friday PS5",
-   "motivo": "Marcas y precios: no se pueden enseñar marcas reales; el móvil plegable ya está hecho («plegable»)."
-  },
-  {
-   "tema": "Ventilador (1,1 M en el nicho)",
-   "motivo": "Fuera de temporada en noviembre: mejor guardarlo para junio."
-  },
-  {
-   "tema": "Trasplante de pelo, cadera, piedra de riñón, diabetes",
-   "motivo": "Temas médicos: no son objetos y el canal «Por Dentro De Todo» los domina."
-  },
-  {
-   "tema": "Videojuegos (Zelda, Fortnite, Minecraft, Pokémon)",
-   "motivo": "Marcas de videojuegos: no se pueden enseñar."
-  },
-  {
-   "tema": "Teclado, móvil mojado (arroz), WhatsApp, ruedas de avión, lluvia/tanque de tormentas",
-   "motivo": "Ya hechos esta semana: «teclado», «arroz», «whatsapp», «ruedas» y «tormentas» están en produccion/escenas/."
-  },
-  {
-   "tema": "Cargador del móvil (15,6 M de vistas), cargar el móvil toda la noche (301 mil), bolígrafo (2,9 M), váter (204 mil), escalera mecánica (34 mil), tinaco (33 mil)",
-   "motivo": "Ya hechos: «cargador», «bateria», «boligrafo», «cisterna», «escalera» y «deposito»."
-  },
-  {
-   "tema": "Tenis (Masters de París), F1 en Brasil, fútbol argentino",
+   "tema": "Fútbol y motor (Hakimi, Balde, Rodri Hernández, GP de Qatar)",
    "motivo": "Deportes y resultados: no hay mecanismo."
   },
   {
-   "tema": "Koldo García, El Hierro, Santiago Peña, elecciones de EE. UU.",
+   "tema": "Política (Santiago Peña, Partido Colorado, crisis en Paraguay, Carlos Cuerpo, Trump)",
    "motivo": "Política: no encaja con la cuenta."
   },
   {
-   "tema": "Anuncio de la Lotería de Navidad",
-   "motivo": "Apuestas y loterías: excluido."
+   "tema": "Famosos y música (C. Tangana, Russell Brand, Sebastián Lelio, Meghan Markle)",
+   "motivo": "Personas famosas: no hay mecanismo que explicar."
   },
   {
-   "tema": "Helena Bianco, Sebastián Lelio",
-   "motivo": "Famosos y enfermedad o fallecimiento: no encaja y hay víctimas."
+   "tema": "Proyectil, Phalanx, cazacarros M18",
+   "motivo": "Armas: fuera de la línea de la cuenta."
   },
   {
-   "tema": "Moray y Tipón (ingeniería inca, 304 mil y 61 mil)",
-   "motivo": "Interesante pero lejos de lo cotidiano (regla 1); ya hicimos «pozo» y «presa»."
+   "tema": "Móviles nuevos (iPhone Duo, Galaxy S27), MacBook de 17.591 €, PS5 en Black Friday, tele portátil",
+   "motivo": "Marcas y precios: no se pueden enseñar marcas reales; el plegable ya está hecho."
   },
   {
-   "tema": "Altavoz de 3 vías (105 mil)",
-   "motivo": "Mismo mecanismo que «auriculares», ya hecho."
+   "tema": "Parto, trasplante de pelo, cadera, piedra de riñón",
+   "motivo": "Temas médicos: no son objetos cotidianos y el canal «Por Dentro De Todo» los domina."
+  },
+  {
+   "tema": "Videojuegos (Zelda, Fortnite, Pokémon, Worlds 2026)",
+   "motivo": "Marcas de videojuegos: no se pueden enseñar."
+  },
+  {
+   "tema": "Neumático de avión (3,9 M) y bolígrafo (3,6 M)",
+   "motivo": "Ya hechos: «ruedas» y «boligrafo»."
+  },
+  {
+   "tema": "Moray, Tipón y la milpa",
+   "motivo": "Interesante pero lejos de lo cotidiano (regla 1)."
+  },
+  {
+   "tema": "Escalera mecánica (34 mil)",
+   "motivo": "Ya hecha: «escalera»."
   }
  ]
 }
