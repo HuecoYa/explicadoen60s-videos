@@ -1042,7 +1042,7 @@
     "coches",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 7,
@@ -1058,7 +1058,8 @@
     "El mayor peligro de un parking subterráneo no se ve ni se huele."
    ],
    "aprobado": "2026-11-06T21:39:27.469Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 71.8
   },
   {
    "id": "v16",
