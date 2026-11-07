@@ -952,7 +952,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -969,7 +969,8 @@
    ],
    "aprobado": "2026-11-06T21:39:12.845Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 76
+   "duracion": 76,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "lavadora",
