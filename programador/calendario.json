@@ -1425,6 +1425,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "gps-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-09T13:00:00+01:00",
+   "video": "gps_tiktok.mp4",
+   "titulo": "Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el GPS (y Einstein)",
+   "texto": "Sin la corrección de Einstein, el GPS se desviaría unos 10 km cada día. ¿Lo sabías? 👇",
+   "tags": [
+    "gps",
+    "movil",
+    "satelites",
+    "einstein",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "cargador-youtube",
    "red": "youtube",
    "hora": "2026-11-09T16:00:00+01:00",
@@ -1814,6 +1832,42 @@
     "cifrado",
     "movil",
     "privacidad",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "gps-instagram",
+   "red": "instagram",
+   "hora": "2026-11-15T10:00:00+01:00",
+   "video": "gps.mp4",
+   "titulo": "Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el GPS (y Einstein)",
+   "texto": "Sin la corrección de Einstein, el GPS se desviaría unos 10 km cada día. ¿Lo sabías? 👇",
+   "tags": [
+    "gps",
+    "movil",
+    "satelites",
+    "einstein",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "gps-youtube",
+   "red": "youtube",
+   "hora": "2026-11-15T12:00:00+01:00",
+   "video": "gps.mp4",
+   "titulo": "Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el GPS (y Einstein)",
+   "texto": "Sin la corrección de Einstein, el GPS se desviaría unos 10 km cada día. ¿Lo sabías? 👇",
+   "tags": [
+    "gps",
+    "movil",
+    "satelites",
+    "einstein",
     "comofunciona"
    ],
    "estado": "pendiente",
