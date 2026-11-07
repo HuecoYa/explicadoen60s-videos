@@ -1605,6 +1605,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "induccion-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-10T16:00:00+01:00",
+   "video": "induccion_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué el cristal no quema?",
+   "texto": "Una placa de inducción aprovecha en torno al 90 % de la energía; el gas, en torno al 40 %. ¿Tu sartén se pega a un imán? 👇",
+   "tags": [
+    "induccion",
+    "cocina",
+    "electricidad",
+    "magnetismo",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "lavavajillas-youtube",
    "red": "youtube",
    "hora": "2026-11-10T16:00:00+01:00",
@@ -2138,6 +2156,42 @@
     "movil",
     "tecnologia",
     "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "induccion-instagram",
+   "red": "instagram",
+   "hora": "2026-11-18T10:00:00+01:00",
+   "video": "induccion.mp4",
+   "titulo": "Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué el cristal no quema?",
+   "texto": "Una placa de inducción aprovecha en torno al 90 % de la energía; el gas, en torno al 40 %. ¿Tu sartén se pega a un imán? 👇",
+   "tags": [
+    "induccion",
+    "cocina",
+    "electricidad",
+    "magnetismo",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "induccion-youtube",
+   "red": "youtube",
+   "hora": "2026-11-18T12:00:00+01:00",
+   "video": "induccion.mp4",
+   "titulo": "Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué el cristal no quema?",
+   "texto": "Una placa de inducción aprovecha en torno al 90 % de la energía; el gas, en torno al 40 %. ¿Tu sartén se pega a un imán? 👇",
+   "tags": [
+    "induccion",
+    "cocina",
+    "electricidad",
+    "magnetismo",
     "comofunciona"
    ],
    "estado": "pendiente",
