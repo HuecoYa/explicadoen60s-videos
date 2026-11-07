@@ -948,7 +948,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -964,7 +964,8 @@
     "Esos tres cuadrados de las esquinas del QR no son decoración."
    ],
    "aprobado": "2026-11-06T21:39:12.845Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 76.0
   },
   {
    "id": "lavadora",
@@ -979,7 +980,7 @@
     "fisica",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -995,7 +996,8 @@
     "¿Por qué tu lavadora no sale andando cuando centrifuga?"
    ],
    "aprobado": "2026-11-06T21:39:16.967Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "depuradora",
