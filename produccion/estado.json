@@ -1302,7 +1302,7 @@
     "frio",
     "ingenieria"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 7,
@@ -1322,7 +1322,9 @@
     "https://www.geopop.it/come-funzionano-le-piste-di-pattinaggio-come-un-congelatore/",
     "https://www.pwice.com/how-is-ice-made-at-a-hockey-rink/",
     "https://www.acrlatinoamerica.com/en/news/latest-news/351-from-the-source/17975-artificial-ice-rinks.html.md"
-   ]
+   ],
+   "aprobado": "2026-11-07T12:00:42.773Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "carretera",
