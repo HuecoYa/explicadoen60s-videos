@@ -1228,7 +1228,7 @@
     "agua",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 10,
@@ -1249,7 +1249,9 @@
     "https://www.obramat.es/productos/cartucho-de-grifo-monomando-40-mm-10498166.html",
     "https://www.drench.co.uk/blog/buying-guides/what-are-ceramic-disc-taps",
     "https://www.iagua.es/blogs/luis-martin-martinez/10-mejores-tecnologias-ahorrar-agua-revision"
-   ]
+   ],
+   "aprobado": "2026-11-07T12:00:30.987Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "spray",
