@@ -1190,7 +1190,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1211,7 +1211,9 @@
     "https://www.umbrellasdirect.com.au/blogs/news/history-of-the-umbrella",
     "https://www.globalsources.com/knowledge/automatic-umbrella-withstands-30km-s-wind/"
    ],
-   "tendencia": "Paraguas automático"
+   "tendencia": "Paraguas automático",
+   "aprobado": "2026-11-07T12:00:21.107Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "grifo",
