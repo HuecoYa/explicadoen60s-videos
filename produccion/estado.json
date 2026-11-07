@@ -851,7 +851,7 @@
     "trucos",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 10,
@@ -868,7 +868,8 @@
    ],
    "tendencia": "Las antenas del router no van todas de pie",
    "aprobado": "2026-11-06T21:38:58.826Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 69.8
   },
   {
    "id": "gps",
