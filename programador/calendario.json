@@ -1114,9 +1114,15 @@
     "ingenieria",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705404127945656342",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-07T12:25:28.589581+00:00"
   },
   {
    "id": "lavavajillas-tiktok",
