@@ -1443,6 +1443,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "placas-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-09T16:00:00+01:00",
+   "video": "placas_tiktok.mp4",
+   "titulo": "Se va la luz y tus placas solares se apagan… aunque haga sol ☀️ ¿Por qué?",
+   "texto": "El inversor se desconecta en menos de 2 segundos cuando se va la luz, aunque haga sol. ¿Lo sabías? 👇",
+   "tags": [
+    "placassolares",
+    "apagon",
+    "electricidad",
+    "energia",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "cargador-youtube",
    "red": "youtube",
    "hora": "2026-11-09T16:00:00+01:00",
@@ -1868,6 +1886,42 @@
     "movil",
     "satelites",
     "einstein",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "placas-youtube",
+   "red": "youtube",
+   "hora": "2026-11-15T16:00:00+01:00",
+   "video": "placas.mp4",
+   "titulo": "Se va la luz y tus placas solares se apagan… aunque haga sol ☀️ ¿Por qué?",
+   "texto": "El inversor se desconecta en menos de 2 segundos cuando se va la luz, aunque haga sol. ¿Lo sabías? 👇",
+   "tags": [
+    "placassolares",
+    "apagon",
+    "electricidad",
+    "energia",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "placas-instagram",
+   "red": "instagram",
+   "hora": "2026-11-15T18:00:00+01:00",
+   "video": "placas.mp4",
+   "titulo": "Se va la luz y tus placas solares se apagan… aunque haga sol ☀️ ¿Por qué?",
+   "texto": "El inversor se desconecta en menos de 2 segundos cuando se va la luz, aunque haga sol. ¿Lo sabías? 👇",
+   "tags": [
+    "placassolares",
+    "apagon",
+    "electricidad",
+    "energia",
     "comofunciona"
    ],
    "estado": "pendiente",
