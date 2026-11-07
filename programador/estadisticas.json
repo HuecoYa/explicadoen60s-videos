@@ -1,17 +1,17 @@
 {
- "actualizado": "2026-11-07T11:03:35.014318+00:00",
+ "actualizado": "2026-11-07T11:58:26.229128+00:00",
  "cuentas": {
   "youtube": {
    "nombre": "explicadoen60s",
    "seguidores": 112,
    "vistas": 63104,
-   "videos": 34
+   "videos": 35
   },
   "instagram": {
    "nombre": "@explicadoen60s",
    "seguidores": 28,
    "videos": 36,
-   "vistas": 43780
+   "vistas": 43794
   },
   "tiktok": {
    "nombre": "explicadoen60s",
@@ -23,6 +23,15 @@
  },
  "videos": {
   "youtube": [
+   {
+    "id": "ZCux2KuTRmI",
+    "titulo": "¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del todo",
+    "fecha": "2026-11-07T11:14:29Z",
+    "url": "https://youtube.com/shorts/ZCux2KuTRmI",
+    "vistas": 24,
+    "likes": 0,
+    "comentarios": 0
+   },
    {
     "id": "Bx98_RsXlu0",
     "titulo": "Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las láminas de los lados?",
@@ -46,8 +55,8 @@
     "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
     "fecha": "2026-11-05T15:41:21Z",
     "url": "https://youtube.com/shorts/c3Srh3Iietk",
-    "vistas": 3848,
-    "likes": 127,
+    "vistas": 3891,
+    "likes": 130,
     "comentarios": 0
    },
    {
@@ -64,7 +73,7 @@
     "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
     "fecha": "2026-11-04T23:38:24Z",
     "url": "https://youtube.com/shorts/qA9E1SHz4nw",
-    "vistas": 2864,
+    "vistas": 2874,
     "likes": 77,
     "comentarios": 1
    },
@@ -73,7 +82,7 @@
     "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
     "fecha": "2026-11-04T23:36:31Z",
     "url": "https://youtube.com/shorts/_jgz1oGTBxk",
-    "vistas": 2405,
+    "vistas": 2401,
     "likes": 87,
     "comentarios": 6
    },
@@ -82,7 +91,7 @@
     "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
     "fecha": "2026-11-03T20:34:34Z",
     "url": "https://youtube.com/shorts/cjkK7egXM3A",
-    "vistas": 1344,
+    "vistas": 1347,
     "likes": 45,
     "comentarios": 0
    },
@@ -91,7 +100,7 @@
     "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
     "fecha": "2026-11-03T19:09:40Z",
     "url": "https://youtube.com/shorts/j0-ip-136Z4",
-    "vistas": 1482,
+    "vistas": 1474,
     "likes": 49,
     "comentarios": 0
    },
@@ -100,7 +109,7 @@
     "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
     "fecha": "2026-11-03T18:20:23Z",
     "url": "https://youtube.com/shorts/KlvOp8xaqJE",
-    "vistas": 1866,
+    "vistas": 1861,
     "likes": 75,
     "comentarios": 0
    },
@@ -109,7 +118,7 @@
     "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
     "fecha": "2026-11-03T18:20:14Z",
     "url": "https://youtube.com/shorts/1ShGpgz6Y-E",
-    "vistas": 8227,
+    "vistas": 8224,
     "likes": 277,
     "comentarios": 5
    },
@@ -127,8 +136,8 @@
     "titulo": "¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso",
     "fecha": "2026-11-03T16:42:02Z",
     "url": "https://youtube.com/shorts/wDwDLVzDu5c",
-    "vistas": 5462,
-    "likes": 147,
+    "vistas": 5469,
+    "likes": 146,
     "comentarios": 0
    },
    {
@@ -136,7 +145,7 @@
     "titulo": "Un airbag se infla en 30 milésimas de segundo 🚗",
     "fecha": "2026-11-03T11:03:14Z",
     "url": "https://youtube.com/shorts/pbocshzw1Mo",
-    "vistas": 6484,
+    "vistas": 6483,
     "likes": 365,
     "comentarios": 3
    },
@@ -338,8 +347,8 @@
     "url": "https://www.instagram.com/reel/Dfb1sYckf2k/",
     "likes": 29,
     "comentarios": 0,
-    "vistas": 1504,
-    "alcance": 1122,
+    "vistas": 1518,
+    "alcance": 1141,
     "guardados": 2,
     "compartidos": 1
    },
@@ -1187,7 +1196,9 @@
    }
   ]
  },
- "errores": {},
+ "errores": {
+  "tiktok": "HTTP 503: <HTML><HEAD>\n<TITLE>Service Unavailable</TITLE>\n</HEAD><BODY>\n<H1>Service Unavailable - Zero size object</H1>\nThe server is temporarily unable to service your request.  Please try again\nlater.<P>\nReference&#32;&#35;15&#46;cc51c317&#46;1794052725&#46;c4782f85\n<P>https&#58;&#47;&#47;errors&#"
+ },
  "historial": [
   {
    "fecha": "2026-11-03",
@@ -1241,9 +1252,9 @@
    "fecha": "2026-11-07",
    "youtube_seguidores": 112,
    "youtube_vistas": 63104,
-   "youtube_videos": 34,
+   "youtube_videos": 35,
    "instagram_seguidores": 28,
-   "instagram_vistas": 43780,
+   "instagram_vistas": 43794,
    "instagram_videos": 36,
    "tiktok_seguidores": 76,
    "tiktok_vistas": 83311,
