@@ -19,6 +19,7 @@ def text_path(ctx, s, size, italic=False):
     e = ctx.text_extents(s); return e
 
 def outlined(ctx, s, cx, cy, size, fill=(1, 1, 1), stroke=10, italic=False, scale=1.0, rot=0.0, alpha=1.0, shadow=True):
+    if abs(scale) < 1e-3 or alpha <= 0: return   # escala 0 = matriz no invertible en cairo
     ctx.save(); ctx.translate(cx, cy); ctx.rotate(rot); ctx.scale(scale, scale)
     e = text_path(ctx, s, size, italic)
     x = -e.x_advance / 2; y = size * 0.35
@@ -36,6 +37,7 @@ def rrect(ctx, x, y, w, h, r):
 def badge(ctx, s, cx, cy, p, col=(1, 1, 1), size=70, sub=None):
     if p <= 0: return
     sc = back(p)
+    if sc < 1e-3: return
     ctx.save(); ctx.translate(cx, cy); ctx.scale(sc, sc)
     # ✗ y ✓ no están en Poppins: se dibujan como trazos para no depender de fuentes de respaldo
     icon = None

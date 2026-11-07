@@ -45,7 +45,7 @@ def overlay(ctx, t, A, C):
     if a0 <= t < a1:
         p = win(t, a0 + 0.3, a1)
         xa, ya = A("numA"); xb, yb = A("numB")
-        C.outlined(ctx, "=", (xa + xb) / 2, (ya + yb) / 2, 120, fill=G, stroke=12, alpha=p, scale=C.back(p))
+        if p > 0.01: C.outlined(ctx, "=", (xa + xb) / 2, (ya + yb) / 2, 120, fill=G, stroke=12, alpha=p, scale=C.back(p))
         C.badge(ctx, "✓ 0 ENVÍOS", W / 2, BY, win(t, T("sin habérselo"), a1), G, size=70)
     # el servidor
     a0, a1 = T("no tiene ninguna"), T("y aquí viene")
