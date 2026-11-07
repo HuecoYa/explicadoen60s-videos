@@ -883,7 +883,7 @@
     "einstein",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 10,
@@ -899,7 +899,8 @@
     "Si nadie corrigiera a Einstein, tu mapa se equivocaría diez kilómetros cada día."
    ],
    "aprobado": "2026-11-06T21:39:04.500Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 71.9
   },
   {
    "id": "induccion",
