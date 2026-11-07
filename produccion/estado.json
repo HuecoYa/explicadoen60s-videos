@@ -1084,7 +1084,7 @@
     "trafico",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 8,
@@ -1103,7 +1103,9 @@
     "https://www.xataka.com/basics/que-mirar-baliza-v16-requisitos-como-comprobar-que-tienes-quieres-comprar-te-sirve",
     "https://www.motorpasion.com/seguridad/como-funciona-gran-hermano-dgt-3-0-balizas-v16-conectadas/amp"
    ],
-   "tendencia": "Baliza V16"
+   "tendencia": "Baliza V16",
+   "aprobado": "2026-11-07T12:00:05.310Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "ollaexpres",
