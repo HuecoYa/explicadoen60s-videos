@@ -1091,9 +1091,14 @@
     "verano",
     "agua"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "ZCux2KuTRmI",
+    "url": "https://youtube.com/shorts/ZCux2KuTRmI"
+   },
+   "publicado": "2026-11-07T11:14:00.986264+00:00"
   },
   {
    "id": "pozo-tiktok",

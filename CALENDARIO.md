@@ -29,7 +29,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 06/11 | 21:00 | tiktok | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 10:00 | instagram | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | [✅ publicado](https://www.instagram.com/reel/Dfb1sYckf2k/) |
 | sáb 07/11 | 10:00 | tiktok | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | 📲 en tu bandeja de TikTok |
-| sáb 07/11 | 12:00 | youtube | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | ⏳ pendiente |
+| sáb 07/11 | 12:00 | youtube | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | [✅ publicado](https://youtube.com/shorts/ZCux2KuTRmI) |
 | sáb 07/11 | 13:00 | tiktok | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
 | sáb 07/11 | 16:00 | tiktok | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
 | sáb 07/11 | 16:00 | youtube | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | ⏳ pendiente |
