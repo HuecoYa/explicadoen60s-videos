@@ -1497,6 +1497,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "parking-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-09T18:00:00+01:00",
+   "video": "parking_tiktok.mp4",
+   "titulo": "¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás de sus paredes",
+   "texto": "Los detectores del parking encienden los ventiladores cuando el monóxido llega a 50 partes por millón. ¿Te habías fijado en ellos? 👇",
+   "tags": [
+    "parking",
+    "construccion",
+    "ingenieria",
+    "coches",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "pozo-instagram",
    "red": "instagram",
    "hora": "2026-11-10T10:00:00+01:00",
@@ -1922,6 +1940,42 @@
     "apagon",
     "electricidad",
     "energia",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "parking-instagram",
+   "red": "instagram",
+   "hora": "2026-11-16T10:00:00+01:00",
+   "video": "parking.mp4",
+   "titulo": "¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás de sus paredes",
+   "texto": "Los detectores del parking encienden los ventiladores cuando el monóxido llega a 50 partes por millón. ¿Te habías fijado en ellos? 👇",
+   "tags": [
+    "parking",
+    "construccion",
+    "ingenieria",
+    "coches",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "parking-youtube",
+   "red": "youtube",
+   "hora": "2026-11-16T12:00:00+01:00",
+   "video": "parking.mp4",
+   "titulo": "¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás de sus paredes",
+   "texto": "Los detectores del parking encienden los ventiladores cuando el monóxido llega a 50 partes por millón. ¿Te habías fijado en ellos? 👇",
+   "tags": [
+    "parking",
+    "construccion",
+    "ingenieria",
+    "coches",
     "comofunciona"
    ],
    "estado": "pendiente",
