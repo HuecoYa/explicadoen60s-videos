@@ -1120,7 +1120,7 @@
     "vapor",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1139,7 +1139,9 @@
     "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Pressure_cooking",
     "https://www.ocu.org/vivienda-y-energia/equipamiento-hogar/informe/ollas-presion",
     "https://www.directoalpaladar.com/utensilios/como-funciona-olla-a-presion-utilizarla-que-tipos-modelos-hay/amp"
-   ]
+   ],
+   "aprobado": "2026-11-07T12:00:11.571Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "huella",
