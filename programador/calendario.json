@@ -1044,9 +1044,14 @@
     "verano",
     "agua"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18147462652575997",
+    "url": "https://www.instagram.com/reel/Dfb1sYckf2k/"
+   },
+   "publicado": "2026-11-07T09:17:21.968082+00:00"
   },
   {
    "id": "cargador-tiktok",
@@ -1062,9 +1067,15 @@
     "bateria",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705356001569998850",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-07T09:20:03.908660+00:00"
   },
   {
    "id": "piscina-youtube",
