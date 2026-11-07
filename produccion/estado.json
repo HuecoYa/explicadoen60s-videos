@@ -1010,7 +1010,7 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -1026,7 +1026,8 @@
     "El agua de tu váter vuelve al río… pero antes pasa por esto."
    ],
    "aprobado": "2026-11-06T21:39:21.157Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 74.3
   },
   {
    "id": "parking",
