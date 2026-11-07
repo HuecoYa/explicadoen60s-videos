@@ -1389,6 +1389,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "whatsapp-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-09T10:00:00+01:00",
+   "video": "whatsapp_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor puede leer tus mensajes?",
+   "texto": "Tu mensaje pasa por un servidor… y ni ellos tienen la llave para leerlo. ¿Lo sabías? 👇",
+   "tags": [
+    "whatsapp",
+    "cifrado",
+    "movil",
+    "privacidad",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "plegable-youtube",
    "red": "youtube",
    "hora": "2026-11-09T12:00:00+01:00",
@@ -1760,6 +1778,42 @@
     "infrarrojo",
     "tecnologia",
     "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "whatsapp-youtube",
+   "red": "youtube",
+   "hora": "2026-11-14T16:00:00+01:00",
+   "video": "whatsapp.mp4",
+   "titulo": "Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor puede leer tus mensajes?",
+   "texto": "Tu mensaje pasa por un servidor… y ni ellos tienen la llave para leerlo. ¿Lo sabías? 👇",
+   "tags": [
+    "whatsapp",
+    "cifrado",
+    "movil",
+    "privacidad",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "whatsapp-instagram",
+   "red": "instagram",
+   "hora": "2026-11-14T18:00:00+01:00",
+   "video": "whatsapp.mp4",
+   "titulo": "Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor puede leer tus mensajes?",
+   "texto": "Tu mensaje pasa por un servidor… y ni ellos tienen la llave para leerlo. ¿Lo sabías? 👇",
+   "tags": [
+    "whatsapp",
+    "cifrado",
+    "movil",
+    "privacidad",
     "comofunciona"
    ],
    "estado": "pendiente",
