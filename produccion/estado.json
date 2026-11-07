@@ -1047,7 +1047,7 @@
     "coches",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 7,
@@ -1064,7 +1064,8 @@
    ],
    "aprobado": "2026-11-06T21:39:27.469Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 71.8
+   "duracion": 71.8,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "v16",
