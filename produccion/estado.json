@@ -1057,6 +1057,289 @@
    ],
    "aprobado": "2026-11-06T21:39:27.469Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "v16",
+   "formato": "A",
+   "titulo": "Adiós a los triángulos: esta luz avisa a Tráfico de dónde estás 🚨 Así funciona la baliza V16",
+   "guion": "Si tienes coche, desde este año los triángulos ya no valen. Ahora llevas una luz con imán… y una tarjeta de móvil dentro. ¿Por qué? Mira qué pasa al encenderla. Se te para el coche en la autovía. Antes tenías que salir, andar por el arcén y colocar los triángulos. Justo donde pasan coches a ciento veinte. Así que ahora sacas el brazo por la ventanilla y pegas la baliza en el techo. El imán la sujeta. Y empieza a destellar. Su luz amarilla se tiene que ver a un kilómetro, en todas direcciones. Pero una luz sola no basta. Si estás detrás de una curva, nadie la ve a tiempo. Así que dentro lleva un localizador y una tarjeta SIM que no se puede sacar. Al encenderla, calcula dónde estás… y lo envía. Y aquí viene lo curioso… Esa posición no llega a tu móvil, ni a la grúa. Llega a la plataforma de Tráfico, la DGT tres punto cero. Desde ahí, el aviso salta a los paneles de la carretera y a los coches conectados que vienen detrás. Así se enteran antes de ver tu luz. Y mientras sigue encendida, repite tu posición cada cien segundos. ¿Y quién paga la conexión? Nadie. Viene incluida durante doce años. Y la batería tiene que aguantar al menos media hora encendida. Sígueme para más.",
+   "texto": "Tu baliza V16 manda tu posición cada 100 segundos mientras está encendida. ¿Ya la llevas en el coche? 👇",
+   "tags": [
+    "baliza",
+    "v16",
+    "coche",
+    "trafico",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "Obligatoria en todos los coches desde enero de 2026; casi todo el que conduce la lleva en la guantera",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Una mano saca la baliza por la ventanilla y la pega con un clac al techo; la luz amarilla empieza a destellar en primer plano",
+    "ensenar": 9,
+    "ensenar_nota": "Medidor de alcance de la luz que sube a 1 km en círculo de 360°, ondas de la SIM viajando a la DGT, contador de 100 s que se reinicia y manda la posición, años de conexión 0→12 y batería 30 min"
+   },
+   "ganchos": [
+    "Si tienes coche, desde este año los triángulos ya no valen.",
+    "Esta lucecita amarilla le dice a Tráfico dónde estás… sin que hagas nada.",
+    "Tu coche lleva una tarjeta SIM escondida… y no es la del móvil."
+   ],
+   "fuentes": [
+    "https://www.xataka.com/basics/que-mirar-baliza-v16-requisitos-como-comprobar-que-tienes-quieres-comprar-te-sirve",
+    "https://www.motorpasion.com/seguridad/como-funciona-gran-hermano-dgt-3-0-balizas-v16-conectadas/amp"
+   ],
+   "tendencia": "Baliza V16"
+  },
+  {
+   "id": "ollaexpres",
+   "formato": "A",
+   "titulo": "Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no explota?",
+   "guion": "Tu olla exprés cocina en un tercio del tiempo… usando el mismo fuego. ¿Cómo lo hace? Mira lo que pasa dentro de la tapa. En una cazuela normal, el agua hierve a cien grados. Y por mucho que subas el fuego, no pasa de ahí. Ese fuego extra solo crea más vapor, que se escapa. Pero, ¿y si no dejas que se escape? Así que cierras la olla con una tapa y una goma que no deja salir nada. El vapor se queda atrapado y empuja. La presión dentro sube… y con más presión, al agua le cuesta más hervir. Con un bar de más, el agua no hierve hasta los ciento veinte grados. Y a esa temperatura, la comida se hace mucho más rápido. Pero la presión no puede subir sin límite. Así que pones una válvula con un muelle. Cuando el vapor empuja más de la cuenta, la levanta… y sale un chorro. Por eso tu olla silba. Y aquí viene lo curioso… Tu olla lleva dos o tres seguridades más, por si falla la primera. Y si todas fallan, la goma de la tapa se deforma y deja salir el vapor por un lado. Pero aún falta algo. ¿Qué pasa si intentas abrirla con presión dentro? Así que la tapa lleva un cierre que se bloquea solo. Hasta que no baja la presión, no se abre. Sígueme para más.",
+   "texto": "Con un bar de presión, el agua no hierve hasta los 120 grados. ¿Tú usas la olla exprés para las legumbres? 👇",
+   "tags": [
+    "ollaexpres",
+    "cocina",
+    "presion",
+    "vapor",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Está en casi todas las cocinas de España (lentejas, cocido); el gancho empieza con «tu olla exprés»",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Primer plano de la válvula soltando un chorro de vapor y silbando, con la olla en corte dejando ver el agua hirviendo",
+    "ensenar": 10,
+    "ensenar_nota": "Termómetro que se atasca en 100 °C con la cazuela abierta y sube a 120 °C al cerrar, manómetro de 0 a 1 bar, muelle de la válvula que se comprime y reloj de cocción que baja a un tercio"
+   },
+   "ganchos": [
+    "Tu olla exprés cocina en un tercio del tiempo… usando el mismo fuego.",
+    "Dentro de tu olla exprés, el agua hierve a ciento veinte grados… ¿Cómo es posible?",
+    "¿Por qué silba tu olla exprés? Ese pitido es lo que evita que explote."
+   ],
+   "fuentes": [
+    "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Pressure_cooking",
+    "https://www.ocu.org/vivienda-y-energia/equipamiento-hogar/informe/ollas-presion",
+    "https://www.directoalpaladar.com/utensilios/como-funciona-olla-a-presion-utilizarla-que-tipos-modelos-hay/amp"
+   ]
+  },
+  {
+   "id": "huella",
+   "formato": "A",
+   "titulo": "Tu móvil no guarda la foto de tu huella 👆 Así la lee en menos de un segundo",
+   "guion": "Pones el dedo en tu móvil… y en menos de un segundo, sabe que eres tú. ¿Cómo lee tu huella? Vamos a mirar bajo tu dedo. Tu huella no es lisa. Tiene crestas, que tocan el sensor, y valles, que dejan un poquito de aire. Debajo hay miles de placas diminutas. Cada una es un condensador: guarda una pequeña carga eléctrica. Donde toca una cresta, la carga cambia mucho. Donde hay un valle con aire, casi nada. Así que cada placa es un píxel: oscuro o claro. Un sensor clásico tiene ochenta y ocho por ochenta y ocho píxeles. Más de siete mil setecientos puntos, en una uña. Pero tu móvil no guarda esa foto. Busca dónde termina una cresta y dónde se divide en dos. Con esos puntos dibuja un mapa, y guarda solo el mapa. Cuando vuelves a tocar, compara los dos mapas. Si coinciden bastantes puntos, se desbloquea. Y aquí viene lo curioso… El sensor no exige una coincidencia perfecta, porque nunca pones el dedo igual. Por eso, a veces, otra persona podría colarse. La probabilidad es de una entre cincuenta mil. Y para que nadie pruebe sin parar, tras cinco intentos fallidos te pide el código. En los móviles con huella bajo la pantalla, en vez de condensadores, una luz o un ultrasonido dibujan ese mismo mapa. Sígueme para más.",
+   "texto": "Hay una probabilidad entre 50.000 de que otra persona desbloquee tu móvil con su dedo. ¿Usas la huella o el código? 👇",
+   "tags": [
+    "huella",
+    "movil",
+    "sensor",
+    "seguridad",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Lo usas decenas de veces al día; el gancho es tu dedo desbloqueando tu móvil",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Un dedo gigante bajando sobre el sensor en primer plano, con las crestas de la huella aplastándose contra la rejilla",
+    "ensenar": 10,
+    "ensenar_nota": "Rejilla de condensadores que se enciende píxel a píxel hasta 88×88 (contador a 7.744), puntos del mapa que aparecen, contador de coincidencias y probabilidad 1 entre 50.000, intentos 1→5"
+   },
+   "ganchos": [
+    "Pones el dedo en tu móvil… y en menos de un segundo, sabe que eres tú.",
+    "Tu móvil no tiene una foto de tu huella… y aun así la reconoce.",
+    "Una de cada cincuenta mil personas podría desbloquear tu móvil con su dedo."
+   ],
+   "fuentes": [
+    "https://www.biometricupdate.com/201402/apple-publishes-whitepaper-on-ios-security-details-touch-id-fingerprint-sensor-specs-functionality",
+    "https://hackaday.com/2017/04/27/fundamentals-of-fingerprint-scanning",
+    "https://www.lowi.es/blog/como-funcionan-los-sensores-de-huella-dactilar/"
+   ]
+  },
+  {
+   "id": "paraguas",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el paraguas automático… ☔ el muelle lo cargas tú",
+   "guion": "Pulsas un botón… y tu paraguas se abre de golpe. ¿Qué tiene dentro para saltar así? Vamos a inventarlo. Quieres taparte de la lluvia con algo que quepa en una mochila. Así que pones una tela sobre unas varillas finas de metal, unidas arriba del palo. Con ocho varillas, la tela queda tensa y redonda. Pero las varillas solas se doblan hacia abajo. Así que a cada una le pones un tirante, una barrita que la empuja desde abajo. Los ocho tirantes se juntan en una pieza que sube y baja por el palo. Al subirla, todo se abre como una flor. Pero sigue siendo largo. Así que haces el palo de tubos que entran uno dentro de otro, y las varillas se doblan por la mitad. Así nació el paraguas de bolsillo, en mil novecientos veintiocho. Y aquí viene lo curioso… El muelle que lo abre lo cargas tú. Cuando cierras el paraguas y empujas el palo hasta oír clic, aprietas un muelle dentro del tubo. Y un gancho lo deja ahí, comprimido. Al pulsar el botón, el gancho se suelta. El muelle se estira, sube la pieza de los tirantes… y abre las ocho varillas en un instante. Y tú no has tenido que tocar ni una varilla. Sígueme para más.",
+   "texto": "Cada vez que cierras tu paraguas y empujas el palo hasta el clic, cargas el muelle que lo abrirá. ¿Lo sabías? 👇",
+   "tags": [
+    "paraguas",
+    "lluvia",
+    "muelle",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Todo el mundo tiene uno y en noviembre llueve; el gancho es tu dedo pulsando el botón",
+    "primer_segundo": 10,
+    "primer_segundo_nota": "Un pulgar pulsa el botón en primer plano y el paraguas se abre de golpe hacia la cámara",
+    "ensenar": 8,
+    "ensenar_nota": "Contador de varillas 0→8 y tirantes 0→8 que se montan pieza a pieza, tubo telescópico en corte con el muelle comprimiéndose (medidor de carga) y el gancho soltándolo, año 1928"
+   },
+   "ganchos": [
+    "Pulsas un botón… y tu paraguas se abre de golpe.",
+    "El muelle que abre tu paraguas… lo cargas tú sin darte cuenta.",
+    "Si cierras tu paraguas tirando con la mano, lo estás rompiendo por dentro."
+   ],
+   "fuentes": [
+    "https://www.umbrella-store.net/en/blogs/umbrella-journal/20260330",
+    "https://www.hunker.com/13403744/how-to-make-a-japanese-umbrella",
+    "https://www.umbrellasdirect.com.au/blogs/news/history-of-the-umbrella",
+    "https://www.globalsources.com/knowledge/automatic-umbrella-withstands-30km-s-wind/"
+   ],
+   "tendencia": "Paraguas automático"
+  },
+  {
+   "id": "grifo",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla con una sola palanca?",
+   "guion": "Ahora mismo, en tu cocina, hay un grifo que mezcla agua fría y caliente… con una sola palanca. ¿Cómo lo hace? Vamos a inventarlo. Quieres agua templada. Pero tienes dos tuberías: una fría, y otra caliente, que llega a más de cincuenta grados. Con dos llaves, tardas en acertar. Así que pones dos discos de cerámica, uno encima del otro. El de abajo está quieto. Tiene tres agujeros: entra la fría, entra la caliente, y sale la mezcla. El de arriba se mueve con la palanca. Si los agujeros no coinciden, el agua no pasa. Pero el agua empuja con hasta cinco bares de presión. ¿No se escapa entre los discos? Y aquí viene lo curioso… La cerámica es tan dura y tan lisa que el agua no se cuela. No hace falta ninguna goma. Por eso los grifos de ahora casi no gotean. Ahora, la palanca. Si la subes, el disco de arriba se desliza y el hueco crece: pasa más agua. Si la giras, tapas un poco la caliente y destapas la fría. El caudal no cambia… solo la temperatura. Pero el chorro sale a lo bruto y salpica. Así que en la punta pones un aireador: unas rejillas finas que meten aire en el agua. Un grifo que echa doce litros por minuto puede bajar a seis. Y tú casi no notas la diferencia. Sígueme para más.",
+   "texto": "Dos discos de cerámica deciden cuánta agua sale y a qué temperatura. ¿Sabías que tu grifo lleva aire dentro? 👇",
+   "tags": [
+    "grifo",
+    "fontaneria",
+    "cocina",
+    "agua",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Todo el mundo usa el grifo de la cocina o del baño varias veces al día; arranca con «ahora mismo, en tu cocina»",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Primer plano de una mano subiendo y girando la palanca mientras el chorro cambia de azul a rojo",
+    "ensenar": 9,
+    "ensenar_nota": "Discos en corte con los agujeros alineándose, medidor de presión hasta 5 bar, termómetro que pasa de frío a 50 °C y caudalímetro que baja de 12 a 6 L/min con el aireador"
+   },
+   "ganchos": [
+    "Ahora mismo, en tu cocina, hay un grifo que mezcla agua fría y caliente… con una sola palanca.",
+    "Tu grifo no lleva gomas para no gotear… lleva dos discos de cerámica.",
+    "Cuando subes la palanca del grifo, dos discos se deslizan… y deciden cuánta agua sale."
+   ],
+   "fuentes": [
+    "https://normatia.com/es/normativa/cte-db-hs/2022/seccion-hs-4-suministro-de-agua",
+    "https://consultas2.oepm.es/pdf/ES/0000/000/00/28/39/ES-0283941_U.pdf",
+    "https://www.obramat.es/productos/cartucho-de-grifo-monomando-40-mm-10498166.html",
+    "https://www.drench.co.uk/blog/buying-guides/what-are-ceramic-disc-taps",
+    "https://www.iagua.es/blogs/luis-martin-martinez/10-mejores-tecnologias-ahorrar-agua-revision"
+   ]
+  },
+  {
+   "id": "spray",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el spray… 💨 ¿por qué el bote se queda helado?",
+   "guion": "Aprietas el botón de tu desodorante… y sale una nube finísima. Pero, ¿qué hay dentro del bote? Vamos a inventarlo. Quieres repartir un líquido en gotas diminutas. Así que necesitas algo que lo empuje con fuerza. Un gas. Pero si metes aire a presión, se gasta enseguida. Cada vez que aprietas, empuja menos… y al final el bote se queda flojo. Así que usas un gas que, apretado, se vuelve líquido: butano o propano. El butano hierve a medio grado bajo cero. Dentro del bote, a veinte grados, está a unas tres atmósferas. Ahí se queda líquido. Cuando sale un chorro, un poco de líquido hierve, rellena el hueco, y la presión vuelve a ser la misma. Pero el líquido está en el fondo, y el botón arriba. Así que pones un tubo que baja hasta el fondo, y una válvula con un muelle que lo cierra. Al apretar, la válvula se abre. El líquido sube, sale por un agujero diminuto… y el gas hierve de golpe, rompiendo el líquido en gotas. Y aquí viene lo curioso… Para hervir, el gas roba calor. Por eso, si pulverizas un rato, el bote se queda helado. Pero el calor es peligroso. A cincuenta grados la presión sube mucho, y el bote debe aguantar doce bares sin reventar. Por eso nunca lo dejes al sol dentro del coche. Lo patentó un noruego en mil novecientos veintiséis. Sígueme para más.",
+   "texto": "Dentro de tu desodorante hay gas que hierve a medio grado bajo cero. ¿Lo habías notado frío alguna vez? 👇",
+   "tags": [
+    "spray",
+    "aerosol",
+    "presion",
+    "quimica",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Desodorante, laca, ambientador: casi todo el mundo usa un spray cada mañana; arranca con «tu desodorante»",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Dedo apretando el pulsador en primer plano y la nube saliendo disparada hacia la cámara",
+    "ensenar": 9,
+    "ensenar_nota": "Bote en corte con líquido y gas, manómetro que se queda fijo en 3 atm al vaciarse, termómetro que baja al pulverizar y medidor que sube hasta 12 bar a 50 °C"
+   },
+   "ganchos": [
+    "Aprietas el botón de tu desodorante… y sale una nube finísima.",
+    "Si pulverizas tu desodorante un rato… el bote se queda helado. ¿Por qué?",
+    "Dentro de tu desodorante hay un gas que hierve a medio grado bajo cero."
+   ],
+   "fuentes": [
+    "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/6-serie-ntp-numeros-191-a-225-ano-1989/ntp-209-botellas-de-g.l.p.-instalacion",
+    "https://boe.es/buscar/doc.php?id=BOE-A-1982-2560",
+    "https://billiken.lat/saber-mas/sabes-como-funcionan-los-aerosoles/",
+    "https://www.justrite.com/understanding-aerosol-propellants",
+    "https://lindalgroup.com/?p=26265"
+   ]
+  },
+  {
+   "id": "pistahielo",
+   "formato": "C",
+   "titulo": "¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción debajo",
+   "guion": "Ahora mismo, en muchas plazas, están montando pistas de hielo… aunque fuera haga quince grados. ¿Y si tuvieras que construir una? Vamos a congelar. Primero, pones un suelo plano y bien nivelado. Encima, tiendes tubos en zigzag, muy juntos. Por ellos corre un líquido anticongelante, enfriado a unos diez grados bajo cero. Pero si echas toda el agua de golpe, se congela mal, con burbujas y grietas. Así que la echas en capas finísimas, de apenas un milímetro. Una, se congela; otra, se congela… Hasta doce o veinte capas. Pero el hielo es transparente, y se ven los tubos. Así que, cuando tiene un par de centímetros, lo pintas de blanco. Encima, las líneas. Y otra vez agua, para sellarlo todo dentro. Al final, el hielo mide unos tres centímetros en una pista cubierta. Al aire libre, hasta cinco o seis. Y se mantiene a unos cinco grados bajo cero. Y aquí viene lo curioso… En una pista fija, el frío baja hacia la tierra. El agua del suelo se congela, se hincha… y levanta la pista. Así que debajo del aislante pones otros tubos… ¡pero de calefacción! Una pista de hielo con la calefacción puesta. Pero los patines rayan la superficie. Así que, varias veces al día, una máquina rasca el hielo y echa una capa fina de agua caliente. Entre cuatrocientos y ochocientos litros cada pasada. Y en media hora, vuelve a estar lista. Sígueme para más.",
+   "texto": "Una pista de hielo es un suelo de tubos a diez bajo cero… con calefacción debajo. ¿Vas a patinar estas Navidades? 👇",
+   "tags": [
+    "pistadehielo",
+    "navidad",
+    "patinaje",
+    "frio",
+    "ingenieria"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "De temporada: en Navidad muchas plazas de España montan pistas; arranca con «ahora mismo, en muchas plazas»",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Patín cortando el hielo en primer plano, con virutas saltando, antes de bajar la cámara al corte bajo la pista",
+    "ensenar": 9,
+    "ensenar_nota": "Termómetro del anticongelante a −10 °C, contador de capas de agua (1… 20), regla del grosor hasta 3 cm y termómetro del suelo que sube cuando se enciende la calefacción"
+   },
+   "ganchos": [
+    "Ahora mismo, en muchas plazas, están montando pistas de hielo… aunque fuera haga quince grados.",
+    "Debajo de una pista de hielo… hay calefacción.",
+    "El hielo de una pista mide solo tres centímetros… y está pintado de blanco."
+   ],
+   "fuentes": [
+    "https://www.rfedh.es/wp-content/uploads/2020/08/GUIA-PISTAS-DE-HIELO-EN-ESPA%C3%91OL.pdf",
+    "https://www.geopop.it/come-funzionano-le-piste-di-pattinaggio-come-un-congelatore/",
+    "https://www.pwice.com/how-is-ice-made-at-a-hockey-rink/",
+    "https://www.acrlatinoamerica.com/en/news/latest-news/351-from-the-source/17975-artificial-ice-rinks.html.md"
+   ]
+  },
+  {
+   "id": "carretera",
+   "formato": "C",
+   "titulo": "¿Y si construyes una carretera? 🛣️ El agua es su peor enemigo",
+   "guion": "Ahora mismo, por la carretera que tienes más cerca, pasan camiones de hasta cuarenta y cuatro toneladas. ¿Y por qué no la hunden? Vamos a construir una. Primero quitas la tierra blanda. Pero la tierra de debajo se aplasta con el peso. Así que la compactas con rodillos que vibran, hasta dejarla dura como una piedra. Pero si echas el asfalto encima, se agrieta. Así que pones capas de zahorra: piedra machacada de distintos tamaños, que encajan unas con otras. Una capa de veinticinco centímetros, y otra más. Ahora sí, el asfalto. Pero no es una sola capa. Primero, una gruesa, de base. Luego, una intermedia. Y arriba, la de rodadura, la que pisas, de solo tres centímetros. En las carreteras con más tráfico, el asfalto suma unos treinta centímetros. Si la carretera es plana, el agua se queda encima. Así que le das forma de tejado: un dos por ciento de pendiente hacia cada lado. Y en los bordes, cunetas y tubos que se llevan el agua. Y aquí viene lo curioso… El peor enemigo de una carretera no son los camiones. Es el agua. Se cuela por una grieta diminuta. Por la noche, se congela, y al hacerse hielo ocupa un nueve por ciento más. Empuja, rompe, y la grieta crece. Luego pasa un camión… y arranca el trozo. Así nace un bache. Por eso hay más baches después del invierno. Sígueme para más.",
+   "texto": "Debajo del asfalto hay medio metro de piedra… y un dos por ciento de pendiente que casi nadie ve. ¿Hay baches en tu calle? 👇",
+   "tags": [
+    "carretera",
+    "asfalto",
+    "baches",
+    "obras",
+    "ingenieria"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Todo el mundo pisa o circula por una carretera cada día y conoce los baches; arranca con «la carretera que tienes más cerca»",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Rueda de camión pasando en primer plano sobre el asfalto, que se corta en sección mientras la cámara baja",
+    "ensenar": 9,
+    "ensenar_nota": "Regla de espesor que sube capa a capa (25 cm de zahorra, 3 cm de rodadura, unos 30 cm de asfalto), medidor de pendiente del 2 % y contador de volumen del agua que pasa del 100 % al 109 % al helarse"
+   },
+   "ganchos": [
+    "Ahora mismo, por la carretera que tienes más cerca, pasan camiones de hasta cuarenta y cuatro toneladas.",
+    "El asfalto que pisas mide solo tres centímetros… lo de debajo es lo importante.",
+    "El peor enemigo de una carretera no son los camiones… es el agua."
+   ],
+   "fuentes": [
+    "https://core.ac.uk/download/80522512.pdf",
+    "https://generadordeprecios.info/espacios_urbanos/Firmes_y_pavimentos_urbanos/Secciones_de_firme/Flexible/Firme_flexible.html",
+    "https://ocw.unican.es/pluginfile.php/2494/course/section/2568/b2_tema3_trazado.pdf",
+    "https://www.meteored.cl/noticias/ciencia/cuanto-aumenta-el-volumen-de-agua-al-congelarse.html",
+    "https://www.txdot.gov/es/about/newsroom/stories/2025/lifecyle-of-a-pothole.html",
+    "https://noticias.coches.com/noticias-motor/anatomia-de-un-bache-por-que-hay-tantos-en-las-carreteras/116028",
+    "https://www.dgt.es/comunicacion/notas-de-prensa/20250723-espana-eleva-a-44-toneladas-la-masa-maxima-permitida-transporte-mercancias/"
+   ]
   }
  ]
 }
