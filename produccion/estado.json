@@ -1266,7 +1266,7 @@
     "quimica",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1287,7 +1287,9 @@
     "https://billiken.lat/saber-mas/sabes-como-funcionan-los-aerosoles/",
     "https://www.justrite.com/understanding-aerosol-propellants",
     "https://lindalgroup.com/?p=26265"
-   ]
+   ],
+   "aprobado": "2026-11-07T12:00:49.108Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "pistahielo",
