@@ -1587,6 +1587,24 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
+   "id": "qr-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-10T13:00:00+01:00",
+   "video": "qr_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aunque esté roto?",
+   "texto": "Un código QR se puede leer aunque falte un trozo: guarda hasta un 30 % de datos de sobra. ¿Lo habías probado? 👇",
+   "tags": [
+    "codigoqr",
+    "movil",
+    "tecnologia",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
    "id": "lavavajillas-youtube",
    "red": "youtube",
    "hora": "2026-11-10T16:00:00+01:00",
@@ -2084,6 +2102,42 @@
     "router",
     "internet",
     "trucos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "qr-youtube",
+   "red": "youtube",
+   "hora": "2026-11-17T16:00:00+01:00",
+   "video": "qr.mp4",
+   "titulo": "Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aunque esté roto?",
+   "texto": "Un código QR se puede leer aunque falte un trozo: guarda hasta un 30 % de datos de sobra. ¿Lo habías probado? 👇",
+   "tags": [
+    "codigoqr",
+    "movil",
+    "tecnologia",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "qr-instagram",
+   "red": "instagram",
+   "hora": "2026-11-17T18:00:00+01:00",
+   "video": "qr.mp4",
+   "titulo": "Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aunque esté roto?",
+   "texto": "Un código QR se puede leer aunque falte un trozo: guarda hasta un 30 % de datos de sobra. ¿Lo habías probado? 👇",
+   "tags": [
+    "codigoqr",
+    "movil",
+    "tecnologia",
+    "inventos",
     "comofunciona"
    ],
    "estado": "pendiente",
