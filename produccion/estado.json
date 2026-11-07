@@ -916,7 +916,7 @@
     "magnetismo",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -932,7 +932,8 @@
     "La placa de inducción no calienta el cristal. Calienta la olla desde dentro."
    ],
    "aprobado": "2026-11-06T21:39:08.333Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 70.9
   },
   {
    "id": "qr",
