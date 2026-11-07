@@ -1138,9 +1138,15 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705449138183243798",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-07T15:22:01.609915+00:00"
   },
   {
    "id": "presa-youtube",
@@ -1156,9 +1162,14 @@
     "energía",
     "construcción"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "MKLajrFUt9Y",
+    "url": "https://youtube.com/shorts/MKLajrFUt9Y"
+   },
+   "publicado": "2026-11-07T15:22:04.849262+00:00"
   },
   {
    "id": "presa-instagram",
