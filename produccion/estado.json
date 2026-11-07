@@ -920,7 +920,7 @@
     "magnetismo",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -937,7 +937,8 @@
    ],
    "aprobado": "2026-11-06T21:39:08.333Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 70.9
+   "duracion": 70.9,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "qr",
